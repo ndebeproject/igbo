@@ -1,0 +1,18 @@
+{
+  "id": "ama_001",
+  "name": "ama",
+  "syllables": [
+    {
+      "id": "a_low",
+      "name": "a",
+      "tone": "low",
+      "orthography": "Ndebe"
+    },
+    {
+      "id": "ma_high",
+      "name": "ma",
+      "tone": "high",
+      "orthography": "Ndebe"
+    }
+  ]
+}
