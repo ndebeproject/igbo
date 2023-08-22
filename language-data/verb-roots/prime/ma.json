@@ -1,9 +1,18 @@
 {
-    "verb_id": "ima_001",
-    "plain": "ma",
-
-    
-    "infinitive": "ima",
-    "meaning": "to ... xyz",
-    "example": "..."
+    "id": "vr_ma_001",
+    "name": "ma",
+    "default_tone": "high",
+    "vowel_group": "A"
+}, 
+{
+    "id": "vr_ma_002",
+    "name": "ma",
+    "default_tone": "mid",
+    "vowel_group": "A"
+}, 
+{
+    "id": "vr_ma_003",
+    "name": "ma",
+    "default_tone": "low",
+    "vowel_group": "A"
 }
