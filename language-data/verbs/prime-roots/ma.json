@@ -6,19 +6,19 @@
       "id": "ma_high",
       "name": "má",
       "tone": "high",
-      "orthography": ""
+      "ndebe": ""
     },
     {
       "id": "ma_mid",
       "name": "ma",
       "tone": "mid",
-      "orthography": ""
+      "ndebe": ""
     },
     {
       "id": "ma_low",
       "name": "mà",
       "tone": "low",
-      "orthography": ""
+      "ndebe": ""
     }
   ],
   "vowelGroup": "A"
