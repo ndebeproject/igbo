@@ -1,0 +1,25 @@
+{
+  "id": "ma_001",
+  "baseName": "ma",
+  "syllables": [
+    {
+      "id": "ma_high",
+      "name": "má",
+      "tone": "high",
+      "orthography": "Ndebe"
+    },
+    {
+      "id": "ma_mid",
+      "name": "má",
+      "tone": "high",
+      "orthography": "Ndebe"
+    },
+    {
+      "id": "ma_low",
+      "name": "má",
+      "tone": "high",
+      "orthography": "Ndebe"
+    }
+  ],
+  "vowelGroup": "A"
+}

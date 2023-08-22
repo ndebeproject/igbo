@@ -1,0 +1,13 @@
+{
+  "id": "ma_ama_simplePresent",
+  "primeRoot": "ma_001",
+  "auxiliary": "ama_001",
+  "prefix": "prefix_a",
+  "suffixes": ["suffix_rọ"],
+  "particles": ["particle_na"],
+  "meaning": {
+    "id": "meaning_001",
+    "description": "knowing"
+  },
+  "tense": "simplePresent"
+}
