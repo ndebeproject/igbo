@@ -1,21 +1,23 @@
-{
-  "id": "ma_high",
-  "name": "má",
-  "plain_name": "ma",
-  "tone": "high",
-  "ndebe": ""
-},
-{
-  "id": "ma_mid",
-  "name": "ma",
-  "plain_name": "ma",
-  "tone": "mid",
-  "ndebe": ""
-},
-{
-  "id": "ma_low",
-  "name": "mà",
-  "plain_name": "ma",
-  "tone": "low",
-  "ndebe": ""
-}
+[
+  {
+    "id": "ma_high",
+    "name": "má",
+    "plain_name": "ma",
+    "tone": "high",
+    "ndebe": ""
+  },
+  {
+    "id": "ma_mid",
+    "name": "ma",
+    "plain_name": "ma",
+    "tone": "mid",
+    "ndebe": ""
+  },
+  {
+    "id": "ma_low",
+    "name": "mà",
+    "plain_name": "ma",
+    "tone": "low",
+    "ndebe": ""
+  }
+]
