@@ -1,2 +1,1 @@
-# igbo
-The language
+# To be updated
