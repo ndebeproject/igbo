@@ -1,26 +1,6 @@
 {
   "id": "ma_001",
-  "baseName": "ma",
-  "syllables": [
-    {
-      "id": "ma_high",
-      "name": "má",
-      "tone": "high",
-      "ndebe": ""
-    },
-    {
-      "id": "ma_mid",
-      "name": "ma",
-      "tone": "mid",
-      "ndebe": ""
-    },
-    {
-      "id": "ma_low",
-      "name": "mà",
-      "tone": "low",
-      "ndebe": ""
-    }
-  ],
+  "plain_name": "ma",
+  "syllable_id": "ma_high",
   "vowelGroup": "A"
 }
-
