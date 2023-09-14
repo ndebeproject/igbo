@@ -3,30 +3,21 @@
     "id": "ma_high",
     "plain_name": "ma",
     "tone": "high",
-    "phonemes": [
-      {"m"},
-      {"á"}
-    ],
+    "phonemes": ["m", "á"],
     "ndebe": ""
   },
   {
     "id": "ma_mid",
     "plain_name": "ma",
     "tone": "mid",
-    "phonemes": [
-      {"m"}, 
-      {"a"}
-    ],
+    "phonemes": ["m", "a"],
     "ndebe": ""
   },
   {
     "id": "ma_low",
     "plain_name": "ma",
     "tone": "low",
-    "phonemes": [
-      {"m"},
-      {"à"}
-    ],
+    "phonemes": ["m", "à"],
     "ndebe": ""
   }
 ]
