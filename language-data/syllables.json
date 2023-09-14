@@ -1,23 +1,32 @@
 [
   {
     "id": "ma_high",
-    "name": "má",
     "plain_name": "ma",
     "tone": "high",
+    "phonemes": [
+      {"m"},
+      {"á"}
+    ],
     "ndebe": ""
   },
   {
     "id": "ma_mid",
-    "name": "ma",
     "plain_name": "ma",
     "tone": "mid",
+    "phonemes": [
+      {"m"}, 
+      {"a"}
+    ],
     "ndebe": ""
   },
   {
     "id": "ma_low",
-    "name": "mà",
     "plain_name": "ma",
     "tone": "low",
+    "phonemes": [
+      {"m"},
+      {"à"}
+    ],
     "ndebe": ""
   }
 ]
