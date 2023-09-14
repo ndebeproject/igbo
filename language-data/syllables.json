@@ -1,5 +1,41 @@
 [
   {
+    "id": "nm_high",
+    "tone": "high",
+    "phonemes": ["nm"],
+    "ndebe": ""
+  },
+  {
+    "id": "nm_mid",
+    "tone": "mid",
+    "phonemes": ["nm"],
+    "ndebe": ""
+  },
+  {
+    "id": "nm_low",
+    "tone": "low",
+    "phonemes": ["nm"],
+    "ndebe": ""
+  },
+  {
+    "id": "a_high",
+    "tone": "high",
+    "phonemes": ["a"],
+    "ndebe": ""
+  },
+  {
+    "id": "a_mid",
+    "tone": "mid",
+    "phonemes": ["a"],
+    "ndebe": ""
+  },
+  {
+    "id": "a_low",
+    "tone": "low",
+    "phonemes": ["a"],
+    "ndebe": ""
+  },
+  {
     "id": "ma_high",
     "tone": "high",
     "phonemes": ["m", "a"],
