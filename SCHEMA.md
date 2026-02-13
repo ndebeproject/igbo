@@ -97,6 +97,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
       "description": "string (phonetic description)",
       "shifting": "boolean (optional, indicates sound can shift)",
       "shifts_to": ["array of strings (optional, sounds it can shift to)"],
+      "context_dependent": "boolean (optional, indicates shifts are phonologically conditioned)",
       "notes": "string (optional, additional information)"
     }
   ],
@@ -116,28 +117,40 @@ This document defines the JSON schemas used throughout the repository to ensure 
 **Shifting Sounds**:
 Igbo has extensive consonant variation across dialects, with 19 interchange patterns documented from the Ndebe orthography system:
 
+**IMPORTANT: Context-Dependent vs. Free Variation**
+
+Many consonant shifts are **phonologically conditioned** (context-dependent), meaning they occur in specific linguistic environments and are NOT freely interchangeable for word creation. Consonants marked with `"context_dependent": true` require careful attention:
+
+**Example - The H Problem:**
+- H in R/H represents one phonological context
+- H in Y/H represents a different phonological context  
+- H in F/H/SH represents yet another phonological context
+- These are NOT the same H and cannot be freely substituted when creating words
+
+The `shifts_to` array documents **observed dialectal variations**, not productive phonological rules that can be freely applied.
+
 **Major Interchanges (Common):**
 - **L/R**: The consonants `l` and `r` are interchangeable
   - Example: `mili` (water) may be pronounced as `miri`
 - **F/P**: The consonants `f` and `p` can be interchangeable
 - **S/T**: The consonants `s` and `t` can be interchangeable
 
-**Fricative Variations:**
-- **F/H/SH**: Complex pattern where `f`, `h`, and `sh` can shift among each other
-- **R/H**: The consonants `r` and `h` can be interchangeable
-- **R/SH**: The consonants `r` and `sh` can be interchangeable
+**Fricative Variations (Context-Dependent):**
+- **F/H/SH**: Complex pattern where `f`, `h`, and `sh` can shift among each other (context-dependent)
+- **R/H**: The consonants `r` and `h` can be interchangeable (context-dependent)
+- **R/SH**: The consonants `r` and `sh` can be interchangeable (context-dependent)
 - **S/SH**: The consonants `s` and `sh` can be interchangeable
-- **Y/H**: The consonants `y` and `h` can be interchangeable
+- **Y/H**: The consonants `y` and `h` can be interchangeable (context-dependent)
 
 **Plosive-Fricative Shifts:**
 - **B/V**: The consonants `b` and `v` can be interchangeable
 - **B/W**: The consonants `b` and `w` can be interchangeable
 - **G/V**: The consonants `g` and `v` can be interchangeable
 
-**Complex Patterns:**
-- **N/L/Y**: Three-way interchange among `n`, `l`, and `y`
+**Complex Patterns (Context-Dependent):**
+- **N/L/Y**: Three-way interchange among `n`, `l`, and `y` (context-dependent)
 - **F/V**: The consonants `f` and `v` can be interchangeable
-- **R/F**: The consonants `r` and `f` can be interchangeable
+- **R/F**: The consonants `r` and `f` can be interchangeable (context-dependent)
 
 **Approximant Shifts:**
 - **Y/GH**: The consonants `y` and `gh` can be interchangeable
@@ -156,6 +169,8 @@ These variations are recognized and addressed by the Ndebe orthography system, w
 - Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`
 - Dotted consonants (e.g., `ṅ`) represent specific phonetic values
 - Some consonants are digraphs (two-letter combinations representing single sounds)
+- Context-dependent shifts require understanding of phonological environments
+- Not all documented shifts can be freely applied in word formation
 
 ---
 

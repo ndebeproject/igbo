@@ -32,7 +32,8 @@
       "description": "Voiceless labiodental fricative",
       "shifting": true,
       "shifts_to": ["p", "h", "sh", "r", "v"],
-      "notes": "Can be pronounced as 'p', 'h', 'sh', 'r', or 'v' in some dialects"
+      "notes": "Context-dependent shifts in different phonological environments - not all freely interchangeable",
+      "context_dependent": true
     },
     {
       "letter": "g",
@@ -76,7 +77,8 @@
       "description": "Voiceless glottal fricative",
       "shifting": true,
       "shifts_to": ["f", "sh", "r", "y"],
-      "notes": "Can be pronounced as 'f', 'sh', 'r', or 'y' in some dialects"
+      "notes": "Context-dependent shifts - not freely interchangeable. H in different phonological environments may correspond to different sounds (R/H context differs from Y/H context, etc.)",
+      "context_dependent": true
     },
     {
       "letter": "j",
@@ -117,7 +119,8 @@
       "description": "Alveolar lateral approximant",
       "shifting": true,
       "shifts_to": ["r", "n", "y"],
-      "notes": "Can be pronounced as 'r', 'n', or 'y' in some dialects; L/R similar to Japanese interchange"
+      "notes": "Context-dependent shifts; L/R similar to Japanese interchange, but N and Y shifts occur in different contexts",
+      "context_dependent": true
     },
     {
       "letter": "m",
@@ -184,7 +187,8 @@
       "description": "Alveolar trill or tap",
       "shifting": true,
       "shifts_to": ["l", "h", "sh", "f"],
-      "notes": "Can be pronounced as 'l', 'h', 'sh', or 'f' in some dialects"
+      "notes": "Context-dependent shifts - R/L, R/H, R/SH, and R/F occur in different phonological environments",
+      "context_dependent": true
     },
     {
       "letter": "s",
@@ -204,7 +208,8 @@
       "description": "Voiceless postalveolar fricative",
       "shifting": true,
       "shifts_to": ["s", "f", "h", "r"],
-      "notes": "Can be pronounced as 's', 'f', 'h', or 'r' in some dialects"
+      "notes": "Context-dependent shifts - SH/S, SH/F, SH/H, and SH/R occur in different phonological environments",
+      "context_dependent": true
     },
     {
       "letter": "t",
@@ -224,7 +229,8 @@
       "description": "Voiced labiodental fricative",
       "shifting": true,
       "shifts_to": ["b", "f", "g"],
-      "notes": "Can be pronounced as 'b', 'f', or 'g' in some dialects"
+      "notes": "Context-dependent shifts - V/B, V/F, and V/G occur in different phonological environments",
+      "context_dependent": true
     },
     {
       "letter": "w",
@@ -244,7 +250,8 @@
       "description": "Palatal approximant",
       "shifting": true,
       "shifts_to": ["n", "l", "h", "gh"],
-      "notes": "Can be pronounced as 'n', 'l', 'h', or 'gh' in some dialects"
+      "notes": "Context-dependent shifts - Y/N, Y/L, Y/H, and Y/GH occur in different phonological environments",
+      "context_dependent": true
     },
     {
       "letter": "z",
@@ -267,6 +274,11 @@
     "  - Approximant shifts: Y/GH, W/GH (palatal and velar)",
     "  - Affricate variation: J/Z (voiced affricate-fricative)",
     "  - Nasal mergers: NY/Ṅ, NW/Ṅ (palatal and labialized nasals)",
+    "IMPORTANT: Many shifts are context-dependent and phonologically conditioned",
+    "  - Consonants marked with 'context_dependent: true' have shifts that occur in specific environments",
+    "  - Example: H in R/H is NOT the same as H in Y/H or F/H/SH - these are different phonological contexts",
+    "  - These shifts are NOT freely interchangeable for word creation",
+    "  - The listed shifts represent observed dialectal variations, not productive alternations",
     "These variations are documented in the Ndebe orthography system",
     "The Ndebe script provides distinct symbols for each variant to maintain clarity",
     "Some consonants like 'gb' and 'kp' are doubly-articulated labial-velar sounds",
