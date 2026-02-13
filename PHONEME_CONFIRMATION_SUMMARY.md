@@ -24,17 +24,29 @@ After thorough analysis of the repository's phoneme inventory, the actual counts
 
 ### Why 30 consonants instead of 42?
 
-The repository follows **Standard Igbo phonology** as documented in contemporary linguistic literature and the Ndebe orthography system. The count of 30 consonants (28 regular + 2 syllabic nasals) represents:
+The repository currently contains **30 consonant entries** in the JSON file:
+- 28 regular consonants
+- 2 syllabic nasals (m̩, n̩)
 
-1. **Basic Consonant Inventory**: All phonemic consonants in Standard Igbo
-2. **Digraphs Counted as Single Units**: Combinations like "ch", "gb", "kp", "gh", "gw", "kw", "nw", "ny", "sh" are counted as single phonemes
-3. **Orthographic vs Phonemic**: We count phonemes, not all possible orthographic representations
+However, **20 of these consonants participate in dialectal alternation patterns** (marked with `"shifting": true`):
+- Consonants like L and R are separate entries but participate in the L/R alternation pattern
+- The 19 distinct alternation patterns represent systematic dialectal variations
 
-The number 42 may come from:
-- Counting uppercase and lowercase separately (30 × 2 = 60, still not 42)
-- Including dialectal variations not in Standard Igbo
-- Counting alternation patterns or allophones as separate phonemes
-- Historical or non-standard phoneme inventories
+#### Counting Methodologies
+
+Different ways to count consonants could yield different totals:
+
+1. **Current count (30)**: Each distinct consonant letter = 1 entry
+   - Includes: b, ch, d, f, g, gb, gh, gw, h, j, k, kp, kw, l, m, m̩, n, n̩, ṅ, nw, ny, p, r, s, sh, t, v, w, y, z
+
+2. **With alternation patterns (49)**: 30 base + 19 patterns = 49
+
+3. **Per-pattern instances (50)**: Count each consonant once for each alternation pattern it participates in
+   - Example: 'r' participates in 4 patterns (R/H, L/R, R/SH, R/F), so counts as 4
+
+4. **Possible interpretation for 42**: _This requires clarification from the data source_
+   - May include additional dialectal variant entries not currently in the file
+   - May use a different counting methodology for alternating consonants
 
 ### Why 2 pseudovowel consonants instead of 1?
 

@@ -112,6 +112,7 @@ def validate_phoneme_counts(repo_root):
             - success (bool): True if all files were read successfully
             - counts_dict (dict): Dictionary containing phoneme counts with keys:
                 'regular_consonants', 'syllabic_nasals', 'total_consonants',
+                'alternating_consonants', 'alternation_patterns',
                 'a_vowels', 'e_vowels', 'total_vowels'
             - errors (list): List of error messages (empty if successful)
     """
@@ -120,6 +121,8 @@ def validate_phoneme_counts(repo_root):
         'regular_consonants': 0,
         'syllabic_nasals': 0,
         'total_consonants': 0,
+        'alternating_consonants': 0,
+        'alternation_patterns': 0,
         'a_vowels': 0,
         'e_vowels': 0,
         'total_vowels': 0
@@ -133,13 +136,28 @@ def validate_phoneme_counts(repo_root):
                 consonants_data = json.load(f)
             
             if 'consonants' in consonants_data:
+                # Track alternation patterns
+                patterns = set()
+                
                 for c in consonants_data['consonants']:
                     if c.get('syllabic', False):
                         counts['syllabic_nasals'] += 1
                     else:
                         counts['regular_consonants'] += 1
+                    
+                    # Count alternating consonants
+                    if c.get('shifting', False) or 'alternation_sets' in c:
+                        counts['alternating_consonants'] += 1
+                        
+                        # Collect unique alternation patterns
+                        if 'alternation_sets' in c:
+                            for alt_set in c['alternation_sets']:
+                                pattern = alt_set.get('pattern', '')
+                                if pattern:
+                                    patterns.add(pattern)
                 
                 counts['total_consonants'] = len(consonants_data['consonants'])
+                counts['alternation_patterns'] = len(patterns)
         except Exception as e:
             errors.append(f"Error reading consonants.json: {e}")
     else:
@@ -284,6 +302,8 @@ def main():
         print(f"  Regular consonants: {counts['regular_consonants']}")
         print(f"  Syllabic nasals (pseudo-vowels): {counts['syllabic_nasals']}")
         print(f"  Total consonants: {counts['total_consonants']}")
+        print(f"  Consonants with alternations: {counts['alternating_consonants']}")
+        print(f"  Distinct alternation patterns: {counts['alternation_patterns']}")
         
         print(f"\n{GREEN}Vowels:{RESET}")
         print(f"  A-group vowels: {counts['a_vowels']}")
@@ -324,6 +344,14 @@ def main():
         else:
             print(f"  {YELLOW}⚠{RESET} Total vowels: {counts['total_vowels']} (expected: {expected_vowels})")
             warnings.append(f"Total vowel count is {counts['total_vowels']}, expected {expected_vowels}")
+        
+        # Note about dialectal variations
+        print(f"\n{YELLOW}Note on Dialectal Variations:{RESET}")
+        print(f"  {counts['alternating_consonants']} consonants participate in {counts['alternation_patterns']} alternation patterns")
+        print(f"  Examples: L/R (mili/miri 'water'), B/V, F/H/SH, etc.")
+        print(f"  These are currently counted as single consonants with noted alternations.")
+        print(f"  Different counting methodologies could yield different totals.")
+        print(f"  See PHONEME_COUNTS.md for details on alternation patterns.")
     else:
         for error in count_errors:
             errors.append(f"Phoneme count validation: {error}")
