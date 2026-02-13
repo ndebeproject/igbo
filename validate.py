@@ -97,6 +97,70 @@ def validate_suffix_schema(item):
     required = ['id', 'name']
     return all(field in item for field in required)
 
+def validate_phoneme_counts(repo_root):
+    """
+    Validate and report phoneme counts in the repository.
+    
+    Based on standard Igbo phonology:
+    - Regular consonants: 28
+    - Syllabic nasals (pseudo-vowels): 2 (m̩, n̩)
+    - Total consonants: 30
+    - Oral vowels: 9 (5 in A-group, 4 in E-group)
+    
+    Returns: (success, counts_dict, errors)
+    """
+    errors = []
+    counts = {
+        'regular_consonants': 0,
+        'syllabic_nasals': 0,
+        'total_consonants': 0,
+        'a_vowels': 0,
+        'e_vowels': 0,
+        'total_vowels': 0
+    }
+    
+    # Load and count consonants
+    consonants_file = repo_root / 'language-data' / 'consonants.json'
+    if consonants_file.exists():
+        try:
+            with open(consonants_file, 'r', encoding='utf-8') as f:
+                consonants_data = json.load(f)
+            
+            if 'consonants' in consonants_data:
+                for c in consonants_data['consonants']:
+                    if c.get('syllabic', False):
+                        counts['syllabic_nasals'] += 1
+                    else:
+                        counts['regular_consonants'] += 1
+                
+                counts['total_consonants'] = len(consonants_data['consonants'])
+        except Exception as e:
+            errors.append(f"Error reading consonants.json: {e}")
+    else:
+        errors.append("consonants.json not found")
+    
+    # Load and count vowels
+    vowels_file = repo_root / 'language-data' / 'vowels.json'
+    if vowels_file.exists():
+        try:
+            with open(vowels_file, 'r', encoding='utf-8') as f:
+                vowels_data = json.load(f)
+            
+            if 'vowelGroups' in vowels_data:
+                if 'A' in vowels_data['vowelGroups']:
+                    counts['a_vowels'] = len(vowels_data['vowelGroups']['A'].get('vowels', []))
+                if 'E' in vowels_data['vowelGroups']:
+                    counts['e_vowels'] = len(vowels_data['vowelGroups']['E'].get('vowels', []))
+                
+                counts['total_vowels'] = counts['a_vowels'] + counts['e_vowels']
+        except Exception as e:
+            errors.append(f"Error reading vowels.json: {e}")
+    else:
+        errors.append("vowels.json not found")
+    
+    success = len(errors) == 0
+    return success, counts, errors
+
 def main():
     """Main validation function."""
     repo_root = Path(__file__).parent
@@ -200,6 +264,64 @@ def main():
         if schema_valid:
             print(f"{GREEN}✓{RESET} {rel_path}")
             success_count += 1
+    
+    # Phoneme count validation
+    print()
+    print("=" * 60)
+    print("Phoneme Count Validation")
+    print("=" * 60)
+    
+    count_success, counts, count_errors = validate_phoneme_counts(repo_root)
+    
+    if count_success:
+        print(f"\n{GREEN}Consonants:{RESET}")
+        print(f"  Regular consonants: {counts['regular_consonants']}")
+        print(f"  Syllabic nasals (pseudo-vowels): {counts['syllabic_nasals']}")
+        print(f"  Total consonants: {counts['total_consonants']}")
+        
+        print(f"\n{GREEN}Vowels:{RESET}")
+        print(f"  A-group vowels: {counts['a_vowels']}")
+        print(f"  E-group vowels: {counts['e_vowels']}")
+        print(f"  Total vowels: {counts['total_vowels']}")
+        
+        # Verification against standard Igbo phonology
+        print(f"\n{GREEN}Verification:{RESET}")
+        
+        # Check consonants
+        expected_regular = 28
+        expected_syllabic = 2
+        expected_total = 30
+        
+        if counts['regular_consonants'] == expected_regular:
+            print(f"  {GREEN}✓{RESET} Regular consonants: {counts['regular_consonants']} (expected: {expected_regular})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Regular consonants: {counts['regular_consonants']} (expected: {expected_regular})")
+            warnings.append(f"Regular consonant count is {counts['regular_consonants']}, expected {expected_regular}")
+        
+        if counts['syllabic_nasals'] == expected_syllabic:
+            print(f"  {GREEN}✓{RESET} Syllabic nasals: {counts['syllabic_nasals']} (expected: {expected_syllabic})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Syllabic nasals: {counts['syllabic_nasals']} (expected: {expected_syllabic})")
+            warnings.append(f"Syllabic nasal count is {counts['syllabic_nasals']}, expected {expected_syllabic}")
+        
+        if counts['total_consonants'] == expected_total:
+            print(f"  {GREEN}✓{RESET} Total consonants: {counts['total_consonants']} (expected: {expected_total})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Total consonants: {counts['total_consonants']} (expected: {expected_total})")
+            warnings.append(f"Total consonant count is {counts['total_consonants']}, expected {expected_total}")
+        
+        # Check vowels
+        expected_vowels = 9
+        
+        if counts['total_vowels'] == expected_vowels:
+            print(f"  {GREEN}✓{RESET} Total vowels: {counts['total_vowels']} (expected: {expected_vowels})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Total vowels: {counts['total_vowels']} (expected: {expected_vowels})")
+            warnings.append(f"Total vowel count is {counts['total_vowels']}, expected {expected_vowels}")
+    else:
+        for error in count_errors:
+            errors.append(f"Phoneme count validation: {error}")
+            print(f"{RED}✗{RESET} {error}")
     
     # Summary
     print()
