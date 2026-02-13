@@ -145,5 +145,59 @@
       "o"
     ],
     "ndebe": ""
+  },
+  {
+    "id": "ku_high",
+    "tone": "high",
+    "phonemes": [
+      "k",
+      "u"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "ku_mid",
+    "tone": "mid",
+    "phonemes": [
+      "k",
+      "u"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "ku_low",
+    "tone": "low",
+    "phonemes": [
+      "k",
+      "u"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "wa_high",
+    "tone": "high",
+    "phonemes": [
+      "w",
+      "a"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "wa_mid",
+    "tone": "mid",
+    "phonemes": [
+      "w",
+      "a"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "wa_low",
+    "tone": "low",
+    "phonemes": [
+      "w",
+      "a"
+    ],
+    "ndebe": ""
   }
 ]

@@ -1,5 +1,7 @@
 {
   "id": "kuwa_001",
   "name": "kuwa",
-  "primes": ["ku", "wa"]
+  "primeRootIds": ["ku_001", "wa_001"],
+  "gloss": "break",
+  "type": "agglutinated"
 }

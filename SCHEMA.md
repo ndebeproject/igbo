@@ -104,14 +104,16 @@ This document defines the JSON schemas used throughout the repository to ensure 
 
 **File Location**: `language-data/verbs/derived-roots/{root}.json`
 
-**Purpose**: Stores compound verb roots formed by combining multiple prime roots.
+**Purpose**: Stores compound verb roots formed by combining multiple prime roots through agglutination or other morphological processes.
 
 **Schema**:
 ```json
 {
   "id": "string (unique identifier)",
   "name": "string (the derived root)",
-  "primes": ["array of strings (prime root names)"]
+  "primeRootIds": ["array of strings (prime root IDs)"],
+  "gloss": "string (basic English meaning/gloss)",
+  "type": "string (derivation type, optional - e.g., 'agglutinated', 'compound')"
 }
 ```
 
@@ -120,15 +122,20 @@ This document defines the JSON schemas used throughout the repository to ensure 
 {
   "id": "kuwa_001",
   "name": "kuwa",
-  "primes": ["ku", "wa"]
+  "primeRootIds": ["ku_001", "wa_001"],
+  "gloss": "break",
+  "type": "agglutinated"
 }
 ```
 
 **ID Convention**: `{derivedroot}_{sequential_number}`
 
 **Notes**:
-- The `primes` array lists the component prime roots in order
-- Derived roots may have meanings not directly predictable from their parts
+- The `primeRootIds` array lists the component prime root IDs (not plain names) in the order they combine
+- Each ID in `primeRootIds` must reference a valid prime root entry
+- The `gloss` field provides the meaning of the derived verb, which may not be directly predictable from its component parts
+- The optional `type` field indicates how the verb was formed (e.g., "agglutinated" for verbs formed by joining verb roots together)
+- Derived roots can be used just like prime roots in verb forms and other constructions
 
 ---
 

@@ -55,6 +55,11 @@ def validate_prime_root_schema(item):
     required = ['id', 'plain_name', 'syllable_id', 'gloss']
     return all(field in item for field in required)
 
+def validate_derived_root_schema(item):
+    """Validate derived root schema."""
+    required = ['id', 'name', 'primeRootIds', 'gloss']
+    return all(field in item for field in required)
+
 def validate_prefix_schema(item):
     """Validate prefix schema."""
     required = ['id', 'name']
@@ -142,6 +147,14 @@ def main():
                     schema_valid = False
                     missing_fields = [f for f in ['id', 'plain_name', 'syllable_id', 'gloss'] if f not in data]
                     errors.append(f"{rel_path}: Invalid prime root schema. Missing fields: {missing_fields}")
+        
+        # Validate derived roots
+        if 'derived-roots' in str(json_file):
+            if isinstance(data, dict):
+                if not validate_derived_root_schema(data):
+                    schema_valid = False
+                    missing_fields = [f for f in ['id', 'name', 'primeRootIds', 'gloss'] if f not in data]
+                    errors.append(f"{rel_path}: Invalid derived root schema. Missing fields: {missing_fields}")
         
         if schema_valid:
             print(f"{GREEN}✓{RESET} {rel_path}")
