@@ -2,55 +2,148 @@
   {
     "id": "nm_high",
     "tone": "high",
-    "phonemes": ["nm"],
+    "phonemes": [
+      "nm"
+    ],
     "ndebe": ""
   },
   {
     "id": "nm_mid",
     "tone": "mid",
-    "phonemes": ["nm"],
+    "phonemes": [
+      "nm"
+    ],
     "ndebe": ""
   },
   {
     "id": "nm_low",
     "tone": "low",
-    "phonemes": ["nm"],
+    "phonemes": [
+      "nm"
+    ],
     "ndebe": ""
   },
   {
     "id": "a_high",
     "tone": "high",
-    "phonemes": ["a"],
+    "phonemes": [
+      "a"
+    ],
     "ndebe": ""
   },
   {
     "id": "a_mid",
     "tone": "mid",
-    "phonemes": ["a"],
+    "phonemes": [
+      "a"
+    ],
     "ndebe": ""
   },
   {
     "id": "a_low",
     "tone": "low",
-    "phonemes": ["a"],
+    "phonemes": [
+      "a"
+    ],
     "ndebe": ""
   },
   {
     "id": "ma_high",
     "tone": "high",
-    "phonemes": ["m", "a"],
+    "phonemes": [
+      "m",
+      "a"
+    ],
     "ndebe": ""
   },
   {
     "id": "ma_mid",
     "tone": "mid",
-    "phonemes": ["m", "a"],
+    "phonemes": [
+      "m",
+      "a"
+    ],
     "ndebe": ""
   },
   {
     "id": "ma_low",
     "tone": "low",
-    "phonemes": ["m", "a"],
+    "phonemes": [
+      "m",
+      "a"
+    ],
     "ndebe": ""
+  },
+  {
+    "id": "e_high",
+    "tone": "high",
+    "phonemes": [
+      "e"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "e_mid",
+    "tone": "mid",
+    "phonemes": [
+      "e"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "e_low",
+    "tone": "low",
+    "phonemes": [
+      "e"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "i_high",
+    "tone": "high",
+    "phonemes": [
+      "i"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "i_mid",
+    "tone": "mid",
+    "phonemes": [
+      "i"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "i_low",
+    "tone": "low",
+    "phonemes": [
+      "i"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "o_high",
+    "tone": "high",
+    "phonemes": [
+      "o"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "o_mid",
+    "tone": "mid",
+    "phonemes": [
+      "o"
+    ],
+    "ndebe": ""
+  },
+  {
+    "id": "o_low",
+    "tone": "low",
+    "phonemes": [
+      "o"
+    ],
+    "ndebe": ""
   }
 ]
