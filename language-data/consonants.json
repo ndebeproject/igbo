@@ -10,13 +10,40 @@
       "alternation_sets": [
         {
           "pattern": "B/V",
-          "alternates_with": ["v"],
-          "notes": "Bilabial plosive-labiodental fricative alternation"
+          "alternates_with": [
+            "v"
+          ],
+          "notes": "Bilabial plosive-labiodental fricative alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "b": [
+              "Onitsha"
+            ],
+            "v": [
+              "Owerri",
+              "Umuleri"
+            ]
+          }
         },
         {
           "pattern": "B/W",
-          "alternates_with": ["w"],
-          "notes": "Bilabial plosive-approximant alternation"
+          "alternates_with": [
+            "w"
+          ],
+          "notes": "Bilabial plosive-approximant alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "b": [
+              "Onitsha"
+            ],
+            "w": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in two distinct alternation patterns"
@@ -45,22 +72,44 @@
       "alternation_sets": [
         {
           "pattern": "F/H/SH",
-          "alternates_with": ["h", "sh"],
+          "alternates_with": [
+            "h",
+            "sh"
+          ],
           "notes": "Complex fricative alternation pattern"
         },
         {
           "pattern": "F/P",
-          "alternates_with": ["p"],
-          "notes": "Fricative-plosive alternation"
+          "alternates_with": [
+            "p"
+          ],
+          "notes": "Fricative-plosive alternation",
+          "preferred_in_dialects": [
+            "Onitsha",
+            "Central Igbo"
+          ],
+          "dialect_distribution": {
+            "f": [
+              "Onitsha",
+              "Central Igbo"
+            ],
+            "p": [
+              "Owerri"
+            ]
+          }
         },
         {
           "pattern": "F/V",
-          "alternates_with": ["v"],
+          "alternates_with": [
+            "v"
+          ],
           "notes": "Voiceless-voiced labiodental pair"
         },
         {
           "pattern": "R/F",
-          "alternates_with": ["r"],
+          "alternates_with": [
+            "r"
+          ],
           "notes": "Trill-fricative alternation"
         }
       ],
@@ -76,8 +125,21 @@
       "alternation_sets": [
         {
           "pattern": "G/V",
-          "alternates_with": ["v"],
-          "notes": "Velar plosive-labiodental fricative alternation"
+          "alternates_with": [
+            "v"
+          ],
+          "notes": "Velar plosive-labiodental fricative alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "g": [
+              "Onitsha"
+            ],
+            "v": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in G/V alternation pattern"
@@ -99,13 +161,28 @@
       "alternation_sets": [
         {
           "pattern": "Y/GH",
-          "alternates_with": ["y"],
+          "alternates_with": [
+            "y"
+          ],
           "notes": "Palatal-velar fricative alternation"
         },
         {
           "pattern": "W/GH",
-          "alternates_with": ["w"],
-          "notes": "Labial-velar-velar fricative alternation"
+          "alternates_with": [
+            "w"
+          ],
+          "notes": "Labial-velar-velar fricative alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "w": [
+              "Onitsha"
+            ],
+            "gh": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in two distinct alternation patterns"
@@ -127,17 +204,35 @@
       "alternation_sets": [
         {
           "pattern": "R/H",
-          "alternates_with": ["r"],
+          "alternates_with": [
+            "r"
+          ],
           "notes": "H that alternates with R in specific phonological contexts"
         },
         {
           "pattern": "Y/H",
-          "alternates_with": ["y"],
-          "notes": "H that alternates with Y in specific phonological contexts"
+          "alternates_with": [
+            "y"
+          ],
+          "notes": "H that alternates with Y in specific phonological contexts",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "y": [
+              "Onitsha"
+            ],
+            "h": [
+              "Owerri"
+            ]
+          }
         },
         {
           "pattern": "F/H/SH",
-          "alternates_with": ["f", "sh"],
+          "alternates_with": [
+            "f",
+            "sh"
+          ],
           "notes": "H that participates in complex fricative alternation pattern"
         }
       ],
@@ -153,8 +248,21 @@
       "alternation_sets": [
         {
           "pattern": "J/Z",
-          "alternates_with": ["z"],
-          "notes": "Voiced affricate-fricative alternation"
+          "alternates_with": [
+            "z"
+          ],
+          "notes": "Voiced affricate-fricative alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "j": [
+              "Onitsha"
+            ],
+            "z": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in J/Z alternation pattern"
@@ -190,13 +298,33 @@
       "alternation_sets": [
         {
           "pattern": "N/L/Y",
-          "alternates_with": ["n", "y"],
+          "alternates_with": [
+            "n",
+            "y"
+          ],
           "notes": "Three-way nasal-lateral-palatal alternation"
         },
         {
           "pattern": "L/R",
-          "alternates_with": ["r"],
-          "notes": "Classic lateral-trill interchange (similar to Japanese)"
+          "alternates_with": [
+            "r"
+          ],
+          "notes": "Classic lateral-trill interchange (similar to Japanese)",
+          "preferred_in_dialects": [
+            "Onitsha",
+            "Central Igbo"
+          ],
+          "dialect_distribution": {
+            "l": [
+              "Onitsha",
+              "Central Igbo"
+            ],
+            "r": [
+              "Owerri",
+              "Umuleri",
+              "Bonny"
+            ]
+          }
         }
       ],
       "notes": "Participates in two distinct alternation patterns"
@@ -215,7 +343,10 @@
       "type": "syllabic-nasal",
       "description": "Syllabic bilabial nasal (pseudo-vowel)",
       "syllabic": true,
-      "functions_as": ["consonant", "vowel"],
+      "functions_as": [
+        "consonant",
+        "vowel"
+      ],
       "igbo_name": "myiriụdaume",
       "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant M. Examples: mmanụ (oil), mmiri (water) where the first 'm' is syllabic"
     },
@@ -229,7 +360,10 @@
       "alternation_sets": [
         {
           "pattern": "N/L/Y",
-          "alternates_with": ["l", "y"],
+          "alternates_with": [
+            "l",
+            "y"
+          ],
           "notes": "Three-way nasal-lateral-palatal alternation"
         }
       ],
@@ -242,7 +376,10 @@
       "type": "syllabic-nasal",
       "description": "Syllabic alveolar nasal (pseudo-vowel)",
       "syllabic": true,
-      "functions_as": ["consonant", "vowel"],
+      "functions_as": [
+        "consonant",
+        "vowel"
+      ],
       "igbo_name": "myiriụdaume",
       "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant N. Examples: nnu (salt), nne (mother) where the first 'n' is syllabic"
     },
@@ -256,12 +393,16 @@
       "alternation_sets": [
         {
           "pattern": "NY/Ṅ",
-          "alternates_with": ["ny"],
+          "alternates_with": [
+            "ny"
+          ],
           "notes": "Palatal nasal-velar nasal merger"
         },
         {
           "pattern": "NW/Ṅ",
-          "alternates_with": ["nw"],
+          "alternates_with": [
+            "nw"
+          ],
           "notes": "Labialized velar nasal-velar nasal merger"
         }
       ],
@@ -277,7 +418,9 @@
       "alternation_sets": [
         {
           "pattern": "NW/Ṅ",
-          "alternates_with": ["ṅ"],
+          "alternates_with": [
+            "ṅ"
+          ],
           "notes": "Labialized velar nasal-velar nasal merger"
         }
       ],
@@ -293,7 +436,9 @@
       "alternation_sets": [
         {
           "pattern": "NY/Ṅ",
-          "alternates_with": ["ṅ"],
+          "alternates_with": [
+            "ṅ"
+          ],
           "notes": "Palatal nasal-velar nasal merger"
         }
       ],
@@ -309,8 +454,22 @@
       "alternation_sets": [
         {
           "pattern": "F/P",
-          "alternates_with": ["f"],
-          "notes": "Fricative-plosive alternation"
+          "alternates_with": [
+            "f"
+          ],
+          "notes": "Fricative-plosive alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "f": [
+              "Onitsha",
+              "Central Igbo"
+            ],
+            "p": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in F/P alternation pattern"
@@ -325,22 +484,46 @@
       "alternation_sets": [
         {
           "pattern": "R/H",
-          "alternates_with": ["h"],
+          "alternates_with": [
+            "h"
+          ],
           "notes": "R alternating with H"
         },
         {
           "pattern": "L/R",
-          "alternates_with": ["l"],
-          "notes": "Classic lateral-trill interchange"
+          "alternates_with": [
+            "l"
+          ],
+          "notes": "Classic lateral-trill interchange",
+          "preferred_in_dialects": [
+            "Owerri",
+            "Umuleri",
+            "Bonny"
+          ],
+          "dialect_distribution": {
+            "l": [
+              "Onitsha",
+              "Central Igbo"
+            ],
+            "r": [
+              "Owerri",
+              "Umuleri",
+              "Bonny"
+            ]
+          }
         },
         {
           "pattern": "R/SH",
-          "alternates_with": ["sh"],
+          "alternates_with": [
+            "sh"
+          ],
           "notes": "R alternating with SH"
         },
         {
           "pattern": "R/F",
-          "alternates_with": ["f"],
+          "alternates_with": [
+            "f"
+          ],
           "notes": "Trill-fricative alternation"
         }
       ],
@@ -356,13 +539,40 @@
       "alternation_sets": [
         {
           "pattern": "S/SH",
-          "alternates_with": ["sh"],
-          "notes": "Alveolar-postalveolar fricative alternation"
+          "alternates_with": [
+            "sh"
+          ],
+          "notes": "Alveolar-postalveolar fricative alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "s": [
+              "Onitsha"
+            ],
+            "sh": [
+              "Owerri",
+              "Umuleri"
+            ]
+          }
         },
         {
           "pattern": "S/T",
-          "alternates_with": ["t"],
-          "notes": "Fricative-plosive alternation"
+          "alternates_with": [
+            "t"
+          ],
+          "notes": "Fricative-plosive alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "s": [
+              "Onitsha"
+            ],
+            "t": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in two distinct alternation patterns"
@@ -377,18 +587,38 @@
       "alternation_sets": [
         {
           "pattern": "F/H/SH",
-          "alternates_with": ["f", "h"],
+          "alternates_with": [
+            "f",
+            "h"
+          ],
           "notes": "Complex fricative alternation pattern"
         },
         {
           "pattern": "R/SH",
-          "alternates_with": ["r"],
+          "alternates_with": [
+            "r"
+          ],
           "notes": "SH alternating with R"
         },
         {
           "pattern": "S/SH",
-          "alternates_with": ["s"],
-          "notes": "Alveolar-postalveolar fricative alternation"
+          "alternates_with": [
+            "s"
+          ],
+          "notes": "Alveolar-postalveolar fricative alternation",
+          "preferred_in_dialects": [
+            "Owerri",
+            "Umuleri"
+          ],
+          "dialect_distribution": {
+            "s": [
+              "Onitsha"
+            ],
+            "sh": [
+              "Owerri",
+              "Umuleri"
+            ]
+          }
         }
       ],
       "notes": "Participates in three distinct alternation patterns"
@@ -403,8 +633,21 @@
       "alternation_sets": [
         {
           "pattern": "S/T",
-          "alternates_with": ["s"],
-          "notes": "Fricative-plosive alternation"
+          "alternates_with": [
+            "s"
+          ],
+          "notes": "Fricative-plosive alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "s": [
+              "Onitsha"
+            ],
+            "t": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in S/T alternation pattern"
@@ -419,17 +662,47 @@
       "alternation_sets": [
         {
           "pattern": "G/V",
-          "alternates_with": ["g"],
-          "notes": "Velar plosive-labiodental fricative alternation"
+          "alternates_with": [
+            "g"
+          ],
+          "notes": "Velar plosive-labiodental fricative alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "g": [
+              "Onitsha"
+            ],
+            "v": [
+              "Owerri"
+            ]
+          }
         },
         {
           "pattern": "B/V",
-          "alternates_with": ["b"],
-          "notes": "Bilabial plosive-labiodental fricative alternation"
+          "alternates_with": [
+            "b"
+          ],
+          "notes": "Bilabial plosive-labiodental fricative alternation",
+          "preferred_in_dialects": [
+            "Owerri",
+            "Umuleri"
+          ],
+          "dialect_distribution": {
+            "b": [
+              "Onitsha"
+            ],
+            "v": [
+              "Owerri",
+              "Umuleri"
+            ]
+          }
         },
         {
           "pattern": "F/V",
-          "alternates_with": ["f"],
+          "alternates_with": [
+            "f"
+          ],
           "notes": "Voiceless-voiced labiodental pair"
         }
       ],
@@ -445,13 +718,39 @@
       "alternation_sets": [
         {
           "pattern": "B/W",
-          "alternates_with": ["b"],
-          "notes": "Bilabial plosive-approximant alternation"
+          "alternates_with": [
+            "b"
+          ],
+          "notes": "Bilabial plosive-approximant alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "b": [
+              "Onitsha"
+            ],
+            "w": [
+              "Owerri"
+            ]
+          }
         },
         {
           "pattern": "W/GH",
-          "alternates_with": ["gh"],
-          "notes": "Labial-velar-velar fricative alternation"
+          "alternates_with": [
+            "gh"
+          ],
+          "notes": "Labial-velar-velar fricative alternation",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "w": [
+              "Onitsha"
+            ],
+            "gh": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in two distinct alternation patterns"
@@ -466,17 +765,35 @@
       "alternation_sets": [
         {
           "pattern": "N/L/Y",
-          "alternates_with": ["n", "l"],
+          "alternates_with": [
+            "n",
+            "l"
+          ],
           "notes": "Three-way nasal-lateral-palatal alternation"
         },
         {
           "pattern": "Y/H",
-          "alternates_with": ["h"],
-          "notes": "Y alternating with H"
+          "alternates_with": [
+            "h"
+          ],
+          "notes": "Y alternating with H",
+          "preferred_in_dialects": [
+            "Onitsha"
+          ],
+          "dialect_distribution": {
+            "y": [
+              "Onitsha"
+            ],
+            "h": [
+              "Owerri"
+            ]
+          }
         },
         {
           "pattern": "Y/GH",
-          "alternates_with": ["gh"],
+          "alternates_with": [
+            "gh"
+          ],
           "notes": "Palatal-velar fricative alternation"
         }
       ],
@@ -492,8 +809,21 @@
       "alternation_sets": [
         {
           "pattern": "J/Z",
-          "alternates_with": ["j"],
-          "notes": "Voiced affricate-fricative alternation"
+          "alternates_with": [
+            "j"
+          ],
+          "notes": "Voiced affricate-fricative alternation",
+          "preferred_in_dialects": [
+            "Owerri"
+          ],
+          "dialect_distribution": {
+            "j": [
+              "Onitsha"
+            ],
+            "z": [
+              "Owerri"
+            ]
+          }
         }
       ],
       "notes": "Participates in J/Z alternation pattern"

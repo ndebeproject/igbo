@@ -62,6 +62,8 @@ The repository categorizes Igbo's phonetic inventory:
 **Vowels**: Documented in `vowels.json` with A/E group classification
 **Consonants**: Documented in `consonants.json`, including notes on:
 - Shifting sounds with dialectal variations (e.g., L/R interchange as in `mili`/`miri` for "water")
+- **Dialect preferences**: Each alternation pattern includes which dialects prefer which variant
+  - Example: Onitsha prefers 'l', Owerri prefers 'r' in the L/R pattern
 - Special Igbo consonants like `gb`, `kp`, `gw` (doubly-articulated sounds)
 - Syllabic nasals (m̩, n̩) that function as pseudo-vowels
 - 19 documented alternation patterns representing dialectal and phonological variations

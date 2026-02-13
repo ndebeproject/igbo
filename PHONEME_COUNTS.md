@@ -20,6 +20,33 @@ The count of **42 consonants** includes:
 
 This accounts for the fact that Igbo consonants exhibit significant **dialectal variation**, where different dialects may use different consonants in corresponding positions. For example, the L/R alternation means some dialects consistently use 'L' where others use 'R' (as in *mili* vs *miri* for "water").
 
+### Dialect Preferences
+
+Each major alternation pattern now includes dialect preference information in the JSON structure:
+
+```json
+{
+  "letter": "l",
+  "alternation_sets": [
+    {
+      "pattern": "L/R",
+      "alternates_with": ["r"],
+      "notes": "Classic lateral-trill interchange",
+      "preferred_in_dialects": ["Onitsha", "Central Igbo"],
+      "dialect_distribution": {
+        "l": ["Onitsha", "Central Igbo"],
+        "r": ["Owerri", "Umuleri", "Bonny"]
+      }
+    }
+  ]
+}
+```
+
+This structure allows applications to:
+- Identify which consonant is preferred in a specific dialect
+- Convert text between dialects by applying the appropriate alternations
+- Document regional variations in pronunciation and spelling
+
 ## Detailed Breakdown
 
 ### Base Consonants (30 total)
@@ -89,22 +116,61 @@ Igbo vowels are organized into two harmony groups:
 
 ## Major Dialectal Alternation Patterns (12)
 
-These patterns represent major dialectal variations where different Igbo dialects systematically use different consonants:
+These patterns represent major dialectal variations where different Igbo dialects systematically use different consonants. Each alternation pattern now includes **dialect preference information** indicating which variant is preferred in which dialect.
 
 1. **L/R** - L and R interchange (e.g., *mili* vs *miri* "water")
+   - **L** preferred in: Onitsha, Central Igbo
+   - **R** preferred in: Owerri, Umuleri, Bonny
+
 2. **B/V** - B and V alternate dialectally
+   - **B** preferred in: Onitsha
+   - **V** preferred in: Owerri, Umuleri
+
 3. **G/V** - G and V interchange
+   - **G** preferred in: Onitsha
+   - **V** preferred in: Owerri
+
 4. **F/H/SH** - Complex three-way fricative alternation
+
 5. **S/SH** - Alveolar-postalveolar fricative alternation
+   - **S** preferred in: Onitsha
+   - **SH** preferred in: Owerri, Umuleri
+
 6. **Y/H** - Palatal-glottal alternation
+   - **Y** preferred in: Onitsha
+   - **H** preferred in: Owerri
+
 7. **N/L/Y** - Three-way nasal-lateral-palatal alternation
+
 8. **J/Z** - Voiced affricate-fricative alternation
+   - **J** preferred in: Onitsha
+   - **Z** preferred in: Owerri
+
 9. **S/T** - Fricative-plosive alternation
+   - **S** preferred in: Onitsha
+   - **T** preferred in: Owerri
+
 10. **F/P** - Labiodental-bilabial alternation
+    - **F** preferred in: Onitsha, Central Igbo
+    - **P** preferred in: Owerri
+
 11. **B/W** - Plosive-approximant alternation
+    - **B** preferred in: Onitsha
+    - **W** preferred in: Owerri
+
 12. **W/GH** - Approximant-fricative alternation
+    - **W** preferred in: Onitsha
+    - **GH** preferred in: Owerri
 
 When counting consonants **with dialectal variants**, we count each alternation pattern as representing an additional consonant form, giving us **42 total consonants**.
+
+### Dialect Information
+
+The consonants.json file now includes dialect preference information in the `alternation_sets`:
+- `preferred_in_dialects`: Lists which dialects prefer this specific consonant
+- `dialect_distribution`: Maps each variant in the pattern to the dialects that prefer it
+
+This allows applications to select the appropriate consonant variant based on the target dialect.
 
 ### Additional Alternation Patterns (7)
 
