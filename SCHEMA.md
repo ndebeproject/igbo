@@ -114,9 +114,12 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - **Approximant**: w, y
 
 **Shifting Sounds**:
-- **L/R interchange**: The consonant `l` can be pronounced as `r` in some contexts, similar to Japanese L/R distinction
+Igbo has several consonants with variable pronunciations across dialects:
+- **L/R interchange**: The consonant `l` can be pronounced as `r` in some contexts, and vice versa
   - Example: `mili` (water) may be pronounced as `miri`
-- Both regular `l` and `r` exist, but there's also an `l` that functions as `r`
+- **F/P interchange**: The consonants `f` and `p` can be interchangeable in some dialects
+- **S/T interchange**: The consonants `s` and `t` can be interchangeable in some dialects
+- These variations are recognized in the Ndebe orthography system, which provides distinct symbols for each variant
 
 **Notes**:
 - Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`

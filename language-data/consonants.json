@@ -26,7 +26,10 @@
       "uppercase": "F",
       "ipa": "f",
       "type": "fricative",
-      "description": "Voiceless labiodental fricative"
+      "description": "Voiceless labiodental fricative",
+      "shifting": true,
+      "shifts_to": ["p"],
+      "notes": "Can be pronounced as 'p' in some dialects"
     },
     {
       "letter": "g",
@@ -141,7 +144,10 @@
       "uppercase": "P",
       "ipa": "p",
       "type": "plosive",
-      "description": "Voiceless bilabial plosive"
+      "description": "Voiceless bilabial plosive",
+      "shifting": true,
+      "shifts_to": ["f"],
+      "notes": "Can be pronounced as 'f' in some dialects"
     },
     {
       "letter": "r",
@@ -158,7 +164,10 @@
       "uppercase": "S",
       "ipa": "s",
       "type": "fricative",
-      "description": "Voiceless alveolar fricative"
+      "description": "Voiceless alveolar fricative",
+      "shifting": true,
+      "shifts_to": ["t"],
+      "notes": "Can be pronounced as 't' in some dialects"
     },
     {
       "letter": "sh",
@@ -172,7 +181,10 @@
       "uppercase": "T",
       "ipa": "t",
       "type": "plosive",
-      "description": "Voiceless alveolar plosive"
+      "description": "Voiceless alveolar plosive",
+      "shifting": true,
+      "shifts_to": ["s"],
+      "notes": "Can be pronounced as 's' in some dialects"
     },
     {
       "letter": "v",
@@ -205,8 +217,11 @@
   ],
   "notes": [
     "Igbo consonants include some sounds not found in English, such as gb, kp, and gw",
-    "The L/R distinction can be difficult for Igbo speakers, as 'l' can sound like 'r' depending on context",
-    "Example: 'mili' (water) can be pronounced 'miri' by some speakers",
+    "Several consonants have variable pronunciations across dialects:",
+    "  - L/R: 'l' can sound like 'r' and vice versa (e.g., 'mili'/'miri' for water)",
+    "  - F/P: 'f' and 'p' can be interchangeable in some dialects",
+    "  - S/T: 's' and 't' can be interchangeable in some dialects",
+    "These shifting sounds are noted in the Ndebe orthography system which provides distinct symbols for each variant",
     "Some consonants like 'gb' and 'kp' are doubly-articulated labial-velar sounds",
     "The dotted consonants (ṅ) represent specific phonetic values distinct from their undotted counterparts"
   ]
