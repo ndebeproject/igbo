@@ -144,7 +144,7 @@
       "description": "Velar nasal",
       "shifting": true,
       "shifts_to": ["ny", "nw"],
-      "notes": "Can be pronounced as 'ny' or 'nw' in some dialects"
+      "notes": "Can be pronounced as 'NY' or 'NW' in some dialects"
     },
     {
       "letter": "nw",

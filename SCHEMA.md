@@ -147,8 +147,8 @@ Igbo has extensive consonant variation across dialects, with 19 interchange patt
 - **J/Z**: The consonants `j` and `z` can be interchangeable
 
 **Nasal Mergers:**
-- **NY/Ṇ**: Palatal nasal `ny` can merge with velar nasal `ṅ`
-- **NW/Ṇ**: Labialized velar nasal `nw` can merge with velar nasal `ṅ`
+- **NY/Ṅ**: Palatal nasal `ny` can merge with velar nasal `ṅ`
+- **NW/Ṅ**: Labialized velar nasal `nw` can merge with velar nasal `ṅ`
 
 These variations are recognized and addressed by the Ndebe orthography system, which provides distinct symbols for each variant to maintain clarity in writing.
 
