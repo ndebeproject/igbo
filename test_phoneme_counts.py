@@ -55,8 +55,19 @@ def test_vowel_counts():
     with open(vowels_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    a_vowels = data['vowelGroups']['A']['vowels']
-    e_vowels = data['vowelGroups']['E']['vowels']
+    # Safely extract vowel data with error handling
+    if 'vowelGroups' not in data:
+        raise ValueError("Missing 'vowelGroups' key in vowels.json")
+    
+    vowel_groups = data['vowelGroups']
+    
+    if 'A' not in vowel_groups:
+        raise ValueError("Missing 'A' group in vowelGroups")
+    if 'E' not in vowel_groups:
+        raise ValueError("Missing 'E' group in vowelGroups")
+    
+    a_vowels = vowel_groups['A'].get('vowels', [])
+    e_vowels = vowel_groups['E'].get('vowels', [])
     total_vowels = len(a_vowels) + len(e_vowels)
     
     print("\n" + "=" * 70)
@@ -84,10 +95,9 @@ def test_pseudovowel_count():
     with open(consonants_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    # Count pseudo-vowels (syllabic nasals)
-    pseudovowels = [c for c in data['consonants'] 
-                   if c.get('syllabic', False) and 
-                   'vowel' in c.get('functions_as', [])]
+    # Count pseudo-vowels (syllabic nasals) - using consistent criteria
+    # A consonant is a pseudo-vowel if it has the 'syllabic' property set to True
+    pseudovowels = [c for c in data['consonants'] if c.get('syllabic', False)]
     
     print("\n" + "=" * 70)
     print("PSEUDO-VOWEL COUNT TEST")
@@ -96,7 +106,9 @@ def test_pseudovowel_count():
     
     for pv in pseudovowels:
         print(f"  - {pv['letter']} ({pv['uppercase']}) - {pv['description']}")
-        print(f"    Functions as: {pv.get('functions_as', [])}")
+        functions = pv.get('functions_as', [])
+        if functions:
+            print(f"    Functions as: {functions}")
     
     # Note: The problem statement mentions "1 pseudovowel consonant"
     # but linguistically, Igbo has 2 syllabic nasals (m̩ and n̩)

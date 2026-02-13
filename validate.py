@@ -107,7 +107,13 @@ def validate_phoneme_counts(repo_root):
     - Total consonants: 30
     - Oral vowels: 9 (5 in A-group, 4 in E-group)
     
-    Returns: (success, counts_dict, errors)
+    Returns:
+        tuple: (success, counts_dict, errors) where:
+            - success (bool): True if all files were read successfully
+            - counts_dict (dict): Dictionary containing phoneme counts with keys:
+                'regular_consonants', 'syllabic_nasals', 'total_consonants',
+                'a_vowels', 'e_vowels', 'total_vowels'
+            - errors (list): List of error messages (empty if successful)
     """
     errors = []
     counts = {
