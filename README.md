@@ -52,10 +52,15 @@ This harmony affects:
 ### 6. **Phoneme Categorization**
 The repository categorizes Igbo's phonetic inventory:
 
+**Confirmed Phoneme Counts** (see [PHONEME_COUNTS.md](PHONEME_COUNTS.md)):
+- **28 regular consonants** + **2 syllabic nasals** (pseudo-vowels: m̩, n̩) = **30 total consonants**
+- **9 vowels** (5 in A-group, 4 in E-group)
+
 **Vowels**: Documented in `vowels.json` with A/E group classification
 **Consonants**: Documented in `consonants.json`, including notes on:
 - Shifting sounds (e.g., L/R interchange as in `mili`/`miri` for "water")
 - Special Igbo consonants like `gb`, `kp`, `gw` (doubly-articulated sounds)
+- Syllabic nasals (m̩, n̩) that function as pseudo-vowels
 - Digraphs and special characters
 
 ### 7. **Affixation System**
@@ -211,10 +216,28 @@ When adding data:
 4. Link components rather than duplicating data
 5. Add one category at a time for easier verification
 
+## Validation
+
+The repository includes validation scripts to ensure data consistency:
+
+```bash
+# Run full validation (includes phoneme count verification)
+python3 validate.py
+
+# Run phoneme count tests specifically
+python3 test_phoneme_counts.py
+```
+
+These scripts verify:
+- JSON syntax and schema compliance
+- ID uniqueness and reference integrity
+- Phoneme counts (28 consonants + 2 syllabic nasals, 9 vowels)
+
 ## Schema Documentation
 
 For detailed schema documentation and examples, see:
 - `SCHEMA.md` - Complete schema specifications
+- `PHONEME_COUNTS.md` - Detailed phoneme inventory documentation
 - `docs/examples/` - Usage examples (coming soon)
 
 ## Future Development
@@ -224,7 +247,6 @@ For detailed schema documentation and examples, see:
 - Include dialectal variations
 - Add pronunciation guides (IPA)
 - Include usage examples and sample sentences
-- Create validation scripts for data consistency
 
 ---
 
