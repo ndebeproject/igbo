@@ -38,7 +38,7 @@
     },
     "E": {
       "name": "E group",
-      "description": "Long and deep or round vowel sounds",
+      "description": "Tense vowels with close or rounded articulation",
       "vowels": [
         {
           "letter": "e",

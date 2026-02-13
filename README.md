@@ -38,7 +38,7 @@ The repository handles this by:
 Igbo has a vowel harmony system where vowels are divided into two groups:
 
 **A Group** (short and sharp sounds): `a`, `ẹ`, `ị`, `ọ`, `ụ`
-**E Group** (long and deep or round sounds): `e`, `i`, `o`, `u`
+**E Group** (tense vowels with close or rounded articulation): `e`, `i`, `o`, `u`
 
 The vowel group of a verb root is determined by the **first vowel** in the root. For example:
 - `ma` (to know) belongs to the A group

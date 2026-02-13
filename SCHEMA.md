@@ -64,7 +64,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - `ọ` / `Ọ` - Open-mid back rounded vowel
 - `ụ` / `Ụ` - Near-close back rounded vowel
 
-**E Group** (long and deep or round sounds):
+**E Group** (tense vowels with close or rounded articulation):
 - `e` / `E` - Close-mid front unrounded vowel
 - `i` / `I` - Close front unrounded vowel
 - `o` / `O` - Close-mid back rounded vowel
@@ -74,7 +74,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - Vowel harmony: verb roots and affixes must agree in vowel group
 - The vowel group of a verb root is determined by the **first vowel** in the root
 - A group vowels are characterized by short, sharp articulation
-- E group vowels are characterized by long, deep, or round articulation
+- E group vowels are characterized by tense articulation with close or rounded quality
 - This distinction is crucial for proper suffix and prefix selection
 
 ---
