@@ -34,4 +34,26 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.tmp/
+tmp/
+
 # End of https://www.toptal.com/developers/gitignore/api/macos
