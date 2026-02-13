@@ -3,18 +3,233 @@
 This document defines the JSON schemas used throughout the repository to ensure consistency and facilitate data validation.
 
 ## Table of Contents
-1. [Syllables](#syllables)
-2. [Verb Components](#verb-components)
+1. [Phonemes](#phonemes)
+   - [Vowels](#vowels)
+   - [Consonants](#consonants)
+2. [Syllables](#syllables)
+3. [Verb Components](#verb-components)
    - [Prime Roots](#prime-roots)
    - [Derived Roots](#derived-roots)
    - [Auxiliaries](#auxiliaries)
    - [Prefixes](#prefixes)
    - [Suffixes](#suffixes)
    - [Particles](#particles)
-3. [Verb Forms](#verb-forms)
-4. [Tenses](#tenses)
-5. [Nouns](#nouns)
-6. [Naming Conventions](#naming-conventions)
+4. [Verb Forms](#verb-forms)
+5. [Tenses](#tenses)
+6. [Nouns](#nouns)
+7. [Naming Conventions](#naming-conventions)
+
+---
+
+## Phonemes
+
+### Vowels
+
+**File Location**: `language-data/vowels.json`
+
+**Purpose**: Defines the vowel inventory of Igbo, categorized into two harmony groups (A group and E group). This categorization is fundamental for understanding vowel harmony in verb conjugation and word formation.
+
+**Schema**:
+```json
+{
+  "vowelGroups": {
+    "A": {
+      "name": "string (group name)",
+      "description": "string (phonetic description)",
+      "vowels": [
+        {
+          "letter": "string (lowercase form)",
+          "uppercase": "string (uppercase form)",
+          "ipa": "string (IPA symbol)",
+          "description": "string (phonetic description)"
+        }
+      ]
+    },
+    "E": {
+      "name": "string (group name)",
+      "description": "string (phonetic description)",
+      "vowels": [...]
+    }
+  },
+  "notes": ["array of strings (usage notes)"]
+}
+```
+
+**Vowel Groups**:
+
+**A Group** (short and sharp sounds):
+- `a` / `A` - Open front unrounded vowel
+- `ẹ` / `Ẹ` - Open-mid front unrounded vowel
+- `ị` / `Ị` - Near-close front unrounded vowel
+- `ọ` / `Ọ` - Open-mid back rounded vowel
+- `ụ` / `Ụ` - Near-close back rounded vowel
+
+**E Group** (tense vowels with close or rounded articulation):
+- `e` / `E` - Close-mid front unrounded vowel
+- `i` / `I` - Close front unrounded vowel
+- `o` / `O` - Close-mid back rounded vowel
+- `u` / `U` - Close back rounded vowel
+
+**Notes**:
+- Vowel harmony: verb roots and affixes must agree in vowel group
+- The vowel group of a verb root is determined by the **first vowel** in the root
+- A group vowels are characterized by short, sharp articulation
+- E group vowels are characterized by tense articulation with close or rounded quality
+- This distinction is crucial for proper suffix and prefix selection
+
+---
+
+### Consonants
+
+**File Location**: `language-data/consonants.json`
+
+**Purpose**: Defines the consonant inventory of Igbo, including special notes about sounds that can shift or vary in pronunciation.
+
+**Schema**:
+```json
+{
+  "consonants": [
+    {
+      "letter": "string (lowercase form)",
+      "uppercase": "string (uppercase form)",
+      "ipa": "string (IPA symbol)",
+      "type": "string (consonant type)",
+      "description": "string (phonetic description)",
+      "shifting": "boolean (optional, indicates sound participates in alternation patterns)",
+      "alternation_sets": [
+        {
+          "pattern": "string (pattern name, e.g., 'R/H', 'Y/H', 'F/H/SH')",
+          "alternates_with": ["array of strings (consonants in this specific pattern)"],
+          "notes": "string (optional, context for this specific alternation)"
+        }
+      ],
+      "syllabic": "boolean (optional, indicates syllabic consonant that can function as vowel)",
+      "functions_as": ["array of strings (optional, e.g., ['consonant', 'vowel'] for syllabic nasals)"],
+      "igbo_name": "string (optional, Igbo name for the sound)",
+      "notes": "string (optional, general information about the consonant)"
+    }
+  ],
+  "notes": ["array of strings (usage notes)"]
+}
+```
+
+**Key Fields**:
+- `alternation_sets`: Array of distinct alternation patterns this consonant participates in
+- `pattern`: Identifies the specific alternation (e.g., "R/H" vs "Y/H" are DIFFERENT patterns)
+- `alternates_with`: Lists only the consonants in THIS specific pattern
+- `syllabic`: Indicates if consonant can function as syllable nucleus (like syllabic nasals)
+- `functions_as`: For syllabic sounds, lists their dual functions
+
+**Consonant Types**:
+- **Plosive**: b, d, g, gb, gw, k, kp, kw, p, t
+- **Fricative**: f, gh, h, s, sh, v, z
+- **Affricate**: ch, j
+- **Nasal**: m, n, ṅ, nw, ny
+- **Syllabic-Nasal** (Pseudo-Vowels): m̩, n̩
+- **Lateral**: l
+- **Trill**: r
+- **Approximant**: w, y
+
+**Syllabic Nasals (M̩/N̩) - Special Case**:
+
+Igbo has **syllabic nasals** (m̩ and n̩) that function as both consonants and vowels. These are called **"myiriụdaume"** (vowel-like) in Igbo.
+
+**Key Characteristics**:
+- **Function as syllable nucleus**: Can serve as the core/vowel of a syllable
+- **Phonetically nasal**: Still nasals in articulation
+- **Distinct from regular M/N**: Regular m and n are only consonants
+- **Marked in schema**: Have `"syllabic": true` and `"functions_as": ["consonant", "vowel"]`
+
+**Examples**:
+- **mmanụ** [m̩.ma.nʊ] - "oil" (first m is syllabic)
+- **mmiri** [m̩.mi.ri] - "water" (first m is syllabic)
+- **nnu** [n̩.nu] - "salt" (first n is syllabic)
+- **nne** [n̩.ne] - "mother" (first n is syllabic)
+
+This is a distinctive feature of Igbo phonology, allowing nasal sounds to function as vowels in word structure.
+
+**Alternation Patterns**:
+
+Igbo has 19 documented alternation patterns from the Ndebe orthography system. Each pattern is a DISTINCT phonological phenomenon that must be tracked separately.
+
+**CRITICAL DISTINCTION: Pattern Identity**
+
+Each alternation pattern is identified by its full designation (e.g., "R/H", "Y/H", "F/H/SH"). These are NOT interchangeable:
+
+**Example - Multiple H Patterns:**
+```json
+{
+  "letter": "h",
+  "alternation_sets": [
+    {"pattern": "R/H", "alternates_with": ["r"]},
+    {"pattern": "Y/H", "alternates_with": ["y"]},
+    {"pattern": "F/H/SH", "alternates_with": ["f", "sh"]}
+  ]
+}
+```
+
+These represent THREE DIFFERENT alternation phenomena:
+- R/H: H that alternates specifically with R in certain environments
+- Y/H: H that alternates specifically with Y in different environments  
+- F/H/SH: H that participates in complex fricative pattern with F and SH
+
+⚠️ **These cannot be freely mixed or treated as equivalent**
+
+**Data Structure**:
+
+Each consonant that participates in alternations has an `alternation_sets` array. Each set specifies:
+- `pattern`: The full pattern name (e.g., "N/L/Y", "R/H")
+- `alternates_with`: The specific consonants in that pattern only
+- `notes`: Context for that specific alternation
+
+**The 19 Patterns:**
+
+**Major Interchanges:**
+- **L/R**: Classic lateral-trill interchange (example: mili/miri "water")
+- **F/P**: Fricative-plosive alternation
+- **S/T**: Alveolar fricative-plosive alternation
+
+**Fricative Patterns:**
+- **F/H/SH**: Complex three-way fricative pattern
+- **R/H**: R alternating with H
+- **R/SH**: R alternating with SH  
+- **S/SH**: Alveolar-postalveolar fricative
+- **Y/H**: Y alternating with H
+
+**Plosive-Fricative Alternations:**
+- **B/V**: Bilabial plosive-labiodental fricative
+- **B/W**: Bilabial plosive-approximant
+- **G/V**: Velar plosive-labiodental fricative
+
+**Complex Multi-Way Patterns:**
+- **N/L/Y**: Three-way nasal-lateral-palatal alternation
+- **F/V**: Voiceless-voiced labiodental pair
+- **R/F**: Trill-fricative alternation
+
+**Approximant Patterns:**
+- **Y/GH**: Palatal-velar fricative alternation
+- **W/GH**: Labial-velar-velar fricative alternation
+
+**Affricate Pattern:**
+- **J/Z**: Voiced affricate-fricative alternation
+
+**Nasal Mergers:**
+- **NY/Ṅ**: Palatal nasal-velar nasal merger
+- **NW/Ṅ**: Labialized velar nasal-velar nasal merger
+
+**Usage Notes**:
+- Each pattern must be identified and distinguished from others
+- Pattern names come from Ndebe orthography documentation
+- A consonant may participate in multiple patterns (e.g., H in 3 patterns, F in 4 patterns)
+- Each pattern represents distinct phonological conditioning
+- Patterns are NOT freely interchangeable for word formation
+- Documented variations are observational, not prescriptive rules
+
+**Notes**:
+- Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`
+- Dotted consonants (e.g., `ṅ`) represent specific phonetic values
+- Some consonants are digraphs (two-letter combinations representing single sounds)
+- The alternation_sets structure enables precise identification of each pattern
 
 ---
 
@@ -68,7 +283,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
   "id": "string (unique identifier)",
   "plain_name": "string (the root without tone marking)",
   "syllable_id": "string (reference to syllables.json)",
-  "vowelGroup": "string (vowel harmony group: A|E|I|O|U)",
+  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)",
   "gloss": "string (basic English meaning/gloss)"
 }
 ```
@@ -90,7 +305,10 @@ This document defines the JSON schemas used throughout the repository to ensure 
 
 **Notes**:
 - `syllable_id` links to the specific tonal syllable
-- `vowelGroup` is used for vowel harmony rules in affixation
+- `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:
+  - **A group**: if first vowel is a, ẹ, ị, ọ, or ụ (short/sharp sounds)
+  - **E group**: if first vowel is e, i, o, or u (tense vowels with close or rounded articulation)
+  - This grouping is used for vowel harmony rules in affixation
 - `gloss` provides the basic meaning to distinguish homophones
   - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
   - Use the most common English equivalent
@@ -104,14 +322,16 @@ This document defines the JSON schemas used throughout the repository to ensure 
 
 **File Location**: `language-data/verbs/derived-roots/{root}.json`
 
-**Purpose**: Stores compound verb roots formed by combining multiple prime roots.
+**Purpose**: Stores compound verb roots formed by combining multiple prime roots through agglutination or other morphological processes.
 
 **Schema**:
 ```json
 {
   "id": "string (unique identifier)",
   "name": "string (the derived root)",
-  "primes": ["array of strings (prime root names)"]
+  "primeRootIds": ["array of strings (prime root IDs)"],
+  "gloss": "string (basic English meaning/gloss)",
+  "type": "string (derivation type, optional - e.g., 'agglutinated', 'compound')"
 }
 ```
 
@@ -120,15 +340,20 @@ This document defines the JSON schemas used throughout the repository to ensure 
 {
   "id": "kuwa_001",
   "name": "kuwa",
-  "primes": ["ku", "wa"]
+  "primeRootIds": ["ku_001", "wa_001"],
+  "gloss": "break",
+  "type": "agglutinated"
 }
 ```
 
 **ID Convention**: `{derivedroot}_{sequential_number}`
 
 **Notes**:
-- The `primes` array lists the component prime roots in order
-- Derived roots may have meanings not directly predictable from their parts
+- The `primeRootIds` array lists the component prime root IDs (not plain names) in the order they combine
+- Each ID in `primeRootIds` must reference a valid prime root entry
+- The `gloss` field provides the meaning of the derived verb, which may not be directly predictable from its component parts
+- The optional `type` field indicates how the verb was formed (e.g., "agglutinated" for verbs formed by joining verb roots together)
+- Derived roots can be used just like prime roots in verb forms and other constructions
 
 ---
 

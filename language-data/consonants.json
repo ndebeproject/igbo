@@ -1,0 +1,530 @@
+{
+  "consonants": [
+    {
+      "letter": "b",
+      "uppercase": "B",
+      "ipa": "b",
+      "type": "plosive",
+      "description": "Voiced bilabial plosive",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "B/V",
+          "alternates_with": ["v"],
+          "notes": "Bilabial plosive-labiodental fricative alternation"
+        },
+        {
+          "pattern": "B/W",
+          "alternates_with": ["w"],
+          "notes": "Bilabial plosive-approximant alternation"
+        }
+      ],
+      "notes": "Participates in two distinct alternation patterns"
+    },
+    {
+      "letter": "ch",
+      "uppercase": "CH",
+      "ipa": "tʃ",
+      "type": "affricate",
+      "description": "Voiceless postalveolar affricate"
+    },
+    {
+      "letter": "d",
+      "uppercase": "D",
+      "ipa": "d",
+      "type": "plosive",
+      "description": "Voiced alveolar plosive"
+    },
+    {
+      "letter": "f",
+      "uppercase": "F",
+      "ipa": "f",
+      "type": "fricative",
+      "description": "Voiceless labiodental fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "F/H/SH",
+          "alternates_with": ["h", "sh"],
+          "notes": "Complex fricative alternation pattern"
+        },
+        {
+          "pattern": "F/P",
+          "alternates_with": ["p"],
+          "notes": "Fricative-plosive alternation"
+        },
+        {
+          "pattern": "F/V",
+          "alternates_with": ["v"],
+          "notes": "Voiceless-voiced labiodental pair"
+        },
+        {
+          "pattern": "R/F",
+          "alternates_with": ["r"],
+          "notes": "Trill-fricative alternation"
+        }
+      ],
+      "notes": "Participates in four distinct alternation patterns"
+    },
+    {
+      "letter": "g",
+      "uppercase": "G",
+      "ipa": "ɡ",
+      "type": "plosive",
+      "description": "Voiced velar plosive",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "G/V",
+          "alternates_with": ["v"],
+          "notes": "Velar plosive-labiodental fricative alternation"
+        }
+      ],
+      "notes": "Participates in G/V alternation pattern"
+    },
+    {
+      "letter": "gb",
+      "uppercase": "GB",
+      "ipa": "ɡ͡b",
+      "type": "plosive",
+      "description": "Voiced labial-velar plosive"
+    },
+    {
+      "letter": "gh",
+      "uppercase": "GH",
+      "ipa": "ɣ",
+      "type": "fricative",
+      "description": "Voiced velar fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "Y/GH",
+          "alternates_with": ["y"],
+          "notes": "Palatal-velar fricative alternation"
+        },
+        {
+          "pattern": "W/GH",
+          "alternates_with": ["w"],
+          "notes": "Labial-velar-velar fricative alternation"
+        }
+      ],
+      "notes": "Participates in two distinct alternation patterns"
+    },
+    {
+      "letter": "gw",
+      "uppercase": "GW",
+      "ipa": "ɡʷ",
+      "type": "plosive",
+      "description": "Labialized voiced velar plosive"
+    },
+    {
+      "letter": "h",
+      "uppercase": "H",
+      "ipa": "h",
+      "type": "fricative",
+      "description": "Voiceless glottal fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "R/H",
+          "alternates_with": ["r"],
+          "notes": "H that alternates with R in specific phonological contexts"
+        },
+        {
+          "pattern": "Y/H",
+          "alternates_with": ["y"],
+          "notes": "H that alternates with Y in specific phonological contexts"
+        },
+        {
+          "pattern": "F/H/SH",
+          "alternates_with": ["f", "sh"],
+          "notes": "H that participates in complex fricative alternation pattern"
+        }
+      ],
+      "notes": "Participates in multiple distinct alternation patterns - each pattern represents a different phonological environment and cannot be freely mixed"
+    },
+    {
+      "letter": "j",
+      "uppercase": "J",
+      "ipa": "dʒ",
+      "type": "affricate",
+      "description": "Voiced postalveolar affricate",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "J/Z",
+          "alternates_with": ["z"],
+          "notes": "Voiced affricate-fricative alternation"
+        }
+      ],
+      "notes": "Participates in J/Z alternation pattern"
+    },
+    {
+      "letter": "k",
+      "uppercase": "K",
+      "ipa": "k",
+      "type": "plosive",
+      "description": "Voiceless velar plosive"
+    },
+    {
+      "letter": "kp",
+      "uppercase": "KP",
+      "ipa": "k͡p",
+      "type": "plosive",
+      "description": "Voiceless labial-velar plosive"
+    },
+    {
+      "letter": "kw",
+      "uppercase": "KW",
+      "ipa": "kʷ",
+      "type": "plosive",
+      "description": "Labialized voiceless velar plosive"
+    },
+    {
+      "letter": "l",
+      "uppercase": "L",
+      "ipa": "l",
+      "type": "lateral",
+      "description": "Alveolar lateral approximant",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "N/L/Y",
+          "alternates_with": ["n", "y"],
+          "notes": "Three-way nasal-lateral-palatal alternation"
+        },
+        {
+          "pattern": "L/R",
+          "alternates_with": ["r"],
+          "notes": "Classic lateral-trill interchange (similar to Japanese)"
+        }
+      ],
+      "notes": "Participates in two distinct alternation patterns"
+    },
+    {
+      "letter": "m",
+      "uppercase": "M",
+      "ipa": "m",
+      "type": "nasal",
+      "description": "Bilabial nasal"
+    },
+    {
+      "letter": "m̩",
+      "uppercase": "M̩",
+      "ipa": "m̩",
+      "type": "syllabic-nasal",
+      "description": "Syllabic bilabial nasal (pseudo-vowel)",
+      "syllabic": true,
+      "functions_as": ["consonant", "vowel"],
+      "igbo_name": "myiriụdaume",
+      "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant M. Examples: mmanụ (oil), mmiri (water) where the first 'm' is syllabic"
+    },
+    {
+      "letter": "n",
+      "uppercase": "N",
+      "ipa": "n",
+      "type": "nasal",
+      "description": "Alveolar nasal",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "N/L/Y",
+          "alternates_with": ["l", "y"],
+          "notes": "Three-way nasal-lateral-palatal alternation"
+        }
+      ],
+      "notes": "Participates in N/L/Y alternation pattern"
+    },
+    {
+      "letter": "n̩",
+      "uppercase": "N̩",
+      "ipa": "n̩",
+      "type": "syllabic-nasal",
+      "description": "Syllabic alveolar nasal (pseudo-vowel)",
+      "syllabic": true,
+      "functions_as": ["consonant", "vowel"],
+      "igbo_name": "myiriụdaume",
+      "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant N. Examples: nnu (salt), nne (mother) where the first 'n' is syllabic"
+    },
+    {
+      "letter": "ṅ",
+      "uppercase": "Ṅ",
+      "ipa": "ŋ",
+      "type": "nasal",
+      "description": "Velar nasal",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "NY/Ṅ",
+          "alternates_with": ["ny"],
+          "notes": "Palatal nasal-velar nasal merger"
+        },
+        {
+          "pattern": "NW/Ṅ",
+          "alternates_with": ["nw"],
+          "notes": "Labialized velar nasal-velar nasal merger"
+        }
+      ],
+      "notes": "Participates in two distinct nasal merger patterns"
+    },
+    {
+      "letter": "nw",
+      "uppercase": "NW",
+      "ipa": "ŋʷ",
+      "type": "nasal",
+      "description": "Labialized velar nasal",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "NW/Ṅ",
+          "alternates_with": ["ṅ"],
+          "notes": "Labialized velar nasal-velar nasal merger"
+        }
+      ],
+      "notes": "Participates in NW/Ṅ alternation pattern"
+    },
+    {
+      "letter": "ny",
+      "uppercase": "NY",
+      "ipa": "ɲ",
+      "type": "nasal",
+      "description": "Palatal nasal",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "NY/Ṅ",
+          "alternates_with": ["ṅ"],
+          "notes": "Palatal nasal-velar nasal merger"
+        }
+      ],
+      "notes": "Participates in NY/Ṅ alternation pattern"
+    },
+    {
+      "letter": "p",
+      "uppercase": "P",
+      "ipa": "p",
+      "type": "plosive",
+      "description": "Voiceless bilabial plosive",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "F/P",
+          "alternates_with": ["f"],
+          "notes": "Fricative-plosive alternation"
+        }
+      ],
+      "notes": "Participates in F/P alternation pattern"
+    },
+    {
+      "letter": "r",
+      "uppercase": "R",
+      "ipa": "r",
+      "type": "trill",
+      "description": "Alveolar trill or tap",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "R/H",
+          "alternates_with": ["h"],
+          "notes": "R alternating with H"
+        },
+        {
+          "pattern": "L/R",
+          "alternates_with": ["l"],
+          "notes": "Classic lateral-trill interchange"
+        },
+        {
+          "pattern": "R/SH",
+          "alternates_with": ["sh"],
+          "notes": "R alternating with SH"
+        },
+        {
+          "pattern": "R/F",
+          "alternates_with": ["f"],
+          "notes": "Trill-fricative alternation"
+        }
+      ],
+      "notes": "Participates in four distinct alternation patterns"
+    },
+    {
+      "letter": "s",
+      "uppercase": "S",
+      "ipa": "s",
+      "type": "fricative",
+      "description": "Voiceless alveolar fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "S/SH",
+          "alternates_with": ["sh"],
+          "notes": "Alveolar-postalveolar fricative alternation"
+        },
+        {
+          "pattern": "S/T",
+          "alternates_with": ["t"],
+          "notes": "Fricative-plosive alternation"
+        }
+      ],
+      "notes": "Participates in two distinct alternation patterns"
+    },
+    {
+      "letter": "sh",
+      "uppercase": "SH",
+      "ipa": "ʃ",
+      "type": "fricative",
+      "description": "Voiceless postalveolar fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "F/H/SH",
+          "alternates_with": ["f", "h"],
+          "notes": "Complex fricative alternation pattern"
+        },
+        {
+          "pattern": "R/SH",
+          "alternates_with": ["r"],
+          "notes": "SH alternating with R"
+        },
+        {
+          "pattern": "S/SH",
+          "alternates_with": ["s"],
+          "notes": "Alveolar-postalveolar fricative alternation"
+        }
+      ],
+      "notes": "Participates in three distinct alternation patterns"
+    },
+    {
+      "letter": "t",
+      "uppercase": "T",
+      "ipa": "t",
+      "type": "plosive",
+      "description": "Voiceless alveolar plosive",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "S/T",
+          "alternates_with": ["s"],
+          "notes": "Fricative-plosive alternation"
+        }
+      ],
+      "notes": "Participates in S/T alternation pattern"
+    },
+    {
+      "letter": "v",
+      "uppercase": "V",
+      "ipa": "v",
+      "type": "fricative",
+      "description": "Voiced labiodental fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "G/V",
+          "alternates_with": ["g"],
+          "notes": "Velar plosive-labiodental fricative alternation"
+        },
+        {
+          "pattern": "B/V",
+          "alternates_with": ["b"],
+          "notes": "Bilabial plosive-labiodental fricative alternation"
+        },
+        {
+          "pattern": "F/V",
+          "alternates_with": ["f"],
+          "notes": "Voiceless-voiced labiodental pair"
+        }
+      ],
+      "notes": "Participates in three distinct alternation patterns"
+    },
+    {
+      "letter": "w",
+      "uppercase": "W",
+      "ipa": "w",
+      "type": "approximant",
+      "description": "Labial-velar approximant",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "B/W",
+          "alternates_with": ["b"],
+          "notes": "Bilabial plosive-approximant alternation"
+        },
+        {
+          "pattern": "W/GH",
+          "alternates_with": ["gh"],
+          "notes": "Labial-velar-velar fricative alternation"
+        }
+      ],
+      "notes": "Participates in two distinct alternation patterns"
+    },
+    {
+      "letter": "y",
+      "uppercase": "Y",
+      "ipa": "j",
+      "type": "approximant",
+      "description": "Palatal approximant",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "N/L/Y",
+          "alternates_with": ["n", "l"],
+          "notes": "Three-way nasal-lateral-palatal alternation"
+        },
+        {
+          "pattern": "Y/H",
+          "alternates_with": ["h"],
+          "notes": "Y alternating with H"
+        },
+        {
+          "pattern": "Y/GH",
+          "alternates_with": ["gh"],
+          "notes": "Palatal-velar fricative alternation"
+        }
+      ],
+      "notes": "Participates in three distinct alternation patterns"
+    },
+    {
+      "letter": "z",
+      "uppercase": "Z",
+      "ipa": "z",
+      "type": "fricative",
+      "description": "Voiced alveolar fricative",
+      "shifting": true,
+      "alternation_sets": [
+        {
+          "pattern": "J/Z",
+          "alternates_with": ["j"],
+          "notes": "Voiced affricate-fricative alternation"
+        }
+      ],
+      "notes": "Participates in J/Z alternation pattern"
+    }
+  ],
+  "notes": [
+    "Igbo consonants include some sounds not found in English, such as gb, kp, and gw",
+    "SYLLABIC NASALS (M̩/N̩): Igbo has syllabic nasals that function as pseudo-vowels",
+    "  - Called 'myiriụdaume' (vowel-like) in Igbo",
+    "  - M̩ and N̩ can serve as the nucleus of a syllable, functioning like vowels",
+    "  - These are DISTINCT from regular consonant M and N",
+    "  - Examples: mmanụ (oil), mmiri (water), nnu (salt), nne (mother)",
+    "  - The first 'm' or 'n' in these words is syllabic, acting as a vowel",
+    "  - This is a characteristic feature of Igbo phonology",
+    "Extensive consonant variation documented through 19 distinct alternation patterns",
+    "CRITICAL: Each alternation pattern represents a DISTINCT phonological phenomenon:",
+    "  - Patterns are identified by their full designation (e.g., 'R/H', 'Y/H', 'F/H/SH')",
+    "  - The same consonant may participate in MULTIPLE distinct patterns",
+    "  - Example: H appears in R/H, Y/H, and F/H/SH - these are THREE DIFFERENT H alternations",
+    "  - These patterns are NOT interchangeable or freely combinable",
+    "STRUCTURE: Each consonant lists its 'alternation_sets' array:",
+    "  - Each set has a 'pattern' name identifying the specific alternation",
+    "  - 'alternates_with' lists the other consonants in that specific pattern",
+    "  - Pattern names come from the Ndebe orthography documentation",
+    "The 19 documented patterns:",
+    "  - G/V, N/L/Y, R/H, L/R, Y/H, F/H/SH, R/SH, J/Z, S/SH",
+    "  - B/V, F/P, B/W, S/T, F/V, Y/GH, R/F, W/GH, NY/Ṅ, NW/Ṅ",
+    "Each pattern must be tracked separately for accurate linguistic analysis",
+    "These variations are documented in the Ndebe orthography system",
+    "The Ndebe script provides distinct symbols for each variant to maintain clarity",
+    "Some consonants like 'gb' and 'kp' are doubly-articulated labial-velar sounds",
+    "The dotted consonants (ṅ) represent specific phonetic values distinct from their undotted counterparts"
+  ]
+}
