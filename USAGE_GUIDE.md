@@ -275,7 +275,14 @@ Note: Suffixes may not always reference syllables directly but should include to
 - Create separate entries for different tones
 - Use Unicode diacritics in the `name` field
 
-### 4. Verify Before Adding
+### 4. Gloss Field Best Practices
+- **Keep it concise**: Use a single primary meaning
+- **Be specific**: Choose the most common English equivalent
+- **Avoid multiple terms**: Use "beautiful" not "beautiful/beauty"
+- **Single word preferred**: "strike" not "strike/hit"
+- **Consistency**: Use the same gloss across related forms
+
+### 5. Verify Before Adding
 - Check for existing entries to avoid duplicates
 - Validate JSON syntax before committing
 - Test that all references resolve correctly

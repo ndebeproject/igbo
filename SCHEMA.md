@@ -92,6 +92,9 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - `syllable_id` links to the specific tonal syllable
 - `vowelGroup` is used for vowel harmony rules in affixation
 - `gloss` provides the basic meaning to distinguish homophones
+  - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
+  - Use the most common English equivalent
+  - If multiple English words are close, choose one (e.g., "strike" not "strike/hit")
 - **IMPORTANT**: Multiple entries can share the same `plain_name` AND the same `syllable_id` (same tone) if they are homophones with different meanings
 - For verb roots with multiple meanings (e.g., "gba" with 15+ meanings), create separate entries: `gba_001`, `gba_002`, ..., `gba_015`, etc.
 
