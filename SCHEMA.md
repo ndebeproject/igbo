@@ -95,15 +95,25 @@ This document defines the JSON schemas used throughout the repository to ensure 
       "ipa": "string (IPA symbol)",
       "type": "string (consonant type)",
       "description": "string (phonetic description)",
-      "shifting": "boolean (optional, indicates sound can shift)",
-      "shifts_to": ["array of strings (optional, sounds it can shift to)"],
-      "context_dependent": "boolean (optional, indicates shifts are phonologically conditioned)",
-      "notes": "string (optional, additional information)"
+      "shifting": "boolean (optional, indicates sound participates in alternation patterns)",
+      "alternation_sets": [
+        {
+          "pattern": "string (pattern name, e.g., 'R/H', 'Y/H', 'F/H/SH')",
+          "alternates_with": ["array of strings (consonants in this specific pattern)"],
+          "notes": "string (optional, context for this specific alternation)"
+        }
+      ],
+      "notes": "string (optional, general information about the consonant)"
     }
   ],
   "notes": ["array of strings (usage notes)"]
 }
 ```
+
+**Key Fields**:
+- `alternation_sets`: Array of distinct alternation patterns this consonant participates in
+- `pattern`: Identifies the specific alternation (e.g., "R/H" vs "Y/H" are DIFFERENT patterns)
+- `alternates_with`: Lists only the consonants in THIS specific pattern
 
 **Consonant Types**:
 - **Plosive**: b, d, g, gb, gw, k, kp, kw, p, t
@@ -114,63 +124,88 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - **Trill**: r
 - **Approximant**: w, y
 
-**Shifting Sounds**:
-Igbo has extensive consonant variation across dialects, with 19 interchange patterns documented from the Ndebe orthography system:
+**Alternation Patterns**:
 
-**IMPORTANT: Context-Dependent vs. Free Variation**
+Igbo has 19 documented alternation patterns from the Ndebe orthography system. Each pattern is a DISTINCT phonological phenomenon that must be tracked separately.
 
-Many consonant shifts are **phonologically conditioned** (context-dependent), meaning they occur in specific linguistic environments and are NOT freely interchangeable for word creation. Consonants marked with `"context_dependent": true` require careful attention:
+**CRITICAL DISTINCTION: Pattern Identity**
 
-**Example - The H Problem:**
-- H in R/H represents one phonological context
-- H in Y/H represents a different phonological context  
-- H in F/H/SH represents yet another phonological context
-- These are NOT the same H and cannot be freely substituted when creating words
+Each alternation pattern is identified by its full designation (e.g., "R/H", "Y/H", "F/H/SH"). These are NOT interchangeable:
 
-The `shifts_to` array documents **observed dialectal variations**, not productive phonological rules that can be freely applied.
+**Example - Multiple H Patterns:**
+```json
+{
+  "letter": "h",
+  "alternation_sets": [
+    {"pattern": "R/H", "alternates_with": ["r"]},
+    {"pattern": "Y/H", "alternates_with": ["y"]},
+    {"pattern": "F/H/SH", "alternates_with": ["f", "sh"]}
+  ]
+}
+```
 
-**Major Interchanges (Common):**
-- **L/R**: The consonants `l` and `r` are interchangeable
-  - Example: `mili` (water) may be pronounced as `miri`
-- **F/P**: The consonants `f` and `p` can be interchangeable
-- **S/T**: The consonants `s` and `t` can be interchangeable
+These represent THREE DIFFERENT alternation phenomena:
+- R/H: H that alternates specifically with R in certain environments
+- Y/H: H that alternates specifically with Y in different environments  
+- F/H/SH: H that participates in complex fricative pattern with F and SH
 
-**Fricative Variations (Context-Dependent):**
-- **F/H/SH**: Complex pattern where `f`, `h`, and `sh` can shift among each other (context-dependent)
-- **R/H**: The consonants `r` and `h` can be interchangeable (context-dependent)
-- **R/SH**: The consonants `r` and `sh` can be interchangeable (context-dependent)
-- **S/SH**: The consonants `s` and `sh` can be interchangeable
-- **Y/H**: The consonants `y` and `h` can be interchangeable (context-dependent)
+⚠️ **These cannot be freely mixed or treated as equivalent**
 
-**Plosive-Fricative Shifts:**
-- **B/V**: The consonants `b` and `v` can be interchangeable
-- **B/W**: The consonants `b` and `w` can be interchangeable
-- **G/V**: The consonants `g` and `v` can be interchangeable
+**Data Structure**:
 
-**Complex Patterns (Context-Dependent):**
-- **N/L/Y**: Three-way interchange among `n`, `l`, and `y` (context-dependent)
-- **F/V**: The consonants `f` and `v` can be interchangeable
-- **R/F**: The consonants `r` and `f` can be interchangeable (context-dependent)
+Each consonant that participates in alternations has an `alternation_sets` array. Each set specifies:
+- `pattern`: The full pattern name (e.g., "N/L/Y", "R/H")
+- `alternates_with`: The specific consonants in that pattern only
+- `notes`: Context for that specific alternation
 
-**Approximant Shifts:**
-- **Y/GH**: The consonants `y` and `gh` can be interchangeable
-- **W/GH**: The consonants `w` and `gh` can be interchangeable
+**The 19 Patterns:**
 
-**Affricate Variation:**
-- **J/Z**: The consonants `j` and `z` can be interchangeable
+**Major Interchanges:**
+- **L/R**: Classic lateral-trill interchange (example: mili/miri "water")
+- **F/P**: Fricative-plosive alternation
+- **S/T**: Alveolar fricative-plosive alternation
+
+**Fricative Patterns:**
+- **F/H/SH**: Complex three-way fricative pattern
+- **R/H**: R alternating with H
+- **R/SH**: R alternating with SH  
+- **S/SH**: Alveolar-postalveolar fricative
+- **Y/H**: Y alternating with H
+
+**Plosive-Fricative Alternations:**
+- **B/V**: Bilabial plosive-labiodental fricative
+- **B/W**: Bilabial plosive-approximant
+- **G/V**: Velar plosive-labiodental fricative
+
+**Complex Multi-Way Patterns:**
+- **N/L/Y**: Three-way nasal-lateral-palatal alternation
+- **F/V**: Voiceless-voiced labiodental pair
+- **R/F**: Trill-fricative alternation
+
+**Approximant Patterns:**
+- **Y/GH**: Palatal-velar fricative alternation
+- **W/GH**: Labial-velar-velar fricative alternation
+
+**Affricate Pattern:**
+- **J/Z**: Voiced affricate-fricative alternation
 
 **Nasal Mergers:**
-- **NY/Ṅ**: Palatal nasal `ny` can merge with velar nasal `ṅ`
-- **NW/Ṅ**: Labialized velar nasal `nw` can merge with velar nasal `ṅ`
+- **NY/Ṅ**: Palatal nasal-velar nasal merger
+- **NW/Ṅ**: Labialized velar nasal-velar nasal merger
 
-These variations are recognized and addressed by the Ndebe orthography system, which provides distinct symbols for each variant to maintain clarity in writing.
+**Usage Notes**:
+- Each pattern must be identified and distinguished from others
+- Pattern names come from Ndebe orthography documentation
+- A consonant may participate in multiple patterns (e.g., H in 3 patterns, F in 4 patterns)
+- Each pattern represents distinct phonological conditioning
+- Patterns are NOT freely interchangeable for word formation
+- Documented variations are observational, not prescriptive rules
 
 **Notes**:
 - Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`
 - Dotted consonants (e.g., `ṅ`) represent specific phonetic values
 - Some consonants are digraphs (two-letter combinations representing single sounds)
-- Context-dependent shifts require understanding of phonological environments
-- Not all documented shifts can be freely applied in word formation
+- The alternation_sets structure enables precise identification of each pattern
 
 ---
 
