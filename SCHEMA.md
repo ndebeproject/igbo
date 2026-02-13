@@ -68,7 +68,8 @@ This document defines the JSON schemas used throughout the repository to ensure 
   "id": "string (unique identifier)",
   "plain_name": "string (the root without tone marking)",
   "syllable_id": "string (reference to syllables.json)",
-  "vowelGroup": "string (vowel harmony group: A|E|I|O|U)"
+  "vowelGroup": "string (vowel harmony group: A|E|I|O|U)",
+  "gloss": "string (basic English meaning/gloss)"
 }
 ```
 
@@ -78,17 +79,21 @@ This document defines the JSON schemas used throughout the repository to ensure 
   "id": "ma_001",
   "plain_name": "ma",
   "syllable_id": "ma_high",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "gloss": "know"
 }
 ```
 
 **ID Convention**: `{root}_{sequential_number}`
-- Example: `ma_001`, `ba_002`, `ku_003`
+- Example: `ma_001`, `ma_002`, `ma_003` (different meanings, same syllable)
+- Example: `ba_001`, `ba_002`, `ba_003`
 
 **Notes**:
 - `syllable_id` links to the specific tonal syllable
 - `vowelGroup` is used for vowel harmony rules in affixation
-- Multiple entries can share the same `plain_name` if they have different tones
+- `gloss` provides the basic meaning to distinguish homophones
+- **IMPORTANT**: Multiple entries can share the same `plain_name` AND the same `syllable_id` (same tone) if they are homophones with different meanings
+- For verb roots with multiple meanings (e.g., "gba" with 15+ meanings), create separate entries: `gba_001`, `gba_002`, ..., `gba_015`, etc.
 
 ---
 

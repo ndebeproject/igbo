@@ -52,7 +52,7 @@ def validate_syllable_schema(item):
 
 def validate_prime_root_schema(item):
     """Validate prime root schema."""
-    required = ['id', 'plain_name', 'syllable_id']
+    required = ['id', 'plain_name', 'syllable_id', 'gloss']
     return all(field in item for field in required)
 
 def validate_prefix_schema(item):
@@ -134,6 +134,14 @@ def main():
                     if not validate_syllable_schema(item):
                         schema_valid = False
                         errors.append(f"{rel_path}: Invalid syllable schema for ID {item.get('id', 'unknown')}")
+        
+        # Validate prime roots
+        if 'prime-roots' in str(json_file):
+            if isinstance(data, dict):
+                if not validate_prime_root_schema(data):
+                    schema_valid = False
+                    missing_fields = [f for f in ['id', 'plain_name', 'syllable_id', 'gloss'] if f not in data]
+                    errors.append(f"{rel_path}: Invalid prime root schema. Missing fields: {missing_fields}")
         
         if schema_valid:
             print(f"{GREEN}✓{RESET} {rel_path}")

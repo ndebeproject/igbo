@@ -177,6 +177,7 @@ Let's trace how the word "knowing" (in simple present tense) is constructed:
 - **Tonal**: Yes (via syllable reference)
 - **References**: Syllables
 - **Files**: One per root in `verbs/prime-roots/`
+- **Homophone Handling**: Multiple roots can share the same syllable_id (same sound + tone) but have different meanings distinguished by the `gloss` field
 
 ### 3. Derived Roots
 - **Role**: Compound verb roots
@@ -264,6 +265,66 @@ Verb Form: "má àmá rọ" (knowing - continuous present)
 - Reflects actual morphological structure
 - Captures compositionality
 - Maintains tonal distinctions
+- **Handles homophones**: Same sound + tone, different meanings via `gloss` field
+
+## Handling Homophones and Homonyms
+
+### The Challenge
+
+Igbo has extensive homophones - words that sound identical (including tone) but have different meanings:
+- `má` (high tone) = "know", "beautiful", "strike", etc.
+- `gbá` (high tone) = 15+ different meanings
+
+### The Solution
+
+The structure handles this through:
+
+1. **Multiple Root Entries**: Create separate files for each meaning
+   ```
+   ma-001.json → ma_001 (syllable: ma_high, gloss: "know")
+   ma-002.json → ma_002 (syllable: ma_high, gloss: "beautiful")
+   ma-003.json → ma_003 (syllable: ma_high, gloss: "strike")
+   ```
+
+2. **Gloss Field**: Distinguishes meanings at the root level
+   ```json
+   {
+     "id": "ma_001",
+     "plain_name": "ma",
+     "syllable_id": "ma_high",  // Same syllable for all three
+     "vowelGroup": "A",
+     "gloss": "know"             // Different meaning
+   }
+   ```
+
+3. **Sequential IDs**: Unlimited scalability
+   - `gba_001`, `gba_002`, ..., `gba_015` (and beyond)
+   - Each ID is unique across the entire repository
+   - File names match IDs for easy lookup
+
+### Homophone Example
+
+```
+Single Syllable: ma_high
+    ↓ can be referenced by multiple roots
+    ├─→ ma_001 (gloss: "know")
+    ├─→ ma_002 (gloss: "beautiful")
+    ├─→ ma_003 (gloss: "strike")
+    └─→ ma_004 (gloss: "wipe/smear")
+
+Each root can then be used in verb forms:
+    ma_001 → verb form "knowing"
+    ma_002 → verb form "being beautiful"
+    ma_003 → verb form "striking"
+```
+
+### Scalability Guarantee
+
+This design scales to any number of homophones:
+- ✅ One syllable (ma_high) → many roots (ma_001 through ma_999+)
+- ✅ No limit on number of meanings per syllable
+- ✅ Clear identification via gloss field
+- ✅ File organization remains simple (one file per root)
 
 ## File Relationships Diagram
 

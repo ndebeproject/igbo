@@ -24,7 +24,17 @@ Igbo is a tonal language with **three tones**: high, mid (unmarked), and low. Th
 
 **Important**: Tone is a distinguishing feature, so each tonal variation counts as a separate word.
 
-### 4. **Affixation System**
+### 4. **Homophones and Homonyms**
+Beyond tonal distinctions, Igbo also has many homophones - words with the **same sound AND the same tone but different meanings**:
+- `má` (high tone) can mean "know", "beautiful", "strike", etc.
+- `gbá` (high tone) can have 15+ different meanings
+
+The repository handles this by:
+- Creating separate entries for each meaning: `ma_001` (know), `ma_002` (beautiful), `ma_003` (strike)
+- Using a `gloss` field in prime roots to distinguish meanings
+- Using sequential numbering: `gba_001`, `gba_002`, ..., `gba_015` for roots with many meanings
+
+### 5. **Affixation System**
 Igbo uses both prefixes and suffixes to modify word meanings:
 
 **Prefixes**: `e`, `o`, `a`, `i`, etc.

@@ -99,17 +99,58 @@ grep -i '"id": "ba_high"' language-data/syllables.json
 }
 ```
 
-3. **Create the prime root file** at `verbs/prime-roots/ba-high.json`:
+3. **Determine the next sequential ID**: Check existing prime roots for "ba" to find the next number
+```bash
+ls language-data/verbs/prime-roots/ba-*.json
+# If ba-001.json exists, use ba_002 for the ID
+```
+
+4. **Create the prime root file** at `verbs/prime-roots/ba-001.json` (or ba-002.json, etc.):
 ```json
 {
   "id": "ba_001",
   "plain_name": "ba",
   "syllable_id": "ba_high",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "gloss": "enter"
 }
 ```
 
-4. **Document its meaning** by creating entries in `verbs/verb-forms/` showing how it's used.
+**Important**: The `gloss` field is required to distinguish homophones (same sound, same tone, different meanings).
+
+5. **Document its usage** by creating entries in `verbs/verb-forms/` showing how it's used in context.
+
+#### 1b. Adding Homophones (Same Sound, Same Tone, Different Meanings)
+
+**Example**: Adding multiple meanings of "ma" with high tone
+
+Igbo verb roots can have multiple meanings with the same phonetic form and tone. For example, "má" (high tone) can mean "know", "beautiful", "strike", etc.
+
+1. **Check existing entries**:
+```bash
+ls language-data/verbs/prime-roots/ma-*.json
+# Shows: ma-001.json, ma-002.json, etc.
+```
+
+2. **Create a new file with the next sequential number**:
+```json
+// verbs/prime-roots/ma-004.json
+{
+  "id": "ma_004",
+  "plain_name": "ma",
+  "syllable_id": "ma_high",
+  "vowelGroup": "A",
+  "gloss": "wipe/smear"
+}
+```
+
+3. **File naming convention for homophones**:
+- `ma-001.json` → ma_001 (know)
+- `ma-002.json` → ma_002 (beautiful)
+- `ma-003.json` → ma_003 (strike)
+- `ma-004.json` → ma_004 (wipe)
+
+**Scalability Note**: This structure easily handles roots like "gba" which may have 15+ different meanings. Simply create `gba-001.json` through `gba-015.json` (or more), each with a distinct `gloss` field.
 
 #### 2. Adding a Prefix
 
@@ -241,8 +282,9 @@ Note: Suffixes may not always reference syllables directly but should include to
 
 ### 5. File Naming
 - Use descriptive names for verb form files
-- Use the root name for prime root files
+- **Prime root files**: Use `{root}-{number}.json` format (e.g., `ma-001.json`, `ma-002.json`, `gba-001.json` through `gba-015.json`)
 - Use the morpheme itself for prefix/suffix files
+- This allows multiple homophones with the same root name
 
 ### 6. Documentation
 - Include the `meaning` object for verb forms
@@ -270,12 +312,13 @@ Step 1 - Add syllable:
 
 Step 2 - Add prime root:
 ```json
-// In verbs/prime-roots/zụ-high.json
+// In verbs/prime-roots/zụ-001.json
 {
   "id": "zụ_001",
   "plain_name": "zụ",
   "syllable_id": "zụ_high",
-  "vowelGroup": "U"
+  "vowelGroup": "U",
+  "gloss": "buy"
 }
 ```
 
@@ -297,18 +340,58 @@ Step 3 - Add verb form:
 }
 ```
 
-### Example 2: Distinguishing Homophonous Morphemes
+### Example 2: Handling Homophones (Same Sound + Tone, Different Meanings)
+
+**Multiple "ma" roots with high tone but different meanings**
+
+```json
+// In verbs/prime-roots/ma-001.json
+{
+  "id": "ma_001",
+  "plain_name": "ma",
+  "syllable_id": "ma_high",
+  "vowelGroup": "A",
+  "gloss": "know"
+}
+
+// In verbs/prime-roots/ma-002.json
+{
+  "id": "ma_002",
+  "plain_name": "ma",
+  "syllable_id": "ma_high",
+  "vowelGroup": "A",
+  "gloss": "beautiful"
+}
+
+// In verbs/prime-roots/ma-003.json
+{
+  "id": "ma_003",
+  "plain_name": "ma",
+  "syllable_id": "ma_high",
+  "vowelGroup": "A",
+  "gloss": "strike"
+}
+```
+
+**Key Points**:
+- All three share the same `syllable_id` (ma_high) - same pronunciation and tone
+- Each has a unique `id` (ma_001, ma_002, ma_003)
+- The `gloss` field distinguishes the meanings
+- File names include the ID number (ma-001.json, ma-002.json, ma-003.json)
+
+### Example 3: Distinguishing Homophonous Morphemes (Root vs. Suffix)
 
 **"ba" as verb root vs. "ba" as suffix**
 
 Verb root:
 ```json
-// In verbs/prime-roots/ba-high.json
+// In verbs/prime-roots/ba-001.json
 {
   "id": "ba_001",
   "plain_name": "ba",
   "syllable_id": "ba_high",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "gloss": "enter"
 }
 ```
 
@@ -322,7 +405,7 @@ Suffix:
 }
 ```
 
-### Example 3: Compound Verb Root
+### Example 4: Compound Verb Root
 
 **"kuwa" from "ku" + "wa"**
 

@@ -45,6 +45,7 @@ python3 -m json.tool your-file.json
 | Feature | Description |
 |---------|-------------|
 | **Tones** | 3 tones: high (á), mid (a), low (à) |
+| **Homophones** | Same sound + tone can have multiple meanings |
 | **Verb Roots** | Mostly monosyllabic (ma, ba, ku, etc.) |
 | **Word Type** | Heavily verbal language |
 | **Prefixes** | e, o, a, i (nominalization) |
@@ -76,9 +77,15 @@ python3 -m json.tool your-file.json
   "id": "ma_001",
   "plain_name": "ma",
   "syllable_id": "ma_high",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "gloss": "know"
 }
 ```
+
+**Note**: For homophones (same sound + tone, different meanings), create multiple files:
+- `ma-001.json` → ma_001 (gloss: "know")
+- `ma-002.json` → ma_002 (gloss: "beautiful")
+- `ma-003.json` → ma_003 (gloss: "strike")
 
 ### Prefix
 ```json
