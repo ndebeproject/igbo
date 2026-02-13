@@ -97,6 +97,97 @@ def validate_suffix_schema(item):
     required = ['id', 'name']
     return all(field in item for field in required)
 
+def validate_phoneme_counts(repo_root):
+    """
+    Validate and report phoneme counts in the repository.
+    
+    Based on standard Igbo phonology with dialectal variations:
+    - Base consonant forms: 30 (28 regular + 2 syllabic nasals)
+    - Major dialectal variant forms: 12 (from alternation patterns)
+    - Total consonants (including dialectal variants): 42
+    - Oral vowels: 9 (5 in A-group, 4 in E-group)
+    - Pseudo-vowel consonants: 2 syllabic nasals (m̩, n̩) but counted as 1 category
+    
+    Returns:
+        tuple: (success, counts_dict, errors) where:
+            - success (bool): True if all files were read successfully
+            - counts_dict (dict): Dictionary containing phoneme counts with keys:
+                'regular_consonants', 'syllabic_nasals', 'base_consonants',
+                'dialectal_variants', 'total_with_dialects',
+                'a_vowels', 'e_vowels', 'total_vowels'
+            - errors (list): List of error messages (empty if successful)
+    """
+    errors = []
+    counts = {
+        'regular_consonants': 0,
+        'syllabic_nasals': 0,
+        'base_consonants': 0,
+        'dialectal_variants': 0,
+        'total_with_dialects': 0,
+        'a_vowels': 0,
+        'e_vowels': 0,
+        'total_vowels': 0
+    }
+    
+    # Major dialectal alternation patterns that represent additional consonant forms
+    major_dialect_patterns = [
+        'L/R', 'B/V', 'G/V', 'F/H/SH', 'S/SH', 'Y/H',
+        'N/L/Y', 'J/Z', 'S/T', 'F/P', 'B/W', 'W/GH'
+    ]
+    
+    # Load and count consonants
+    consonants_file = repo_root / 'language-data' / 'consonants.json'
+    if consonants_file.exists():
+        try:
+            with open(consonants_file, 'r', encoding='utf-8') as f:
+                consonants_data = json.load(f)
+            
+            if 'consonants' in consonants_data:
+                for c in consonants_data['consonants']:
+                    if c.get('syllabic', False):
+                        counts['syllabic_nasals'] += 1
+                    else:
+                        counts['regular_consonants'] += 1
+                
+                counts['base_consonants'] = len(consonants_data['consonants'])
+                
+                # Count major dialectal variant patterns
+                patterns_found = set()
+                for c in consonants_data['consonants']:
+                    for alt_set in c.get('alternation_sets', []):
+                        pattern = alt_set.get('pattern', '')
+                        if pattern in major_dialect_patterns:
+                            patterns_found.add(pattern)
+                
+                counts['dialectal_variants'] = len(patterns_found)
+                counts['total_with_dialects'] = counts['base_consonants'] + counts['dialectal_variants']
+        except Exception as e:
+            errors.append(f"Error reading consonants.json: {e}")
+    else:
+        errors.append("consonants.json not found")
+    
+    # Load and count vowels
+    vowels_file = repo_root / 'language-data' / 'vowels.json'
+    if vowels_file.exists():
+        try:
+            with open(vowels_file, 'r', encoding='utf-8') as f:
+                vowels_data = json.load(f)
+            
+            if 'vowelGroups' in vowels_data:
+                if 'A' in vowels_data['vowelGroups']:
+                    counts['a_vowels'] = len(vowels_data['vowelGroups']['A'].get('vowels', []))
+                if 'E' in vowels_data['vowelGroups']:
+                    counts['e_vowels'] = len(vowels_data['vowelGroups']['E'].get('vowels', []))
+                
+                counts['total_vowels'] = counts['a_vowels'] + counts['e_vowels']
+        except Exception as e:
+            errors.append(f"Error reading vowels.json: {e}")
+    else:
+        errors.append("vowels.json not found")
+    
+    success = len(errors) == 0
+    return success, counts, errors
+
 def main():
     """Main validation function."""
     repo_root = Path(__file__).parent
@@ -200,6 +291,73 @@ def main():
         if schema_valid:
             print(f"{GREEN}✓{RESET} {rel_path}")
             success_count += 1
+    
+    # Phoneme count validation
+    print()
+    print("=" * 60)
+    print("Phoneme Count Validation")
+    print("=" * 60)
+    
+    count_success, counts, count_errors = validate_phoneme_counts(repo_root)
+    
+    if count_success:
+        print(f"\n{GREEN}Consonants:{RESET}")
+        print(f"  Base consonant forms: {counts['base_consonants']}")
+        print(f"    - Regular: {counts['regular_consonants']}")
+        print(f"    - Syllabic nasals (pseudo-vowels): {counts['syllabic_nasals']}")
+        print(f"  Major dialectal variant forms: {counts['dialectal_variants']}")
+        print(f"  Total (including dialectal variants): {counts['total_with_dialects']}")
+        
+        print(f"\n{GREEN}Vowels:{RESET}")
+        print(f"  A-group vowels: {counts['a_vowels']}")
+        print(f"  E-group vowels: {counts['e_vowels']}")
+        print(f"  Total vowels: {counts['total_vowels']}")
+        
+        # Verification against standard Igbo phonology with dialectal variations
+        print(f"\n{GREEN}Verification:{RESET}")
+        
+        # Check base consonants
+        expected_base = 30
+        expected_dialectal = 12
+        expected_total_with_dialects = 42
+        expected_syllabic = 2  # But counted as 1 pseudovowel category
+        
+        if counts['base_consonants'] == expected_base:
+            print(f"  {GREEN}✓{RESET} Base consonant forms: {counts['base_consonants']} (expected: {expected_base})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Base consonant forms: {counts['base_consonants']} (expected: {expected_base})")
+            warnings.append(f"Base consonant count is {counts['base_consonants']}, expected {expected_base}")
+        
+        if counts['dialectal_variants'] == expected_dialectal:
+            print(f"  {GREEN}✓{RESET} Major dialectal variants: {counts['dialectal_variants']} (expected: {expected_dialectal})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Major dialectal variants: {counts['dialectal_variants']} (expected: {expected_dialectal})")
+            warnings.append(f"Dialectal variant count is {counts['dialectal_variants']}, expected {expected_dialectal}")
+        
+        if counts['total_with_dialects'] == expected_total_with_dialects:
+            print(f"  {GREEN}✓{RESET} Total consonants (with dialectal variants): {counts['total_with_dialects']} (expected: {expected_total_with_dialects})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Total consonants (with dialectal variants): {counts['total_with_dialects']} (expected: {expected_total_with_dialects})")
+            warnings.append(f"Total consonant count with dialects is {counts['total_with_dialects']}, expected {expected_total_with_dialects}")
+        
+        if counts['syllabic_nasals'] == expected_syllabic:
+            print(f"  {GREEN}✓{RESET} Pseudo-vowel consonants (syllabic nasals): {counts['syllabic_nasals']} (counted as 1 category)")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Pseudo-vowel consonants: {counts['syllabic_nasals']} (expected: {expected_syllabic})")
+            warnings.append(f"Syllabic nasal count is {counts['syllabic_nasals']}, expected {expected_syllabic}")
+        
+        # Check vowels
+        expected_vowels = 9
+        
+        if counts['total_vowels'] == expected_vowels:
+            print(f"  {GREEN}✓{RESET} Total vowels: {counts['total_vowels']} (expected: {expected_vowels})")
+        else:
+            print(f"  {YELLOW}⚠{RESET} Total vowels: {counts['total_vowels']} (expected: {expected_vowels})")
+            warnings.append(f"Total vowel count is {counts['total_vowels']}, expected {expected_vowels}")
+    else:
+        for error in count_errors:
+            errors.append(f"Phoneme count validation: {error}")
+            print(f"{RED}✗{RESET} {error}")
     
     # Summary
     print()

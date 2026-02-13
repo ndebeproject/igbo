@@ -100,7 +100,12 @@ This document defines the JSON schemas used throughout the repository to ensure 
         {
           "pattern": "string (pattern name, e.g., 'R/H', 'Y/H', 'F/H/SH')",
           "alternates_with": ["array of strings (consonants in this specific pattern)"],
-          "notes": "string (optional, context for this specific alternation)"
+          "notes": "string (optional, context for this specific alternation)",
+          "preferred_in_dialects": ["array of strings (optional, dialects that prefer this variant)"],
+          "dialect_distribution": {
+            "variant1": ["array of strings (dialects)"],
+            "variant2": ["array of strings (dialects)"]
+          }
         }
       ],
       "syllabic": "boolean (optional, indicates syllabic consonant that can function as vowel)",
@@ -117,8 +122,34 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - `alternation_sets`: Array of distinct alternation patterns this consonant participates in
 - `pattern`: Identifies the specific alternation (e.g., "R/H" vs "Y/H" are DIFFERENT patterns)
 - `alternates_with`: Lists only the consonants in THIS specific pattern
+- `preferred_in_dialects`: *(New)* Lists Igbo dialects that prefer this consonant variant
+- `dialect_distribution`: *(New)* Maps each variant in the pattern to dialects that prefer it
 - `syllabic`: Indicates if consonant can function as syllable nucleus (like syllabic nasals)
 - `functions_as`: For syllabic sounds, lists their dual functions
+
+**Dialect Preference Example**:
+```json
+{
+  "letter": "l",
+  "alternation_sets": [
+    {
+      "pattern": "L/R",
+      "alternates_with": ["r"],
+      "notes": "Classic lateral-trill interchange",
+      "preferred_in_dialects": ["Onitsha", "Central Igbo"],
+      "dialect_distribution": {
+        "l": ["Onitsha", "Central Igbo"],
+        "r": ["Owerri", "Umuleri", "Bonny"]
+      }
+    }
+  ]
+}
+```
+
+This structure enables:
+- Dialect-specific text generation (e.g., use 'l' for Onitsha, 'r' for Owerri)
+- Dialect conversion tools
+- Regional variation documentation
 
 **Consonant Types**:
 - **Plosive**: b, d, g, gb, gw, k, kp, kw, p, t
