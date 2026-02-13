@@ -3,18 +3,125 @@
 This document defines the JSON schemas used throughout the repository to ensure consistency and facilitate data validation.
 
 ## Table of Contents
-1. [Syllables](#syllables)
-2. [Verb Components](#verb-components)
+1. [Phonemes](#phonemes)
+   - [Vowels](#vowels)
+   - [Consonants](#consonants)
+2. [Syllables](#syllables)
+3. [Verb Components](#verb-components)
    - [Prime Roots](#prime-roots)
    - [Derived Roots](#derived-roots)
    - [Auxiliaries](#auxiliaries)
    - [Prefixes](#prefixes)
    - [Suffixes](#suffixes)
    - [Particles](#particles)
-3. [Verb Forms](#verb-forms)
-4. [Tenses](#tenses)
-5. [Nouns](#nouns)
-6. [Naming Conventions](#naming-conventions)
+4. [Verb Forms](#verb-forms)
+5. [Tenses](#tenses)
+6. [Nouns](#nouns)
+7. [Naming Conventions](#naming-conventions)
+
+---
+
+## Phonemes
+
+### Vowels
+
+**File Location**: `language-data/vowels.json`
+
+**Purpose**: Defines the vowel inventory of Igbo, categorized into two harmony groups (A group and E group). This categorization is fundamental for understanding vowel harmony in verb conjugation and word formation.
+
+**Schema**:
+```json
+{
+  "vowelGroups": {
+    "A": {
+      "name": "string (group name)",
+      "description": "string (phonetic description)",
+      "vowels": [
+        {
+          "letter": "string (lowercase form)",
+          "uppercase": "string (uppercase form)",
+          "ipa": "string (IPA symbol)",
+          "description": "string (phonetic description)"
+        }
+      ]
+    },
+    "E": {
+      "name": "string (group name)",
+      "description": "string (phonetic description)",
+      "vowels": [...]
+    }
+  },
+  "notes": ["array of strings (usage notes)"]
+}
+```
+
+**Vowel Groups**:
+
+**A Group** (short and sharp sounds):
+- `a` / `A` - Open front unrounded vowel
+- `ẹ` / `Ẹ` - Open-mid front unrounded vowel
+- `ị` / `Ị` - Near-close front unrounded vowel
+- `ọ` / `Ọ` - Open-mid back rounded vowel
+- `ụ` / `Ụ` - Near-close back rounded vowel
+
+**E Group** (long and deep or round sounds):
+- `e` / `E` - Close-mid front unrounded vowel
+- `i` / `I` - Close front unrounded vowel
+- `o` / `O` - Close-mid back rounded vowel
+- `u` / `U` - Close back rounded vowel
+
+**Notes**:
+- Vowel harmony: verb roots and affixes must agree in vowel group
+- The vowel group of a verb root is determined by the **first vowel** in the root
+- A group vowels are characterized by short, sharp articulation
+- E group vowels are characterized by long, deep, or round articulation
+- This distinction is crucial for proper suffix and prefix selection
+
+---
+
+### Consonants
+
+**File Location**: `language-data/consonants.json`
+
+**Purpose**: Defines the consonant inventory of Igbo, including special notes about sounds that can shift or vary in pronunciation.
+
+**Schema**:
+```json
+{
+  "consonants": [
+    {
+      "letter": "string (lowercase form)",
+      "uppercase": "string (uppercase form)",
+      "ipa": "string (IPA symbol)",
+      "type": "string (consonant type)",
+      "description": "string (phonetic description)",
+      "shifting": "boolean (optional, indicates sound can shift)",
+      "shifts_to": ["array of strings (optional, sounds it can shift to)"],
+      "notes": "string (optional, additional information)"
+    }
+  ],
+  "notes": ["array of strings (usage notes)"]
+}
+```
+
+**Consonant Types**:
+- **Plosive**: b, d, g, gb, gw, k, kp, kw, p, t
+- **Fricative**: f, gh, h, s, sh, v, z
+- **Affricate**: ch, j
+- **Nasal**: m, n, ṅ, nw, ny
+- **Lateral**: l
+- **Trill**: r
+- **Approximant**: w, y
+
+**Shifting Sounds**:
+- **L/R interchange**: The consonant `l` can be pronounced as `r` in some contexts, similar to Japanese L/R distinction
+  - Example: `mili` (water) may be pronounced as `miri`
+- Both regular `l` and `r` exist, but there's also an `l` that functions as `r`
+
+**Notes**:
+- Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`
+- Dotted consonants (e.g., `ṅ`) represent specific phonetic values
+- Some consonants are digraphs (two-letter combinations representing single sounds)
 
 ---
 
@@ -68,7 +175,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
   "id": "string (unique identifier)",
   "plain_name": "string (the root without tone marking)",
   "syllable_id": "string (reference to syllables.json)",
-  "vowelGroup": "string (vowel harmony group: A|E|I|O|U)",
+  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)",
   "gloss": "string (basic English meaning/gloss)"
 }
 ```
@@ -90,7 +197,10 @@ This document defines the JSON schemas used throughout the repository to ensure 
 
 **Notes**:
 - `syllable_id` links to the specific tonal syllable
-- `vowelGroup` is used for vowel harmony rules in affixation
+- `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:
+  - **A group**: if first vowel is a, ẹ, ị, ọ, or ụ (short/sharp sounds)
+  - **E group**: if first vowel is e, i, o, or u (long/deep sounds)
+  - This grouping is used for vowel harmony rules in affixation
 - `gloss` provides the basic meaning to distinguish homophones
   - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
   - Use the most common English equivalent

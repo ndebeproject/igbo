@@ -1,0 +1,213 @@
+{
+  "consonants": [
+    {
+      "letter": "b",
+      "uppercase": "B",
+      "ipa": "b",
+      "type": "plosive",
+      "description": "Voiced bilabial plosive"
+    },
+    {
+      "letter": "ch",
+      "uppercase": "CH",
+      "ipa": "tʃ",
+      "type": "affricate",
+      "description": "Voiceless postalveolar affricate"
+    },
+    {
+      "letter": "d",
+      "uppercase": "D",
+      "ipa": "d",
+      "type": "plosive",
+      "description": "Voiced alveolar plosive"
+    },
+    {
+      "letter": "f",
+      "uppercase": "F",
+      "ipa": "f",
+      "type": "fricative",
+      "description": "Voiceless labiodental fricative"
+    },
+    {
+      "letter": "g",
+      "uppercase": "G",
+      "ipa": "ɡ",
+      "type": "plosive",
+      "description": "Voiced velar plosive"
+    },
+    {
+      "letter": "gb",
+      "uppercase": "GB",
+      "ipa": "ɡ͡b",
+      "type": "plosive",
+      "description": "Voiced labial-velar plosive"
+    },
+    {
+      "letter": "gh",
+      "uppercase": "GH",
+      "ipa": "ɣ",
+      "type": "fricative",
+      "description": "Voiced velar fricative"
+    },
+    {
+      "letter": "gw",
+      "uppercase": "GW",
+      "ipa": "ɡʷ",
+      "type": "plosive",
+      "description": "Labialized voiced velar plosive"
+    },
+    {
+      "letter": "h",
+      "uppercase": "H",
+      "ipa": "h",
+      "type": "fricative",
+      "description": "Voiceless glottal fricative"
+    },
+    {
+      "letter": "j",
+      "uppercase": "J",
+      "ipa": "dʒ",
+      "type": "affricate",
+      "description": "Voiced postalveolar affricate"
+    },
+    {
+      "letter": "k",
+      "uppercase": "K",
+      "ipa": "k",
+      "type": "plosive",
+      "description": "Voiceless velar plosive"
+    },
+    {
+      "letter": "kp",
+      "uppercase": "KP",
+      "ipa": "k͡p",
+      "type": "plosive",
+      "description": "Voiceless labial-velar plosive"
+    },
+    {
+      "letter": "kw",
+      "uppercase": "KW",
+      "ipa": "kʷ",
+      "type": "plosive",
+      "description": "Labialized voiceless velar plosive"
+    },
+    {
+      "letter": "l",
+      "uppercase": "L",
+      "ipa": "l",
+      "type": "lateral",
+      "description": "Alveolar lateral approximant",
+      "shifting": true,
+      "shifts_to": ["r"],
+      "notes": "Can be pronounced as 'r' in some contexts, similar to Japanese L/R interchange"
+    },
+    {
+      "letter": "m",
+      "uppercase": "M",
+      "ipa": "m",
+      "type": "nasal",
+      "description": "Bilabial nasal"
+    },
+    {
+      "letter": "n",
+      "uppercase": "N",
+      "ipa": "n",
+      "type": "nasal",
+      "description": "Alveolar nasal"
+    },
+    {
+      "letter": "ṅ",
+      "uppercase": "Ṅ",
+      "ipa": "ŋ",
+      "type": "nasal",
+      "description": "Velar nasal"
+    },
+    {
+      "letter": "nw",
+      "uppercase": "NW",
+      "ipa": "ŋʷ",
+      "type": "nasal",
+      "description": "Labialized velar nasal"
+    },
+    {
+      "letter": "ny",
+      "uppercase": "NY",
+      "ipa": "ɲ",
+      "type": "nasal",
+      "description": "Palatal nasal"
+    },
+    {
+      "letter": "p",
+      "uppercase": "P",
+      "ipa": "p",
+      "type": "plosive",
+      "description": "Voiceless bilabial plosive"
+    },
+    {
+      "letter": "r",
+      "uppercase": "R",
+      "ipa": "r",
+      "type": "trill",
+      "description": "Alveolar trill or tap",
+      "shifting": true,
+      "shifts_to": ["l"],
+      "notes": "Can be pronounced as 'l' in some contexts"
+    },
+    {
+      "letter": "s",
+      "uppercase": "S",
+      "ipa": "s",
+      "type": "fricative",
+      "description": "Voiceless alveolar fricative"
+    },
+    {
+      "letter": "sh",
+      "uppercase": "SH",
+      "ipa": "ʃ",
+      "type": "fricative",
+      "description": "Voiceless postalveolar fricative"
+    },
+    {
+      "letter": "t",
+      "uppercase": "T",
+      "ipa": "t",
+      "type": "plosive",
+      "description": "Voiceless alveolar plosive"
+    },
+    {
+      "letter": "v",
+      "uppercase": "V",
+      "ipa": "v",
+      "type": "fricative",
+      "description": "Voiced labiodental fricative"
+    },
+    {
+      "letter": "w",
+      "uppercase": "W",
+      "ipa": "w",
+      "type": "approximant",
+      "description": "Labial-velar approximant"
+    },
+    {
+      "letter": "y",
+      "uppercase": "Y",
+      "ipa": "j",
+      "type": "approximant",
+      "description": "Palatal approximant"
+    },
+    {
+      "letter": "z",
+      "uppercase": "Z",
+      "ipa": "z",
+      "type": "fricative",
+      "description": "Voiced alveolar fricative"
+    }
+  ],
+  "notes": [
+    "Igbo consonants include some sounds not found in English, such as gb, kp, and gw",
+    "The L/R distinction can be difficult for Igbo speakers, as 'l' can sound like 'r' depending on context",
+    "Example: 'mili' (water) can be pronounced 'miri' by some speakers",
+    "Some consonants like 'gb' and 'kp' are doubly-articulated labial-velar sounds",
+    "The dotted consonants (ṅ) represent specific phonetic values distinct from their undotted counterparts"
+  ]
+}

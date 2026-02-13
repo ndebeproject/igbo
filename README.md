@@ -34,7 +34,31 @@ The repository handles this by:
 - Using a `gloss` field in prime roots to distinguish meanings
 - Using sequential numbering: `gba_001`, `gba_002`, ..., `gba_015` for roots with many meanings
 
-### 5. **Affixation System**
+### 5. **Vowel Harmony**
+Igbo has a vowel harmony system where vowels are divided into two groups:
+
+**A Group** (short and sharp sounds): `a`, `ẹ`, `ị`, `ọ`, `ụ`
+**E Group** (long and deep or round sounds): `e`, `i`, `o`, `u`
+
+The vowel group of a verb root is determined by the **first vowel** in the root. For example:
+- `ma` (to know) belongs to the A group
+- `me` (to do/make) would belong to the E group
+
+This harmony affects:
+- Suffix and prefix selection in verb conjugation
+- Word formation and derivation
+- Proper combination of morphemes
+
+### 6. **Phoneme Categorization**
+The repository categorizes Igbo's phonetic inventory:
+
+**Vowels**: Documented in `vowels.json` with A/E group classification
+**Consonants**: Documented in `consonants.json`, including notes on:
+- Shifting sounds (e.g., L/R interchange as in `mili`/`miri` for "water")
+- Special Igbo consonants like `gb`, `kp`, `gw` (doubly-articulated sounds)
+- Digraphs and special characters
+
+### 7. **Affixation System**
 Igbo uses both prefixes and suffixes to modify word meanings:
 
 **Prefixes**: `e`, `o`, `a`, `i`, etc.
@@ -50,6 +74,8 @@ Igbo uses both prefixes and suffixes to modify word meanings:
 ```
 igbo/
 ├── language-data/           # Core linguistic data
+│   ├── vowels.json          # Vowel inventory with A/E group categorization
+│   ├── consonants.json      # Consonant inventory with shifting sound notes
 │   ├── syllables.json       # Phonetic inventory with tonal variations
 │   ├── verbs/               # Verbal system (primary word class)
 │   │   ├── prime-roots/     # Monosyllabic verb roots

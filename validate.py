@@ -50,6 +50,33 @@ def validate_syllable_schema(item):
     required = ['id', 'tone', 'phonemes']
     return all(field in item for field in required)
 
+def validate_vowels_schema(data):
+    """Validate vowels schema."""
+    if 'vowelGroups' not in data:
+        return False
+    groups = data['vowelGroups']
+    if 'A' not in groups or 'E' not in groups:
+        return False
+    for group_name in ['A', 'E']:
+        group = groups[group_name]
+        if 'vowels' not in group or not isinstance(group['vowels'], list):
+            return False
+        for vowel in group['vowels']:
+            required = ['letter', 'uppercase', 'ipa', 'description']
+            if not all(field in vowel for field in required):
+                return False
+    return True
+
+def validate_consonants_schema(data):
+    """Validate consonants schema."""
+    if 'consonants' not in data or not isinstance(data['consonants'], list):
+        return False
+    for consonant in data['consonants']:
+        required = ['letter', 'uppercase', 'ipa', 'type', 'description']
+        if not all(field in consonant for field in required):
+            return False
+    return True
+
 def validate_prime_root_schema(item):
     """Validate prime root schema."""
     required = ['id', 'plain_name', 'syllable_id', 'gloss']
@@ -133,6 +160,20 @@ def main():
         
         # 5. Schema validation (basic)
         schema_valid = True
+        
+        # Validate vowels
+        if 'vowels.json' in str(json_file):
+            if not validate_vowels_schema(data):
+                schema_valid = False
+                errors.append(f"{rel_path}: Invalid vowels schema")
+        
+        # Validate consonants
+        if 'consonants.json' in str(json_file):
+            if not validate_consonants_schema(data):
+                schema_valid = False
+                errors.append(f"{rel_path}: Invalid consonants schema")
+        
+        # Validate syllables
         if 'syllables.json' in str(json_file):
             if isinstance(data, list):
                 for item in data:

@@ -1,0 +1,77 @@
+{
+  "vowelGroups": {
+    "A": {
+      "name": "A group",
+      "description": "Short and sharp vowel sounds",
+      "vowels": [
+        {
+          "letter": "a",
+          "uppercase": "A",
+          "ipa": "a",
+          "description": "Open front unrounded vowel"
+        },
+        {
+          "letter": "ẹ",
+          "uppercase": "Ẹ",
+          "ipa": "ɛ",
+          "description": "Open-mid front unrounded vowel"
+        },
+        {
+          "letter": "ị",
+          "uppercase": "Ị",
+          "ipa": "ɪ",
+          "description": "Near-close front unrounded vowel"
+        },
+        {
+          "letter": "ọ",
+          "uppercase": "Ọ",
+          "ipa": "ɔ",
+          "description": "Open-mid back rounded vowel"
+        },
+        {
+          "letter": "ụ",
+          "uppercase": "Ụ",
+          "ipa": "ʊ",
+          "description": "Near-close back rounded vowel"
+        }
+      ]
+    },
+    "E": {
+      "name": "E group",
+      "description": "Long and deep or round vowel sounds",
+      "vowels": [
+        {
+          "letter": "e",
+          "uppercase": "E",
+          "ipa": "e",
+          "description": "Close-mid front unrounded vowel"
+        },
+        {
+          "letter": "i",
+          "uppercase": "I",
+          "ipa": "i",
+          "description": "Close front unrounded vowel"
+        },
+        {
+          "letter": "o",
+          "uppercase": "O",
+          "ipa": "o",
+          "description": "Close-mid back rounded vowel"
+        },
+        {
+          "letter": "u",
+          "uppercase": "U",
+          "ipa": "u",
+          "description": "Close back rounded vowel"
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Igbo has a vowel harmony system where verb roots and affixes must agree in vowel group",
+    "A group vowels (a, ẹ, ị, ọ, ụ) are characterized by short, sharp articulation",
+    "E group vowels (e, i, o, u) are characterized by long, deep, or round articulation",
+    "The vowel group of a verb root is determined by the first vowel in the root",
+    "Vowel harmony affects suffix and prefix selection in verb conjugation"
+  ]
+}
