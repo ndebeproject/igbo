@@ -114,12 +114,43 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - **Approximant**: w, y
 
 **Shifting Sounds**:
-Igbo has several consonants with variable pronunciations across dialects:
-- **L/R interchange**: The consonant `l` can be pronounced as `r` in some contexts, and vice versa
+Igbo has extensive consonant variation across dialects, with 19 interchange patterns documented from the Ndebe orthography system:
+
+**Major Interchanges (Common):**
+- **L/R**: The consonants `l` and `r` are interchangeable
   - Example: `mili` (water) may be pronounced as `miri`
-- **F/P interchange**: The consonants `f` and `p` can be interchangeable in some dialects
-- **S/T interchange**: The consonants `s` and `t` can be interchangeable in some dialects
-- These variations are recognized in the Ndebe orthography system, which provides distinct symbols for each variant
+- **F/P**: The consonants `f` and `p` can be interchangeable
+- **S/T**: The consonants `s` and `t` can be interchangeable
+
+**Fricative Variations:**
+- **F/H/SH**: Complex pattern where `f`, `h`, and `sh` can shift among each other
+- **R/H**: The consonants `r` and `h` can be interchangeable
+- **R/SH**: The consonants `r` and `sh` can be interchangeable
+- **S/SH**: The consonants `s` and `sh` can be interchangeable
+- **Y/H**: The consonants `y` and `h` can be interchangeable
+
+**Plosive-Fricative Shifts:**
+- **B/V**: The consonants `b` and `v` can be interchangeable
+- **B/W**: The consonants `b` and `w` can be interchangeable
+- **G/V**: The consonants `g` and `v` can be interchangeable
+
+**Complex Patterns:**
+- **N/L/Y**: Three-way interchange among `n`, `l`, and `y`
+- **F/V**: The consonants `f` and `v` can be interchangeable
+- **R/F**: The consonants `r` and `f` can be interchangeable
+
+**Approximant Shifts:**
+- **Y/GH**: The consonants `y` and `gh` can be interchangeable
+- **W/GH**: The consonants `w` and `gh` can be interchangeable
+
+**Affricate Variation:**
+- **J/Z**: The consonants `j` and `z` can be interchangeable
+
+**Nasal Mergers:**
+- **NY/Ṇ**: Palatal nasal `ny` can merge with velar nasal `ṅ`
+- **NW/Ṇ**: Labialized velar nasal `nw` can merge with velar nasal `ṅ`
+
+These variations are recognized and addressed by the Ndebe orthography system, which provides distinct symbols for each variant to maintain clarity in writing.
 
 **Notes**:
 - Igbo includes doubly-articulated sounds like `gb` (labial-velar) and `kp`

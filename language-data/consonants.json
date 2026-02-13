@@ -5,7 +5,10 @@
       "uppercase": "B",
       "ipa": "b",
       "type": "plosive",
-      "description": "Voiced bilabial plosive"
+      "description": "Voiced bilabial plosive",
+      "shifting": true,
+      "shifts_to": ["v", "w"],
+      "notes": "Can be pronounced as 'v' or 'w' in some dialects"
     },
     {
       "letter": "ch",
@@ -28,15 +31,18 @@
       "type": "fricative",
       "description": "Voiceless labiodental fricative",
       "shifting": true,
-      "shifts_to": ["p"],
-      "notes": "Can be pronounced as 'p' in some dialects"
+      "shifts_to": ["p", "h", "sh", "r", "v"],
+      "notes": "Can be pronounced as 'p', 'h', 'sh', 'r', or 'v' in some dialects"
     },
     {
       "letter": "g",
       "uppercase": "G",
       "ipa": "ɡ",
       "type": "plosive",
-      "description": "Voiced velar plosive"
+      "description": "Voiced velar plosive",
+      "shifting": true,
+      "shifts_to": ["v"],
+      "notes": "Can be pronounced as 'v' in some dialects"
     },
     {
       "letter": "gb",
@@ -50,7 +56,10 @@
       "uppercase": "GH",
       "ipa": "ɣ",
       "type": "fricative",
-      "description": "Voiced velar fricative"
+      "description": "Voiced velar fricative",
+      "shifting": true,
+      "shifts_to": ["y", "w"],
+      "notes": "Can be pronounced as 'y' or 'w' in some dialects"
     },
     {
       "letter": "gw",
@@ -64,14 +73,20 @@
       "uppercase": "H",
       "ipa": "h",
       "type": "fricative",
-      "description": "Voiceless glottal fricative"
+      "description": "Voiceless glottal fricative",
+      "shifting": true,
+      "shifts_to": ["f", "sh", "r", "y"],
+      "notes": "Can be pronounced as 'f', 'sh', 'r', or 'y' in some dialects"
     },
     {
       "letter": "j",
       "uppercase": "J",
       "ipa": "dʒ",
       "type": "affricate",
-      "description": "Voiced postalveolar affricate"
+      "description": "Voiced postalveolar affricate",
+      "shifting": true,
+      "shifts_to": ["z"],
+      "notes": "Can be pronounced as 'z' in some dialects"
     },
     {
       "letter": "k",
@@ -101,8 +116,8 @@
       "type": "lateral",
       "description": "Alveolar lateral approximant",
       "shifting": true,
-      "shifts_to": ["r"],
-      "notes": "Can be pronounced as 'r' in some contexts, similar to Japanese L/R interchange"
+      "shifts_to": ["r", "n", "y"],
+      "notes": "Can be pronounced as 'r', 'n', or 'y' in some dialects; L/R similar to Japanese interchange"
     },
     {
       "letter": "m",
@@ -116,28 +131,40 @@
       "uppercase": "N",
       "ipa": "n",
       "type": "nasal",
-      "description": "Alveolar nasal"
+      "description": "Alveolar nasal",
+      "shifting": true,
+      "shifts_to": ["l", "y"],
+      "notes": "Can be pronounced as 'l' or 'y' in some dialects"
     },
     {
       "letter": "ṅ",
       "uppercase": "Ṅ",
       "ipa": "ŋ",
       "type": "nasal",
-      "description": "Velar nasal"
+      "description": "Velar nasal",
+      "shifting": true,
+      "shifts_to": ["ny", "nw"],
+      "notes": "Can be pronounced as 'ny' or 'nw' in some dialects"
     },
     {
       "letter": "nw",
       "uppercase": "NW",
       "ipa": "ŋʷ",
       "type": "nasal",
-      "description": "Labialized velar nasal"
+      "description": "Labialized velar nasal",
+      "shifting": true,
+      "shifts_to": ["ṅ"],
+      "notes": "Can be pronounced as 'ṅ' in some dialects"
     },
     {
       "letter": "ny",
       "uppercase": "NY",
       "ipa": "ɲ",
       "type": "nasal",
-      "description": "Palatal nasal"
+      "description": "Palatal nasal",
+      "shifting": true,
+      "shifts_to": ["ṅ"],
+      "notes": "Can be pronounced as 'ṅ' in some dialects"
     },
     {
       "letter": "p",
@@ -156,8 +183,8 @@
       "type": "trill",
       "description": "Alveolar trill or tap",
       "shifting": true,
-      "shifts_to": ["l"],
-      "notes": "Can be pronounced as 'l' in some contexts"
+      "shifts_to": ["l", "h", "sh", "f"],
+      "notes": "Can be pronounced as 'l', 'h', 'sh', or 'f' in some dialects"
     },
     {
       "letter": "s",
@@ -166,15 +193,18 @@
       "type": "fricative",
       "description": "Voiceless alveolar fricative",
       "shifting": true,
-      "shifts_to": ["t"],
-      "notes": "Can be pronounced as 't' in some dialects"
+      "shifts_to": ["t", "sh"],
+      "notes": "Can be pronounced as 't' or 'sh' in some dialects"
     },
     {
       "letter": "sh",
       "uppercase": "SH",
       "ipa": "ʃ",
       "type": "fricative",
-      "description": "Voiceless postalveolar fricative"
+      "description": "Voiceless postalveolar fricative",
+      "shifting": true,
+      "shifts_to": ["s", "f", "h", "r"],
+      "notes": "Can be pronounced as 's', 'f', 'h', or 'r' in some dialects"
     },
     {
       "letter": "t",
@@ -191,37 +221,54 @@
       "uppercase": "V",
       "ipa": "v",
       "type": "fricative",
-      "description": "Voiced labiodental fricative"
+      "description": "Voiced labiodental fricative",
+      "shifting": true,
+      "shifts_to": ["b", "f", "g"],
+      "notes": "Can be pronounced as 'b', 'f', or 'g' in some dialects"
     },
     {
       "letter": "w",
       "uppercase": "W",
       "ipa": "w",
       "type": "approximant",
-      "description": "Labial-velar approximant"
+      "description": "Labial-velar approximant",
+      "shifting": true,
+      "shifts_to": ["b", "gh"],
+      "notes": "Can be pronounced as 'b' or 'gh' in some dialects"
     },
     {
       "letter": "y",
       "uppercase": "Y",
       "ipa": "j",
       "type": "approximant",
-      "description": "Palatal approximant"
+      "description": "Palatal approximant",
+      "shifting": true,
+      "shifts_to": ["n", "l", "h", "gh"],
+      "notes": "Can be pronounced as 'n', 'l', 'h', or 'gh' in some dialects"
     },
     {
       "letter": "z",
       "uppercase": "Z",
       "ipa": "z",
       "type": "fricative",
-      "description": "Voiced alveolar fricative"
+      "description": "Voiced alveolar fricative",
+      "shifting": true,
+      "shifts_to": ["j"],
+      "notes": "Can be pronounced as 'j' in some dialects"
     }
   ],
   "notes": [
     "Igbo consonants include some sounds not found in English, such as gb, kp, and gw",
-    "Several consonants have variable pronunciations across dialects:",
-    "  - L/R: 'l' can sound like 'r' and vice versa (e.g., 'mili'/'miri' for water)",
-    "  - F/P: 'f' and 'p' can be interchangeable in some dialects",
-    "  - S/T: 's' and 't' can be interchangeable in some dialects",
-    "These shifting sounds are noted in the Ndebe orthography system which provides distinct symbols for each variant",
+    "Extensive consonant variation exists across Igbo dialects, with 19 interchange patterns documented:",
+    "  - Major interchanges: L/R, F/P, S/T (common across dialects)",
+    "  - Fricative variations: F/H/SH, R/H, R/SH, S/SH, Y/H (fricative shifts)",
+    "  - Plosive variations: B/V, B/W, G/V (plosive-fricative shifts)",
+    "  - Complex patterns: N/L/Y (nasal-liquid-palatal), F/V, R/F (multiple pathways)",
+    "  - Approximant shifts: Y/GH, W/GH (palatal and velar)",
+    "  - Affricate variation: J/Z (voiced affricate-fricative)",
+    "  - Nasal mergers: NY/Ṅ, NW/Ṅ (palatal and labialized nasals)",
+    "These variations are documented in the Ndebe orthography system",
+    "The Ndebe script provides distinct symbols for each variant to maintain clarity",
     "Some consonants like 'gb' and 'kp' are doubly-articulated labial-velar sounds",
     "The dotted consonants (ṅ) represent specific phonetic values distinct from their undotted counterparts"
   ]
