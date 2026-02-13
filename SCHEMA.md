@@ -199,7 +199,7 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - `syllable_id` links to the specific tonal syllable
 - `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:
   - **A group**: if first vowel is a, ẹ, ị, ọ, or ụ (short/sharp sounds)
-  - **E group**: if first vowel is e, i, o, or u (long/deep sounds)
+  - **E group**: if first vowel is e, i, o, or u (tense vowels with close or rounded articulation)
   - This grouping is used for vowel harmony rules in affixation
 - `gloss` provides the basic meaning to distinguish homophones
   - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
