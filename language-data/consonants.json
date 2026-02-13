@@ -209,6 +209,17 @@
       "description": "Bilabial nasal"
     },
     {
+      "letter": "m̩",
+      "uppercase": "M̩",
+      "ipa": "m̩",
+      "type": "syllabic-nasal",
+      "description": "Syllabic bilabial nasal (pseudo-vowel)",
+      "syllabic": true,
+      "functions_as": ["consonant", "vowel"],
+      "igbo_name": "myiriụdaume",
+      "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant M. Examples: mmanụ (oil), mmiri (water) where the first 'm' is syllabic"
+    },
+    {
       "letter": "n",
       "uppercase": "N",
       "ipa": "n",
@@ -223,6 +234,17 @@
         }
       ],
       "notes": "Participates in N/L/Y alternation pattern"
+    },
+    {
+      "letter": "n̩",
+      "uppercase": "N̩",
+      "ipa": "n̩",
+      "type": "syllabic-nasal",
+      "description": "Syllabic alveolar nasal (pseudo-vowel)",
+      "syllabic": true,
+      "functions_as": ["consonant", "vowel"],
+      "igbo_name": "myiriụdaume",
+      "notes": "Functions as the nucleus of a syllable (vowel-like) while being phonetically a nasal consonant. This is distinct from regular consonant N. Examples: nnu (salt), nne (mother) where the first 'n' is syllabic"
     },
     {
       "letter": "ṅ",
@@ -479,6 +501,13 @@
   ],
   "notes": [
     "Igbo consonants include some sounds not found in English, such as gb, kp, and gw",
+    "SYLLABIC NASALS (M̩/N̩): Igbo has syllabic nasals that function as pseudo-vowels",
+    "  - Called 'myiriụdaume' (vowel-like) in Igbo",
+    "  - M̩ and N̩ can serve as the nucleus of a syllable, functioning like vowels",
+    "  - These are DISTINCT from regular consonant M and N",
+    "  - Examples: mmanụ (oil), mmiri (water), nnu (salt), nne (mother)",
+    "  - The first 'm' or 'n' in these words is syllabic, acting as a vowel",
+    "  - This is a characteristic feature of Igbo phonology",
     "Extensive consonant variation documented through 19 distinct alternation patterns",
     "CRITICAL: Each alternation pattern represents a DISTINCT phonological phenomenon:",
     "  - Patterns are identified by their full designation (e.g., 'R/H', 'Y/H', 'F/H/SH')",

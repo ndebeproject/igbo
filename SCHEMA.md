@@ -103,6 +103,9 @@ This document defines the JSON schemas used throughout the repository to ensure 
           "notes": "string (optional, context for this specific alternation)"
         }
       ],
+      "syllabic": "boolean (optional, indicates syllabic consonant that can function as vowel)",
+      "functions_as": ["array of strings (optional, e.g., ['consonant', 'vowel'] for syllabic nasals)"],
+      "igbo_name": "string (optional, Igbo name for the sound)",
       "notes": "string (optional, general information about the consonant)"
     }
   ],
@@ -114,15 +117,36 @@ This document defines the JSON schemas used throughout the repository to ensure 
 - `alternation_sets`: Array of distinct alternation patterns this consonant participates in
 - `pattern`: Identifies the specific alternation (e.g., "R/H" vs "Y/H" are DIFFERENT patterns)
 - `alternates_with`: Lists only the consonants in THIS specific pattern
+- `syllabic`: Indicates if consonant can function as syllable nucleus (like syllabic nasals)
+- `functions_as`: For syllabic sounds, lists their dual functions
 
 **Consonant Types**:
 - **Plosive**: b, d, g, gb, gw, k, kp, kw, p, t
 - **Fricative**: f, gh, h, s, sh, v, z
 - **Affricate**: ch, j
 - **Nasal**: m, n, ṅ, nw, ny
+- **Syllabic-Nasal** (Pseudo-Vowels): m̩, n̩
 - **Lateral**: l
 - **Trill**: r
 - **Approximant**: w, y
+
+**Syllabic Nasals (M̩/N̩) - Special Case**:
+
+Igbo has **syllabic nasals** (m̩ and n̩) that function as both consonants and vowels. These are called **"myiriụdaume"** (vowel-like) in Igbo.
+
+**Key Characteristics**:
+- **Function as syllable nucleus**: Can serve as the core/vowel of a syllable
+- **Phonetically nasal**: Still nasals in articulation
+- **Distinct from regular M/N**: Regular m and n are only consonants
+- **Marked in schema**: Have `"syllabic": true` and `"functions_as": ["consonant", "vowel"]`
+
+**Examples**:
+- **mmanụ** [m̩.ma.nʊ] - "oil" (first m is syllabic)
+- **mmiri** [m̩.mi.ri] - "water" (first m is syllabic)
+- **nnu** [n̩.nu] - "salt" (first n is syllabic)
+- **nne** [n̩.ne] - "mother" (first n is syllabic)
+
+This is a distinctive feature of Igbo phonology, allowing nasal sounds to function as vowels in word structure.
 
 **Alternation Patterns**:
 
