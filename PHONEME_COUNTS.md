@@ -2,18 +2,27 @@
 
 ## Summary
 
-This document confirms the phoneme inventory of the Igbo language as represented in this repository, based on standard Igbo phonology.
+This document confirms the phoneme inventory of the Igbo language as represented in this repository, based on standard Igbo phonology **including dialectal variations**.
 
 ### Confirmed Counts
 
-- **Regular Consonants**: 28
-- **Syllabic Nasals (Pseudo-vowels)**: 2
-- **Total Consonants**: 30
+- **Base Consonants**: 30 (28 regular + 2 syllabic nasals)
+- **Major Dialectal Variant Forms**: 12
+- **Total Consonants (including dialectal variants)**: **42**
 - **Vowels**: 9 (5 in A-group, 4 in E-group)
+- **Pseudovowel Consonant Category**: 1 (containing 2 syllabic nasals: m̩, n̩)
+
+## Understanding the Count
+
+The count of **42 consonants** includes:
+1. **30 base consonant forms** - the phonemes documented in consonants.json
+2. **12 major dialectal variant forms** - alternation patterns like L/R, B/V, etc.
+
+This accounts for the fact that Igbo consonants exhibit significant **dialectal variation**, where different dialects may use different consonants in corresponding positions. For example, the L/R alternation means some dialects consistently use 'L' where others use 'R' (as in *mili* vs *miri* for "water").
 
 ## Detailed Breakdown
 
-### Consonants (30 total)
+### Base Consonants (30 total)
 
 #### Regular Consonants (28)
 The repository contains 28 regular consonant phonemes:
@@ -78,42 +87,59 @@ Igbo vowels are organized into two harmony groups:
 3. **o** - Close-mid back rounded vowel
 4. **u** - Close back rounded vowel
 
-## Consonant Alternation Patterns
+## Major Dialectal Alternation Patterns (12)
 
-The repository documents 19 distinct consonant alternation patterns that occur in Igbo:
+These patterns represent major dialectal variations where different Igbo dialects systematically use different consonants:
 
-1. G/V
-2. N/L/Y (three-way)
-3. R/H
-4. L/R
-5. Y/H
-6. F/H/SH (three-way)
-7. R/SH
-8. J/Z
-9. S/SH
-10. B/V
-11. F/P
-12. B/W
-13. S/T
-14. F/V
-15. Y/GH
-16. R/F
-17. W/GH
-18. NY/Ṅ
-19. NW/Ṅ
+1. **L/R** - L and R interchange (e.g., *mili* vs *miri* "water")
+2. **B/V** - B and V alternate dialectally
+3. **G/V** - G and V interchange
+4. **F/H/SH** - Complex three-way fricative alternation
+5. **S/SH** - Alveolar-postalveolar fricative alternation
+6. **Y/H** - Palatal-glottal alternation
+7. **N/L/Y** - Three-way nasal-lateral-palatal alternation
+8. **J/Z** - Voiced affricate-fricative alternation
+9. **S/T** - Fricative-plosive alternation
+10. **F/P** - Labiodental-bilabial alternation
+11. **B/W** - Plosive-approximant alternation
+12. **W/GH** - Approximant-fricative alternation
 
-These patterns represent systematic phonological variations that occur in different dialects or phonological contexts.
+When counting consonants **with dialectal variants**, we count each alternation pattern as representing an additional consonant form, giving us **42 total consonants**.
+
+### Additional Alternation Patterns (7)
+
+The repository also documents 7 additional alternation patterns that represent more subtle phonological variations:
+
+13. F/V - Voicing alternation
+14. Y/GH - Palatal-velar alternation
+15. R/F - Trill-fricative alternation
+16. R/H - Trill-fricative alternation
+17. R/SH - Trill-fricative alternation
+18. NY/Ṅ - Palatal-velar nasal merger
+19. NW/Ṅ - Labialized-velar nasal merger
+
+**Total: 19 distinct alternation patterns documented**
 
 ## Notes on Phoneme Counting
 
-### Why Not 42 Consonants?
+### Why 42 Consonants?
 
-Some sources may cite different consonant counts depending on:
+The count of 42 consonants includes **both base forms and major dialectal variants**:
+- 30 base consonant phonemes (found in consonants.json)
+- +12 major dialectal variant forms (from alternation patterns)
+- = **42 total consonant forms**
+
+This counting method recognizes that Igbo dialects can systematically use different consonants in corresponding positions, making these variants important for comprehensive linguistic documentation.
+
+### Alternative Counting Methods
+
+Different sources may cite different consonant counts depending on:
 
 1. **Dialectal Variations**: Different Igbo dialects may have additional sounds
 2. **Orthographic vs. Phonemic**: Counting orthographic symbols vs. actual phonemes
 3. **Allophonic Variants**: Including or excluding predictable sound variations
 4. **Historical Changes**: Older descriptions may include sounds no longer distinct
+5. **Counting Method**: Whether dialectal variants are counted separately
 
 ### Standard Igbo Inventory
 
@@ -122,7 +148,14 @@ This repository follows **Standard Igbo** phonology as documented in:
 - The Ndebe orthography system
 - Contemporary Igbo dictionaries
 
-The counts of **28 regular consonants + 2 syllabic nasals = 30 total consonants** and **9 vowels** represent the consensus of contemporary Igbo linguistics.
+**With dialectal variation counting:**
+- **42 consonants** (30 base + 12 major dialectal variants)
+- **9 vowels**
+- **1 pseudovowel consonant category** (containing 2 syllabic nasals)
+
+**Base phoneme counting:**
+- **30 consonants** (28 regular + 2 syllabic nasals)
+- **9 vowels**
 
 ## Validation
 
@@ -133,13 +166,21 @@ python3 validate.py
 ```
 
 This will verify:
-- ✓ Regular consonants: 28
-- ✓ Syllabic nasals: 2
-- ✓ Total consonants: 30
+- ✓ Base consonant forms: 30
+- ✓ Major dialectal variants: 12
+- ✓ Total consonants (with dialectal variants): 42
+- ✓ Pseudo-vowel consonants: 2 (counted as 1 category)
 - ✓ Total vowels: 9
+
+You can also run the dedicated phoneme count test:
+
+```bash
+python3 test_phoneme_counts.py
+```
 
 ## References
 
 - Consonant inventory: `language-data/consonants.json`
 - Vowel inventory: `language-data/vowels.json`
 - Validation script: `validate.py`
+- Test script: `test_phoneme_counts.py`

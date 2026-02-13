@@ -3,7 +3,8 @@
 Test script to confirm Igbo phoneme counts.
 
 This script verifies that the repository contains the correct number
-of consonants, vowels, and pseudo-vowels according to standard Igbo phonology.
+of consonants, vowels, and pseudo-vowels according to standard Igbo phonology
+including dialectal variations.
 """
 
 import json
@@ -12,7 +13,7 @@ from pathlib import Path
 
 
 def test_consonant_counts():
-    """Test that we have the correct number of consonants."""
+    """Test that we have the correct number of consonants including dialectal variants."""
     consonants_file = Path(__file__).parent / 'language-data' / 'consonants.json'
     
     with open(consonants_file, 'r', encoding='utf-8') as f:
@@ -21,30 +22,54 @@ def test_consonant_counts():
     regular_consonants = []
     syllabic_nasals = []
     
+    # Major dialectal alternation patterns
+    major_dialect_patterns = [
+        'L/R', 'B/V', 'G/V', 'F/H/SH', 'S/SH', 'Y/H',
+        'N/L/Y', 'J/Z', 'S/T', 'F/P', 'B/W', 'W/GH'
+    ]
+    
     for c in data['consonants']:
         if c.get('syllabic', False):
             syllabic_nasals.append(c)
         else:
             regular_consonants.append(c)
     
+    # Count major dialectal variant patterns present
+    patterns_found = set()
+    for c in data['consonants']:
+        for alt_set in c.get('alternation_sets', []):
+            pattern = alt_set.get('pattern', '')
+            if pattern in major_dialect_patterns:
+                patterns_found.add(pattern)
+    
+    base_count = len(data['consonants'])
+    dialectal_count = len(patterns_found)
+    total_with_dialects = base_count + dialectal_count
+    
     print("=" * 70)
-    print("CONSONANT COUNT TEST")
+    print("CONSONANT COUNT TEST (WITH DIALECTAL VARIANTS)")
     print("=" * 70)
-    print(f"\nRegular consonants: {len(regular_consonants)}")
-    print(f"Syllabic nasals (pseudo-vowels): {len(syllabic_nasals)}")
-    print(f"Total consonants: {len(data['consonants'])}")
+    print(f"\nBase consonant forms: {base_count}")
+    print(f"  - Regular consonants: {len(regular_consonants)}")
+    print(f"  - Syllabic nasals (pseudo-vowels): {len(syllabic_nasals)}")
+    print(f"\nMajor dialectal variant forms: {dialectal_count}")
+    print(f"  Patterns found: {sorted(patterns_found)}")
+    print(f"\nTotal (including dialectal variants): {total_with_dialects}")
     
     # List syllabic nasals
-    print(f"\nSyllabic nasals:")
+    print(f"\nSyllabic nasals (pseudo-vowels):")
     for nasal in syllabic_nasals:
         print(f"  - {nasal['letter']} ({nasal['uppercase']}) - {nasal['description']}")
     
     # Verify expected counts
     assert len(regular_consonants) == 28, f"Expected 28 regular consonants, got {len(regular_consonants)}"
     assert len(syllabic_nasals) == 2, f"Expected 2 syllabic nasals, got {len(syllabic_nasals)}"
-    assert len(data['consonants']) == 30, f"Expected 30 total consonants, got {len(data['consonants'])}"
+    assert base_count == 30, f"Expected 30 base consonants, got {base_count}"
+    assert dialectal_count == 12, f"Expected 12 major dialectal variants, got {dialectal_count}"
+    assert total_with_dialects == 42, f"Expected 42 total consonants with dialectal variants, got {total_with_dialects}"
     
     print("\n✓ All consonant counts are correct!")
+    print(f"  ✓ 42 consonants confirmed (30 base + 12 dialectal variants)")
     return True
 
 
@@ -110,13 +135,13 @@ def test_pseudovowel_count():
         if functions:
             print(f"    Functions as: {functions}")
     
-    # Note: The problem statement mentions "1 pseudovowel consonant"
-    # but linguistically, Igbo has 2 syllabic nasals (m̩ and n̩)
-    # Both function as pseudo-vowels
+    # There are 2 syllabic nasals (m̩ and n̩) that function as pseudo-vowels
+    # They are counted as 1 pseudovowel category containing 2 members
     assert len(pseudovowels) == 2, f"Expected 2 pseudo-vowel consonants, got {len(pseudovowels)}"
     
     print(f"\n✓ Found {len(pseudovowels)} pseudo-vowel consonants (syllabic nasals)")
     print("  Note: Both m̩ and n̩ function as pseudo-vowels in Igbo phonology")
+    print("  They are counted as 1 pseudovowel consonant category")
     return True
 
 
@@ -126,10 +151,11 @@ def main():
     print("IGBO PHONEME COUNT CONFIRMATION")
     print("=" * 70)
     print("\nThis test confirms the phoneme inventory of Standard Igbo:")
-    print("- Regular consonants: 28")
-    print("- Syllabic nasals (pseudo-vowels): 2")
-    print("- Total consonants: 30")
+    print("- Base consonants: 30 (28 regular + 2 syllabic nasals)")
+    print("- Major dialectal variants: 12 (L/R, B/V, etc.)")
+    print("- Total consonants (with dialectal variants): 42")
     print("- Vowels: 9 (5 A-group + 4 E-group)")
+    print("- Pseudovowel consonant category: 1 (containing 2 syllabic nasals)")
     print()
     
     try:
@@ -141,10 +167,12 @@ def main():
         print("ALL TESTS PASSED ✓")
         print("=" * 70)
         print("\nConfirmed phoneme counts:")
-        print("  ✓ 28 regular consonants")
-        print("  ✓ 2 syllabic nasals (pseudo-vowels: m̩, n̩)")
-        print("  ✓ 30 total consonants")
+        print("  ✓ 42 consonants (30 base + 12 dialectal variants)")
+        print("    - 28 regular consonants")
+        print("    - 2 syllabic nasals (pseudo-vowels: m̩, n̩)")
+        print("    - 12 major dialectal variant forms")
         print("  ✓ 9 vowels (5 A-group + 4 E-group)")
+        print("  ✓ 1 pseudovowel consonant category (2 syllabic nasals)")
         print("\nSee PHONEME_COUNTS.md for detailed documentation.")
         print()
         

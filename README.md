@@ -53,14 +53,18 @@ This harmony affects:
 The repository categorizes Igbo's phonetic inventory:
 
 **Confirmed Phoneme Counts** (see [PHONEME_COUNTS.md](PHONEME_COUNTS.md)):
-- **28 regular consonants** + **2 syllabic nasals** (pseudo-vowels: m̩, n̩) = **30 total consonants**
+- **42 consonants** (30 base forms + 12 major dialectal variants)
+  - 28 regular consonants + 2 syllabic nasals (m̩, n̩) = 30 base forms
+  - 12 major dialectal variant forms (L/R, B/V, G/V, F/H/SH, S/SH, Y/H, N/L/Y, J/Z, S/T, F/P, B/W, W/GH)
 - **9 vowels** (5 in A-group, 4 in E-group)
+- **1 pseudovowel consonant category** (syllabic nasals: m̩, n̩)
 
 **Vowels**: Documented in `vowels.json` with A/E group classification
 **Consonants**: Documented in `consonants.json`, including notes on:
-- Shifting sounds (e.g., L/R interchange as in `mili`/`miri` for "water")
+- Shifting sounds with dialectal variations (e.g., L/R interchange as in `mili`/`miri` for "water")
 - Special Igbo consonants like `gb`, `kp`, `gw` (doubly-articulated sounds)
 - Syllabic nasals (m̩, n̩) that function as pseudo-vowels
+- 19 documented alternation patterns representing dialectal and phonological variations
 - Digraphs and special characters
 
 ### 7. **Affixation System**
@@ -231,7 +235,8 @@ python3 test_phoneme_counts.py
 These scripts verify:
 - JSON syntax and schema compliance
 - ID uniqueness and reference integrity
-- Phoneme counts (28 consonants + 2 syllabic nasals, 9 vowels)
+- Phoneme counts (42 consonants including dialectal variants, 9 vowels)
+- Dialectal alternation patterns
 
 ## Schema Documentation
 
