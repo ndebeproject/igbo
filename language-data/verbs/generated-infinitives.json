@@ -1,0 +1,7292 @@
+[
+  {
+    "id": "ịbá_infinitive",
+    "infinitive_form": "ịbá",
+    "base_root": "bá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịba_infinitive",
+    "infinitive_form": "ịba",
+    "base_root": "ba",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịba_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbà_infinitive",
+    "infinitive_form": "ịbà",
+    "base_root": "bà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbẹ́_infinitive",
+    "infinitive_form": "ịbẹ́",
+    "base_root": "bẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbẹ_infinitive",
+    "infinitive_form": "ịbẹ",
+    "base_root": "bẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbẹ̀_infinitive",
+    "infinitive_form": "ịbẹ̀",
+    "base_root": "bẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbị́_infinitive",
+    "infinitive_form": "ịbị́",
+    "base_root": "bị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbị_infinitive",
+    "infinitive_form": "ịbị",
+    "base_root": "bị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbị̀_infinitive",
+    "infinitive_form": "ịbị̀",
+    "base_root": "bị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbọ́_infinitive",
+    "infinitive_form": "ịbọ́",
+    "base_root": "bọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbọ_infinitive",
+    "infinitive_form": "ịbọ",
+    "base_root": "bọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbọ̀_infinitive",
+    "infinitive_form": "ịbọ̀",
+    "base_root": "bọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbụ́_infinitive",
+    "infinitive_form": "ịbụ́",
+    "base_root": "bụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbụ_infinitive",
+    "infinitive_form": "ịbụ",
+    "base_root": "bụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịbụ̀_infinitive",
+    "infinitive_form": "ịbụ̀",
+    "base_root": "bụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịbụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibé_infinitive",
+    "infinitive_form": "ibé",
+    "base_root": "bé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibe_infinitive",
+    "infinitive_form": "ibe",
+    "base_root": "be",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibè_infinitive",
+    "infinitive_form": "ibè",
+    "base_root": "bè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibí_infinitive",
+    "infinitive_form": "ibí",
+    "base_root": "bí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibi_infinitive",
+    "infinitive_form": "ibi",
+    "base_root": "bi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibì_infinitive",
+    "infinitive_form": "ibì",
+    "base_root": "bì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibó_infinitive",
+    "infinitive_form": "ibó",
+    "base_root": "bó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibo_infinitive",
+    "infinitive_form": "ibo",
+    "base_root": "bo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibò_infinitive",
+    "infinitive_form": "ibò",
+    "base_root": "bò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibú_infinitive",
+    "infinitive_form": "ibú",
+    "base_root": "bú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibu_infinitive",
+    "infinitive_form": "ibu",
+    "base_root": "bu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ibù_infinitive",
+    "infinitive_form": "ibù",
+    "base_root": "bù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ibù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchá_infinitive",
+    "infinitive_form": "ịchá",
+    "base_root": "chá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịcha_infinitive",
+    "infinitive_form": "ịcha",
+    "base_root": "cha",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịcha_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchà_infinitive",
+    "infinitive_form": "ịchà",
+    "base_root": "chà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchẹ́_infinitive",
+    "infinitive_form": "ịchẹ́",
+    "base_root": "chẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchẹ_infinitive",
+    "infinitive_form": "ịchẹ",
+    "base_root": "chẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchẹ̀_infinitive",
+    "infinitive_form": "ịchẹ̀",
+    "base_root": "chẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchị́_infinitive",
+    "infinitive_form": "ịchị́",
+    "base_root": "chị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchị_infinitive",
+    "infinitive_form": "ịchị",
+    "base_root": "chị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchị̀_infinitive",
+    "infinitive_form": "ịchị̀",
+    "base_root": "chị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchọ́_infinitive",
+    "infinitive_form": "ịchọ́",
+    "base_root": "chọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchọ_infinitive",
+    "infinitive_form": "ịchọ",
+    "base_root": "chọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchọ̀_infinitive",
+    "infinitive_form": "ịchọ̀",
+    "base_root": "chọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchụ́_infinitive",
+    "infinitive_form": "ịchụ́",
+    "base_root": "chụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchụ_infinitive",
+    "infinitive_form": "ịchụ",
+    "base_root": "chụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịchụ̀_infinitive",
+    "infinitive_form": "ịchụ̀",
+    "base_root": "chụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịchụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iché_infinitive",
+    "infinitive_form": "iché",
+    "base_root": "ché",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iché_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iche_infinitive",
+    "infinitive_form": "iche",
+    "base_root": "che",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iche_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichè_infinitive",
+    "infinitive_form": "ichè",
+    "base_root": "chè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichí_infinitive",
+    "infinitive_form": "ichí",
+    "base_root": "chí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichi_infinitive",
+    "infinitive_form": "ichi",
+    "base_root": "chi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichì_infinitive",
+    "infinitive_form": "ichì",
+    "base_root": "chì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichó_infinitive",
+    "infinitive_form": "ichó",
+    "base_root": "chó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "icho_infinitive",
+    "infinitive_form": "icho",
+    "base_root": "cho",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "icho_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichò_infinitive",
+    "infinitive_form": "ichò",
+    "base_root": "chò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichú_infinitive",
+    "infinitive_form": "ichú",
+    "base_root": "chú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichu_infinitive",
+    "infinitive_form": "ichu",
+    "base_root": "chu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ichù_infinitive",
+    "infinitive_form": "ichù",
+    "base_root": "chù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ichù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdá_infinitive",
+    "infinitive_form": "ịdá",
+    "base_root": "dá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịda_infinitive",
+    "infinitive_form": "ịda",
+    "base_root": "da",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịda_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdà_infinitive",
+    "infinitive_form": "ịdà",
+    "base_root": "dà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdẹ́_infinitive",
+    "infinitive_form": "ịdẹ́",
+    "base_root": "dẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdẹ_infinitive",
+    "infinitive_form": "ịdẹ",
+    "base_root": "dẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdẹ̀_infinitive",
+    "infinitive_form": "ịdẹ̀",
+    "base_root": "dẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdị́_infinitive",
+    "infinitive_form": "ịdị́",
+    "base_root": "dị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdị_infinitive",
+    "infinitive_form": "ịdị",
+    "base_root": "dị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdị̀_infinitive",
+    "infinitive_form": "ịdị̀",
+    "base_root": "dị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdọ́_infinitive",
+    "infinitive_form": "ịdọ́",
+    "base_root": "dọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdọ_infinitive",
+    "infinitive_form": "ịdọ",
+    "base_root": "dọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdọ̀_infinitive",
+    "infinitive_form": "ịdọ̀",
+    "base_root": "dọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdụ́_infinitive",
+    "infinitive_form": "ịdụ́",
+    "base_root": "dụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdụ_infinitive",
+    "infinitive_form": "ịdụ",
+    "base_root": "dụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịdụ̀_infinitive",
+    "infinitive_form": "ịdụ̀",
+    "base_root": "dụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịdụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idé_infinitive",
+    "infinitive_form": "idé",
+    "base_root": "dé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ide_infinitive",
+    "infinitive_form": "ide",
+    "base_root": "de",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ide_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idè_infinitive",
+    "infinitive_form": "idè",
+    "base_root": "dè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idí_infinitive",
+    "infinitive_form": "idí",
+    "base_root": "dí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idi_infinitive",
+    "infinitive_form": "idi",
+    "base_root": "di",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idì_infinitive",
+    "infinitive_form": "idì",
+    "base_root": "dì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idó_infinitive",
+    "infinitive_form": "idó",
+    "base_root": "dó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ido_infinitive",
+    "infinitive_form": "ido",
+    "base_root": "do",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ido_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idò_infinitive",
+    "infinitive_form": "idò",
+    "base_root": "dò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idú_infinitive",
+    "infinitive_form": "idú",
+    "base_root": "dú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idu_infinitive",
+    "infinitive_form": "idu",
+    "base_root": "du",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "idù_infinitive",
+    "infinitive_form": "idù",
+    "base_root": "dù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "idù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfá_infinitive",
+    "infinitive_form": "ịfá",
+    "base_root": "fá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfa_infinitive",
+    "infinitive_form": "ịfa",
+    "base_root": "fa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfà_infinitive",
+    "infinitive_form": "ịfà",
+    "base_root": "fà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfẹ́_infinitive",
+    "infinitive_form": "ịfẹ́",
+    "base_root": "fẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfẹ_infinitive",
+    "infinitive_form": "ịfẹ",
+    "base_root": "fẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfẹ̀_infinitive",
+    "infinitive_form": "ịfẹ̀",
+    "base_root": "fẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfị́_infinitive",
+    "infinitive_form": "ịfị́",
+    "base_root": "fị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfị_infinitive",
+    "infinitive_form": "ịfị",
+    "base_root": "fị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfị̀_infinitive",
+    "infinitive_form": "ịfị̀",
+    "base_root": "fị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfọ́_infinitive",
+    "infinitive_form": "ịfọ́",
+    "base_root": "fọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfọ_infinitive",
+    "infinitive_form": "ịfọ",
+    "base_root": "fọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfọ̀_infinitive",
+    "infinitive_form": "ịfọ̀",
+    "base_root": "fọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfụ́_infinitive",
+    "infinitive_form": "ịfụ́",
+    "base_root": "fụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfụ_infinitive",
+    "infinitive_form": "ịfụ",
+    "base_root": "fụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịfụ̀_infinitive",
+    "infinitive_form": "ịfụ̀",
+    "base_root": "fụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịfụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifé_infinitive",
+    "infinitive_form": "ifé",
+    "base_root": "fé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ife_infinitive",
+    "infinitive_form": "ife",
+    "base_root": "fe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ife_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifè_infinitive",
+    "infinitive_form": "ifè",
+    "base_root": "fè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifí_infinitive",
+    "infinitive_form": "ifí",
+    "base_root": "fí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifi_infinitive",
+    "infinitive_form": "ifi",
+    "base_root": "fi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifì_infinitive",
+    "infinitive_form": "ifì",
+    "base_root": "fì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifó_infinitive",
+    "infinitive_form": "ifó",
+    "base_root": "fó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifo_infinitive",
+    "infinitive_form": "ifo",
+    "base_root": "fo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifò_infinitive",
+    "infinitive_form": "ifò",
+    "base_root": "fò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifú_infinitive",
+    "infinitive_form": "ifú",
+    "base_root": "fú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifu_infinitive",
+    "infinitive_form": "ifu",
+    "base_root": "fu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ifù_infinitive",
+    "infinitive_form": "ifù",
+    "base_root": "fù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ifù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgá_infinitive",
+    "infinitive_form": "ịgá",
+    "base_root": "gá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịga_infinitive",
+    "infinitive_form": "ịga",
+    "base_root": "ga",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịga_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgà_infinitive",
+    "infinitive_form": "ịgà",
+    "base_root": "gà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgẹ́_infinitive",
+    "infinitive_form": "ịgẹ́",
+    "base_root": "gẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgẹ_infinitive",
+    "infinitive_form": "ịgẹ",
+    "base_root": "gẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgẹ̀_infinitive",
+    "infinitive_form": "ịgẹ̀",
+    "base_root": "gẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgị́_infinitive",
+    "infinitive_form": "ịgị́",
+    "base_root": "gị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgị_infinitive",
+    "infinitive_form": "ịgị",
+    "base_root": "gị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgị̀_infinitive",
+    "infinitive_form": "ịgị̀",
+    "base_root": "gị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgọ́_infinitive",
+    "infinitive_form": "ịgọ́",
+    "base_root": "gọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgọ_infinitive",
+    "infinitive_form": "ịgọ",
+    "base_root": "gọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgọ̀_infinitive",
+    "infinitive_form": "ịgọ̀",
+    "base_root": "gọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgụ́_infinitive",
+    "infinitive_form": "ịgụ́",
+    "base_root": "gụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgụ_infinitive",
+    "infinitive_form": "ịgụ",
+    "base_root": "gụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgụ̀_infinitive",
+    "infinitive_form": "ịgụ̀",
+    "base_root": "gụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igé_infinitive",
+    "infinitive_form": "igé",
+    "base_root": "gé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ige_infinitive",
+    "infinitive_form": "ige",
+    "base_root": "ge",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ige_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igè_infinitive",
+    "infinitive_form": "igè",
+    "base_root": "gè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igí_infinitive",
+    "infinitive_form": "igí",
+    "base_root": "gí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igi_infinitive",
+    "infinitive_form": "igi",
+    "base_root": "gi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igì_infinitive",
+    "infinitive_form": "igì",
+    "base_root": "gì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igó_infinitive",
+    "infinitive_form": "igó",
+    "base_root": "gó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igo_infinitive",
+    "infinitive_form": "igo",
+    "base_root": "go",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igò_infinitive",
+    "infinitive_form": "igò",
+    "base_root": "gò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igú_infinitive",
+    "infinitive_form": "igú",
+    "base_root": "gú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igu_infinitive",
+    "infinitive_form": "igu",
+    "base_root": "gu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igù_infinitive",
+    "infinitive_form": "igù",
+    "base_root": "gù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbá_infinitive",
+    "infinitive_form": "ịgbá",
+    "base_root": "gbá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgba_infinitive",
+    "infinitive_form": "ịgba",
+    "base_root": "gba",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgba_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbà_infinitive",
+    "infinitive_form": "ịgbà",
+    "base_root": "gbà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbẹ́_infinitive",
+    "infinitive_form": "ịgbẹ́",
+    "base_root": "gbẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbẹ_infinitive",
+    "infinitive_form": "ịgbẹ",
+    "base_root": "gbẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbẹ̀_infinitive",
+    "infinitive_form": "ịgbẹ̀",
+    "base_root": "gbẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbị́_infinitive",
+    "infinitive_form": "ịgbị́",
+    "base_root": "gbị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbị_infinitive",
+    "infinitive_form": "ịgbị",
+    "base_root": "gbị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbị̀_infinitive",
+    "infinitive_form": "ịgbị̀",
+    "base_root": "gbị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbọ́_infinitive",
+    "infinitive_form": "ịgbọ́",
+    "base_root": "gbọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbọ_infinitive",
+    "infinitive_form": "ịgbọ",
+    "base_root": "gbọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbọ̀_infinitive",
+    "infinitive_form": "ịgbọ̀",
+    "base_root": "gbọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbụ́_infinitive",
+    "infinitive_form": "ịgbụ́",
+    "base_root": "gbụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbụ_infinitive",
+    "infinitive_form": "ịgbụ",
+    "base_root": "gbụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgbụ̀_infinitive",
+    "infinitive_form": "ịgbụ̀",
+    "base_root": "gbụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgbụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbé_infinitive",
+    "infinitive_form": "igbé",
+    "base_root": "gbé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbe_infinitive",
+    "infinitive_form": "igbe",
+    "base_root": "gbe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbè_infinitive",
+    "infinitive_form": "igbè",
+    "base_root": "gbè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbí_infinitive",
+    "infinitive_form": "igbí",
+    "base_root": "gbí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbi_infinitive",
+    "infinitive_form": "igbi",
+    "base_root": "gbi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbì_infinitive",
+    "infinitive_form": "igbì",
+    "base_root": "gbì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbó_infinitive",
+    "infinitive_form": "igbó",
+    "base_root": "gbó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbo_infinitive",
+    "infinitive_form": "igbo",
+    "base_root": "gbo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbò_infinitive",
+    "infinitive_form": "igbò",
+    "base_root": "gbò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbú_infinitive",
+    "infinitive_form": "igbú",
+    "base_root": "gbú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbu_infinitive",
+    "infinitive_form": "igbu",
+    "base_root": "gbu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igbù_infinitive",
+    "infinitive_form": "igbù",
+    "base_root": "gbù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igbù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghá_infinitive",
+    "infinitive_form": "ịghá",
+    "base_root": "ghá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgha_infinitive",
+    "infinitive_form": "ịgha",
+    "base_root": "gha",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgha_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghà_infinitive",
+    "infinitive_form": "ịghà",
+    "base_root": "ghà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghẹ́_infinitive",
+    "infinitive_form": "ịghẹ́",
+    "base_root": "ghẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghẹ_infinitive",
+    "infinitive_form": "ịghẹ",
+    "base_root": "ghẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghẹ̀_infinitive",
+    "infinitive_form": "ịghẹ̀",
+    "base_root": "ghẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghị́_infinitive",
+    "infinitive_form": "ịghị́",
+    "base_root": "ghị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghị_infinitive",
+    "infinitive_form": "ịghị",
+    "base_root": "ghị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghị̀_infinitive",
+    "infinitive_form": "ịghị̀",
+    "base_root": "ghị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghọ́_infinitive",
+    "infinitive_form": "ịghọ́",
+    "base_root": "ghọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghọ_infinitive",
+    "infinitive_form": "ịghọ",
+    "base_root": "ghọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghọ̀_infinitive",
+    "infinitive_form": "ịghọ̀",
+    "base_root": "ghọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghụ́_infinitive",
+    "infinitive_form": "ịghụ́",
+    "base_root": "ghụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghụ_infinitive",
+    "infinitive_form": "ịghụ",
+    "base_root": "ghụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịghụ̀_infinitive",
+    "infinitive_form": "ịghụ̀",
+    "base_root": "ghụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịghụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighé_infinitive",
+    "infinitive_form": "ighé",
+    "base_root": "ghé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighe_infinitive",
+    "infinitive_form": "ighe",
+    "base_root": "ghe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighè_infinitive",
+    "infinitive_form": "ighè",
+    "base_root": "ghè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighí_infinitive",
+    "infinitive_form": "ighí",
+    "base_root": "ghí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighi_infinitive",
+    "infinitive_form": "ighi",
+    "base_root": "ghi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighì_infinitive",
+    "infinitive_form": "ighì",
+    "base_root": "ghì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighó_infinitive",
+    "infinitive_form": "ighó",
+    "base_root": "ghó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igho_infinitive",
+    "infinitive_form": "igho",
+    "base_root": "gho",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igho_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighò_infinitive",
+    "infinitive_form": "ighò",
+    "base_root": "ghò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighú_infinitive",
+    "infinitive_form": "ighú",
+    "base_root": "ghú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighu_infinitive",
+    "infinitive_form": "ighu",
+    "base_root": "ghu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ighù_infinitive",
+    "infinitive_form": "ighù",
+    "base_root": "ghù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ighù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwá_infinitive",
+    "infinitive_form": "ịgwá",
+    "base_root": "gwá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwa_infinitive",
+    "infinitive_form": "ịgwa",
+    "base_root": "gwa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwà_infinitive",
+    "infinitive_form": "ịgwà",
+    "base_root": "gwà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwẹ́_infinitive",
+    "infinitive_form": "ịgwẹ́",
+    "base_root": "gwẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwẹ_infinitive",
+    "infinitive_form": "ịgwẹ",
+    "base_root": "gwẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwẹ̀_infinitive",
+    "infinitive_form": "ịgwẹ̀",
+    "base_root": "gwẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwị́_infinitive",
+    "infinitive_form": "ịgwị́",
+    "base_root": "gwị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwị_infinitive",
+    "infinitive_form": "ịgwị",
+    "base_root": "gwị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwị̀_infinitive",
+    "infinitive_form": "ịgwị̀",
+    "base_root": "gwị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwọ́_infinitive",
+    "infinitive_form": "ịgwọ́",
+    "base_root": "gwọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwọ_infinitive",
+    "infinitive_form": "ịgwọ",
+    "base_root": "gwọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwọ̀_infinitive",
+    "infinitive_form": "ịgwọ̀",
+    "base_root": "gwọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwụ́_infinitive",
+    "infinitive_form": "ịgwụ́",
+    "base_root": "gwụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwụ_infinitive",
+    "infinitive_form": "ịgwụ",
+    "base_root": "gwụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịgwụ̀_infinitive",
+    "infinitive_form": "ịgwụ̀",
+    "base_root": "gwụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịgwụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwé_infinitive",
+    "infinitive_form": "igwé",
+    "base_root": "gwé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwe_infinitive",
+    "infinitive_form": "igwe",
+    "base_root": "gwe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwè_infinitive",
+    "infinitive_form": "igwè",
+    "base_root": "gwè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwí_infinitive",
+    "infinitive_form": "igwí",
+    "base_root": "gwí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwi_infinitive",
+    "infinitive_form": "igwi",
+    "base_root": "gwi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwì_infinitive",
+    "infinitive_form": "igwì",
+    "base_root": "gwì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwó_infinitive",
+    "infinitive_form": "igwó",
+    "base_root": "gwó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwo_infinitive",
+    "infinitive_form": "igwo",
+    "base_root": "gwo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwò_infinitive",
+    "infinitive_form": "igwò",
+    "base_root": "gwò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwú_infinitive",
+    "infinitive_form": "igwú",
+    "base_root": "gwú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwu_infinitive",
+    "infinitive_form": "igwu",
+    "base_root": "gwu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "igwù_infinitive",
+    "infinitive_form": "igwù",
+    "base_root": "gwù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "igwù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhá_infinitive",
+    "infinitive_form": "ịhá",
+    "base_root": "há",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịha_infinitive",
+    "infinitive_form": "ịha",
+    "base_root": "ha",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịha_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhà_infinitive",
+    "infinitive_form": "ịhà",
+    "base_root": "hà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhẹ́_infinitive",
+    "infinitive_form": "ịhẹ́",
+    "base_root": "hẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhẹ_infinitive",
+    "infinitive_form": "ịhẹ",
+    "base_root": "hẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhẹ̀_infinitive",
+    "infinitive_form": "ịhẹ̀",
+    "base_root": "hẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhị́_infinitive",
+    "infinitive_form": "ịhị́",
+    "base_root": "hị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhị_infinitive",
+    "infinitive_form": "ịhị",
+    "base_root": "hị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhị̀_infinitive",
+    "infinitive_form": "ịhị̀",
+    "base_root": "hị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhọ́_infinitive",
+    "infinitive_form": "ịhọ́",
+    "base_root": "họ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhọ_infinitive",
+    "infinitive_form": "ịhọ",
+    "base_root": "họ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhọ̀_infinitive",
+    "infinitive_form": "ịhọ̀",
+    "base_root": "họ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhụ́_infinitive",
+    "infinitive_form": "ịhụ́",
+    "base_root": "hụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhụ_infinitive",
+    "infinitive_form": "ịhụ",
+    "base_root": "hụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịhụ̀_infinitive",
+    "infinitive_form": "ịhụ̀",
+    "base_root": "hụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịhụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihé_infinitive",
+    "infinitive_form": "ihé",
+    "base_root": "hé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihe_infinitive",
+    "infinitive_form": "ihe",
+    "base_root": "he",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihè_infinitive",
+    "infinitive_form": "ihè",
+    "base_root": "hè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihí_infinitive",
+    "infinitive_form": "ihí",
+    "base_root": "hí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihi_infinitive",
+    "infinitive_form": "ihi",
+    "base_root": "hi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihì_infinitive",
+    "infinitive_form": "ihì",
+    "base_root": "hì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihó_infinitive",
+    "infinitive_form": "ihó",
+    "base_root": "hó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iho_infinitive",
+    "infinitive_form": "iho",
+    "base_root": "ho",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iho_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihò_infinitive",
+    "infinitive_form": "ihò",
+    "base_root": "hò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihú_infinitive",
+    "infinitive_form": "ihú",
+    "base_root": "hú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihu_infinitive",
+    "infinitive_form": "ihu",
+    "base_root": "hu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ihù_infinitive",
+    "infinitive_form": "ihù",
+    "base_root": "hù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ihù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjá_infinitive",
+    "infinitive_form": "ịjá",
+    "base_root": "já",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịja_infinitive",
+    "infinitive_form": "ịja",
+    "base_root": "ja",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịja_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjà_infinitive",
+    "infinitive_form": "ịjà",
+    "base_root": "jà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjẹ́_infinitive",
+    "infinitive_form": "ịjẹ́",
+    "base_root": "jẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjẹ_infinitive",
+    "infinitive_form": "ịjẹ",
+    "base_root": "jẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjẹ̀_infinitive",
+    "infinitive_form": "ịjẹ̀",
+    "base_root": "jẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjị́_infinitive",
+    "infinitive_form": "ịjị́",
+    "base_root": "jị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjị_infinitive",
+    "infinitive_form": "ịjị",
+    "base_root": "jị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjị̀_infinitive",
+    "infinitive_form": "ịjị̀",
+    "base_root": "jị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjọ́_infinitive",
+    "infinitive_form": "ịjọ́",
+    "base_root": "jọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjọ_infinitive",
+    "infinitive_form": "ịjọ",
+    "base_root": "jọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjọ̀_infinitive",
+    "infinitive_form": "ịjọ̀",
+    "base_root": "jọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjụ́_infinitive",
+    "infinitive_form": "ịjụ́",
+    "base_root": "jụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjụ_infinitive",
+    "infinitive_form": "ịjụ",
+    "base_root": "jụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịjụ̀_infinitive",
+    "infinitive_form": "ịjụ̀",
+    "base_root": "jụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịjụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijé_infinitive",
+    "infinitive_form": "ijé",
+    "base_root": "jé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ije_infinitive",
+    "infinitive_form": "ije",
+    "base_root": "je",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ije_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijè_infinitive",
+    "infinitive_form": "ijè",
+    "base_root": "jè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijí_infinitive",
+    "infinitive_form": "ijí",
+    "base_root": "jí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iji_infinitive",
+    "infinitive_form": "iji",
+    "base_root": "ji",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iji_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijì_infinitive",
+    "infinitive_form": "ijì",
+    "base_root": "jì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijó_infinitive",
+    "infinitive_form": "ijó",
+    "base_root": "jó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijo_infinitive",
+    "infinitive_form": "ijo",
+    "base_root": "jo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijò_infinitive",
+    "infinitive_form": "ijò",
+    "base_root": "jò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijú_infinitive",
+    "infinitive_form": "ijú",
+    "base_root": "jú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iju_infinitive",
+    "infinitive_form": "iju",
+    "base_root": "ju",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iju_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ijù_infinitive",
+    "infinitive_form": "ijù",
+    "base_root": "jù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ijù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịká_infinitive",
+    "infinitive_form": "ịká",
+    "base_root": "ká",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịká_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịka_infinitive",
+    "infinitive_form": "ịka",
+    "base_root": "ka",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịka_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkà_infinitive",
+    "infinitive_form": "ịkà",
+    "base_root": "kà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkẹ́_infinitive",
+    "infinitive_form": "ịkẹ́",
+    "base_root": "kẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkẹ_infinitive",
+    "infinitive_form": "ịkẹ",
+    "base_root": "kẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkẹ̀_infinitive",
+    "infinitive_form": "ịkẹ̀",
+    "base_root": "kẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkị́_infinitive",
+    "infinitive_form": "ịkị́",
+    "base_root": "kị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkị_infinitive",
+    "infinitive_form": "ịkị",
+    "base_root": "kị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkị̀_infinitive",
+    "infinitive_form": "ịkị̀",
+    "base_root": "kị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkọ́_infinitive",
+    "infinitive_form": "ịkọ́",
+    "base_root": "kọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkọ_infinitive",
+    "infinitive_form": "ịkọ",
+    "base_root": "kọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkọ̀_infinitive",
+    "infinitive_form": "ịkọ̀",
+    "base_root": "kọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkụ́_infinitive",
+    "infinitive_form": "ịkụ́",
+    "base_root": "kụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkụ_infinitive",
+    "infinitive_form": "ịkụ",
+    "base_root": "kụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkụ̀_infinitive",
+    "infinitive_form": "ịkụ̀",
+    "base_root": "kụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iké_infinitive",
+    "infinitive_form": "iké",
+    "base_root": "ké",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iké_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ike_infinitive",
+    "infinitive_form": "ike",
+    "base_root": "ke",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ike_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikè_infinitive",
+    "infinitive_form": "ikè",
+    "base_root": "kè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikí_infinitive",
+    "infinitive_form": "ikí",
+    "base_root": "kí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iki_infinitive",
+    "infinitive_form": "iki",
+    "base_root": "ki",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iki_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikì_infinitive",
+    "infinitive_form": "ikì",
+    "base_root": "kì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikó_infinitive",
+    "infinitive_form": "ikó",
+    "base_root": "kó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iko_infinitive",
+    "infinitive_form": "iko",
+    "base_root": "ko",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iko_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikò_infinitive",
+    "infinitive_form": "ikò",
+    "base_root": "kò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikú_infinitive",
+    "infinitive_form": "ikú",
+    "base_root": "kú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iku_infinitive",
+    "infinitive_form": "iku",
+    "base_root": "ku",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iku_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikù_infinitive",
+    "infinitive_form": "ikù",
+    "base_root": "kù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpá_infinitive",
+    "infinitive_form": "ịkpá",
+    "base_root": "kpá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpa_infinitive",
+    "infinitive_form": "ịkpa",
+    "base_root": "kpa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpà_infinitive",
+    "infinitive_form": "ịkpà",
+    "base_root": "kpà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpẹ́_infinitive",
+    "infinitive_form": "ịkpẹ́",
+    "base_root": "kpẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpẹ_infinitive",
+    "infinitive_form": "ịkpẹ",
+    "base_root": "kpẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpẹ̀_infinitive",
+    "infinitive_form": "ịkpẹ̀",
+    "base_root": "kpẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpị́_infinitive",
+    "infinitive_form": "ịkpị́",
+    "base_root": "kpị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpị_infinitive",
+    "infinitive_form": "ịkpị",
+    "base_root": "kpị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpị̀_infinitive",
+    "infinitive_form": "ịkpị̀",
+    "base_root": "kpị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpọ́_infinitive",
+    "infinitive_form": "ịkpọ́",
+    "base_root": "kpọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpọ_infinitive",
+    "infinitive_form": "ịkpọ",
+    "base_root": "kpọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpọ̀_infinitive",
+    "infinitive_form": "ịkpọ̀",
+    "base_root": "kpọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpụ́_infinitive",
+    "infinitive_form": "ịkpụ́",
+    "base_root": "kpụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpụ_infinitive",
+    "infinitive_form": "ịkpụ",
+    "base_root": "kpụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkpụ̀_infinitive",
+    "infinitive_form": "ịkpụ̀",
+    "base_root": "kpụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkpụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpé_infinitive",
+    "infinitive_form": "ikpé",
+    "base_root": "kpé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpe_infinitive",
+    "infinitive_form": "ikpe",
+    "base_root": "kpe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpè_infinitive",
+    "infinitive_form": "ikpè",
+    "base_root": "kpè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpí_infinitive",
+    "infinitive_form": "ikpí",
+    "base_root": "kpí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpi_infinitive",
+    "infinitive_form": "ikpi",
+    "base_root": "kpi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpì_infinitive",
+    "infinitive_form": "ikpì",
+    "base_root": "kpì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpó_infinitive",
+    "infinitive_form": "ikpó",
+    "base_root": "kpó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpo_infinitive",
+    "infinitive_form": "ikpo",
+    "base_root": "kpo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpò_infinitive",
+    "infinitive_form": "ikpò",
+    "base_root": "kpò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpú_infinitive",
+    "infinitive_form": "ikpú",
+    "base_root": "kpú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpu_infinitive",
+    "infinitive_form": "ikpu",
+    "base_root": "kpu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikpù_infinitive",
+    "infinitive_form": "ikpù",
+    "base_root": "kpù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikpù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwá_infinitive",
+    "infinitive_form": "ịkwá",
+    "base_root": "kwá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwa_infinitive",
+    "infinitive_form": "ịkwa",
+    "base_root": "kwa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwà_infinitive",
+    "infinitive_form": "ịkwà",
+    "base_root": "kwà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwẹ́_infinitive",
+    "infinitive_form": "ịkwẹ́",
+    "base_root": "kwẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwẹ_infinitive",
+    "infinitive_form": "ịkwẹ",
+    "base_root": "kwẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwẹ̀_infinitive",
+    "infinitive_form": "ịkwẹ̀",
+    "base_root": "kwẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwị́_infinitive",
+    "infinitive_form": "ịkwị́",
+    "base_root": "kwị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwị_infinitive",
+    "infinitive_form": "ịkwị",
+    "base_root": "kwị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwị̀_infinitive",
+    "infinitive_form": "ịkwị̀",
+    "base_root": "kwị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwọ́_infinitive",
+    "infinitive_form": "ịkwọ́",
+    "base_root": "kwọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwọ_infinitive",
+    "infinitive_form": "ịkwọ",
+    "base_root": "kwọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwọ̀_infinitive",
+    "infinitive_form": "ịkwọ̀",
+    "base_root": "kwọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwụ́_infinitive",
+    "infinitive_form": "ịkwụ́",
+    "base_root": "kwụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwụ_infinitive",
+    "infinitive_form": "ịkwụ",
+    "base_root": "kwụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịkwụ̀_infinitive",
+    "infinitive_form": "ịkwụ̀",
+    "base_root": "kwụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịkwụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwé_infinitive",
+    "infinitive_form": "ikwé",
+    "base_root": "kwé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwe_infinitive",
+    "infinitive_form": "ikwe",
+    "base_root": "kwe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwè_infinitive",
+    "infinitive_form": "ikwè",
+    "base_root": "kwè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwí_infinitive",
+    "infinitive_form": "ikwí",
+    "base_root": "kwí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwi_infinitive",
+    "infinitive_form": "ikwi",
+    "base_root": "kwi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwì_infinitive",
+    "infinitive_form": "ikwì",
+    "base_root": "kwì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwó_infinitive",
+    "infinitive_form": "ikwó",
+    "base_root": "kwó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwo_infinitive",
+    "infinitive_form": "ikwo",
+    "base_root": "kwo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwò_infinitive",
+    "infinitive_form": "ikwò",
+    "base_root": "kwò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwú_infinitive",
+    "infinitive_form": "ikwú",
+    "base_root": "kwú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwu_infinitive",
+    "infinitive_form": "ikwu",
+    "base_root": "kwu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ikwù_infinitive",
+    "infinitive_form": "ikwù",
+    "base_root": "kwù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ikwù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlá_infinitive",
+    "infinitive_form": "ịlá",
+    "base_root": "lá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịla_infinitive",
+    "infinitive_form": "ịla",
+    "base_root": "la",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịla_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlà_infinitive",
+    "infinitive_form": "ịlà",
+    "base_root": "là",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlẹ́_infinitive",
+    "infinitive_form": "ịlẹ́",
+    "base_root": "lẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlẹ_infinitive",
+    "infinitive_form": "ịlẹ",
+    "base_root": "lẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlẹ̀_infinitive",
+    "infinitive_form": "ịlẹ̀",
+    "base_root": "lẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlị́_infinitive",
+    "infinitive_form": "ịlị́",
+    "base_root": "lị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlị_infinitive",
+    "infinitive_form": "ịlị",
+    "base_root": "lị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlị̀_infinitive",
+    "infinitive_form": "ịlị̀",
+    "base_root": "lị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlọ́_infinitive",
+    "infinitive_form": "ịlọ́",
+    "base_root": "lọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlọ_infinitive",
+    "infinitive_form": "ịlọ",
+    "base_root": "lọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlọ̀_infinitive",
+    "infinitive_form": "ịlọ̀",
+    "base_root": "lọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlụ́_infinitive",
+    "infinitive_form": "ịlụ́",
+    "base_root": "lụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlụ_infinitive",
+    "infinitive_form": "ịlụ",
+    "base_root": "lụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịlụ̀_infinitive",
+    "infinitive_form": "ịlụ̀",
+    "base_root": "lụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịlụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilé_infinitive",
+    "infinitive_form": "ilé",
+    "base_root": "lé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ile_infinitive",
+    "infinitive_form": "ile",
+    "base_root": "le",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ile_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilè_infinitive",
+    "infinitive_form": "ilè",
+    "base_root": "lè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilí_infinitive",
+    "infinitive_form": "ilí",
+    "base_root": "lí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ili_infinitive",
+    "infinitive_form": "ili",
+    "base_root": "li",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ili_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilì_infinitive",
+    "infinitive_form": "ilì",
+    "base_root": "lì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iló_infinitive",
+    "infinitive_form": "iló",
+    "base_root": "ló",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iló_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilo_infinitive",
+    "infinitive_form": "ilo",
+    "base_root": "lo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilò_infinitive",
+    "infinitive_form": "ilò",
+    "base_root": "lò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilú_infinitive",
+    "infinitive_form": "ilú",
+    "base_root": "lú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilu_infinitive",
+    "infinitive_form": "ilu",
+    "base_root": "lu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ilù_infinitive",
+    "infinitive_form": "ilù",
+    "base_root": "lù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ilù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmá_infinitive",
+    "infinitive_form": "ịmá",
+    "base_root": "má",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịma_infinitive",
+    "infinitive_form": "ịma",
+    "base_root": "ma",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịma_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmà_infinitive",
+    "infinitive_form": "ịmà",
+    "base_root": "mà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmẹ́_infinitive",
+    "infinitive_form": "ịmẹ́",
+    "base_root": "mẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmẹ_infinitive",
+    "infinitive_form": "ịmẹ",
+    "base_root": "mẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmẹ̀_infinitive",
+    "infinitive_form": "ịmẹ̀",
+    "base_root": "mẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmị́_infinitive",
+    "infinitive_form": "ịmị́",
+    "base_root": "mị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmị_infinitive",
+    "infinitive_form": "ịmị",
+    "base_root": "mị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmị̀_infinitive",
+    "infinitive_form": "ịmị̀",
+    "base_root": "mị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmọ́_infinitive",
+    "infinitive_form": "ịmọ́",
+    "base_root": "mọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmọ_infinitive",
+    "infinitive_form": "ịmọ",
+    "base_root": "mọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmọ̀_infinitive",
+    "infinitive_form": "ịmọ̀",
+    "base_root": "mọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmụ́_infinitive",
+    "infinitive_form": "ịmụ́",
+    "base_root": "mụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmụ_infinitive",
+    "infinitive_form": "ịmụ",
+    "base_root": "mụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịmụ̀_infinitive",
+    "infinitive_form": "ịmụ̀",
+    "base_root": "mụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịmụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imé_infinitive",
+    "infinitive_form": "imé",
+    "base_root": "mé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ime_infinitive",
+    "infinitive_form": "ime",
+    "base_root": "me",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ime_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imè_infinitive",
+    "infinitive_form": "imè",
+    "base_root": "mè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imí_infinitive",
+    "infinitive_form": "imí",
+    "base_root": "mí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imi_infinitive",
+    "infinitive_form": "imi",
+    "base_root": "mi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imì_infinitive",
+    "infinitive_form": "imì",
+    "base_root": "mì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imó_infinitive",
+    "infinitive_form": "imó",
+    "base_root": "mó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imo_infinitive",
+    "infinitive_form": "imo",
+    "base_root": "mo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imò_infinitive",
+    "infinitive_form": "imò",
+    "base_root": "mò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imú_infinitive",
+    "infinitive_form": "imú",
+    "base_root": "mú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imu_infinitive",
+    "infinitive_form": "imu",
+    "base_root": "mu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "imù_infinitive",
+    "infinitive_form": "imù",
+    "base_root": "mù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "imù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩á_infinitive",
+    "infinitive_form": "ịm̩á",
+    "base_root": "m̩á",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩á_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩a_infinitive",
+    "infinitive_form": "ịm̩a",
+    "base_root": "m̩a",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩a_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩à_infinitive",
+    "infinitive_form": "ịm̩à",
+    "base_root": "m̩à",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩à_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ẹ́_infinitive",
+    "infinitive_form": "ịm̩ẹ́",
+    "base_root": "m̩ẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ẹ_infinitive",
+    "infinitive_form": "ịm̩ẹ",
+    "base_root": "m̩ẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ẹ̀_infinitive",
+    "infinitive_form": "ịm̩ẹ̀",
+    "base_root": "m̩ẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ị́_infinitive",
+    "infinitive_form": "ịm̩ị́",
+    "base_root": "m̩ị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ị_infinitive",
+    "infinitive_form": "ịm̩ị",
+    "base_root": "m̩ị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ị̀_infinitive",
+    "infinitive_form": "ịm̩ị̀",
+    "base_root": "m̩ị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ọ́_infinitive",
+    "infinitive_form": "ịm̩ọ́",
+    "base_root": "m̩ọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ọ_infinitive",
+    "infinitive_form": "ịm̩ọ",
+    "base_root": "m̩ọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ọ̀_infinitive",
+    "infinitive_form": "ịm̩ọ̀",
+    "base_root": "m̩ọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ụ́_infinitive",
+    "infinitive_form": "ịm̩ụ́",
+    "base_root": "m̩ụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ụ_infinitive",
+    "infinitive_form": "ịm̩ụ",
+    "base_root": "m̩ụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịm̩ụ̀_infinitive",
+    "infinitive_form": "ịm̩ụ̀",
+    "base_root": "m̩ụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịm̩ụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩é_infinitive",
+    "infinitive_form": "im̩é",
+    "base_root": "m̩é",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩é_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩e_infinitive",
+    "infinitive_form": "im̩e",
+    "base_root": "m̩e",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩e_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩è_infinitive",
+    "infinitive_form": "im̩è",
+    "base_root": "m̩è",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩è_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩í_infinitive",
+    "infinitive_form": "im̩í",
+    "base_root": "m̩í",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩í_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩i_infinitive",
+    "infinitive_form": "im̩i",
+    "base_root": "m̩i",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩i_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩ì_infinitive",
+    "infinitive_form": "im̩ì",
+    "base_root": "m̩ì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩ì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩ó_infinitive",
+    "infinitive_form": "im̩ó",
+    "base_root": "m̩ó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩ó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩o_infinitive",
+    "infinitive_form": "im̩o",
+    "base_root": "m̩o",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩o_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩ò_infinitive",
+    "infinitive_form": "im̩ò",
+    "base_root": "m̩ò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩ò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩ú_infinitive",
+    "infinitive_form": "im̩ú",
+    "base_root": "m̩ú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩ú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩u_infinitive",
+    "infinitive_form": "im̩u",
+    "base_root": "m̩u",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩u_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "im̩ù_infinitive",
+    "infinitive_form": "im̩ù",
+    "base_root": "m̩ù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "im̩ù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịná_infinitive",
+    "infinitive_form": "ịná",
+    "base_root": "ná",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịná_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịna_infinitive",
+    "infinitive_form": "ịna",
+    "base_root": "na",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịna_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnà_infinitive",
+    "infinitive_form": "ịnà",
+    "base_root": "nà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnẹ́_infinitive",
+    "infinitive_form": "ịnẹ́",
+    "base_root": "nẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnẹ_infinitive",
+    "infinitive_form": "ịnẹ",
+    "base_root": "nẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnẹ̀_infinitive",
+    "infinitive_form": "ịnẹ̀",
+    "base_root": "nẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnị́_infinitive",
+    "infinitive_form": "ịnị́",
+    "base_root": "nị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnị_infinitive",
+    "infinitive_form": "ịnị",
+    "base_root": "nị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnị̀_infinitive",
+    "infinitive_form": "ịnị̀",
+    "base_root": "nị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnọ́_infinitive",
+    "infinitive_form": "ịnọ́",
+    "base_root": "nọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnọ_infinitive",
+    "infinitive_form": "ịnọ",
+    "base_root": "nọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnọ̀_infinitive",
+    "infinitive_form": "ịnọ̀",
+    "base_root": "nọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnụ́_infinitive",
+    "infinitive_form": "ịnụ́",
+    "base_root": "nụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnụ_infinitive",
+    "infinitive_form": "ịnụ",
+    "base_root": "nụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnụ̀_infinitive",
+    "infinitive_form": "ịnụ̀",
+    "base_root": "nụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iné_infinitive",
+    "infinitive_form": "iné",
+    "base_root": "né",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iné_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ine_infinitive",
+    "infinitive_form": "ine",
+    "base_root": "ne",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ine_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inè_infinitive",
+    "infinitive_form": "inè",
+    "base_root": "nè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iní_infinitive",
+    "infinitive_form": "iní",
+    "base_root": "ní",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iní_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ini_infinitive",
+    "infinitive_form": "ini",
+    "base_root": "ni",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ini_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inì_infinitive",
+    "infinitive_form": "inì",
+    "base_root": "nì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inó_infinitive",
+    "infinitive_form": "inó",
+    "base_root": "nó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ino_infinitive",
+    "infinitive_form": "ino",
+    "base_root": "no",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ino_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inò_infinitive",
+    "infinitive_form": "inò",
+    "base_root": "nò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inú_infinitive",
+    "infinitive_form": "inú",
+    "base_root": "nú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inu_infinitive",
+    "infinitive_form": "inu",
+    "base_root": "nu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inù_infinitive",
+    "infinitive_form": "inù",
+    "base_root": "nù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩á_infinitive",
+    "infinitive_form": "ịn̩á",
+    "base_root": "n̩á",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩á_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩a_infinitive",
+    "infinitive_form": "ịn̩a",
+    "base_root": "n̩a",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩a_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩à_infinitive",
+    "infinitive_form": "ịn̩à",
+    "base_root": "n̩à",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩à_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ẹ́_infinitive",
+    "infinitive_form": "ịn̩ẹ́",
+    "base_root": "n̩ẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ẹ_infinitive",
+    "infinitive_form": "ịn̩ẹ",
+    "base_root": "n̩ẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ẹ̀_infinitive",
+    "infinitive_form": "ịn̩ẹ̀",
+    "base_root": "n̩ẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ị́_infinitive",
+    "infinitive_form": "ịn̩ị́",
+    "base_root": "n̩ị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ị_infinitive",
+    "infinitive_form": "ịn̩ị",
+    "base_root": "n̩ị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ị̀_infinitive",
+    "infinitive_form": "ịn̩ị̀",
+    "base_root": "n̩ị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ọ́_infinitive",
+    "infinitive_form": "ịn̩ọ́",
+    "base_root": "n̩ọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ọ_infinitive",
+    "infinitive_form": "ịn̩ọ",
+    "base_root": "n̩ọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ọ̀_infinitive",
+    "infinitive_form": "ịn̩ọ̀",
+    "base_root": "n̩ọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ụ́_infinitive",
+    "infinitive_form": "ịn̩ụ́",
+    "base_root": "n̩ụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ụ_infinitive",
+    "infinitive_form": "ịn̩ụ",
+    "base_root": "n̩ụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịn̩ụ̀_infinitive",
+    "infinitive_form": "ịn̩ụ̀",
+    "base_root": "n̩ụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịn̩ụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩é_infinitive",
+    "infinitive_form": "in̩é",
+    "base_root": "n̩é",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩é_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩e_infinitive",
+    "infinitive_form": "in̩e",
+    "base_root": "n̩e",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩e_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩è_infinitive",
+    "infinitive_form": "in̩è",
+    "base_root": "n̩è",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩è_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩í_infinitive",
+    "infinitive_form": "in̩í",
+    "base_root": "n̩í",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩í_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩i_infinitive",
+    "infinitive_form": "in̩i",
+    "base_root": "n̩i",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩i_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩ì_infinitive",
+    "infinitive_form": "in̩ì",
+    "base_root": "n̩ì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩ì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩ó_infinitive",
+    "infinitive_form": "in̩ó",
+    "base_root": "n̩ó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩ó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩o_infinitive",
+    "infinitive_form": "in̩o",
+    "base_root": "n̩o",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩o_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩ò_infinitive",
+    "infinitive_form": "in̩ò",
+    "base_root": "n̩ò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩ò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩ú_infinitive",
+    "infinitive_form": "in̩ú",
+    "base_root": "n̩ú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩ú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩u_infinitive",
+    "infinitive_form": "in̩u",
+    "base_root": "n̩u",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩u_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "in̩ù_infinitive",
+    "infinitive_form": "in̩ù",
+    "base_root": "n̩ù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "in̩ù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅá_infinitive",
+    "infinitive_form": "ịṅá",
+    "base_root": "ṅá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅa_infinitive",
+    "infinitive_form": "ịṅa",
+    "base_root": "ṅa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅà_infinitive",
+    "infinitive_form": "ịṅà",
+    "base_root": "ṅà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅẹ́_infinitive",
+    "infinitive_form": "ịṅẹ́",
+    "base_root": "ṅẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅẹ_infinitive",
+    "infinitive_form": "ịṅẹ",
+    "base_root": "ṅẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅẹ̀_infinitive",
+    "infinitive_form": "ịṅẹ̀",
+    "base_root": "ṅẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅị́_infinitive",
+    "infinitive_form": "ịṅị́",
+    "base_root": "ṅị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅị_infinitive",
+    "infinitive_form": "ịṅị",
+    "base_root": "ṅị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅị̀_infinitive",
+    "infinitive_form": "ịṅị̀",
+    "base_root": "ṅị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅọ́_infinitive",
+    "infinitive_form": "ịṅọ́",
+    "base_root": "ṅọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅọ_infinitive",
+    "infinitive_form": "ịṅọ",
+    "base_root": "ṅọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅọ̀_infinitive",
+    "infinitive_form": "ịṅọ̀",
+    "base_root": "ṅọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅụ́_infinitive",
+    "infinitive_form": "ịṅụ́",
+    "base_root": "ṅụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅụ_infinitive",
+    "infinitive_form": "ịṅụ",
+    "base_root": "ṅụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịṅụ̀_infinitive",
+    "infinitive_form": "ịṅụ̀",
+    "base_root": "ṅụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịṅụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅé_infinitive",
+    "infinitive_form": "iṅé",
+    "base_root": "ṅé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅe_infinitive",
+    "infinitive_form": "iṅe",
+    "base_root": "ṅe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅè_infinitive",
+    "infinitive_form": "iṅè",
+    "base_root": "ṅè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅí_infinitive",
+    "infinitive_form": "iṅí",
+    "base_root": "ṅí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅi_infinitive",
+    "infinitive_form": "iṅi",
+    "base_root": "ṅi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅì_infinitive",
+    "infinitive_form": "iṅì",
+    "base_root": "ṅì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅó_infinitive",
+    "infinitive_form": "iṅó",
+    "base_root": "ṅó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅo_infinitive",
+    "infinitive_form": "iṅo",
+    "base_root": "ṅo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅò_infinitive",
+    "infinitive_form": "iṅò",
+    "base_root": "ṅò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅú_infinitive",
+    "infinitive_form": "iṅú",
+    "base_root": "ṅú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅu_infinitive",
+    "infinitive_form": "iṅu",
+    "base_root": "ṅu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iṅù_infinitive",
+    "infinitive_form": "iṅù",
+    "base_root": "ṅù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iṅù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwá_infinitive",
+    "infinitive_form": "ịnwá",
+    "base_root": "nwá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwa_infinitive",
+    "infinitive_form": "ịnwa",
+    "base_root": "nwa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwà_infinitive",
+    "infinitive_form": "ịnwà",
+    "base_root": "nwà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwẹ́_infinitive",
+    "infinitive_form": "ịnwẹ́",
+    "base_root": "nwẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwẹ_infinitive",
+    "infinitive_form": "ịnwẹ",
+    "base_root": "nwẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwẹ̀_infinitive",
+    "infinitive_form": "ịnwẹ̀",
+    "base_root": "nwẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwị́_infinitive",
+    "infinitive_form": "ịnwị́",
+    "base_root": "nwị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwị_infinitive",
+    "infinitive_form": "ịnwị",
+    "base_root": "nwị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwị̀_infinitive",
+    "infinitive_form": "ịnwị̀",
+    "base_root": "nwị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwọ́_infinitive",
+    "infinitive_form": "ịnwọ́",
+    "base_root": "nwọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwọ_infinitive",
+    "infinitive_form": "ịnwọ",
+    "base_root": "nwọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwọ̀_infinitive",
+    "infinitive_form": "ịnwọ̀",
+    "base_root": "nwọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwụ́_infinitive",
+    "infinitive_form": "ịnwụ́",
+    "base_root": "nwụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwụ_infinitive",
+    "infinitive_form": "ịnwụ",
+    "base_root": "nwụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnwụ̀_infinitive",
+    "infinitive_form": "ịnwụ̀",
+    "base_root": "nwụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnwụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwé_infinitive",
+    "infinitive_form": "inwé",
+    "base_root": "nwé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwe_infinitive",
+    "infinitive_form": "inwe",
+    "base_root": "nwe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwè_infinitive",
+    "infinitive_form": "inwè",
+    "base_root": "nwè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwí_infinitive",
+    "infinitive_form": "inwí",
+    "base_root": "nwí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwi_infinitive",
+    "infinitive_form": "inwi",
+    "base_root": "nwi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwì_infinitive",
+    "infinitive_form": "inwì",
+    "base_root": "nwì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwó_infinitive",
+    "infinitive_form": "inwó",
+    "base_root": "nwó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwo_infinitive",
+    "infinitive_form": "inwo",
+    "base_root": "nwo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwò_infinitive",
+    "infinitive_form": "inwò",
+    "base_root": "nwò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwú_infinitive",
+    "infinitive_form": "inwú",
+    "base_root": "nwú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwu_infinitive",
+    "infinitive_form": "inwu",
+    "base_root": "nwu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inwù_infinitive",
+    "infinitive_form": "inwù",
+    "base_root": "nwù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inwù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyá_infinitive",
+    "infinitive_form": "ịnyá",
+    "base_root": "nyá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnya_infinitive",
+    "infinitive_form": "ịnya",
+    "base_root": "nya",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnya_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyà_infinitive",
+    "infinitive_form": "ịnyà",
+    "base_root": "nyà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyẹ́_infinitive",
+    "infinitive_form": "ịnyẹ́",
+    "base_root": "nyẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyẹ_infinitive",
+    "infinitive_form": "ịnyẹ",
+    "base_root": "nyẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyẹ̀_infinitive",
+    "infinitive_form": "ịnyẹ̀",
+    "base_root": "nyẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyị́_infinitive",
+    "infinitive_form": "ịnyị́",
+    "base_root": "nyị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyị_infinitive",
+    "infinitive_form": "ịnyị",
+    "base_root": "nyị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyị̀_infinitive",
+    "infinitive_form": "ịnyị̀",
+    "base_root": "nyị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyọ́_infinitive",
+    "infinitive_form": "ịnyọ́",
+    "base_root": "nyọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyọ_infinitive",
+    "infinitive_form": "ịnyọ",
+    "base_root": "nyọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyọ̀_infinitive",
+    "infinitive_form": "ịnyọ̀",
+    "base_root": "nyọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyụ́_infinitive",
+    "infinitive_form": "ịnyụ́",
+    "base_root": "nyụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyụ_infinitive",
+    "infinitive_form": "ịnyụ",
+    "base_root": "nyụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịnyụ̀_infinitive",
+    "infinitive_form": "ịnyụ̀",
+    "base_root": "nyụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịnyụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyé_infinitive",
+    "infinitive_form": "inyé",
+    "base_root": "nyé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inye_infinitive",
+    "infinitive_form": "inye",
+    "base_root": "nye",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inye_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyè_infinitive",
+    "infinitive_form": "inyè",
+    "base_root": "nyè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyí_infinitive",
+    "infinitive_form": "inyí",
+    "base_root": "nyí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyi_infinitive",
+    "infinitive_form": "inyi",
+    "base_root": "nyi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyì_infinitive",
+    "infinitive_form": "inyì",
+    "base_root": "nyì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyó_infinitive",
+    "infinitive_form": "inyó",
+    "base_root": "nyó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyo_infinitive",
+    "infinitive_form": "inyo",
+    "base_root": "nyo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyò_infinitive",
+    "infinitive_form": "inyò",
+    "base_root": "nyò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyú_infinitive",
+    "infinitive_form": "inyú",
+    "base_root": "nyú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyu_infinitive",
+    "infinitive_form": "inyu",
+    "base_root": "nyu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "inyù_infinitive",
+    "infinitive_form": "inyù",
+    "base_root": "nyù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "inyù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpá_infinitive",
+    "infinitive_form": "ịpá",
+    "base_root": "pá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpa_infinitive",
+    "infinitive_form": "ịpa",
+    "base_root": "pa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpà_infinitive",
+    "infinitive_form": "ịpà",
+    "base_root": "pà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpẹ́_infinitive",
+    "infinitive_form": "ịpẹ́",
+    "base_root": "pẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpẹ_infinitive",
+    "infinitive_form": "ịpẹ",
+    "base_root": "pẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpẹ̀_infinitive",
+    "infinitive_form": "ịpẹ̀",
+    "base_root": "pẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpị́_infinitive",
+    "infinitive_form": "ịpị́",
+    "base_root": "pị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpị_infinitive",
+    "infinitive_form": "ịpị",
+    "base_root": "pị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpị̀_infinitive",
+    "infinitive_form": "ịpị̀",
+    "base_root": "pị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpọ́_infinitive",
+    "infinitive_form": "ịpọ́",
+    "base_root": "pọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpọ_infinitive",
+    "infinitive_form": "ịpọ",
+    "base_root": "pọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpọ̀_infinitive",
+    "infinitive_form": "ịpọ̀",
+    "base_root": "pọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpụ́_infinitive",
+    "infinitive_form": "ịpụ́",
+    "base_root": "pụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpụ_infinitive",
+    "infinitive_form": "ịpụ",
+    "base_root": "pụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịpụ̀_infinitive",
+    "infinitive_form": "ịpụ̀",
+    "base_root": "pụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịpụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipé_infinitive",
+    "infinitive_form": "ipé",
+    "base_root": "pé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipe_infinitive",
+    "infinitive_form": "ipe",
+    "base_root": "pe",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipè_infinitive",
+    "infinitive_form": "ipè",
+    "base_root": "pè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipí_infinitive",
+    "infinitive_form": "ipí",
+    "base_root": "pí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipi_infinitive",
+    "infinitive_form": "ipi",
+    "base_root": "pi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipì_infinitive",
+    "infinitive_form": "ipì",
+    "base_root": "pì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipó_infinitive",
+    "infinitive_form": "ipó",
+    "base_root": "pó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipo_infinitive",
+    "infinitive_form": "ipo",
+    "base_root": "po",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipò_infinitive",
+    "infinitive_form": "ipò",
+    "base_root": "pò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipú_infinitive",
+    "infinitive_form": "ipú",
+    "base_root": "pú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipu_infinitive",
+    "infinitive_form": "ipu",
+    "base_root": "pu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ipù_infinitive",
+    "infinitive_form": "ipù",
+    "base_root": "pù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ipù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrá_infinitive",
+    "infinitive_form": "ịrá",
+    "base_root": "rá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịra_infinitive",
+    "infinitive_form": "ịra",
+    "base_root": "ra",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịra_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrà_infinitive",
+    "infinitive_form": "ịrà",
+    "base_root": "rà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrẹ́_infinitive",
+    "infinitive_form": "ịrẹ́",
+    "base_root": "rẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrẹ_infinitive",
+    "infinitive_form": "ịrẹ",
+    "base_root": "rẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrẹ̀_infinitive",
+    "infinitive_form": "ịrẹ̀",
+    "base_root": "rẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrị́_infinitive",
+    "infinitive_form": "ịrị́",
+    "base_root": "rị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrị_infinitive",
+    "infinitive_form": "ịrị",
+    "base_root": "rị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrị̀_infinitive",
+    "infinitive_form": "ịrị̀",
+    "base_root": "rị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrọ́_infinitive",
+    "infinitive_form": "ịrọ́",
+    "base_root": "rọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrọ_infinitive",
+    "infinitive_form": "ịrọ",
+    "base_root": "rọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrọ̀_infinitive",
+    "infinitive_form": "ịrọ̀",
+    "base_root": "rọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrụ́_infinitive",
+    "infinitive_form": "ịrụ́",
+    "base_root": "rụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrụ_infinitive",
+    "infinitive_form": "ịrụ",
+    "base_root": "rụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịrụ̀_infinitive",
+    "infinitive_form": "ịrụ̀",
+    "base_root": "rụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịrụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iré_infinitive",
+    "infinitive_form": "iré",
+    "base_root": "ré",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iré_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ire_infinitive",
+    "infinitive_form": "ire",
+    "base_root": "re",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ire_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irè_infinitive",
+    "infinitive_form": "irè",
+    "base_root": "rè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irí_infinitive",
+    "infinitive_form": "irí",
+    "base_root": "rí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iri_infinitive",
+    "infinitive_form": "iri",
+    "base_root": "ri",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iri_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irì_infinitive",
+    "infinitive_form": "irì",
+    "base_root": "rì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iró_infinitive",
+    "infinitive_form": "iró",
+    "base_root": "ró",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iró_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iro_infinitive",
+    "infinitive_form": "iro",
+    "base_root": "ro",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iro_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irò_infinitive",
+    "infinitive_form": "irò",
+    "base_root": "rò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irú_infinitive",
+    "infinitive_form": "irú",
+    "base_root": "rú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iru_infinitive",
+    "infinitive_form": "iru",
+    "base_root": "ru",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iru_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "irù_infinitive",
+    "infinitive_form": "irù",
+    "base_root": "rù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "irù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsá_infinitive",
+    "infinitive_form": "ịsá",
+    "base_root": "sá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsa_infinitive",
+    "infinitive_form": "ịsa",
+    "base_root": "sa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsà_infinitive",
+    "infinitive_form": "ịsà",
+    "base_root": "sà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsẹ́_infinitive",
+    "infinitive_form": "ịsẹ́",
+    "base_root": "sẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsẹ_infinitive",
+    "infinitive_form": "ịsẹ",
+    "base_root": "sẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsẹ̀_infinitive",
+    "infinitive_form": "ịsẹ̀",
+    "base_root": "sẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsị́_infinitive",
+    "infinitive_form": "ịsị́",
+    "base_root": "sị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsị_infinitive",
+    "infinitive_form": "ịsị",
+    "base_root": "sị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsị̀_infinitive",
+    "infinitive_form": "ịsị̀",
+    "base_root": "sị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsọ́_infinitive",
+    "infinitive_form": "ịsọ́",
+    "base_root": "sọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsọ_infinitive",
+    "infinitive_form": "ịsọ",
+    "base_root": "sọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsọ̀_infinitive",
+    "infinitive_form": "ịsọ̀",
+    "base_root": "sọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsụ́_infinitive",
+    "infinitive_form": "ịsụ́",
+    "base_root": "sụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsụ_infinitive",
+    "infinitive_form": "ịsụ",
+    "base_root": "sụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsụ̀_infinitive",
+    "infinitive_form": "ịsụ̀",
+    "base_root": "sụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isé_infinitive",
+    "infinitive_form": "isé",
+    "base_root": "sé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ise_infinitive",
+    "infinitive_form": "ise",
+    "base_root": "se",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ise_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isè_infinitive",
+    "infinitive_form": "isè",
+    "base_root": "sè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isí_infinitive",
+    "infinitive_form": "isí",
+    "base_root": "sí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isi_infinitive",
+    "infinitive_form": "isi",
+    "base_root": "si",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isì_infinitive",
+    "infinitive_form": "isì",
+    "base_root": "sì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isó_infinitive",
+    "infinitive_form": "isó",
+    "base_root": "só",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iso_infinitive",
+    "infinitive_form": "iso",
+    "base_root": "so",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iso_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isò_infinitive",
+    "infinitive_form": "isò",
+    "base_root": "sò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isú_infinitive",
+    "infinitive_form": "isú",
+    "base_root": "sú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isu_infinitive",
+    "infinitive_form": "isu",
+    "base_root": "su",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isù_infinitive",
+    "infinitive_form": "isù",
+    "base_root": "sù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshá_infinitive",
+    "infinitive_form": "ịshá",
+    "base_root": "shá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịsha_infinitive",
+    "infinitive_form": "ịsha",
+    "base_root": "sha",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịsha_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshà_infinitive",
+    "infinitive_form": "ịshà",
+    "base_root": "shà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshẹ́_infinitive",
+    "infinitive_form": "ịshẹ́",
+    "base_root": "shẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshẹ_infinitive",
+    "infinitive_form": "ịshẹ",
+    "base_root": "shẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshẹ̀_infinitive",
+    "infinitive_form": "ịshẹ̀",
+    "base_root": "shẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshị́_infinitive",
+    "infinitive_form": "ịshị́",
+    "base_root": "shị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshị_infinitive",
+    "infinitive_form": "ịshị",
+    "base_root": "shị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshị̀_infinitive",
+    "infinitive_form": "ịshị̀",
+    "base_root": "shị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshọ́_infinitive",
+    "infinitive_form": "ịshọ́",
+    "base_root": "shọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshọ_infinitive",
+    "infinitive_form": "ịshọ",
+    "base_root": "shọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshọ̀_infinitive",
+    "infinitive_form": "ịshọ̀",
+    "base_root": "shọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshụ́_infinitive",
+    "infinitive_form": "ịshụ́",
+    "base_root": "shụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshụ_infinitive",
+    "infinitive_form": "ịshụ",
+    "base_root": "shụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịshụ̀_infinitive",
+    "infinitive_form": "ịshụ̀",
+    "base_root": "shụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịshụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishé_infinitive",
+    "infinitive_form": "ishé",
+    "base_root": "shé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishe_infinitive",
+    "infinitive_form": "ishe",
+    "base_root": "she",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishè_infinitive",
+    "infinitive_form": "ishè",
+    "base_root": "shè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishí_infinitive",
+    "infinitive_form": "ishí",
+    "base_root": "shí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishi_infinitive",
+    "infinitive_form": "ishi",
+    "base_root": "shi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishì_infinitive",
+    "infinitive_form": "ishì",
+    "base_root": "shì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishó_infinitive",
+    "infinitive_form": "ishó",
+    "base_root": "shó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "isho_infinitive",
+    "infinitive_form": "isho",
+    "base_root": "sho",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "isho_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishò_infinitive",
+    "infinitive_form": "ishò",
+    "base_root": "shò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishú_infinitive",
+    "infinitive_form": "ishú",
+    "base_root": "shú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishu_infinitive",
+    "infinitive_form": "ishu",
+    "base_root": "shu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ishù_infinitive",
+    "infinitive_form": "ishù",
+    "base_root": "shù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ishù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtá_infinitive",
+    "infinitive_form": "ịtá",
+    "base_root": "tá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịta_infinitive",
+    "infinitive_form": "ịta",
+    "base_root": "ta",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịta_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtà_infinitive",
+    "infinitive_form": "ịtà",
+    "base_root": "tà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtẹ́_infinitive",
+    "infinitive_form": "ịtẹ́",
+    "base_root": "tẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtẹ_infinitive",
+    "infinitive_form": "ịtẹ",
+    "base_root": "tẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtẹ̀_infinitive",
+    "infinitive_form": "ịtẹ̀",
+    "base_root": "tẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtị́_infinitive",
+    "infinitive_form": "ịtị́",
+    "base_root": "tị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtị_infinitive",
+    "infinitive_form": "ịtị",
+    "base_root": "tị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtị̀_infinitive",
+    "infinitive_form": "ịtị̀",
+    "base_root": "tị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtọ́_infinitive",
+    "infinitive_form": "ịtọ́",
+    "base_root": "tọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtọ_infinitive",
+    "infinitive_form": "ịtọ",
+    "base_root": "tọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtọ̀_infinitive",
+    "infinitive_form": "ịtọ̀",
+    "base_root": "tọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtụ́_infinitive",
+    "infinitive_form": "ịtụ́",
+    "base_root": "tụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtụ_infinitive",
+    "infinitive_form": "ịtụ",
+    "base_root": "tụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịtụ̀_infinitive",
+    "infinitive_form": "ịtụ̀",
+    "base_root": "tụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịtụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ité_infinitive",
+    "infinitive_form": "ité",
+    "base_root": "té",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ité_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ite_infinitive",
+    "infinitive_form": "ite",
+    "base_root": "te",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ite_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itè_infinitive",
+    "infinitive_form": "itè",
+    "base_root": "tè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ití_infinitive",
+    "infinitive_form": "ití",
+    "base_root": "tí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ití_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iti_infinitive",
+    "infinitive_form": "iti",
+    "base_root": "ti",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iti_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itì_infinitive",
+    "infinitive_form": "itì",
+    "base_root": "tì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itó_infinitive",
+    "infinitive_form": "itó",
+    "base_root": "tó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ito_infinitive",
+    "infinitive_form": "ito",
+    "base_root": "to",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ito_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itò_infinitive",
+    "infinitive_form": "itò",
+    "base_root": "tò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itú_infinitive",
+    "infinitive_form": "itú",
+    "base_root": "tú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itu_infinitive",
+    "infinitive_form": "itu",
+    "base_root": "tu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "itù_infinitive",
+    "infinitive_form": "itù",
+    "base_root": "tù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "itù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvá_infinitive",
+    "infinitive_form": "ịvá",
+    "base_root": "vá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịva_infinitive",
+    "infinitive_form": "ịva",
+    "base_root": "va",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịva_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvà_infinitive",
+    "infinitive_form": "ịvà",
+    "base_root": "và",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvẹ́_infinitive",
+    "infinitive_form": "ịvẹ́",
+    "base_root": "vẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvẹ_infinitive",
+    "infinitive_form": "ịvẹ",
+    "base_root": "vẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvẹ̀_infinitive",
+    "infinitive_form": "ịvẹ̀",
+    "base_root": "vẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvị́_infinitive",
+    "infinitive_form": "ịvị́",
+    "base_root": "vị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvị_infinitive",
+    "infinitive_form": "ịvị",
+    "base_root": "vị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvị̀_infinitive",
+    "infinitive_form": "ịvị̀",
+    "base_root": "vị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvọ́_infinitive",
+    "infinitive_form": "ịvọ́",
+    "base_root": "vọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvọ_infinitive",
+    "infinitive_form": "ịvọ",
+    "base_root": "vọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvọ̀_infinitive",
+    "infinitive_form": "ịvọ̀",
+    "base_root": "vọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvụ́_infinitive",
+    "infinitive_form": "ịvụ́",
+    "base_root": "vụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvụ_infinitive",
+    "infinitive_form": "ịvụ",
+    "base_root": "vụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịvụ̀_infinitive",
+    "infinitive_form": "ịvụ̀",
+    "base_root": "vụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịvụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivé_infinitive",
+    "infinitive_form": "ivé",
+    "base_root": "vé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ive_infinitive",
+    "infinitive_form": "ive",
+    "base_root": "ve",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ive_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivè_infinitive",
+    "infinitive_form": "ivè",
+    "base_root": "vè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iví_infinitive",
+    "infinitive_form": "iví",
+    "base_root": "ví",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iví_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivi_infinitive",
+    "infinitive_form": "ivi",
+    "base_root": "vi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivì_infinitive",
+    "infinitive_form": "ivì",
+    "base_root": "vì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivó_infinitive",
+    "infinitive_form": "ivó",
+    "base_root": "vó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivo_infinitive",
+    "infinitive_form": "ivo",
+    "base_root": "vo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivò_infinitive",
+    "infinitive_form": "ivò",
+    "base_root": "vò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivú_infinitive",
+    "infinitive_form": "ivú",
+    "base_root": "vú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivu_infinitive",
+    "infinitive_form": "ivu",
+    "base_root": "vu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ivù_infinitive",
+    "infinitive_form": "ivù",
+    "base_root": "vù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ivù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwá_infinitive",
+    "infinitive_form": "ịwá",
+    "base_root": "wá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwa_infinitive",
+    "infinitive_form": "ịwa",
+    "base_root": "wa",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwa_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwà_infinitive",
+    "infinitive_form": "ịwà",
+    "base_root": "wà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwẹ́_infinitive",
+    "infinitive_form": "ịwẹ́",
+    "base_root": "wẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwẹ_infinitive",
+    "infinitive_form": "ịwẹ",
+    "base_root": "wẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwẹ̀_infinitive",
+    "infinitive_form": "ịwẹ̀",
+    "base_root": "wẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwị́_infinitive",
+    "infinitive_form": "ịwị́",
+    "base_root": "wị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwị_infinitive",
+    "infinitive_form": "ịwị",
+    "base_root": "wị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwị̀_infinitive",
+    "infinitive_form": "ịwị̀",
+    "base_root": "wị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwọ́_infinitive",
+    "infinitive_form": "ịwọ́",
+    "base_root": "wọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwọ_infinitive",
+    "infinitive_form": "ịwọ",
+    "base_root": "wọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwọ̀_infinitive",
+    "infinitive_form": "ịwọ̀",
+    "base_root": "wọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwụ́_infinitive",
+    "infinitive_form": "ịwụ́",
+    "base_root": "wụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwụ_infinitive",
+    "infinitive_form": "ịwụ",
+    "base_root": "wụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịwụ̀_infinitive",
+    "infinitive_form": "ịwụ̀",
+    "base_root": "wụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịwụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwé_infinitive",
+    "infinitive_form": "iwé",
+    "base_root": "wé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwe_infinitive",
+    "infinitive_form": "iwe",
+    "base_root": "we",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwe_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwè_infinitive",
+    "infinitive_form": "iwè",
+    "base_root": "wè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwí_infinitive",
+    "infinitive_form": "iwí",
+    "base_root": "wí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwi_infinitive",
+    "infinitive_form": "iwi",
+    "base_root": "wi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwì_infinitive",
+    "infinitive_form": "iwì",
+    "base_root": "wì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwó_infinitive",
+    "infinitive_form": "iwó",
+    "base_root": "wó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwo_infinitive",
+    "infinitive_form": "iwo",
+    "base_root": "wo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwò_infinitive",
+    "infinitive_form": "iwò",
+    "base_root": "wò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwú_infinitive",
+    "infinitive_form": "iwú",
+    "base_root": "wú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwu_infinitive",
+    "infinitive_form": "iwu",
+    "base_root": "wu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iwù_infinitive",
+    "infinitive_form": "iwù",
+    "base_root": "wù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iwù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyá_infinitive",
+    "infinitive_form": "ịyá",
+    "base_root": "yá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịya_infinitive",
+    "infinitive_form": "ịya",
+    "base_root": "ya",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịya_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyà_infinitive",
+    "infinitive_form": "ịyà",
+    "base_root": "yà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyẹ́_infinitive",
+    "infinitive_form": "ịyẹ́",
+    "base_root": "yẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyẹ_infinitive",
+    "infinitive_form": "ịyẹ",
+    "base_root": "yẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyẹ̀_infinitive",
+    "infinitive_form": "ịyẹ̀",
+    "base_root": "yẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyị́_infinitive",
+    "infinitive_form": "ịyị́",
+    "base_root": "yị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyị_infinitive",
+    "infinitive_form": "ịyị",
+    "base_root": "yị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyị̀_infinitive",
+    "infinitive_form": "ịyị̀",
+    "base_root": "yị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyọ́_infinitive",
+    "infinitive_form": "ịyọ́",
+    "base_root": "yọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyọ_infinitive",
+    "infinitive_form": "ịyọ",
+    "base_root": "yọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyọ̀_infinitive",
+    "infinitive_form": "ịyọ̀",
+    "base_root": "yọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyụ́_infinitive",
+    "infinitive_form": "ịyụ́",
+    "base_root": "yụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyụ_infinitive",
+    "infinitive_form": "ịyụ",
+    "base_root": "yụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịyụ̀_infinitive",
+    "infinitive_form": "ịyụ̀",
+    "base_root": "yụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịyụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyé_infinitive",
+    "infinitive_form": "iyé",
+    "base_root": "yé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iye_infinitive",
+    "infinitive_form": "iye",
+    "base_root": "ye",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iye_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyè_infinitive",
+    "infinitive_form": "iyè",
+    "base_root": "yè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyí_infinitive",
+    "infinitive_form": "iyí",
+    "base_root": "yí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyi_infinitive",
+    "infinitive_form": "iyi",
+    "base_root": "yi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyì_infinitive",
+    "infinitive_form": "iyì",
+    "base_root": "yì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyó_infinitive",
+    "infinitive_form": "iyó",
+    "base_root": "yó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyo_infinitive",
+    "infinitive_form": "iyo",
+    "base_root": "yo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyò_infinitive",
+    "infinitive_form": "iyò",
+    "base_root": "yò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyú_infinitive",
+    "infinitive_form": "iyú",
+    "base_root": "yú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyu_infinitive",
+    "infinitive_form": "iyu",
+    "base_root": "yu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "iyù_infinitive",
+    "infinitive_form": "iyù",
+    "base_root": "yù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "iyù_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzá_infinitive",
+    "infinitive_form": "ịzá",
+    "base_root": "zá",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzá_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịza_infinitive",
+    "infinitive_form": "ịza",
+    "base_root": "za",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịza_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzà_infinitive",
+    "infinitive_form": "ịzà",
+    "base_root": "zà",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzà_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzẹ́_infinitive",
+    "infinitive_form": "ịzẹ́",
+    "base_root": "zẹ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzẹ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzẹ_infinitive",
+    "infinitive_form": "ịzẹ",
+    "base_root": "zẹ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzẹ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzẹ̀_infinitive",
+    "infinitive_form": "ịzẹ̀",
+    "base_root": "zẹ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzẹ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzị́_infinitive",
+    "infinitive_form": "ịzị́",
+    "base_root": "zị́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzị́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzị_infinitive",
+    "infinitive_form": "ịzị",
+    "base_root": "zị",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzị_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzị̀_infinitive",
+    "infinitive_form": "ịzị̀",
+    "base_root": "zị̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzị̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzọ́_infinitive",
+    "infinitive_form": "ịzọ́",
+    "base_root": "zọ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzọ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzọ_infinitive",
+    "infinitive_form": "ịzọ",
+    "base_root": "zọ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzọ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzọ̀_infinitive",
+    "infinitive_form": "ịzọ̀",
+    "base_root": "zọ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzọ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzụ́_infinitive",
+    "infinitive_form": "ịzụ́",
+    "base_root": "zụ́",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzụ́_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzụ_infinitive",
+    "infinitive_form": "ịzụ",
+    "base_root": "zụ",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzụ_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ịzụ̀_infinitive",
+    "infinitive_form": "ịzụ̀",
+    "base_root": "zụ̀",
+    "prefix": "ị",
+    "vowelGroup": "A",
+    "syllable_id": "ịzụ̀_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izé_infinitive",
+    "infinitive_form": "izé",
+    "base_root": "zé",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izé_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "ize_infinitive",
+    "infinitive_form": "ize",
+    "base_root": "ze",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "ize_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izè_infinitive",
+    "infinitive_form": "izè",
+    "base_root": "zè",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izè_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izí_infinitive",
+    "infinitive_form": "izí",
+    "base_root": "zí",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izí_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izi_infinitive",
+    "infinitive_form": "izi",
+    "base_root": "zi",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izi_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izì_infinitive",
+    "infinitive_form": "izì",
+    "base_root": "zì",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izì_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izó_infinitive",
+    "infinitive_form": "izó",
+    "base_root": "zó",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izó_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izo_infinitive",
+    "infinitive_form": "izo",
+    "base_root": "zo",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izo_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izò_infinitive",
+    "infinitive_form": "izò",
+    "base_root": "zò",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izò_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izú_infinitive",
+    "infinitive_form": "izú",
+    "base_root": "zú",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izú_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izu_infinitive",
+    "infinitive_form": "izu",
+    "base_root": "zu",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izu_mid",
+    "type": "infinitive"
+  },
+  {
+    "id": "izù_infinitive",
+    "infinitive_form": "izù",
+    "base_root": "zù",
+    "prefix": "i",
+    "vowelGroup": "E",
+    "syllable_id": "izù_mid",
+    "type": "infinitive"
+  }
+]

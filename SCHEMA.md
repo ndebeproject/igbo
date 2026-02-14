@@ -302,50 +302,102 @@ Each consonant that participates in alternations has an `alternation_sets` array
 
 ## Verb Components
 
-### Prime Roots
+### Syllables
 
-**File Location**: `language-data/verbs/prime-roots/{root}.json`
+**File Location**: `language-data/syllables.json`
 
-**Purpose**: Stores monosyllabic verb roots, which are the foundation of most Igbo words.
+**Purpose**: Stores all syllables including monosyllabic verb roots with tone variants, which are the foundation of most Igbo words.
 
 **Schema**:
 ```json
 {
-  "id": "string (unique identifier)",
-  "plain_name": "string (the root without tone marking)",
-  "syllable_id": "string (reference to syllables.json)",
+  "id": "string (unique identifier in format syl_{syllable_group}_{###})",
+  "plain_name": "string (the root with tone marking)",
+  "main_vowel": "string (the main vowel character)",
+  "tone": "string (high|mid|low)",
+  "syllable_group": "string (the base syllable without tone)",
   "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)",
-  "gloss": "string (basic English meaning/gloss)"
+  "phonemes": ["string", "string"] (array of [consonant, vowel]),
+  "ndebe": "string (placeholder for future use)",
+  "unicode": "string (placeholder for future use)"
 }
 ```
 
-**Example**:
+**Example** (showing all three tone variants for 'ma'):
 ```json
 {
-  "id": "ma_001",
-  "plain_name": "ma",
-  "syllable_id": "ma_high",
+  "id": "syl_ma_001",
+  "plain_name": "má",
+  "main_vowel": "a",
+  "tone": "high",
+  "syllable_group": "ma",
   "vowelGroup": "A",
-  "gloss": "know"
+  "phonemes": ["m", "á"],
+  "ndebe": "",
+  "unicode": ""
+},
+{
+  "id": "syl_ma_002",
+  "plain_name": "ma",
+  "main_vowel": "a",
+  "tone": "mid",
+  "syllable_group": "ma",
+  "vowelGroup": "A",
+  "phonemes": ["m", "a"],
+  "ndebe": "",
+  "unicode": ""
+},
+{
+  "id": "syl_ma_003",
+  "plain_name": "mà",
+  "main_vowel": "a",
+  "tone": "low",
+  "syllable_group": "ma",
+  "vowelGroup": "A",
+  "phonemes": ["m", "à"],
+  "ndebe": "",
+  "unicode": ""
 }
 ```
 
-**ID Convention**: `{root}_{sequential_number}`
-- Example: `ma_001`, `ma_002`, `ma_003` (different meanings, same syllable)
-- Example: `ba_001`, `ba_002`, `ba_003`
+**ID Convention**: `syl_{syllable_group}_{###}`
+- Each syllable has three entries (high, mid, low tone)
+- Example: `syl_ma_001` (high), `syl_ma_002` (mid), `syl_ma_003` (low)
+- Sequential numbering: 001 = high tone, 002 = mid tone, 003 = low tone
+
+**Tone Marking**:
+- **High tone**: acute accent (á, é, í, ó, ú, ẹ́, ị́, ọ́, ụ́)
+- **Mid tone**: no accent (a, e, i, o, u, ẹ, ị, ọ, ụ)
+- **Low tone**: grave accent (à, è, ì, ò, ù, ẹ̀, ị̀, ọ̀, ụ̀)
+- For vowels without standard tone marks, the same form is used for all tones
+
+**Phonemes**:
+- `phonemes` is an array containing the consonant and vowel that make up the syllable
+- **The vowel in phonemes matches exactly with the vowel in plain_name, including tone marks**
+- Handles single consonants (b, m, etc.) and digraphs (gb, kp, gw, sh, ch, etc.)
+- Examples:
+  - "bá" → ["b", "á"] (high tone)
+  - "ba" → ["b", "a"] (mid tone)
+  - "bà" → ["b", "à"] (low tone)
+  - "gbá" → ["gb", "á"]
+  - "kpị́" → ["kp", "ị́"]
 
 **Notes**:
-- `syllable_id` links to the specific tonal syllable
 - `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:
   - **A group**: if first vowel is a, ẹ, ị, ọ, or ụ (short/sharp sounds)
   - **E group**: if first vowel is e, i, o, or u (tense vowels with close or rounded articulation)
   - This grouping is used for vowel harmony rules in affixation
-- `gloss` provides the basic meaning to distinguish homophones
-  - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
-  - Use the most common English equivalent
-  - If multiple English words are close, choose one (e.g., "strike" not "strike/hit")
-- **IMPORTANT**: Multiple entries can share the same `plain_name` AND the same `syllable_id` (same tone) if they are homophones with different meanings
-- For verb roots with multiple meanings (e.g., "gba" with 15+ meanings), create separate entries: `gba_001`, `gba_002`, ..., `gba_015`, etc.
+- Each syllable has exactly three entries (one for each tone variant)
+- All syllables are stored in a single file: `syllables.json`
+- Total entries: 270 syllables × 3 tones = 810 entries
+
+---
+
+### Prime Verb Roots
+
+**File Location**: `language-data/verbs/prime-roots/prime-verb-roots.json`
+
+**Purpose**: Prime verb structures will be determined soon.
 
 ---
 
