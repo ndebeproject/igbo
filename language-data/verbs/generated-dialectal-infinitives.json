@@ -6,12 +6,10 @@
     "dialectal_infinitive": "ịva",
     "base_root": "ba",
     "dialectal_root": "va",
-    "base_root_id": "ba_va_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịba_mid",
     "dialectal_syllable_id": "ịva_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -21,12 +19,10 @@
     "dialectal_infinitive": "ịvẹ",
     "base_root": "bẹ",
     "dialectal_root": "vẹ",
-    "base_root_id": "bẹ_vẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịbẹ_mid",
     "dialectal_syllable_id": "ịvẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -36,12 +32,10 @@
     "dialectal_infinitive": "ịvị",
     "base_root": "bị",
     "dialectal_root": "vị",
-    "base_root_id": "bị_vị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịbị_mid",
     "dialectal_syllable_id": "ịvị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -51,12 +45,10 @@
     "dialectal_infinitive": "ịvọ",
     "base_root": "bọ",
     "dialectal_root": "vọ",
-    "base_root_id": "bọ_vọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịbọ_mid",
     "dialectal_syllable_id": "ịvọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -66,12 +58,10 @@
     "dialectal_infinitive": "ịvụ",
     "base_root": "bụ",
     "dialectal_root": "vụ",
-    "base_root_id": "bụ_vụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịbụ_mid",
     "dialectal_syllable_id": "ịvụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -81,12 +71,10 @@
     "dialectal_infinitive": "ive",
     "base_root": "be",
     "dialectal_root": "ve",
-    "base_root_id": "be_ve_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ibe_mid",
     "dialectal_syllable_id": "ive_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -96,12 +84,10 @@
     "dialectal_infinitive": "ivi",
     "base_root": "bi",
     "dialectal_root": "vi",
-    "base_root_id": "bi_vi_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ibi_mid",
     "dialectal_syllable_id": "ivi_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -111,12 +97,10 @@
     "dialectal_infinitive": "ivo",
     "base_root": "bo",
     "dialectal_root": "vo",
-    "base_root_id": "bo_vo_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ibo_mid",
     "dialectal_syllable_id": "ivo_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -126,12 +110,10 @@
     "dialectal_infinitive": "ivu",
     "base_root": "bu",
     "dialectal_root": "vu",
-    "base_root_id": "bu_vu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ibu_mid",
     "dialectal_syllable_id": "ivu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -141,12 +123,10 @@
     "dialectal_infinitive": "ịpa",
     "base_root": "fa",
     "dialectal_root": "pa",
-    "base_root_id": "fa_pa_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịfa_mid",
     "dialectal_syllable_id": "ịpa_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -156,12 +136,10 @@
     "dialectal_infinitive": "ịpẹ",
     "base_root": "fẹ",
     "dialectal_root": "pẹ",
-    "base_root_id": "fẹ_pẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịfẹ_mid",
     "dialectal_syllable_id": "ịpẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -171,12 +149,10 @@
     "dialectal_infinitive": "ịpị",
     "base_root": "fị",
     "dialectal_root": "pị",
-    "base_root_id": "fị_pị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịfị_mid",
     "dialectal_syllable_id": "ịpị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -186,12 +162,10 @@
     "dialectal_infinitive": "ịpọ",
     "base_root": "fọ",
     "dialectal_root": "pọ",
-    "base_root_id": "fọ_pọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịfọ_mid",
     "dialectal_syllable_id": "ịpọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -201,12 +175,10 @@
     "dialectal_infinitive": "ịpụ",
     "base_root": "fụ",
     "dialectal_root": "pụ",
-    "base_root_id": "fụ_pụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịfụ_mid",
     "dialectal_syllable_id": "ịpụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -216,12 +188,10 @@
     "dialectal_infinitive": "ipe",
     "base_root": "fe",
     "dialectal_root": "pe",
-    "base_root_id": "fe_pe_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ife_mid",
     "dialectal_syllable_id": "ipe_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -231,12 +201,10 @@
     "dialectal_infinitive": "ipi",
     "base_root": "fi",
     "dialectal_root": "pi",
-    "base_root_id": "fi_pi_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ifi_mid",
     "dialectal_syllable_id": "ipi_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -246,12 +214,10 @@
     "dialectal_infinitive": "ipo",
     "base_root": "fo",
     "dialectal_root": "po",
-    "base_root_id": "fo_po_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ifo_mid",
     "dialectal_syllable_id": "ipo_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -261,12 +227,10 @@
     "dialectal_infinitive": "ipu",
     "base_root": "fu",
     "dialectal_root": "pu",
-    "base_root_id": "fu_pu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ifu_mid",
     "dialectal_syllable_id": "ipu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -276,12 +240,10 @@
     "dialectal_infinitive": "ịva",
     "base_root": "ga",
     "dialectal_root": "va",
-    "base_root_id": "ga_va_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịga_mid",
     "dialectal_syllable_id": "ịva_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -291,12 +253,10 @@
     "dialectal_infinitive": "ịvẹ",
     "base_root": "gẹ",
     "dialectal_root": "vẹ",
-    "base_root_id": "gẹ_vẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịgẹ_mid",
     "dialectal_syllable_id": "ịvẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -306,12 +266,10 @@
     "dialectal_infinitive": "ịvị",
     "base_root": "gị",
     "dialectal_root": "vị",
-    "base_root_id": "gị_vị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịgị_mid",
     "dialectal_syllable_id": "ịvị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -321,12 +279,10 @@
     "dialectal_infinitive": "ịvọ",
     "base_root": "gọ",
     "dialectal_root": "vọ",
-    "base_root_id": "gọ_vọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịgọ_mid",
     "dialectal_syllable_id": "ịvọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -336,12 +292,10 @@
     "dialectal_infinitive": "ịvụ",
     "base_root": "gụ",
     "dialectal_root": "vụ",
-    "base_root_id": "gụ_vụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịgụ_mid",
     "dialectal_syllable_id": "ịvụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -351,12 +305,10 @@
     "dialectal_infinitive": "ive",
     "base_root": "ge",
     "dialectal_root": "ve",
-    "base_root_id": "ge_ve_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ige_mid",
     "dialectal_syllable_id": "ive_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -366,12 +318,10 @@
     "dialectal_infinitive": "ivi",
     "base_root": "gi",
     "dialectal_root": "vi",
-    "base_root_id": "gi_vi_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "igi_mid",
     "dialectal_syllable_id": "ivi_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -381,12 +331,10 @@
     "dialectal_infinitive": "ivo",
     "base_root": "go",
     "dialectal_root": "vo",
-    "base_root_id": "go_vo_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "igo_mid",
     "dialectal_syllable_id": "ivo_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -396,12 +344,10 @@
     "dialectal_infinitive": "ivu",
     "base_root": "gu",
     "dialectal_root": "vu",
-    "base_root_id": "gu_vu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "igu_mid",
     "dialectal_syllable_id": "ivu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -411,12 +357,10 @@
     "dialectal_infinitive": "ịya",
     "base_root": "ha",
     "dialectal_root": "ya",
-    "base_root_id": "ha_ya_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịha_mid",
     "dialectal_syllable_id": "ịya_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -426,12 +370,10 @@
     "dialectal_infinitive": "ịyẹ",
     "base_root": "hẹ",
     "dialectal_root": "yẹ",
-    "base_root_id": "hẹ_yẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịhẹ_mid",
     "dialectal_syllable_id": "ịyẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -441,12 +383,10 @@
     "dialectal_infinitive": "ịyị",
     "base_root": "hị",
     "dialectal_root": "yị",
-    "base_root_id": "hị_yị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịhị_mid",
     "dialectal_syllable_id": "ịyị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -456,12 +396,10 @@
     "dialectal_infinitive": "ịyọ",
     "base_root": "họ",
     "dialectal_root": "yọ",
-    "base_root_id": "họ_yọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịhọ_mid",
     "dialectal_syllable_id": "ịyọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -471,12 +409,10 @@
     "dialectal_infinitive": "ịyụ",
     "base_root": "hụ",
     "dialectal_root": "yụ",
-    "base_root_id": "hụ_yụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịhụ_mid",
     "dialectal_syllable_id": "ịyụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -486,12 +422,10 @@
     "dialectal_infinitive": "iye",
     "base_root": "he",
     "dialectal_root": "ye",
-    "base_root_id": "he_ye_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ihe_mid",
     "dialectal_syllable_id": "iye_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -501,12 +435,10 @@
     "dialectal_infinitive": "iyi",
     "base_root": "hi",
     "dialectal_root": "yi",
-    "base_root_id": "hi_yi_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ihi_mid",
     "dialectal_syllable_id": "iyi_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -516,12 +448,10 @@
     "dialectal_infinitive": "iyo",
     "base_root": "ho",
     "dialectal_root": "yo",
-    "base_root_id": "ho_yo_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "iho_mid",
     "dialectal_syllable_id": "iyo_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -531,12 +461,10 @@
     "dialectal_infinitive": "iyu",
     "base_root": "hu",
     "dialectal_root": "yu",
-    "base_root_id": "hu_yu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ihu_mid",
     "dialectal_syllable_id": "iyu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -546,12 +474,10 @@
     "dialectal_infinitive": "ịza",
     "base_root": "ja",
     "dialectal_root": "za",
-    "base_root_id": "ja_za_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịja_mid",
     "dialectal_syllable_id": "ịza_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -561,12 +487,10 @@
     "dialectal_infinitive": "ịzẹ",
     "base_root": "jẹ",
     "dialectal_root": "zẹ",
-    "base_root_id": "jẹ_zẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịjẹ_mid",
     "dialectal_syllable_id": "ịzẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -576,12 +500,10 @@
     "dialectal_infinitive": "ịzị",
     "base_root": "jị",
     "dialectal_root": "zị",
-    "base_root_id": "jị_zị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịjị_mid",
     "dialectal_syllable_id": "ịzị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -591,12 +513,10 @@
     "dialectal_infinitive": "ịzọ",
     "base_root": "jọ",
     "dialectal_root": "zọ",
-    "base_root_id": "jọ_zọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịjọ_mid",
     "dialectal_syllable_id": "ịzọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -606,12 +526,10 @@
     "dialectal_infinitive": "ịzụ",
     "base_root": "jụ",
     "dialectal_root": "zụ",
-    "base_root_id": "jụ_zụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịjụ_mid",
     "dialectal_syllable_id": "ịzụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -621,12 +539,10 @@
     "dialectal_infinitive": "ize",
     "base_root": "je",
     "dialectal_root": "ze",
-    "base_root_id": "je_ze_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ije_mid",
     "dialectal_syllable_id": "ize_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -636,12 +552,10 @@
     "dialectal_infinitive": "izi",
     "base_root": "ji",
     "dialectal_root": "zi",
-    "base_root_id": "ji_zi_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "iji_mid",
     "dialectal_syllable_id": "izi_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -651,12 +565,10 @@
     "dialectal_infinitive": "izo",
     "base_root": "jo",
     "dialectal_root": "zo",
-    "base_root_id": "jo_zo_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ijo_mid",
     "dialectal_syllable_id": "izo_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -666,12 +578,10 @@
     "dialectal_infinitive": "izu",
     "base_root": "ju",
     "dialectal_root": "zu",
-    "base_root_id": "ju_zu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "iju_mid",
     "dialectal_syllable_id": "izu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -681,12 +591,10 @@
     "dialectal_infinitive": "ịra",
     "base_root": "la",
     "dialectal_root": "ra",
-    "base_root_id": "la_ra_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịla_mid",
     "dialectal_syllable_id": "ịra_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -696,12 +604,10 @@
     "dialectal_infinitive": "ịrẹ",
     "base_root": "lẹ",
     "dialectal_root": "rẹ",
-    "base_root_id": "lẹ_rẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịlẹ_mid",
     "dialectal_syllable_id": "ịrẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -711,12 +617,10 @@
     "dialectal_infinitive": "ịrị",
     "base_root": "lị",
     "dialectal_root": "rị",
-    "base_root_id": "lị_rị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịlị_mid",
     "dialectal_syllable_id": "ịrị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -726,12 +630,10 @@
     "dialectal_infinitive": "ịrọ",
     "base_root": "lọ",
     "dialectal_root": "rọ",
-    "base_root_id": "lọ_rọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịlọ_mid",
     "dialectal_syllable_id": "ịrọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -741,12 +643,10 @@
     "dialectal_infinitive": "ịrụ",
     "base_root": "lụ",
     "dialectal_root": "rụ",
-    "base_root_id": "lụ_rụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịlụ_mid",
     "dialectal_syllable_id": "ịrụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -756,12 +656,10 @@
     "dialectal_infinitive": "ire",
     "base_root": "le",
     "dialectal_root": "re",
-    "base_root_id": "le_re_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ile_mid",
     "dialectal_syllable_id": "ire_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -771,12 +669,10 @@
     "dialectal_infinitive": "iri",
     "base_root": "li",
     "dialectal_root": "ri",
-    "base_root_id": "li_ri_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ili_mid",
     "dialectal_syllable_id": "iri_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -786,12 +682,10 @@
     "dialectal_infinitive": "iro",
     "base_root": "lo",
     "dialectal_root": "ro",
-    "base_root_id": "lo_ro_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ilo_mid",
     "dialectal_syllable_id": "iro_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -801,12 +695,10 @@
     "dialectal_infinitive": "iru",
     "base_root": "lu",
     "dialectal_root": "ru",
-    "base_root_id": "lu_ru_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ilu_mid",
     "dialectal_syllable_id": "iru_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -816,12 +708,10 @@
     "dialectal_infinitive": "ịta",
     "base_root": "sa",
     "dialectal_root": "ta",
-    "base_root_id": "sa_ta_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịsa_mid",
     "dialectal_syllable_id": "ịta_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -831,12 +721,10 @@
     "dialectal_infinitive": "ịtẹ",
     "base_root": "sẹ",
     "dialectal_root": "tẹ",
-    "base_root_id": "sẹ_tẹ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịsẹ_mid",
     "dialectal_syllable_id": "ịtẹ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -846,12 +734,10 @@
     "dialectal_infinitive": "ịtị",
     "base_root": "sị",
     "dialectal_root": "tị",
-    "base_root_id": "sị_tị_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịsị_mid",
     "dialectal_syllable_id": "ịtị_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -861,12 +747,10 @@
     "dialectal_infinitive": "ịtọ",
     "base_root": "sọ",
     "dialectal_root": "tọ",
-    "base_root_id": "sọ_tọ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịsọ_mid",
     "dialectal_syllable_id": "ịtọ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -876,12 +760,10 @@
     "dialectal_infinitive": "ịtụ",
     "base_root": "sụ",
     "dialectal_root": "tụ",
-    "base_root_id": "sụ_tụ_dialectal",
     "prefix": "ị",
     "vowelGroup": "A",
     "syllable_id": "ịsụ_mid",
     "dialectal_syllable_id": "ịtụ_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -891,12 +773,10 @@
     "dialectal_infinitive": "ite",
     "base_root": "se",
     "dialectal_root": "te",
-    "base_root_id": "se_te_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "ise_mid",
     "dialectal_syllable_id": "ite_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -906,12 +786,10 @@
     "dialectal_infinitive": "iti",
     "base_root": "si",
     "dialectal_root": "ti",
-    "base_root_id": "si_ti_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "isi_mid",
     "dialectal_syllable_id": "iti_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -921,12 +799,10 @@
     "dialectal_infinitive": "ito",
     "base_root": "so",
     "dialectal_root": "to",
-    "base_root_id": "so_to_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "iso_mid",
     "dialectal_syllable_id": "ito_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   },
   {
@@ -936,12 +812,10 @@
     "dialectal_infinitive": "itu",
     "base_root": "su",
     "dialectal_root": "tu",
-    "base_root_id": "su_tu_dialectal",
     "prefix": "i",
     "vowelGroup": "E",
     "syllable_id": "isu_mid",
     "dialectal_syllable_id": "itu_mid",
-    "generated": true,
     "type": "dialectal_infinitive"
   }
 ]

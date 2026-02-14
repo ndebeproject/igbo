@@ -94,15 +94,14 @@ def generate_verb_roots(consonants, vowels, a_group, e_group):
             
             # Create JSON object following prime-roots schema
             # Note: We use "mid" tone as default since tone isn't specified
+            # ID will be assigned later when merging with existing roots
             verb_roots.append({
-                'id': f"{root}_generated",
                 'plain_name': root,
                 'syllable_id': f"{root}_mid",  # Default to mid tone
                 'vowelGroup': vowel_group,
                 'gloss': 'generated_root',
-                'generated': True,
-                'consonant': consonant,
-                'vowel': vowel
+                'consonant': consonant,  # Temp field for generation
+                'vowel': vowel  # Temp field for generation
             })
     
     return verb_roots
@@ -161,12 +160,10 @@ def generate_infinitives(verb_roots, a_group, e_group):
             infinitives.append({
                 'id': f"{infinitive}_infinitive",
                 'infinitive_form': infinitive,
-                'base_root_id': root_info['id'],
                 'base_root': plain_name,
                 'prefix': prefix,
                 'vowelGroup': vowel_group,
                 'syllable_id': f"{infinitive}_mid",  # Infinitive syllable
-                'generated': True,
                 'type': 'infinitive'
             })
     
@@ -195,12 +192,10 @@ def generate_dialectal_infinitives(dialectal_roots, a_group, e_group):
                 'dialectal_infinitive': dialectal_infinitive,
                 'base_root': base_root,
                 'dialectal_root': dialectal_root,
-                'base_root_id': root_info['id'],
                 'prefix': prefix,
                 'vowelGroup': vowel_group,
                 'syllable_id': f"{base_infinitive}_mid",
                 'dialectal_syllable_id': f"{dialectal_infinitive}_mid",
-                'generated': True,
                 'type': 'dialectal_infinitive'
             })
     
@@ -224,6 +219,56 @@ def save_array_to_json(data, output_file):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def load_existing_prime_roots(prime_roots_file):
+    """Load existing prime roots from prime-verb-roots.json."""
+    if not prime_roots_file.exists():
+        return []
+    
+    with open(prime_roots_file, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def merge_and_assign_ids(existing_roots, new_roots):
+    """
+    Merge existing and new roots, assigning sequential IDs.
+    
+    - Existing roots keep their IDs and data
+    - New roots only added if plain_name doesn't exist
+    - All roots get sequential IDs per plain_name
+    """
+    from collections import defaultdict
+    
+    roots_by_name = defaultdict(list)
+    
+    # Add existing roots first (they have priority)
+    for root in existing_roots:
+        plain_name = root['plain_name']
+        roots_by_name[plain_name].append(root)
+    
+    # Add new generated roots only if plain_name doesn't exist
+    for root in new_roots:
+        plain_name = root['plain_name']
+        if plain_name not in roots_by_name:
+            # Create clean root without temp fields
+            clean_root = {
+                'plain_name': root['plain_name'],
+                'syllable_id': root['syllable_id'],
+                'vowelGroup': root['vowelGroup'],
+                'gloss': root['gloss']
+            }
+            roots_by_name[plain_name].append(clean_root)
+    
+    # Assign sequential IDs per plain_name
+    all_roots = []
+    for plain_name in sorted(roots_by_name.keys()):
+        entries = roots_by_name[plain_name]
+        for idx, root in enumerate(entries, start=1):
+            root['id'] = f"{plain_name}_{idx:03d}"
+            all_roots.append(root)
+    
+    return all_roots
+
+
 def save_prime_root_to_file(root_data, prime_roots_dir):
     """Save a single prime root as an individual JSON file."""
     plain_name = root_data['plain_name']
@@ -231,14 +276,12 @@ def save_prime_root_to_file(root_data, prime_roots_dir):
     filepath = prime_roots_dir / filename
     
     # Create a clean version without extra metadata fields for the file
-    # But keep 'generated' flag to distinguish from manual entries
     clean_data = {
         'id': root_data['id'],
         'plain_name': root_data['plain_name'],
         'syllable_id': root_data['syllable_id'],
         'vowelGroup': root_data['vowelGroup'],
-        'gloss': root_data['gloss'],
-        'generated': root_data.get('generated', True)
+        'gloss': root_data['gloss']
     }
     
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -299,24 +342,19 @@ def main():
     verbs_dir = language_data_dir / 'verbs'
     prime_roots_dir = verbs_dir / 'prime-roots'
     
-    # Save base verb roots as a single comprehensive file in prime-roots directory
-    prime_roots_file = prime_roots_dir / 'generated-prime-roots.json'
+    # Load existing prime roots and merge with new ones
+    prime_roots_file = prime_roots_dir / 'prime-verb-roots.json'
+    print(f"Loading existing prime roots from {prime_roots_file.name}...")
+    existing_roots = load_existing_prime_roots(prime_roots_file)
+    print(f"  Found {len(existing_roots)} existing roots")
     
-    # Clean up the root data - remove extra fields not in standard prime-root schema
-    clean_roots = []
-    for root in verb_roots:
-        clean_root = {
-            'id': root['id'],
-            'plain_name': root['plain_name'],
-            'syllable_id': root['syllable_id'],
-            'vowelGroup': root['vowelGroup'],
-            'gloss': root['gloss'],
-            'generated': root.get('generated', True)
-        }
-        clean_roots.append(clean_root)
+    print("Merging and assigning sequential IDs...")
+    all_prime_roots = merge_and_assign_ids(existing_roots, verb_roots)
+    print(f"  Total prime roots after merge: {len(all_prime_roots)}")
     
-    save_array_to_json(clean_roots, prime_roots_file)
-    print(f"  ✓ Saved generated-prime-roots.json ({len(clean_roots)} prime roots)")
+    # Save consolidated prime roots
+    save_array_to_json(all_prime_roots, prime_roots_file)
+    print(f"  ✓ Saved prime-verb-roots.json ({len(all_prime_roots)} prime roots)")
     
     # Save dialectal verb roots as a collection (they reference prime roots)
     save_array_to_json(
@@ -344,7 +382,7 @@ def main():
     print("=" * 70)
     print("Generation Summary")
     print("=" * 70)
-    print(f"Prime roots (monosyllabic): {len(clean_roots)} in single file")
+    print(f"Prime roots (monosyllabic): {len(all_prime_roots)} in prime-verb-roots.json")
     print(f"Dialectal variations: {len(dialectal_roots)} (collection file)")
     print(f"Base infinitives: {len(base_infinitives)} (collection file)")
     print(f"Dialectal infinitives: {len(dialectal_infinitives)} (collection file)")
@@ -357,8 +395,8 @@ def main():
     # Show some examples
     print("Examples:")
     print("-" * 70)
-    print("\nPrime Roots (first 10 from generated-prime-roots.json):")
-    for root in clean_roots[:10]:
+    print("\nPrime Roots (first 10 from prime-verb-roots.json):")
+    for root in all_prime_roots[:10]:
         print(f"  {root['plain_name']} → ID: {root['id']}, vowel group: {root['vowelGroup']}")
     
     print("\nDialectal Variations (first 5):")
@@ -376,7 +414,7 @@ def main():
     print()
     print("✓ Generation complete!")
     print()
-    print("Note: All prime roots saved in single generated-prime-roots.json file.")
+    print("Note: All prime roots saved in prime-verb-roots.json with sequential IDs.")
     print("Infinitives and dialectal variations saved as separate collection files.")
 
 

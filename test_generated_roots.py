@@ -17,7 +17,7 @@ def test_problem_statement_examples():
     prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(prime_roots_dir / 'generated-prime-roots.json', 'r', encoding='utf-8') as f:
+    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -29,21 +29,26 @@ def test_problem_statement_examples():
     with open(verbs_dir / 'generated-dialectal-infinitives.json', 'r', encoding='utf-8') as f:
         dialectal_infinitives = json.load(f)
     
-    # Create lookup dictionaries
-    roots_by_name = {r['plain_name']: r for r in roots}
+    # Create lookup dictionaries - note: may have multiple entries per plain_name
+    roots_by_name = {}
+    for r in roots:
+        if r['plain_name'] not in roots_by_name:
+            roots_by_name[r['plain_name']] = []
+        roots_by_name[r['plain_name']].append(r)
+    
     infinitives_by_form = {i['infinitive_form']: i for i in infinitives}
     dialectal_by_form = {d['combined_form']: d for d in dialectal_roots}
     dialectal_inf_by_form = {d['infinitive_form']: d for d in dialectal_infinitives}
     
     # Test 1: ma (A-group) → ịma
     assert 'ma' in roots_by_name, "Root 'ma' not found"
-    assert roots_by_name['ma']['vowelGroup'] == 'A', "ma should be A-group"
+    assert any(r['vowelGroup'] == 'A' for r in roots_by_name['ma']), "ma should be A-group"
     assert 'ịma' in infinitives_by_form, "Infinitive 'ịma' not found"
     print("  ✓ ma → ịma (A-group)")
     
     # Test 2: go (E-group) → igo
     assert 'go' in roots_by_name, "Root 'go' not found"
-    assert roots_by_name['go']['vowelGroup'] == 'E', "go should be E-group"
+    assert any(r['vowelGroup'] == 'E' for r in roots_by_name['go']), "go should be E-group"
     assert 'igo' in infinitives_by_form, "Infinitive 'igo' not found"
     print("  ✓ go → igo (E-group)")
     
@@ -111,7 +116,7 @@ def test_counts():
     prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(prime_roots_dir / 'generated-prime-roots.json', 'r', encoding='utf-8') as f:
+    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -123,9 +128,9 @@ def test_counts():
     with open(verbs_dir / 'generated-dialectal-infinitives.json', 'r', encoding='utf-8') as f:
         dialectal_infinitives = json.load(f)
     
-    # Check counts
-    assert len(roots) == 270, f"Expected 270 roots, got {len(roots)}"
-    print(f"  ✓ {len(roots)} monosyllabic prime roots (30 consonants × 9 vowels)")
+    # Check counts - now includes manual + generated (272 total: 270 generated + 2 manual that don't overlap)
+    assert len(roots) == 272, f"Expected 272 roots (270 generated + 2 manual non-overlapping), got {len(roots)}"
+    print(f"  ✓ {len(roots)} monosyllabic prime roots (includes manual + generated)")
     
     assert len(infinitives) == 270, f"Expected 270 infinitives, got {len(infinitives)}"
     print(f"  ✓ {len(infinitives)} base infinitives")
