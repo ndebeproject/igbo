@@ -4,6 +4,7 @@ Test script for generated monosyllabic verb roots and infinitives.
 Verifies that the generation follows the correct rules.
 """
 
+import json
 import sys
 from pathlib import Path
 
@@ -12,39 +13,47 @@ def test_problem_statement_examples():
     """Test examples from the problem statement."""
     print("Testing problem statement examples...")
     
-    generated_dir = Path(__file__).parent / 'generated'
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     
-    # Read files
-    with open(generated_dir / 'monosyllabic_verb_roots.txt', 'r', encoding='utf-8') as f:
-        roots = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    # Read JSON files
+    with open(verbs_dir / 'generated-monosyllabic-roots.json', 'r', encoding='utf-8') as f:
+        roots = json.load(f)
     
-    with open(generated_dir / 'infinitives.txt', 'r', encoding='utf-8') as f:
-        infinitives = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
+        infinitives = json.load(f)
     
-    with open(generated_dir / 'dialectal_verb_roots.txt', 'r', encoding='utf-8') as f:
-        dialectal_roots = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-dialectal-roots.json', 'r', encoding='utf-8') as f:
+        dialectal_roots = json.load(f)
     
-    with open(generated_dir / 'dialectal_infinitives.txt', 'r', encoding='utf-8') as f:
-        dialectal_infinitives = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-dialectal-infinitives.json', 'r', encoding='utf-8') as f:
+        dialectal_infinitives = json.load(f)
+    
+    # Create lookup dictionaries
+    roots_by_name = {r['plain_name']: r for r in roots}
+    infinitives_by_form = {i['infinitive_form']: i for i in infinitives}
+    dialectal_by_form = {d['combined_form']: d for d in dialectal_roots}
+    dialectal_inf_by_form = {d['infinitive_form']: d for d in dialectal_infinitives}
     
     # Test 1: ma (A-group) → ịma
-    assert 'ma' in roots, "Root 'ma' not found"
-    assert 'ịma' in infinitives, "Infinitive 'ịma' not found"
+    assert 'ma' in roots_by_name, "Root 'ma' not found"
+    assert roots_by_name['ma']['vowelGroup'] == 'A', "ma should be A-group"
+    assert 'ịma' in infinitives_by_form, "Infinitive 'ịma' not found"
     print("  ✓ ma → ịma (A-group)")
     
     # Test 2: go (E-group) → igo
-    assert 'go' in roots, "Root 'go' not found"
-    assert 'igo' in infinitives, "Infinitive 'igo' not found"
+    assert 'go' in roots_by_name, "Root 'go' not found"
+    assert roots_by_name['go']['vowelGroup'] == 'E', "go should be E-group"
+    assert 'igo' in infinitives_by_form, "Infinitive 'igo' not found"
     print("  ✓ go → igo (E-group)")
     
     # Test 3: la / ra dialectal variation
-    assert 'la / ra' in dialectal_roots, "Dialectal root 'la / ra' not found"
-    assert 'ịla / ịra' in dialectal_infinitives, "Dialectal infinitive 'ịla / ịra' not found"
+    assert 'la / ra' in dialectal_by_form, "Dialectal root 'la / ra' not found"
+    assert 'ịla / ịra' in dialectal_inf_by_form, "Dialectal infinitive 'ịla / ịra' not found"
     print("  ✓ la / ra → ịla / ịra (L/R dialectal)")
     
     # Test 4: le / re dialectal variation
-    assert 'le / re' in dialectal_roots, "Dialectal root 'le / re' not found"
-    assert 'ile / ire' in dialectal_infinitives, "Dialectal infinitive 'ile / ire' not found"
+    assert 'le / re' in dialectal_by_form, "Dialectal root 'le / re' not found"
+    assert 'ile / ire' in dialectal_inf_by_form, "Dialectal infinitive 'ile / ire' not found"
     print("  ✓ le / re → ile / ire (L/R dialectal)")
     
     print()
@@ -54,10 +63,12 @@ def test_vowel_harmony():
     """Test that vowel harmony rules are correctly applied."""
     print("Testing vowel harmony...")
     
-    generated_dir = Path(__file__).parent / 'generated'
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     
-    with open(generated_dir / 'infinitives.txt', 'r', encoding='utf-8') as f:
-        infinitives = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
+        infinitives = json.load(f)
+    
+    infinitives_by_form = {i['infinitive_form']: i for i in infinitives}
     
     # A-group vowels should have ị prefix
     a_group_tests = [
@@ -69,7 +80,9 @@ def test_vowel_harmony():
     ]
     
     for root, expected_inf in a_group_tests:
-        assert expected_inf in infinitives, f"A-group infinitive '{expected_inf}' not found"
+        assert expected_inf in infinitives_by_form, f"A-group infinitive '{expected_inf}' not found"
+        assert infinitives_by_form[expected_inf]['vowelGroup'] == 'A', f"{expected_inf} should be A-group"
+        assert infinitives_by_form[expected_inf]['prefix'] == 'ị', f"{expected_inf} should have ị prefix"
     print("  ✓ A-group vowels (a, ẹ, ị, ọ, ụ) use ị prefix")
     
     # E-group vowels should have i prefix
@@ -81,7 +94,9 @@ def test_vowel_harmony():
     ]
     
     for root, expected_inf in e_group_tests:
-        assert expected_inf in infinitives, f"E-group infinitive '{expected_inf}' not found"
+        assert expected_inf in infinitives_by_form, f"E-group infinitive '{expected_inf}' not found"
+        assert infinitives_by_form[expected_inf]['vowelGroup'] == 'E', f"{expected_inf} should be E-group"
+        assert infinitives_by_form[expected_inf]['prefix'] == 'i', f"{expected_inf} should have i prefix"
     print("  ✓ E-group vowels (e, i, o, u) use i prefix")
     
     print()
@@ -91,20 +106,20 @@ def test_counts():
     """Test that the expected number of entries exist."""
     print("Testing counts...")
     
-    generated_dir = Path(__file__).parent / 'generated'
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     
-    # Read files
-    with open(generated_dir / 'monosyllabic_verb_roots.txt', 'r', encoding='utf-8') as f:
-        roots = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    # Read JSON files
+    with open(verbs_dir / 'generated-monosyllabic-roots.json', 'r', encoding='utf-8') as f:
+        roots = json.load(f)
     
-    with open(generated_dir / 'infinitives.txt', 'r', encoding='utf-8') as f:
-        infinitives = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
+        infinitives = json.load(f)
     
-    with open(generated_dir / 'dialectal_verb_roots.txt', 'r', encoding='utf-8') as f:
-        dialectal_roots = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-dialectal-roots.json', 'r', encoding='utf-8') as f:
+        dialectal_roots = json.load(f)
     
-    with open(generated_dir / 'dialectal_infinitives.txt', 'r', encoding='utf-8') as f:
-        dialectal_infinitives = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-dialectal-infinitives.json', 'r', encoding='utf-8') as f:
+        dialectal_infinitives = json.load(f)
     
     # Check counts
     assert len(roots) == 270, f"Expected 270 roots, got {len(roots)}"
@@ -119,12 +134,20 @@ def test_counts():
     assert len(dialectal_infinitives) == 63, f"Expected 63 dialectal infinitives, got {len(dialectal_infinitives)}"
     print(f"  ✓ {len(dialectal_infinitives)} dialectal infinitive variations")
     
-    # Check for no duplicates
-    assert len(roots) == len(set(roots)), "Duplicate roots found"
-    assert len(infinitives) == len(set(infinitives)), "Duplicate infinitives found"
-    assert len(dialectal_roots) == len(set(dialectal_roots)), "Duplicate dialectal roots found"
-    assert len(dialectal_infinitives) == len(set(dialectal_infinitives)), "Duplicate dialectal infinitives found"
-    print("  ✓ No duplicates in any file")
+    # Check for no duplicate IDs
+    root_ids = [r['id'] for r in roots]
+    assert len(root_ids) == len(set(root_ids)), "Duplicate root IDs found"
+    
+    inf_ids = [i['id'] for i in infinitives]
+    assert len(inf_ids) == len(set(inf_ids)), "Duplicate infinitive IDs found"
+    
+    dial_ids = [d['id'] for d in dialectal_roots]
+    assert len(dial_ids) == len(set(dial_ids)), "Duplicate dialectal root IDs found"
+    
+    dial_inf_ids = [d['id'] for d in dialectal_infinitives]
+    assert len(dial_inf_ids) == len(set(dial_inf_ids)), "Duplicate dialectal infinitive IDs found"
+    
+    print("  ✓ No duplicate IDs in any file")
     
     print()
 
@@ -133,10 +156,12 @@ def test_dialectal_patterns():
     """Test that major dialectal patterns are represented."""
     print("Testing dialectal patterns...")
     
-    generated_dir = Path(__file__).parent / 'generated'
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     
-    with open(generated_dir / 'dialectal_verb_roots.txt', 'r', encoding='utf-8') as f:
-        dialectal_roots = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+    with open(verbs_dir / 'generated-dialectal-roots.json', 'r', encoding='utf-8') as f:
+        dialectal_roots = json.load(f)
+    
+    dialectal_by_form = {d['combined_form']: d for d in dialectal_roots}
     
     # Check for major patterns
     patterns = {
@@ -151,7 +176,7 @@ def test_dialectal_patterns():
     
     for pattern_name, examples in patterns.items():
         for example in examples:
-            assert example in dialectal_roots, f"Pattern {pattern_name} example '{example}' not found"
+            assert example in dialectal_by_form, f"Pattern {pattern_name} example '{example}' not found"
         print(f"  ✓ {pattern_name} pattern represented")
     
     print()

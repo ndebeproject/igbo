@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate all possible monosyllabic verb roots and their infinitives.
+Generate all possible monosyllabic verb roots and their infinitives in JSON format.
 
 This script generates:
 1. All monosyllabic verb roots (consonant + vowel combinations)
@@ -8,6 +8,8 @@ This script generates:
 3. Infinitives for all verb roots following vowel harmony rules:
    - A-group vowels (a, ẹ, ị, ọ, ụ) → prefix 'ị'
    - E-group vowels (e, i, o, u) → prefix 'i'
+
+Output format: JSON files following the repository schema conventions.
 """
 
 import json
@@ -82,7 +84,7 @@ def get_infinitive_prefix(vowel_group):
 
 
 def generate_verb_roots(consonants, vowels, a_group, e_group):
-    """Generate all monosyllabic verb roots (CV combinations)."""
+    """Generate all monosyllabic verb roots (CV combinations) as JSON objects."""
     verb_roots = []
     
     for consonant in consonants:
@@ -90,24 +92,32 @@ def generate_verb_roots(consonants, vowels, a_group, e_group):
             root = consonant + vowel
             vowel_group = get_vowel_group(vowel, a_group, e_group)
             
+            # Create JSON object following prime-roots schema
+            # Note: We use "mid" tone as default since tone isn't specified
             verb_roots.append({
-                'root': root,
+                'id': f"{root}_generated",
+                'plain_name': root,
+                'syllable_id': f"{root}_mid",  # Default to mid tone
+                'vowelGroup': vowel_group,
+                'gloss': 'generated_root',
+                'generated': True,
                 'consonant': consonant,
-                'vowel': vowel,
-                'vowel_group': vowel_group
+                'vowel': vowel
             })
     
     return verb_roots
 
 
 def generate_dialectal_variations(verb_roots, alternations):
-    """Generate dialectal variations for verb roots."""
+    """Generate dialectal variations for verb roots as JSON objects."""
     dialectal_roots = []
     seen = set()  # Track unique pairs to avoid duplicates
     
     for root_info in verb_roots:
         consonant = root_info['consonant']
         vowel = root_info['vowel']
+        plain_name = root_info['plain_name']
+        vowel_group = root_info['vowelGroup']
         
         # Check if this consonant has dialectal alternations
         if consonant in alternations:
@@ -115,53 +125,62 @@ def generate_dialectal_variations(verb_roots, alternations):
                 alt_root = alt_consonant + vowel
                 
                 # Create a unique key for this pair (order-independent)
-                # Sort the roots to ensure we only create one entry per pair
-                pair_key = tuple(sorted([root_info['root'], alt_root]))
+                pair_key = tuple(sorted([plain_name, alt_root]))
                 
                 if pair_key not in seen:
                     seen.add(pair_key)
                     dialectal_roots.append({
-                        'root': f"{root_info['root']} / {alt_root}",
-                        'base_root': root_info['root'],
-                        'dialectal_root': alt_root,
+                        'id': f"{plain_name}_{alt_root}_dialectal",
+                        'base_form': plain_name,
+                        'dialectal_form': alt_root,
+                        'combined_form': f"{plain_name} / {alt_root}",
                         'base_consonant': consonant,
                         'dialectal_consonant': alt_consonant,
                         'vowel': vowel,
-                        'vowel_group': root_info['vowel_group']
+                        'vowelGroup': vowel_group,
+                        'syllable_id': f"{plain_name}_mid",  # Base form syllable
+                        'dialectal_syllable_id': f"{alt_root}_mid",
+                        'generated': True,
+                        'type': 'dialectal_variation'
                     })
     
     return dialectal_roots
 
 
 def generate_infinitives(verb_roots, a_group, e_group):
-    """Generate infinitives for all verb roots."""
+    """Generate infinitives for all verb roots as JSON objects."""
     infinitives = []
     
     for root_info in verb_roots:
-        root = root_info['root']
-        vowel_group = root_info['vowel_group']
+        plain_name = root_info['plain_name']
+        vowel_group = root_info['vowelGroup']
         prefix = get_infinitive_prefix(vowel_group)
         
         if prefix:
-            infinitive = prefix + root
+            infinitive = prefix + plain_name
             infinitives.append({
-                'infinitive': infinitive,
-                'root': root,
+                'id': f"{infinitive}_infinitive",
+                'infinitive_form': infinitive,
+                'base_root_id': root_info['id'],
+                'base_root': plain_name,
                 'prefix': prefix,
-                'vowel_group': vowel_group
+                'vowelGroup': vowel_group,
+                'syllable_id': f"{infinitive}_mid",  # Infinitive syllable
+                'generated': True,
+                'type': 'infinitive'
             })
     
     return infinitives
 
 
 def generate_dialectal_infinitives(dialectal_roots, a_group, e_group):
-    """Generate infinitives for dialectal variations."""
+    """Generate infinitives for dialectal variations as JSON objects."""
     infinitives = []
     
     for root_info in dialectal_roots:
-        base_root = root_info['base_root']
-        dialectal_root = root_info['dialectal_root']
-        vowel_group = root_info['vowel_group']
+        base_root = root_info['base_form']
+        dialectal_root = root_info['dialectal_form']
+        vowel_group = root_info['vowelGroup']
         prefix = get_infinitive_prefix(vowel_group)
         
         if prefix:
@@ -170,42 +189,39 @@ def generate_dialectal_infinitives(dialectal_roots, a_group, e_group):
             combined_infinitive = f"{base_infinitive} / {dialectal_infinitive}"
             
             infinitives.append({
-                'infinitive': combined_infinitive,
+                'id': f"{base_infinitive}_{dialectal_infinitive}_dialectal_inf",
+                'infinitive_form': combined_infinitive,
                 'base_infinitive': base_infinitive,
                 'dialectal_infinitive': dialectal_infinitive,
                 'base_root': base_root,
                 'dialectal_root': dialectal_root,
+                'base_root_id': root_info['id'],
                 'prefix': prefix,
-                'vowel_group': vowel_group
+                'vowelGroup': vowel_group,
+                'syllable_id': f"{base_infinitive}_mid",
+                'dialectal_syllable_id': f"{dialectal_infinitive}_mid",
+                'generated': True,
+                'type': 'dialectal_infinitive'
             })
     
     return infinitives
 
 
-def save_to_file(data, output_file, header):
-    """Save data to a text file."""
+def save_to_json(data, output_file, metadata=None):
+    """Save data to a JSON file following repository conventions."""
+    output = {
+        'metadata': metadata or {},
+        'entries': data
+    }
+    
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(f"# {header}\n")
-        f.write(f"# Total entries: {len(data)}\n\n")
-        
-        for i, item in enumerate(data):
-            if isinstance(item, dict):
-                # Format the output nicely
-                # Check for infinitive first since infinitives also have 'root' field
-                if 'infinitive' in item:
-                    line = item['infinitive']
-                elif 'root' in item and 'vowel_group' in item:
-                    line = item['root']
-                else:
-                    line = str(item)
-            else:
-                line = str(item)
-            
-            # Write the line, add newline only if not the last item
-            if i < len(data) - 1:
-                f.write(f"{line}\n")
-            else:
-                f.write(line)
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+
+def save_array_to_json(data, output_file):
+    """Save data as a JSON array (like syllables.json)."""
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -253,40 +269,39 @@ def main():
     print(f"  Generated {len(dialectal_infinitives)} dialectal infinitives")
     print()
     
-    # Save outputs
-    print("Saving generated data...")
+    # Save outputs to JSON
+    print("Saving generated data to JSON...")
     
-    # Save base verb roots
-    save_to_file(
+    # Create output directory in language-data
+    verbs_dir = language_data_dir / 'verbs'
+    
+    # Save base verb roots as JSON array (like syllables.json)
+    save_array_to_json(
         verb_roots,
-        output_dir / 'monosyllabic_verb_roots.txt',
-        'Monosyllabic Verb Roots (Consonant + Vowel)'
+        verbs_dir / 'generated-monosyllabic-roots.json'
     )
-    print(f"  ✓ Saved monosyllabic_verb_roots.txt")
+    print(f"  ✓ Saved generated-monosyllabic-roots.json")
     
     # Save dialectal verb roots
-    save_to_file(
+    save_array_to_json(
         dialectal_roots,
-        output_dir / 'dialectal_verb_roots.txt',
-        'Dialectal Variations of Monosyllabic Verb Roots'
+        verbs_dir / 'generated-dialectal-roots.json'
     )
-    print(f"  ✓ Saved dialectal_verb_roots.txt")
+    print(f"  ✓ Saved generated-dialectal-roots.json")
     
     # Save base infinitives
-    save_to_file(
+    save_array_to_json(
         base_infinitives,
-        output_dir / 'infinitives.txt',
-        'Infinitives of Monosyllabic Verb Roots'
+        verbs_dir / 'generated-infinitives.json'
     )
-    print(f"  ✓ Saved infinitives.txt")
+    print(f"  ✓ Saved generated-infinitives.json")
     
     # Save dialectal infinitives
-    save_to_file(
+    save_array_to_json(
         dialectal_infinitives,
-        output_dir / 'dialectal_infinitives.txt',
-        'Infinitives with Dialectal Variations'
+        verbs_dir / 'generated-dialectal-infinitives.json'
     )
-    print(f"  ✓ Saved dialectal_infinitives.txt")
+    print(f"  ✓ Saved generated-dialectal-infinitives.json")
     
     # Print summary
     print()
@@ -298,7 +313,7 @@ def main():
     print(f"Base infinitives: {len(base_infinitives)}")
     print(f"Dialectal infinitives: {len(dialectal_infinitives)}")
     print()
-    print(f"All files saved to: {output_dir}")
+    print(f"All JSON files saved to: {verbs_dir}")
     print()
     
     # Show some examples
@@ -306,22 +321,25 @@ def main():
     print("-" * 70)
     print("\nBase Verb Roots (first 10):")
     for root in verb_roots[:10]:
-        print(f"  {root['root']} (vowel group: {root['vowel_group']})")
+        print(f"  {root['plain_name']} (ID: {root['id']}, vowel group: {root['vowelGroup']})")
     
     print("\nDialectal Variations (first 5):")
     for root in dialectal_roots[:5]:
-        print(f"  {root['root']} (vowel group: {root['vowel_group']})")
+        print(f"  {root['combined_form']} (vowel group: {root['vowelGroup']})")
     
     print("\nBase Infinitives (first 10):")
     for inf in base_infinitives[:10]:
-        print(f"  {inf['infinitive']} (from {inf['root']}, vowel group: {inf['vowel_group']})")
+        print(f"  {inf['infinitive_form']} (from {inf['base_root']}, vowel group: {inf['vowelGroup']})")
     
     print("\nDialectal Infinitives (first 5):")
     for inf in dialectal_infinitives[:5]:
-        print(f"  {inf['infinitive']} (vowel group: {inf['vowel_group']})")
+        print(f"  {inf['infinitive_form']} (vowel group: {inf['vowelGroup']})")
     
     print()
     print("✓ Generation complete!")
+    print()
+    print("Note: Files are saved in language-data/verbs/ as JSON arrays following")
+    print("the repository's data structure conventions.")
 
 
 if __name__ == '__main__':
