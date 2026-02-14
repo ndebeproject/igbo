@@ -48,7 +48,7 @@ def consolidate_and_renumber(manual_roots, generated_roots):
     Consolidate all roots and assign sequential IDs.
     
     For each plain_name:
-    - Manual roots keep their meanings and tones
+    - Manual roots keep their tones
     - Generated roots get assigned the next available number
     - IDs follow pattern: root_001, root_002, etc.
     """
@@ -58,13 +58,12 @@ def consolidate_and_renumber(manual_roots, generated_roots):
     # Add manual roots first (they have priority)
     for root in manual_roots:
         plain_name = root['plain_name']
-        # Remove any extra fields, keep only schema fields
+        # Remove any extra fields, keep only schema fields (no gloss)
         clean_root = {
             'id': root['id'],  # Will be renumbered later
             'plain_name': root['plain_name'],
             'syllable_id': root['syllable_id'],
-            'vowelGroup': root['vowelGroup'],
-            'gloss': root['gloss']
+            'vowelGroup': root['vowelGroup']
         }
         roots_by_name[plain_name].append(('manual', clean_root))
     
@@ -80,8 +79,7 @@ def consolidate_and_renumber(manual_roots, generated_roots):
                 'id': '',  # Will be assigned
                 'plain_name': root['plain_name'],
                 'syllable_id': root['syllable_id'],
-                'vowelGroup': root['vowelGroup'],
-                'gloss': root['gloss']
+                'vowelGroup': root['vowelGroup']
             }
             roots_by_name[plain_name].append(('generated', clean_root))
     
@@ -94,7 +92,7 @@ def consolidate_and_renumber(manual_roots, generated_roots):
         for idx, (source, root) in enumerate(entries, start=1):
             root['id'] = f"{plain_name}_{idx:03d}"
             all_roots.append(root)
-            print(f"  {source:9s}: {root['id']:15s} - {root['gloss']}")
+            print(f"  {source:9s}: {root['id']:15s}")
     
     return all_roots
 

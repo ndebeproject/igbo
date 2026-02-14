@@ -99,7 +99,6 @@ def generate_verb_roots(consonants, vowels, a_group, e_group):
                 'plain_name': root,
                 'syllable_id': f"{root}_mid",  # Default to mid tone
                 'vowelGroup': vowel_group,
-                'gloss': 'generated_root',
                 'consonant': consonant,  # Temp field for generation
                 'vowel': vowel  # Temp field for generation
             })
@@ -253,8 +252,7 @@ def merge_and_assign_ids(existing_roots, new_roots):
             clean_root = {
                 'plain_name': root['plain_name'],
                 'syllable_id': root['syllable_id'],
-                'vowelGroup': root['vowelGroup'],
-                'gloss': root['gloss']
+                'vowelGroup': root['vowelGroup']
             }
             roots_by_name[plain_name].append(clean_root)
     

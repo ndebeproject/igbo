@@ -3,1904 +3,1632 @@
     "id": "ba_001",
     "plain_name": "ba",
     "syllable_id": "ba_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "be_001",
     "plain_name": "be",
     "syllable_id": "be_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "bi_001",
     "plain_name": "bi",
     "syllable_id": "bi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "bo_001",
     "plain_name": "bo",
     "syllable_id": "bo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "bu_001",
     "plain_name": "bu",
     "syllable_id": "bu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "bẹ_001",
     "plain_name": "bẹ",
     "syllable_id": "bẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "bị_001",
     "plain_name": "bị",
     "syllable_id": "bị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "bọ_001",
     "plain_name": "bọ",
     "syllable_id": "bọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "bụ_001",
     "plain_name": "bụ",
     "syllable_id": "bụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "cha_001",
     "plain_name": "cha",
     "syllable_id": "cha_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "che_001",
     "plain_name": "che",
     "syllable_id": "che_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "chi_001",
     "plain_name": "chi",
     "syllable_id": "chi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "cho_001",
     "plain_name": "cho",
     "syllable_id": "cho_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "chu_001",
     "plain_name": "chu",
     "syllable_id": "chu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "chẹ_001",
     "plain_name": "chẹ",
     "syllable_id": "chẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "chị_001",
     "plain_name": "chị",
     "syllable_id": "chị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "chọ_001",
     "plain_name": "chọ",
     "syllable_id": "chọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "chụ_001",
     "plain_name": "chụ",
     "syllable_id": "chụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "da_001",
     "plain_name": "da",
     "syllable_id": "da_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "de_001",
     "plain_name": "de",
     "syllable_id": "de_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "di_001",
     "plain_name": "di",
     "syllable_id": "di_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "do_001",
     "plain_name": "do",
     "syllable_id": "do_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "du_001",
     "plain_name": "du",
     "syllable_id": "du_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "dẹ_001",
     "plain_name": "dẹ",
     "syllable_id": "dẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "dị_001",
     "plain_name": "dị",
     "syllable_id": "dị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "dọ_001",
     "plain_name": "dọ",
     "syllable_id": "dọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "dụ_001",
     "plain_name": "dụ",
     "syllable_id": "dụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "fa_001",
     "plain_name": "fa",
     "syllable_id": "fa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "fe_001",
     "plain_name": "fe",
     "syllable_id": "fe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "fi_001",
     "plain_name": "fi",
     "syllable_id": "fi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "fo_001",
     "plain_name": "fo",
     "syllable_id": "fo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "fu_001",
     "plain_name": "fu",
     "syllable_id": "fu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "fẹ_001",
     "plain_name": "fẹ",
     "syllable_id": "fẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "fị_001",
     "plain_name": "fị",
     "syllable_id": "fị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "fọ_001",
     "plain_name": "fọ",
     "syllable_id": "fọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "fụ_001",
     "plain_name": "fụ",
     "syllable_id": "fụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ga_001",
     "plain_name": "ga",
     "syllable_id": "ga_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gba_001",
     "plain_name": "gba",
     "syllable_id": "gba_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gbe_001",
     "plain_name": "gbe",
     "syllable_id": "gbe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gbi_001",
     "plain_name": "gbi",
     "syllable_id": "gbi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gbo_001",
     "plain_name": "gbo",
     "syllable_id": "gbo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gbu_001",
     "plain_name": "gbu",
     "syllable_id": "gbu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gbẹ_001",
     "plain_name": "gbẹ",
     "syllable_id": "gbẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gbị_001",
     "plain_name": "gbị",
     "syllable_id": "gbị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gbọ_001",
     "plain_name": "gbọ",
     "syllable_id": "gbọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gbụ_001",
     "plain_name": "gbụ",
     "syllable_id": "gbụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ge_001",
     "plain_name": "ge",
     "syllable_id": "ge_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gha_001",
     "plain_name": "gha",
     "syllable_id": "gha_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ghe_001",
     "plain_name": "ghe",
     "syllable_id": "ghe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ghi_001",
     "plain_name": "ghi",
     "syllable_id": "ghi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gho_001",
     "plain_name": "gho",
     "syllable_id": "gho_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ghu_001",
     "plain_name": "ghu",
     "syllable_id": "ghu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ghẹ_001",
     "plain_name": "ghẹ",
     "syllable_id": "ghẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ghị_001",
     "plain_name": "ghị",
     "syllable_id": "ghị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ghọ_001",
     "plain_name": "ghọ",
     "syllable_id": "ghọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ghụ_001",
     "plain_name": "ghụ",
     "syllable_id": "ghụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gi_001",
     "plain_name": "gi",
     "syllable_id": "gi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "go_001",
     "plain_name": "go",
     "syllable_id": "go_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gu_001",
     "plain_name": "gu",
     "syllable_id": "gu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gwa_001",
     "plain_name": "gwa",
     "syllable_id": "gwa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gwe_001",
     "plain_name": "gwe",
     "syllable_id": "gwe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gwi_001",
     "plain_name": "gwi",
     "syllable_id": "gwi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gwo_001",
     "plain_name": "gwo",
     "syllable_id": "gwo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gwu_001",
     "plain_name": "gwu",
     "syllable_id": "gwu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "gwẹ_001",
     "plain_name": "gwẹ",
     "syllable_id": "gwẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gwị_001",
     "plain_name": "gwị",
     "syllable_id": "gwị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gwọ_001",
     "plain_name": "gwọ",
     "syllable_id": "gwọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gwụ_001",
     "plain_name": "gwụ",
     "syllable_id": "gwụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gẹ_001",
     "plain_name": "gẹ",
     "syllable_id": "gẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gị_001",
     "plain_name": "gị",
     "syllable_id": "gị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gọ_001",
     "plain_name": "gọ",
     "syllable_id": "gọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "gụ_001",
     "plain_name": "gụ",
     "syllable_id": "gụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ha_001",
     "plain_name": "ha",
     "syllable_id": "ha_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "he_001",
     "plain_name": "he",
     "syllable_id": "he_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "hi_001",
     "plain_name": "hi",
     "syllable_id": "hi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ho_001",
     "plain_name": "ho",
     "syllable_id": "ho_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "hu_001",
     "plain_name": "hu",
     "syllable_id": "hu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "hẹ_001",
     "plain_name": "hẹ",
     "syllable_id": "hẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "hị_001",
     "plain_name": "hị",
     "syllable_id": "hị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "họ_001",
     "plain_name": "họ",
     "syllable_id": "họ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "hụ_001",
     "plain_name": "hụ",
     "syllable_id": "hụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ja_001",
     "plain_name": "ja",
     "syllable_id": "ja_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "je_001",
     "plain_name": "je",
     "syllable_id": "je_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ji_001",
     "plain_name": "ji",
     "syllable_id": "ji_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "jo_001",
     "plain_name": "jo",
     "syllable_id": "jo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ju_001",
     "plain_name": "ju",
     "syllable_id": "ju_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "jẹ_001",
     "plain_name": "jẹ",
     "syllable_id": "jẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "jị_001",
     "plain_name": "jị",
     "syllable_id": "jị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "jọ_001",
     "plain_name": "jọ",
     "syllable_id": "jọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "jụ_001",
     "plain_name": "jụ",
     "syllable_id": "jụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ka_001",
     "plain_name": "ka",
     "syllable_id": "ka_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ke_001",
     "plain_name": "ke",
     "syllable_id": "ke_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ki_001",
     "plain_name": "ki",
     "syllable_id": "ki_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ko_001",
     "plain_name": "ko",
     "syllable_id": "ko_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kpa_001",
     "plain_name": "kpa",
     "syllable_id": "kpa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kpe_001",
     "plain_name": "kpe",
     "syllable_id": "kpe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kpi_001",
     "plain_name": "kpi",
     "syllable_id": "kpi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kpo_001",
     "plain_name": "kpo",
     "syllable_id": "kpo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kpu_001",
     "plain_name": "kpu",
     "syllable_id": "kpu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kpẹ_001",
     "plain_name": "kpẹ",
     "syllable_id": "kpẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kpị_001",
     "plain_name": "kpị",
     "syllable_id": "kpị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kpọ_001",
     "plain_name": "kpọ",
     "syllable_id": "kpọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kpụ_001",
     "plain_name": "kpụ",
     "syllable_id": "kpụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ku_001",
     "plain_name": "ku",
     "syllable_id": "ku_high",
-    "vowelGroup": "E",
-    "gloss": "strike"
+    "vowelGroup": "E"
   },
   {
     "id": "kwa_001",
     "plain_name": "kwa",
     "syllable_id": "kwa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kwe_001",
     "plain_name": "kwe",
     "syllable_id": "kwe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kwi_001",
     "plain_name": "kwi",
     "syllable_id": "kwi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kwo_001",
     "plain_name": "kwo",
     "syllable_id": "kwo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kwu_001",
     "plain_name": "kwu",
     "syllable_id": "kwu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "kwẹ_001",
     "plain_name": "kwẹ",
     "syllable_id": "kwẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kwị_001",
     "plain_name": "kwị",
     "syllable_id": "kwị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kwọ_001",
     "plain_name": "kwọ",
     "syllable_id": "kwọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kwụ_001",
     "plain_name": "kwụ",
     "syllable_id": "kwụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kẹ_001",
     "plain_name": "kẹ",
     "syllable_id": "kẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kị_001",
     "plain_name": "kị",
     "syllable_id": "kị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kọ_001",
     "plain_name": "kọ",
     "syllable_id": "kọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "kụ_001",
     "plain_name": "kụ",
     "syllable_id": "kụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "la_001",
     "plain_name": "la",
     "syllable_id": "la_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "le_001",
     "plain_name": "le",
     "syllable_id": "le_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "li_001",
     "plain_name": "li",
     "syllable_id": "li_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "lo_001",
     "plain_name": "lo",
     "syllable_id": "lo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "lu_001",
     "plain_name": "lu",
     "syllable_id": "lu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "lẹ_001",
     "plain_name": "lẹ",
     "syllable_id": "lẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "lị_001",
     "plain_name": "lị",
     "syllable_id": "lị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "lọ_001",
     "plain_name": "lọ",
     "syllable_id": "lọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "lụ_001",
     "plain_name": "lụ",
     "syllable_id": "lụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ma_001",
     "plain_name": "ma",
     "syllable_id": "ma_high",
-    "vowelGroup": "A",
-    "gloss": "know"
+    "vowelGroup": "A"
   },
   {
     "id": "ma_002",
     "plain_name": "ma",
     "syllable_id": "ma_high",
-    "vowelGroup": "A",
-    "gloss": "beautiful"
+    "vowelGroup": "A"
   },
   {
     "id": "ma_003",
     "plain_name": "ma",
     "syllable_id": "ma_high",
-    "vowelGroup": "A",
-    "gloss": "strike"
+    "vowelGroup": "A"
   },
   {
     "id": "me_001",
     "plain_name": "me",
     "syllable_id": "me_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "mi_001",
     "plain_name": "mi",
     "syllable_id": "mi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "mo_001",
     "plain_name": "mo",
     "syllable_id": "mo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "mu_001",
     "plain_name": "mu",
     "syllable_id": "mu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "m̩a_001",
     "plain_name": "m̩a",
     "syllable_id": "m̩a_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "m̩e_001",
     "plain_name": "m̩e",
     "syllable_id": "m̩e_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "m̩i_001",
     "plain_name": "m̩i",
     "syllable_id": "m̩i_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "m̩o_001",
     "plain_name": "m̩o",
     "syllable_id": "m̩o_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "m̩u_001",
     "plain_name": "m̩u",
     "syllable_id": "m̩u_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "m̩ẹ_001",
     "plain_name": "m̩ẹ",
     "syllable_id": "m̩ẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "m̩ị_001",
     "plain_name": "m̩ị",
     "syllable_id": "m̩ị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "m̩ọ_001",
     "plain_name": "m̩ọ",
     "syllable_id": "m̩ọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "m̩ụ_001",
     "plain_name": "m̩ụ",
     "syllable_id": "m̩ụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "mẹ_001",
     "plain_name": "mẹ",
     "syllable_id": "mẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "mị_001",
     "plain_name": "mị",
     "syllable_id": "mị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "mọ_001",
     "plain_name": "mọ",
     "syllable_id": "mọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "mụ_001",
     "plain_name": "mụ",
     "syllable_id": "mụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "na_001",
     "plain_name": "na",
     "syllable_id": "na_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ne_001",
     "plain_name": "ne",
     "syllable_id": "ne_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ni_001",
     "plain_name": "ni",
     "syllable_id": "ni_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "no_001",
     "plain_name": "no",
     "syllable_id": "no_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nu_001",
     "plain_name": "nu",
     "syllable_id": "nu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nwa_001",
     "plain_name": "nwa",
     "syllable_id": "nwa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nwe_001",
     "plain_name": "nwe",
     "syllable_id": "nwe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nwi_001",
     "plain_name": "nwi",
     "syllable_id": "nwi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nwo_001",
     "plain_name": "nwo",
     "syllable_id": "nwo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nwu_001",
     "plain_name": "nwu",
     "syllable_id": "nwu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nwẹ_001",
     "plain_name": "nwẹ",
     "syllable_id": "nwẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nwị_001",
     "plain_name": "nwị",
     "syllable_id": "nwị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nwọ_001",
     "plain_name": "nwọ",
     "syllable_id": "nwọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nwụ_001",
     "plain_name": "nwụ",
     "syllable_id": "nwụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nya_001",
     "plain_name": "nya",
     "syllable_id": "nya_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nye_001",
     "plain_name": "nye",
     "syllable_id": "nye_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nyi_001",
     "plain_name": "nyi",
     "syllable_id": "nyi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nyo_001",
     "plain_name": "nyo",
     "syllable_id": "nyo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nyu_001",
     "plain_name": "nyu",
     "syllable_id": "nyu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "nyẹ_001",
     "plain_name": "nyẹ",
     "syllable_id": "nyẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nyị_001",
     "plain_name": "nyị",
     "syllable_id": "nyị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nyọ_001",
     "plain_name": "nyọ",
     "syllable_id": "nyọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nyụ_001",
     "plain_name": "nyụ",
     "syllable_id": "nyụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "n̩a_001",
     "plain_name": "n̩a",
     "syllable_id": "n̩a_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "n̩e_001",
     "plain_name": "n̩e",
     "syllable_id": "n̩e_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "n̩i_001",
     "plain_name": "n̩i",
     "syllable_id": "n̩i_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "n̩o_001",
     "plain_name": "n̩o",
     "syllable_id": "n̩o_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "n̩u_001",
     "plain_name": "n̩u",
     "syllable_id": "n̩u_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "n̩ẹ_001",
     "plain_name": "n̩ẹ",
     "syllable_id": "n̩ẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "n̩ị_001",
     "plain_name": "n̩ị",
     "syllable_id": "n̩ị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "n̩ọ_001",
     "plain_name": "n̩ọ",
     "syllable_id": "n̩ọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "n̩ụ_001",
     "plain_name": "n̩ụ",
     "syllable_id": "n̩ụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nẹ_001",
     "plain_name": "nẹ",
     "syllable_id": "nẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nị_001",
     "plain_name": "nị",
     "syllable_id": "nị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nọ_001",
     "plain_name": "nọ",
     "syllable_id": "nọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "nụ_001",
     "plain_name": "nụ",
     "syllable_id": "nụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "pa_001",
     "plain_name": "pa",
     "syllable_id": "pa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "pe_001",
     "plain_name": "pe",
     "syllable_id": "pe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "pi_001",
     "plain_name": "pi",
     "syllable_id": "pi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "po_001",
     "plain_name": "po",
     "syllable_id": "po_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "pu_001",
     "plain_name": "pu",
     "syllable_id": "pu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "pẹ_001",
     "plain_name": "pẹ",
     "syllable_id": "pẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "pị_001",
     "plain_name": "pị",
     "syllable_id": "pị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "pọ_001",
     "plain_name": "pọ",
     "syllable_id": "pọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "pụ_001",
     "plain_name": "pụ",
     "syllable_id": "pụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ra_001",
     "plain_name": "ra",
     "syllable_id": "ra_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "re_001",
     "plain_name": "re",
     "syllable_id": "re_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ri_001",
     "plain_name": "ri",
     "syllable_id": "ri_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ro_001",
     "plain_name": "ro",
     "syllable_id": "ro_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ru_001",
     "plain_name": "ru",
     "syllable_id": "ru_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "rẹ_001",
     "plain_name": "rẹ",
     "syllable_id": "rẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "rị_001",
     "plain_name": "rị",
     "syllable_id": "rị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "rọ_001",
     "plain_name": "rọ",
     "syllable_id": "rọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "rụ_001",
     "plain_name": "rụ",
     "syllable_id": "rụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "sa_001",
     "plain_name": "sa",
     "syllable_id": "sa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "se_001",
     "plain_name": "se",
     "syllable_id": "se_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "sha_001",
     "plain_name": "sha",
     "syllable_id": "sha_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "she_001",
     "plain_name": "she",
     "syllable_id": "she_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "shi_001",
     "plain_name": "shi",
     "syllable_id": "shi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "sho_001",
     "plain_name": "sho",
     "syllable_id": "sho_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "shu_001",
     "plain_name": "shu",
     "syllable_id": "shu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "shẹ_001",
     "plain_name": "shẹ",
     "syllable_id": "shẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "shị_001",
     "plain_name": "shị",
     "syllable_id": "shị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "shọ_001",
     "plain_name": "shọ",
     "syllable_id": "shọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "shụ_001",
     "plain_name": "shụ",
     "syllable_id": "shụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "si_001",
     "plain_name": "si",
     "syllable_id": "si_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "so_001",
     "plain_name": "so",
     "syllable_id": "so_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "su_001",
     "plain_name": "su",
     "syllable_id": "su_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "sẹ_001",
     "plain_name": "sẹ",
     "syllable_id": "sẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "sị_001",
     "plain_name": "sị",
     "syllable_id": "sị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "sọ_001",
     "plain_name": "sọ",
     "syllable_id": "sọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "sụ_001",
     "plain_name": "sụ",
     "syllable_id": "sụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ta_001",
     "plain_name": "ta",
     "syllable_id": "ta_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "te_001",
     "plain_name": "te",
     "syllable_id": "te_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ti_001",
     "plain_name": "ti",
     "syllable_id": "ti_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "to_001",
     "plain_name": "to",
     "syllable_id": "to_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "tu_001",
     "plain_name": "tu",
     "syllable_id": "tu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "tẹ_001",
     "plain_name": "tẹ",
     "syllable_id": "tẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "tị_001",
     "plain_name": "tị",
     "syllable_id": "tị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "tọ_001",
     "plain_name": "tọ",
     "syllable_id": "tọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "tụ_001",
     "plain_name": "tụ",
     "syllable_id": "tụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "va_001",
     "plain_name": "va",
     "syllable_id": "va_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ve_001",
     "plain_name": "ve",
     "syllable_id": "ve_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "vi_001",
     "plain_name": "vi",
     "syllable_id": "vi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "vo_001",
     "plain_name": "vo",
     "syllable_id": "vo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "vu_001",
     "plain_name": "vu",
     "syllable_id": "vu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "vẹ_001",
     "plain_name": "vẹ",
     "syllable_id": "vẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "vị_001",
     "plain_name": "vị",
     "syllable_id": "vị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "vọ_001",
     "plain_name": "vọ",
     "syllable_id": "vọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "vụ_001",
     "plain_name": "vụ",
     "syllable_id": "vụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "wa_001",
     "plain_name": "wa",
     "syllable_id": "wa_high",
-    "vowelGroup": "A",
-    "gloss": "split"
+    "vowelGroup": "A"
   },
   {
     "id": "we_001",
     "plain_name": "we",
     "syllable_id": "we_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "wi_001",
     "plain_name": "wi",
     "syllable_id": "wi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "wo_001",
     "plain_name": "wo",
     "syllable_id": "wo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "wu_001",
     "plain_name": "wu",
     "syllable_id": "wu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "wẹ_001",
     "plain_name": "wẹ",
     "syllable_id": "wẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "wị_001",
     "plain_name": "wị",
     "syllable_id": "wị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "wọ_001",
     "plain_name": "wọ",
     "syllable_id": "wọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "wụ_001",
     "plain_name": "wụ",
     "syllable_id": "wụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ya_001",
     "plain_name": "ya",
     "syllable_id": "ya_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ye_001",
     "plain_name": "ye",
     "syllable_id": "ye_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "yi_001",
     "plain_name": "yi",
     "syllable_id": "yi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "yo_001",
     "plain_name": "yo",
     "syllable_id": "yo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "yu_001",
     "plain_name": "yu",
     "syllable_id": "yu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "yẹ_001",
     "plain_name": "yẹ",
     "syllable_id": "yẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "yị_001",
     "plain_name": "yị",
     "syllable_id": "yị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "yọ_001",
     "plain_name": "yọ",
     "syllable_id": "yọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "yụ_001",
     "plain_name": "yụ",
     "syllable_id": "yụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "za_001",
     "plain_name": "za",
     "syllable_id": "za_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ze_001",
     "plain_name": "ze",
     "syllable_id": "ze_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "zi_001",
     "plain_name": "zi",
     "syllable_id": "zi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "zo_001",
     "plain_name": "zo",
     "syllable_id": "zo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "zu_001",
     "plain_name": "zu",
     "syllable_id": "zu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "zẹ_001",
     "plain_name": "zẹ",
     "syllable_id": "zẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "zị_001",
     "plain_name": "zị",
     "syllable_id": "zị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "zọ_001",
     "plain_name": "zọ",
     "syllable_id": "zọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "zụ_001",
     "plain_name": "zụ",
     "syllable_id": "zụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ṅa_001",
     "plain_name": "ṅa",
     "syllable_id": "ṅa_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ṅe_001",
     "plain_name": "ṅe",
     "syllable_id": "ṅe_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ṅi_001",
     "plain_name": "ṅi",
     "syllable_id": "ṅi_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ṅo_001",
     "plain_name": "ṅo",
     "syllable_id": "ṅo_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ṅu_001",
     "plain_name": "ṅu",
     "syllable_id": "ṅu_mid",
-    "vowelGroup": "E",
-    "gloss": "generated_root"
+    "vowelGroup": "E"
   },
   {
     "id": "ṅẹ_001",
     "plain_name": "ṅẹ",
     "syllable_id": "ṅẹ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ṅị_001",
     "plain_name": "ṅị",
     "syllable_id": "ṅị_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ṅọ_001",
     "plain_name": "ṅọ",
     "syllable_id": "ṅọ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   },
   {
     "id": "ṅụ_001",
     "plain_name": "ṅụ",
     "syllable_id": "ṅụ_mid",
-    "vowelGroup": "A",
-    "gloss": "generated_root"
+    "vowelGroup": "A"
   }
 ]

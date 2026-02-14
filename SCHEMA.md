@@ -304,7 +304,7 @@ Each consonant that participates in alternations has an `alternation_sets` array
 
 ### Prime Roots
 
-**File Location**: `language-data/verbs/prime-roots/{root}.json`
+**File Location**: `language-data/verbs/prime-roots/prime-verb-roots.json`
 
 **Purpose**: Stores monosyllabic verb roots, which are the foundation of most Igbo words.
 
@@ -314,8 +314,7 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "id": "string (unique identifier)",
   "plain_name": "string (the root without tone marking)",
   "syllable_id": "string (reference to syllables.json)",
-  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)",
-  "gloss": "string (basic English meaning/gloss)"
+  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)"
 }
 ```
 
@@ -325,14 +324,13 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "id": "ma_001",
   "plain_name": "ma",
   "syllable_id": "ma_high",
-  "vowelGroup": "A",
-  "gloss": "know"
+  "vowelGroup": "A"
 }
 ```
 
 **ID Convention**: `{root}_{sequential_number}`
-- Example: `ma_001`, `ma_002`, `ma_003` (different meanings, same syllable)
-- Example: `ba_001`, `ba_002`, `ba_003`
+- Example: `ma_001`, `ma_002`, `ma_003` (different tones or dialectal variations)
+- Example: `ba_001`, `be_001`, `bi_001`
 
 **Notes**:
 - `syllable_id` links to the specific tonal syllable
@@ -340,12 +338,8 @@ Each consonant that participates in alternations has an `alternation_sets` array
   - **A group**: if first vowel is a, ẹ, ị, ọ, or ụ (short/sharp sounds)
   - **E group**: if first vowel is e, i, o, or u (tense vowels with close or rounded articulation)
   - This grouping is used for vowel harmony rules in affixation
-- `gloss` provides the basic meaning to distinguish homophones
-  - Keep glosses concise: use a single primary meaning (e.g., "beautiful" not "beautiful/beauty")
-  - Use the most common English equivalent
-  - If multiple English words are close, choose one (e.g., "strike" not "strike/hit")
-- **IMPORTANT**: Multiple entries can share the same `plain_name` AND the same `syllable_id` (same tone) if they are homophones with different meanings
-- For verb roots with multiple meanings (e.g., "gba" with 15+ meanings), create separate entries: `gba_001`, `gba_002`, ..., `gba_015`, etc.
+- **IMPORTANT**: Multiple entries can share the same `plain_name` if they differ in tone (via `syllable_id`)
+- All prime roots are stored in a single file: `prime-verb-roots.json`
 
 ---
 
