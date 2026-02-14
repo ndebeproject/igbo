@@ -224,13 +224,19 @@ def save_array_to_json(data, output_file):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def load_existing_prime_roots(prime_roots_file):
-    """Load existing prime roots from prime-verb-roots.json."""
-    if not prime_roots_file.exists():
+def load_existing_prime_roots(syllables_file):
+    """Load existing prime roots from syllables.json."""
+    if not syllables_file.exists():
         return []
     
-    with open(prime_roots_file, 'r', encoding='utf-8') as f:
-        return json.load(f)
+    with open(syllables_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        # Handle both array format and object with _comment
+        if isinstance(data, list):
+            return data
+        elif isinstance(data, dict) and '_comment' in data:
+            return []
+        return []
 
 
 def merge_and_assign_ids(existing_roots, new_roots):
@@ -366,19 +372,19 @@ def main():
     verbs_dir = language_data_dir / 'verbs'
     prime_roots_dir = verbs_dir / 'prime-roots'
     
-    # Load existing prime roots and merge with new ones
-    prime_roots_file = prime_roots_dir / 'prime-verb-roots.json'
-    print(f"Loading existing prime roots from {prime_roots_file.name}...")
-    existing_roots = load_existing_prime_roots(prime_roots_file)
-    print(f"  Found {len(existing_roots)} existing roots")
+    # Load existing prime roots from syllables.json and merge with new ones
+    syllables_file = language_data_dir / 'syllables.json'
+    print(f"Loading existing syllables from {syllables_file.name}...")
+    existing_roots = load_existing_prime_roots(syllables_file)
+    print(f"  Found {len(existing_roots)} existing syllables")
     
     print("Merging and assigning sequential IDs...")
     all_prime_roots = merge_and_assign_ids(existing_roots, verb_roots)
-    print(f"  Total prime roots after merge: {len(all_prime_roots)}")
+    print(f"  Total syllables after merge: {len(all_prime_roots)}")
     
-    # Save consolidated prime roots
-    save_array_to_json(all_prime_roots, prime_roots_file)
-    print(f"  ✓ Saved prime-verb-roots.json ({len(all_prime_roots)} prime roots)")
+    # Save consolidated syllables
+    save_array_to_json(all_prime_roots, syllables_file)
+    print(f"  ✓ Saved syllables.json ({len(all_prime_roots)} syllables)")
     
     # Save dialectal verb roots as a collection (they reference prime roots)
     save_array_to_json(
@@ -406,20 +412,20 @@ def main():
     print("=" * 70)
     print("Generation Summary")
     print("=" * 70)
-    print(f"Prime roots (monosyllabic): {len(all_prime_roots)} in prime-verb-roots.json")
+    print(f"Syllables (monosyllabic): {len(all_prime_roots)} in syllables.json")
     print(f"Dialectal variations: {len(dialectal_roots)} (collection file)")
     print(f"Base infinitives: {len(base_infinitives)} (collection file)")
     print(f"Dialectal infinitives: {len(dialectal_infinitives)} (collection file)")
     print()
     print(f"Files saved in:")
-    print(f"  - Prime roots: {prime_roots_file}")
+    print(f"  - Syllables: {syllables_file}")
     print(f"  - Collections: {verbs_dir}/generated-*.json")
     print()
     
     # Show some examples
     print("Examples:")
     print("-" * 70)
-    print("\nPrime Roots (first 10 from prime-verb-roots.json):")
+    print("\nSyllables (first 10 from syllables.json):")
     for root in all_prime_roots[:10]:
         print(f"  {root['plain_name']} → ID: {root['id']}, vowel group: {root['vowelGroup']}")
     
@@ -438,7 +444,7 @@ def main():
     print()
     print("✓ Generation complete!")
     print()
-    print("Note: All prime roots saved in prime-verb-roots.json with sequential IDs.")
+    print("Note: All syllables saved in syllables.json with sequential IDs.")
     print("Infinitives and dialectal variations saved as separate collection files.")
 
 

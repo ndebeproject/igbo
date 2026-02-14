@@ -272,9 +272,15 @@ def main():
                         schema_valid = False
                         errors.append(f"{rel_path}: Invalid syllable schema for ID {item.get('id', 'unknown')}")
         
-        # Validate prime roots
+        # Validate prime roots (skip if it only contains comment)
         if 'prime-roots' in str(json_file):
-            if isinstance(data, dict):
+            # Check if it's just a comment placeholder
+            if isinstance(data, dict) and '_comment' in data and len(data) == 1:
+                # This is just a placeholder comment, skip validation
+                print(f"{GREEN}✓{RESET} {rel_path} (placeholder)")
+                success_count += 1
+                continue
+            elif isinstance(data, dict):
                 if not validate_prime_root_schema(data):
                     schema_valid = False
                     missing_fields = [f for f in ['id', 'plain_name', 'syllable_id', 'gloss'] if f not in data]

@@ -302,11 +302,11 @@ Each consonant that participates in alternations has an `alternation_sets` array
 
 ## Verb Components
 
-### Prime Roots
+### Syllables
 
-**File Location**: `language-data/verbs/prime-roots/prime-verb-roots.json`
+**File Location**: `language-data/syllables.json`
 
-**Purpose**: Stores monosyllabic verb roots with tone variants, which are the foundation of most Igbo words.
+**Purpose**: Stores all syllables including monosyllabic verb roots with tone variants, which are the foundation of most Igbo words.
 
 **Schema**:
 ```json
@@ -388,8 +388,16 @@ Each consonant that participates in alternations has an `alternation_sets` array
   - **E group**: if first vowel is e, i, o, or u (tense vowels with close or rounded articulation)
   - This grouping is used for vowel harmony rules in affixation
 - Each syllable has exactly three entries (one for each tone variant)
-- All prime roots are stored in a single file: `prime-verb-roots.json`
+- All syllables are stored in a single file: `syllables.json`
 - Total entries: 270 syllables × 3 tones = 810 entries
+
+---
+
+### Prime Verb Roots
+
+**File Location**: `language-data/verbs/prime-roots/prime-verb-roots.json`
+
+**Purpose**: Prime verb structures will be determined soon.
 
 ---
 

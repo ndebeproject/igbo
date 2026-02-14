@@ -16,7 +16,7 @@ def test_tone_variants():
     verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     prime_roots_dir = verbs_dir / 'prime-roots'
     
-    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+    with open(Path(__file__).parent / 'language-data' / 'syllables.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     # Check structure of entries
@@ -71,7 +71,7 @@ def test_problem_statement_examples():
     prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+    with open(Path(__file__).parent / 'language-data' / 'syllables.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -170,7 +170,7 @@ def test_counts():
     prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+    with open(Path(__file__).parent / 'language-data' / 'syllables.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -252,7 +252,7 @@ def test_phonemes():
     verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
     prime_roots_dir = verbs_dir / 'prime-roots'
     
-    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+    with open(Path(__file__).parent / 'language-data' / 'syllables.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     # Test specific examples with different consonant types (mid tone)
