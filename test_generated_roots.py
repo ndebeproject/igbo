@@ -14,9 +14,10 @@ def test_problem_statement_examples():
     print("Testing problem statement examples...")
     
     verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
+    prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(verbs_dir / 'generated-monosyllabic-roots.json', 'r', encoding='utf-8') as f:
+    with open(prime_roots_dir / 'generated-prime-roots.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -107,9 +108,10 @@ def test_counts():
     print("Testing counts...")
     
     verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
+    prime_roots_dir = verbs_dir / 'prime-roots'
     
     # Read JSON files
-    with open(verbs_dir / 'generated-monosyllabic-roots.json', 'r', encoding='utf-8') as f:
+    with open(prime_roots_dir / 'generated-prime-roots.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
     with open(verbs_dir / 'generated-infinitives.json', 'r', encoding='utf-8') as f:
@@ -123,7 +125,7 @@ def test_counts():
     
     # Check counts
     assert len(roots) == 270, f"Expected 270 roots, got {len(roots)}"
-    print(f"  ✓ {len(roots)} monosyllabic verb roots (30 consonants × 9 vowels)")
+    print(f"  ✓ {len(roots)} monosyllabic prime roots (30 consonants × 9 vowels)")
     
     assert len(infinitives) == 270, f"Expected 270 infinitives, got {len(infinitives)}"
     print(f"  ✓ {len(infinitives)} base infinitives")

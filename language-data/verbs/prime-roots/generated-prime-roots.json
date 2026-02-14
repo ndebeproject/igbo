@@ -5,9 +5,7 @@
     "syllable_id": "ba_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "bẹ_generated",
@@ -15,9 +13,7 @@
     "syllable_id": "bẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "bị_generated",
@@ -25,9 +21,7 @@
     "syllable_id": "bị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "bọ_generated",
@@ -35,9 +29,7 @@
     "syllable_id": "bọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "bụ_generated",
@@ -45,9 +37,7 @@
     "syllable_id": "bụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "be_generated",
@@ -55,9 +45,7 @@
     "syllable_id": "be_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "bi_generated",
@@ -65,9 +53,7 @@
     "syllable_id": "bi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "bo_generated",
@@ -75,9 +61,7 @@
     "syllable_id": "bo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "bu_generated",
@@ -85,9 +69,7 @@
     "syllable_id": "bu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "b",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "cha_generated",
@@ -95,9 +77,7 @@
     "syllable_id": "cha_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "chẹ_generated",
@@ -105,9 +85,7 @@
     "syllable_id": "chẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "chị_generated",
@@ -115,9 +93,7 @@
     "syllable_id": "chị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "chọ_generated",
@@ -125,9 +101,7 @@
     "syllable_id": "chọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "chụ_generated",
@@ -135,9 +109,7 @@
     "syllable_id": "chụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "che_generated",
@@ -145,9 +117,7 @@
     "syllable_id": "che_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "chi_generated",
@@ -155,9 +125,7 @@
     "syllable_id": "chi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "cho_generated",
@@ -165,9 +133,7 @@
     "syllable_id": "cho_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "chu_generated",
@@ -175,9 +141,7 @@
     "syllable_id": "chu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ch",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "da_generated",
@@ -185,9 +149,7 @@
     "syllable_id": "da_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "dẹ_generated",
@@ -195,9 +157,7 @@
     "syllable_id": "dẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "dị_generated",
@@ -205,9 +165,7 @@
     "syllable_id": "dị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "dọ_generated",
@@ -215,9 +173,7 @@
     "syllable_id": "dọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "dụ_generated",
@@ -225,9 +181,7 @@
     "syllable_id": "dụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "de_generated",
@@ -235,9 +189,7 @@
     "syllable_id": "de_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "di_generated",
@@ -245,9 +197,7 @@
     "syllable_id": "di_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "do_generated",
@@ -255,9 +205,7 @@
     "syllable_id": "do_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "du_generated",
@@ -265,9 +213,7 @@
     "syllable_id": "du_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "d",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "fa_generated",
@@ -275,9 +221,7 @@
     "syllable_id": "fa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "fẹ_generated",
@@ -285,9 +229,7 @@
     "syllable_id": "fẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "fị_generated",
@@ -295,9 +237,7 @@
     "syllable_id": "fị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "fọ_generated",
@@ -305,9 +245,7 @@
     "syllable_id": "fọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "fụ_generated",
@@ -315,9 +253,7 @@
     "syllable_id": "fụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "fe_generated",
@@ -325,9 +261,7 @@
     "syllable_id": "fe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "fi_generated",
@@ -335,9 +269,7 @@
     "syllable_id": "fi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "fo_generated",
@@ -345,9 +277,7 @@
     "syllable_id": "fo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "fu_generated",
@@ -355,9 +285,7 @@
     "syllable_id": "fu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "f",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ga_generated",
@@ -365,9 +293,7 @@
     "syllable_id": "ga_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "gẹ_generated",
@@ -375,9 +301,7 @@
     "syllable_id": "gẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "gị_generated",
@@ -385,9 +309,7 @@
     "syllable_id": "gị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "gọ_generated",
@@ -395,9 +317,7 @@
     "syllable_id": "gọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "gụ_generated",
@@ -405,9 +325,7 @@
     "syllable_id": "gụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ge_generated",
@@ -415,9 +333,7 @@
     "syllable_id": "ge_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "gi_generated",
@@ -425,9 +341,7 @@
     "syllable_id": "gi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "go_generated",
@@ -435,9 +349,7 @@
     "syllable_id": "go_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "gu_generated",
@@ -445,9 +357,7 @@
     "syllable_id": "gu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "g",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "gba_generated",
@@ -455,9 +365,7 @@
     "syllable_id": "gba_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "gbẹ_generated",
@@ -465,9 +373,7 @@
     "syllable_id": "gbẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "gbị_generated",
@@ -475,9 +381,7 @@
     "syllable_id": "gbị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "gbọ_generated",
@@ -485,9 +389,7 @@
     "syllable_id": "gbọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "gbụ_generated",
@@ -495,9 +397,7 @@
     "syllable_id": "gbụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "gbe_generated",
@@ -505,9 +405,7 @@
     "syllable_id": "gbe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "gbi_generated",
@@ -515,9 +413,7 @@
     "syllable_id": "gbi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "gbo_generated",
@@ -525,9 +421,7 @@
     "syllable_id": "gbo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "gbu_generated",
@@ -535,9 +429,7 @@
     "syllable_id": "gbu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gb",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "gha_generated",
@@ -545,9 +437,7 @@
     "syllable_id": "gha_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "ghẹ_generated",
@@ -555,9 +445,7 @@
     "syllable_id": "ghẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "ghị_generated",
@@ -565,9 +453,7 @@
     "syllable_id": "ghị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "ghọ_generated",
@@ -575,9 +461,7 @@
     "syllable_id": "ghọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "ghụ_generated",
@@ -585,9 +469,7 @@
     "syllable_id": "ghụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ghe_generated",
@@ -595,9 +477,7 @@
     "syllable_id": "ghe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ghi_generated",
@@ -605,9 +485,7 @@
     "syllable_id": "ghi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "gho_generated",
@@ -615,9 +493,7 @@
     "syllable_id": "gho_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "ghu_generated",
@@ -625,9 +501,7 @@
     "syllable_id": "ghu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gh",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "gwa_generated",
@@ -635,9 +509,7 @@
     "syllable_id": "gwa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "gwẹ_generated",
@@ -645,9 +517,7 @@
     "syllable_id": "gwẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "gwị_generated",
@@ -655,9 +525,7 @@
     "syllable_id": "gwị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "gwọ_generated",
@@ -665,9 +533,7 @@
     "syllable_id": "gwọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "gwụ_generated",
@@ -675,9 +541,7 @@
     "syllable_id": "gwụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "gwe_generated",
@@ -685,9 +549,7 @@
     "syllable_id": "gwe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "gwi_generated",
@@ -695,9 +557,7 @@
     "syllable_id": "gwi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "gwo_generated",
@@ -705,9 +565,7 @@
     "syllable_id": "gwo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "gwu_generated",
@@ -715,9 +573,7 @@
     "syllable_id": "gwu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "gw",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ha_generated",
@@ -725,9 +581,7 @@
     "syllable_id": "ha_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "hẹ_generated",
@@ -735,9 +589,7 @@
     "syllable_id": "hẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "hị_generated",
@@ -745,9 +597,7 @@
     "syllable_id": "hị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "họ_generated",
@@ -755,9 +605,7 @@
     "syllable_id": "họ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "hụ_generated",
@@ -765,9 +613,7 @@
     "syllable_id": "hụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "he_generated",
@@ -775,9 +621,7 @@
     "syllable_id": "he_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "hi_generated",
@@ -785,9 +629,7 @@
     "syllable_id": "hi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "ho_generated",
@@ -795,9 +637,7 @@
     "syllable_id": "ho_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "hu_generated",
@@ -805,9 +645,7 @@
     "syllable_id": "hu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "h",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ja_generated",
@@ -815,9 +653,7 @@
     "syllable_id": "ja_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "jẹ_generated",
@@ -825,9 +661,7 @@
     "syllable_id": "jẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "jị_generated",
@@ -835,9 +669,7 @@
     "syllable_id": "jị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "jọ_generated",
@@ -845,9 +677,7 @@
     "syllable_id": "jọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "jụ_generated",
@@ -855,9 +685,7 @@
     "syllable_id": "jụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "je_generated",
@@ -865,9 +693,7 @@
     "syllable_id": "je_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ji_generated",
@@ -875,9 +701,7 @@
     "syllable_id": "ji_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "jo_generated",
@@ -885,9 +709,7 @@
     "syllable_id": "jo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "ju_generated",
@@ -895,9 +717,7 @@
     "syllable_id": "ju_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "j",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ka_generated",
@@ -905,9 +725,7 @@
     "syllable_id": "ka_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "kẹ_generated",
@@ -915,9 +733,7 @@
     "syllable_id": "kẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "kị_generated",
@@ -925,9 +741,7 @@
     "syllable_id": "kị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "kọ_generated",
@@ -935,9 +749,7 @@
     "syllable_id": "kọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "kụ_generated",
@@ -945,9 +757,7 @@
     "syllable_id": "kụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ke_generated",
@@ -955,9 +765,7 @@
     "syllable_id": "ke_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ki_generated",
@@ -965,9 +773,7 @@
     "syllable_id": "ki_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "ko_generated",
@@ -975,9 +781,7 @@
     "syllable_id": "ko_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "ku_generated",
@@ -985,9 +789,7 @@
     "syllable_id": "ku_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "k",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "kpa_generated",
@@ -995,9 +797,7 @@
     "syllable_id": "kpa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "kpẹ_generated",
@@ -1005,9 +805,7 @@
     "syllable_id": "kpẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "kpị_generated",
@@ -1015,9 +813,7 @@
     "syllable_id": "kpị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "kpọ_generated",
@@ -1025,9 +821,7 @@
     "syllable_id": "kpọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "kpụ_generated",
@@ -1035,9 +829,7 @@
     "syllable_id": "kpụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "kpe_generated",
@@ -1045,9 +837,7 @@
     "syllable_id": "kpe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "kpi_generated",
@@ -1055,9 +845,7 @@
     "syllable_id": "kpi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "kpo_generated",
@@ -1065,9 +853,7 @@
     "syllable_id": "kpo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "kpu_generated",
@@ -1075,9 +861,7 @@
     "syllable_id": "kpu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kp",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "kwa_generated",
@@ -1085,9 +869,7 @@
     "syllable_id": "kwa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "kwẹ_generated",
@@ -1095,9 +877,7 @@
     "syllable_id": "kwẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "kwị_generated",
@@ -1105,9 +885,7 @@
     "syllable_id": "kwị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "kwọ_generated",
@@ -1115,9 +893,7 @@
     "syllable_id": "kwọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "kwụ_generated",
@@ -1125,9 +901,7 @@
     "syllable_id": "kwụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "kwe_generated",
@@ -1135,9 +909,7 @@
     "syllable_id": "kwe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "kwi_generated",
@@ -1145,9 +917,7 @@
     "syllable_id": "kwi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "kwo_generated",
@@ -1155,9 +925,7 @@
     "syllable_id": "kwo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "kwu_generated",
@@ -1165,9 +933,7 @@
     "syllable_id": "kwu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "kw",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "la_generated",
@@ -1175,9 +941,7 @@
     "syllable_id": "la_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "lẹ_generated",
@@ -1185,9 +949,7 @@
     "syllable_id": "lẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "lị_generated",
@@ -1195,9 +957,7 @@
     "syllable_id": "lị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "lọ_generated",
@@ -1205,9 +965,7 @@
     "syllable_id": "lọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "lụ_generated",
@@ -1215,9 +973,7 @@
     "syllable_id": "lụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "le_generated",
@@ -1225,9 +981,7 @@
     "syllable_id": "le_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "li_generated",
@@ -1235,9 +989,7 @@
     "syllable_id": "li_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "lo_generated",
@@ -1245,9 +997,7 @@
     "syllable_id": "lo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "lu_generated",
@@ -1255,9 +1005,7 @@
     "syllable_id": "lu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "l",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ma_generated",
@@ -1265,9 +1013,7 @@
     "syllable_id": "ma_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "mẹ_generated",
@@ -1275,9 +1021,7 @@
     "syllable_id": "mẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "mị_generated",
@@ -1285,9 +1029,7 @@
     "syllable_id": "mị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "mọ_generated",
@@ -1295,9 +1037,7 @@
     "syllable_id": "mọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "mụ_generated",
@@ -1305,9 +1045,7 @@
     "syllable_id": "mụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "me_generated",
@@ -1315,9 +1053,7 @@
     "syllable_id": "me_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "mi_generated",
@@ -1325,9 +1061,7 @@
     "syllable_id": "mi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "mo_generated",
@@ -1335,9 +1069,7 @@
     "syllable_id": "mo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "mu_generated",
@@ -1345,9 +1077,7 @@
     "syllable_id": "mu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "m̩a_generated",
@@ -1355,9 +1085,7 @@
     "syllable_id": "m̩a_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "m̩ẹ_generated",
@@ -1365,9 +1093,7 @@
     "syllable_id": "m̩ẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "m̩ị_generated",
@@ -1375,9 +1101,7 @@
     "syllable_id": "m̩ị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "m̩ọ_generated",
@@ -1385,9 +1109,7 @@
     "syllable_id": "m̩ọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "m̩ụ_generated",
@@ -1395,9 +1117,7 @@
     "syllable_id": "m̩ụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "m̩e_generated",
@@ -1405,9 +1125,7 @@
     "syllable_id": "m̩e_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "m̩i_generated",
@@ -1415,9 +1133,7 @@
     "syllable_id": "m̩i_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "m̩o_generated",
@@ -1425,9 +1141,7 @@
     "syllable_id": "m̩o_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "m̩u_generated",
@@ -1435,9 +1149,7 @@
     "syllable_id": "m̩u_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "m̩",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "na_generated",
@@ -1445,9 +1157,7 @@
     "syllable_id": "na_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "nẹ_generated",
@@ -1455,9 +1165,7 @@
     "syllable_id": "nẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "nị_generated",
@@ -1465,9 +1173,7 @@
     "syllable_id": "nị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "nọ_generated",
@@ -1475,9 +1181,7 @@
     "syllable_id": "nọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "nụ_generated",
@@ -1485,9 +1189,7 @@
     "syllable_id": "nụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ne_generated",
@@ -1495,9 +1197,7 @@
     "syllable_id": "ne_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ni_generated",
@@ -1505,9 +1205,7 @@
     "syllable_id": "ni_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "no_generated",
@@ -1515,9 +1213,7 @@
     "syllable_id": "no_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "nu_generated",
@@ -1525,9 +1221,7 @@
     "syllable_id": "nu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "n̩a_generated",
@@ -1535,9 +1229,7 @@
     "syllable_id": "n̩a_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "n̩ẹ_generated",
@@ -1545,9 +1237,7 @@
     "syllable_id": "n̩ẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "n̩ị_generated",
@@ -1555,9 +1245,7 @@
     "syllable_id": "n̩ị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "n̩ọ_generated",
@@ -1565,9 +1253,7 @@
     "syllable_id": "n̩ọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "n̩ụ_generated",
@@ -1575,9 +1261,7 @@
     "syllable_id": "n̩ụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "n̩e_generated",
@@ -1585,9 +1269,7 @@
     "syllable_id": "n̩e_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "n̩i_generated",
@@ -1595,9 +1277,7 @@
     "syllable_id": "n̩i_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "n̩o_generated",
@@ -1605,9 +1285,7 @@
     "syllable_id": "n̩o_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "n̩u_generated",
@@ -1615,9 +1293,7 @@
     "syllable_id": "n̩u_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "n̩",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ṅa_generated",
@@ -1625,9 +1301,7 @@
     "syllable_id": "ṅa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "ṅẹ_generated",
@@ -1635,9 +1309,7 @@
     "syllable_id": "ṅẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "ṅị_generated",
@@ -1645,9 +1317,7 @@
     "syllable_id": "ṅị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "ṅọ_generated",
@@ -1655,9 +1325,7 @@
     "syllable_id": "ṅọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "ṅụ_generated",
@@ -1665,9 +1333,7 @@
     "syllable_id": "ṅụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ṅe_generated",
@@ -1675,9 +1341,7 @@
     "syllable_id": "ṅe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ṅi_generated",
@@ -1685,9 +1349,7 @@
     "syllable_id": "ṅi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "ṅo_generated",
@@ -1695,9 +1357,7 @@
     "syllable_id": "ṅo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "ṅu_generated",
@@ -1705,9 +1365,7 @@
     "syllable_id": "ṅu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ṅ",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "nwa_generated",
@@ -1715,9 +1373,7 @@
     "syllable_id": "nwa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "nwẹ_generated",
@@ -1725,9 +1381,7 @@
     "syllable_id": "nwẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "nwị_generated",
@@ -1735,9 +1389,7 @@
     "syllable_id": "nwị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "nwọ_generated",
@@ -1745,9 +1397,7 @@
     "syllable_id": "nwọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "nwụ_generated",
@@ -1755,9 +1405,7 @@
     "syllable_id": "nwụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "nwe_generated",
@@ -1765,9 +1413,7 @@
     "syllable_id": "nwe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "nwi_generated",
@@ -1775,9 +1421,7 @@
     "syllable_id": "nwi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "nwo_generated",
@@ -1785,9 +1429,7 @@
     "syllable_id": "nwo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "nwu_generated",
@@ -1795,9 +1437,7 @@
     "syllable_id": "nwu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "nw",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "nya_generated",
@@ -1805,9 +1445,7 @@
     "syllable_id": "nya_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "nyẹ_generated",
@@ -1815,9 +1453,7 @@
     "syllable_id": "nyẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "nyị_generated",
@@ -1825,9 +1461,7 @@
     "syllable_id": "nyị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "nyọ_generated",
@@ -1835,9 +1469,7 @@
     "syllable_id": "nyọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "nyụ_generated",
@@ -1845,9 +1477,7 @@
     "syllable_id": "nyụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "nye_generated",
@@ -1855,9 +1485,7 @@
     "syllable_id": "nye_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "nyi_generated",
@@ -1865,9 +1493,7 @@
     "syllable_id": "nyi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "nyo_generated",
@@ -1875,9 +1501,7 @@
     "syllable_id": "nyo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "nyu_generated",
@@ -1885,9 +1509,7 @@
     "syllable_id": "nyu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "ny",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "pa_generated",
@@ -1895,9 +1517,7 @@
     "syllable_id": "pa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "pẹ_generated",
@@ -1905,9 +1525,7 @@
     "syllable_id": "pẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "pị_generated",
@@ -1915,9 +1533,7 @@
     "syllable_id": "pị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "pọ_generated",
@@ -1925,9 +1541,7 @@
     "syllable_id": "pọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "pụ_generated",
@@ -1935,9 +1549,7 @@
     "syllable_id": "pụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "pe_generated",
@@ -1945,9 +1557,7 @@
     "syllable_id": "pe_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "pi_generated",
@@ -1955,9 +1565,7 @@
     "syllable_id": "pi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "po_generated",
@@ -1965,9 +1573,7 @@
     "syllable_id": "po_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "pu_generated",
@@ -1975,9 +1581,7 @@
     "syllable_id": "pu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "p",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ra_generated",
@@ -1985,9 +1589,7 @@
     "syllable_id": "ra_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "rẹ_generated",
@@ -1995,9 +1597,7 @@
     "syllable_id": "rẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "rị_generated",
@@ -2005,9 +1605,7 @@
     "syllable_id": "rị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "rọ_generated",
@@ -2015,9 +1613,7 @@
     "syllable_id": "rọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "rụ_generated",
@@ -2025,9 +1621,7 @@
     "syllable_id": "rụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "re_generated",
@@ -2035,9 +1629,7 @@
     "syllable_id": "re_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ri_generated",
@@ -2045,9 +1637,7 @@
     "syllable_id": "ri_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "ro_generated",
@@ -2055,9 +1645,7 @@
     "syllable_id": "ro_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "ru_generated",
@@ -2065,9 +1653,7 @@
     "syllable_id": "ru_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "r",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "sa_generated",
@@ -2075,9 +1661,7 @@
     "syllable_id": "sa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "sẹ_generated",
@@ -2085,9 +1669,7 @@
     "syllable_id": "sẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "sị_generated",
@@ -2095,9 +1677,7 @@
     "syllable_id": "sị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "sọ_generated",
@@ -2105,9 +1685,7 @@
     "syllable_id": "sọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "sụ_generated",
@@ -2115,9 +1693,7 @@
     "syllable_id": "sụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "se_generated",
@@ -2125,9 +1701,7 @@
     "syllable_id": "se_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "si_generated",
@@ -2135,9 +1709,7 @@
     "syllable_id": "si_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "so_generated",
@@ -2145,9 +1717,7 @@
     "syllable_id": "so_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "su_generated",
@@ -2155,9 +1725,7 @@
     "syllable_id": "su_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "s",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "sha_generated",
@@ -2165,9 +1733,7 @@
     "syllable_id": "sha_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "shẹ_generated",
@@ -2175,9 +1741,7 @@
     "syllable_id": "shẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "shị_generated",
@@ -2185,9 +1749,7 @@
     "syllable_id": "shị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "shọ_generated",
@@ -2195,9 +1757,7 @@
     "syllable_id": "shọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "shụ_generated",
@@ -2205,9 +1765,7 @@
     "syllable_id": "shụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "she_generated",
@@ -2215,9 +1773,7 @@
     "syllable_id": "she_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "shi_generated",
@@ -2225,9 +1781,7 @@
     "syllable_id": "shi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "sho_generated",
@@ -2235,9 +1789,7 @@
     "syllable_id": "sho_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "shu_generated",
@@ -2245,9 +1797,7 @@
     "syllable_id": "shu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "sh",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ta_generated",
@@ -2255,9 +1805,7 @@
     "syllable_id": "ta_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "tẹ_generated",
@@ -2265,9 +1813,7 @@
     "syllable_id": "tẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "tị_generated",
@@ -2275,9 +1821,7 @@
     "syllable_id": "tị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "tọ_generated",
@@ -2285,9 +1829,7 @@
     "syllable_id": "tọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "tụ_generated",
@@ -2295,9 +1837,7 @@
     "syllable_id": "tụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "te_generated",
@@ -2305,9 +1845,7 @@
     "syllable_id": "te_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "ti_generated",
@@ -2315,9 +1853,7 @@
     "syllable_id": "ti_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "to_generated",
@@ -2325,9 +1861,7 @@
     "syllable_id": "to_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "tu_generated",
@@ -2335,9 +1869,7 @@
     "syllable_id": "tu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "t",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "va_generated",
@@ -2345,9 +1877,7 @@
     "syllable_id": "va_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "vẹ_generated",
@@ -2355,9 +1885,7 @@
     "syllable_id": "vẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "vị_generated",
@@ -2365,9 +1893,7 @@
     "syllable_id": "vị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "vọ_generated",
@@ -2375,9 +1901,7 @@
     "syllable_id": "vọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "vụ_generated",
@@ -2385,9 +1909,7 @@
     "syllable_id": "vụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ve_generated",
@@ -2395,9 +1917,7 @@
     "syllable_id": "ve_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "vi_generated",
@@ -2405,9 +1925,7 @@
     "syllable_id": "vi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "vo_generated",
@@ -2415,9 +1933,7 @@
     "syllable_id": "vo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "vu_generated",
@@ -2425,9 +1941,7 @@
     "syllable_id": "vu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "v",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "wa_generated",
@@ -2435,9 +1949,7 @@
     "syllable_id": "wa_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "wẹ_generated",
@@ -2445,9 +1957,7 @@
     "syllable_id": "wẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "wị_generated",
@@ -2455,9 +1965,7 @@
     "syllable_id": "wị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "wọ_generated",
@@ -2465,9 +1973,7 @@
     "syllable_id": "wọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "wụ_generated",
@@ -2475,9 +1981,7 @@
     "syllable_id": "wụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "we_generated",
@@ -2485,9 +1989,7 @@
     "syllable_id": "we_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "wi_generated",
@@ -2495,9 +1997,7 @@
     "syllable_id": "wi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "wo_generated",
@@ -2505,9 +2005,7 @@
     "syllable_id": "wo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "wu_generated",
@@ -2515,9 +2013,7 @@
     "syllable_id": "wu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "w",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "ya_generated",
@@ -2525,9 +2021,7 @@
     "syllable_id": "ya_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "yẹ_generated",
@@ -2535,9 +2029,7 @@
     "syllable_id": "yẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "yị_generated",
@@ -2545,9 +2037,7 @@
     "syllable_id": "yị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "yọ_generated",
@@ -2555,9 +2045,7 @@
     "syllable_id": "yọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "yụ_generated",
@@ -2565,9 +2053,7 @@
     "syllable_id": "yụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ye_generated",
@@ -2575,9 +2061,7 @@
     "syllable_id": "ye_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "yi_generated",
@@ -2585,9 +2069,7 @@
     "syllable_id": "yi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "yo_generated",
@@ -2595,9 +2077,7 @@
     "syllable_id": "yo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "yu_generated",
@@ -2605,9 +2085,7 @@
     "syllable_id": "yu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "y",
-    "vowel": "u"
+    "generated": true
   },
   {
     "id": "za_generated",
@@ -2615,9 +2093,7 @@
     "syllable_id": "za_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "a"
+    "generated": true
   },
   {
     "id": "zẹ_generated",
@@ -2625,9 +2101,7 @@
     "syllable_id": "zẹ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "ẹ"
+    "generated": true
   },
   {
     "id": "zị_generated",
@@ -2635,9 +2109,7 @@
     "syllable_id": "zị_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "ị"
+    "generated": true
   },
   {
     "id": "zọ_generated",
@@ -2645,9 +2117,7 @@
     "syllable_id": "zọ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "ọ"
+    "generated": true
   },
   {
     "id": "zụ_generated",
@@ -2655,9 +2125,7 @@
     "syllable_id": "zụ_mid",
     "vowelGroup": "A",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "ụ"
+    "generated": true
   },
   {
     "id": "ze_generated",
@@ -2665,9 +2133,7 @@
     "syllable_id": "ze_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "e"
+    "generated": true
   },
   {
     "id": "zi_generated",
@@ -2675,9 +2141,7 @@
     "syllable_id": "zi_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "i"
+    "generated": true
   },
   {
     "id": "zo_generated",
@@ -2685,9 +2149,7 @@
     "syllable_id": "zo_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "o"
+    "generated": true
   },
   {
     "id": "zu_generated",
@@ -2695,8 +2157,6 @@
     "syllable_id": "zu_mid",
     "vowelGroup": "E",
     "gloss": "generated_root",
-    "generated": true,
-    "consonant": "z",
-    "vowel": "u"
+    "generated": true
   }
 ]
