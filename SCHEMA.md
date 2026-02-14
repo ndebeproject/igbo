@@ -332,7 +332,7 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "tone": "high",
   "syllable_group": "ma",
   "vowelGroup": "A",
-  "phonemes": ["m", "a"],
+  "phonemes": ["m", "á"],
   "ndebe": "",
   "unicode": ""
 },
@@ -354,7 +354,7 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "tone": "low",
   "syllable_group": "ma",
   "vowelGroup": "A",
-  "phonemes": ["m", "a"],
+  "phonemes": ["m", "à"],
   "ndebe": "",
   "unicode": ""
 }
@@ -373,8 +373,14 @@ Each consonant that participates in alternations has an `alternation_sets` array
 
 **Phonemes**:
 - `phonemes` is an array containing the consonant and vowel that make up the syllable
+- **The vowel in phonemes matches exactly with the vowel in plain_name, including tone marks**
 - Handles single consonants (b, m, etc.) and digraphs (gb, kp, gw, sh, ch, etc.)
-- Example: "ba" → ["b", "a"], "gba" → ["gb", "a"], "kpị" → ["kp", "ị"]
+- Examples:
+  - "bá" → ["b", "á"] (high tone)
+  - "ba" → ["b", "a"] (mid tone)
+  - "bà" → ["b", "à"] (low tone)
+  - "gbá" → ["gb", "á"]
+  - "kpị́" → ["kp", "ị́"]
 
 **Notes**:
 - `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:

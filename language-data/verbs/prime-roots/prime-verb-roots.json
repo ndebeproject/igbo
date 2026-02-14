@@ -8,7 +8,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -36,7 +36,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -50,7 +50,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -78,7 +78,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -92,7 +92,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -120,7 +120,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -134,7 +134,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -162,7 +162,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -176,7 +176,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -204,7 +204,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "b",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -218,7 +218,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -246,7 +246,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -260,7 +260,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -288,7 +288,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -302,7 +302,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -330,7 +330,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -344,7 +344,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -372,7 +372,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "b",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -386,7 +386,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -414,7 +414,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -428,7 +428,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -456,7 +456,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -470,7 +470,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -498,7 +498,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -512,7 +512,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -540,7 +540,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -554,7 +554,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -582,7 +582,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ch",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -596,7 +596,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -624,7 +624,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -638,7 +638,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -666,7 +666,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -680,7 +680,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -708,7 +708,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -722,7 +722,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -750,7 +750,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ch",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -764,7 +764,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -792,7 +792,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -806,7 +806,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -834,7 +834,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -848,7 +848,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -876,7 +876,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -890,7 +890,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -918,7 +918,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -932,7 +932,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -960,7 +960,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "d",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -974,7 +974,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1002,7 +1002,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1016,7 +1016,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1044,7 +1044,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1058,7 +1058,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1086,7 +1086,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1100,7 +1100,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1128,7 +1128,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "d",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1142,7 +1142,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1170,7 +1170,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1184,7 +1184,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1212,7 +1212,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1226,7 +1226,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1254,7 +1254,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1268,7 +1268,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1296,7 +1296,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1310,7 +1310,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1338,7 +1338,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "f",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1352,7 +1352,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1380,7 +1380,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1394,7 +1394,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1422,7 +1422,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1436,7 +1436,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1464,7 +1464,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1478,7 +1478,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1506,7 +1506,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "f",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1520,7 +1520,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1548,7 +1548,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1562,7 +1562,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1590,7 +1590,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1604,7 +1604,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1632,7 +1632,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1646,7 +1646,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1674,7 +1674,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1688,7 +1688,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1716,7 +1716,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1730,7 +1730,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1758,7 +1758,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gb",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1772,7 +1772,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1800,7 +1800,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1814,7 +1814,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1842,7 +1842,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1856,7 +1856,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1884,7 +1884,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1898,7 +1898,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1926,7 +1926,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gb",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1940,7 +1940,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1968,7 +1968,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -1982,7 +1982,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2010,7 +2010,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2024,7 +2024,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2052,7 +2052,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2066,7 +2066,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2094,7 +2094,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2108,7 +2108,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2136,7 +2136,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2150,7 +2150,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2178,7 +2178,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gh",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2192,7 +2192,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2220,7 +2220,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2234,7 +2234,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2262,7 +2262,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2276,7 +2276,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2304,7 +2304,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2318,7 +2318,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2346,7 +2346,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gh",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2360,7 +2360,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2388,7 +2388,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2402,7 +2402,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2430,7 +2430,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2444,7 +2444,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2472,7 +2472,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "g",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2486,7 +2486,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2514,7 +2514,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2528,7 +2528,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2556,7 +2556,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2570,7 +2570,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2598,7 +2598,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2612,7 +2612,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2640,7 +2640,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2654,7 +2654,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2682,7 +2682,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "gw",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2696,7 +2696,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2724,7 +2724,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2738,7 +2738,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2766,7 +2766,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2780,7 +2780,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2808,7 +2808,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2822,7 +2822,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2850,7 +2850,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "gw",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2864,7 +2864,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2892,7 +2892,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2906,7 +2906,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2934,7 +2934,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2948,7 +2948,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2976,7 +2976,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -2990,7 +2990,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3018,7 +3018,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "g",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3032,7 +3032,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3060,7 +3060,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3074,7 +3074,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3102,7 +3102,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3116,7 +3116,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3144,7 +3144,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3158,7 +3158,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3186,7 +3186,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3200,7 +3200,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3228,7 +3228,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "h",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3242,7 +3242,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3270,7 +3270,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3284,7 +3284,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3312,7 +3312,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3326,7 +3326,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3354,7 +3354,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3368,7 +3368,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3396,7 +3396,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "h",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3410,7 +3410,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3438,7 +3438,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3452,7 +3452,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3480,7 +3480,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3494,7 +3494,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3522,7 +3522,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3536,7 +3536,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3564,7 +3564,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3578,7 +3578,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3606,7 +3606,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "j",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3620,7 +3620,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3648,7 +3648,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3662,7 +3662,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3690,7 +3690,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3704,7 +3704,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3732,7 +3732,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3746,7 +3746,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3774,7 +3774,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "j",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3788,7 +3788,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3816,7 +3816,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3830,7 +3830,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3858,7 +3858,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3872,7 +3872,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3900,7 +3900,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3914,7 +3914,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3942,7 +3942,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3956,7 +3956,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3984,7 +3984,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -3998,7 +3998,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4026,7 +4026,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4040,7 +4040,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4068,7 +4068,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4082,7 +4082,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4110,7 +4110,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4124,7 +4124,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4152,7 +4152,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kp",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4166,7 +4166,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4194,7 +4194,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4208,7 +4208,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4236,7 +4236,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4250,7 +4250,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4278,7 +4278,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4292,7 +4292,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4320,7 +4320,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kp",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4334,7 +4334,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4362,7 +4362,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "k",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4376,7 +4376,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4404,7 +4404,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4418,7 +4418,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4446,7 +4446,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4460,7 +4460,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4488,7 +4488,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4502,7 +4502,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4530,7 +4530,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4544,7 +4544,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4572,7 +4572,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "kw",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4586,7 +4586,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4614,7 +4614,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4628,7 +4628,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4656,7 +4656,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4670,7 +4670,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4698,7 +4698,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4712,7 +4712,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4740,7 +4740,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "kw",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4754,7 +4754,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4782,7 +4782,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4796,7 +4796,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4824,7 +4824,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4838,7 +4838,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4866,7 +4866,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4880,7 +4880,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4908,7 +4908,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "k",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4922,7 +4922,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4950,7 +4950,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4964,7 +4964,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -4992,7 +4992,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5006,7 +5006,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5034,7 +5034,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5048,7 +5048,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5076,7 +5076,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5090,7 +5090,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5118,7 +5118,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "l",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5132,7 +5132,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5160,7 +5160,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5174,7 +5174,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5202,7 +5202,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5216,7 +5216,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5244,7 +5244,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5258,7 +5258,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5286,7 +5286,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "l",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5300,7 +5300,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5328,7 +5328,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5342,7 +5342,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5370,7 +5370,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5384,7 +5384,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5412,7 +5412,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5426,7 +5426,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5454,7 +5454,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5468,7 +5468,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5496,7 +5496,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5510,7 +5510,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5538,7 +5538,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5552,7 +5552,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5580,7 +5580,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5594,7 +5594,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5622,7 +5622,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5636,7 +5636,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5664,7 +5664,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5678,7 +5678,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5706,7 +5706,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "m̩",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5720,7 +5720,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5748,7 +5748,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5762,7 +5762,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5790,7 +5790,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5804,7 +5804,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5832,7 +5832,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5846,7 +5846,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5874,7 +5874,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m̩",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5888,7 +5888,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5916,7 +5916,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5930,7 +5930,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5958,7 +5958,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -5972,7 +5972,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6000,7 +6000,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6014,7 +6014,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6042,7 +6042,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "m",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6056,7 +6056,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6084,7 +6084,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6098,7 +6098,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6126,7 +6126,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6140,7 +6140,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6168,7 +6168,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6182,7 +6182,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6210,7 +6210,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6224,7 +6224,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6252,7 +6252,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6266,7 +6266,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6294,7 +6294,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6308,7 +6308,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6336,7 +6336,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6350,7 +6350,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6378,7 +6378,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6392,7 +6392,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6420,7 +6420,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6434,7 +6434,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6462,7 +6462,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "nw",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6476,7 +6476,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6504,7 +6504,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6518,7 +6518,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6546,7 +6546,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6560,7 +6560,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6588,7 +6588,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6602,7 +6602,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6630,7 +6630,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "nw",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6644,7 +6644,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6672,7 +6672,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6686,7 +6686,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6714,7 +6714,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6728,7 +6728,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6756,7 +6756,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6770,7 +6770,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6798,7 +6798,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6812,7 +6812,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6840,7 +6840,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ny",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6854,7 +6854,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6882,7 +6882,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6896,7 +6896,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6924,7 +6924,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6938,7 +6938,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6966,7 +6966,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -6980,7 +6980,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7008,7 +7008,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ny",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7022,7 +7022,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7050,7 +7050,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7064,7 +7064,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7092,7 +7092,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7106,7 +7106,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7134,7 +7134,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7148,7 +7148,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7176,7 +7176,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7190,7 +7190,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7218,7 +7218,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "n̩",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7232,7 +7232,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7260,7 +7260,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7274,7 +7274,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7302,7 +7302,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7316,7 +7316,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7344,7 +7344,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7358,7 +7358,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7386,7 +7386,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n̩",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7400,7 +7400,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7428,7 +7428,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7442,7 +7442,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7470,7 +7470,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7484,7 +7484,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7512,7 +7512,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7526,7 +7526,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7554,7 +7554,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "n",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7568,7 +7568,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7596,7 +7596,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7610,7 +7610,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7638,7 +7638,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7652,7 +7652,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7680,7 +7680,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7694,7 +7694,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7722,7 +7722,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7736,7 +7736,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7764,7 +7764,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "p",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7778,7 +7778,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7806,7 +7806,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7820,7 +7820,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7848,7 +7848,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7862,7 +7862,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7890,7 +7890,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7904,7 +7904,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7932,7 +7932,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "p",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7946,7 +7946,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7974,7 +7974,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -7988,7 +7988,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8016,7 +8016,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8030,7 +8030,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8058,7 +8058,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8072,7 +8072,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8100,7 +8100,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8114,7 +8114,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8142,7 +8142,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "r",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8156,7 +8156,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8184,7 +8184,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8198,7 +8198,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8226,7 +8226,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8240,7 +8240,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8268,7 +8268,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8282,7 +8282,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8310,7 +8310,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "r",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8324,7 +8324,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8352,7 +8352,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8366,7 +8366,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8394,7 +8394,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8408,7 +8408,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8436,7 +8436,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8450,7 +8450,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8478,7 +8478,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8492,7 +8492,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8520,7 +8520,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8534,7 +8534,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8562,7 +8562,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8576,7 +8576,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8604,7 +8604,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "sh",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8618,7 +8618,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8646,7 +8646,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8660,7 +8660,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8688,7 +8688,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8702,7 +8702,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8730,7 +8730,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8744,7 +8744,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8772,7 +8772,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "sh",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8786,7 +8786,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8814,7 +8814,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8828,7 +8828,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8856,7 +8856,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8870,7 +8870,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8898,7 +8898,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "s",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8912,7 +8912,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8940,7 +8940,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8954,7 +8954,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8982,7 +8982,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -8996,7 +8996,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9024,7 +9024,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9038,7 +9038,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9066,7 +9066,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "s",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9080,7 +9080,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9108,7 +9108,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9122,7 +9122,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9150,7 +9150,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9164,7 +9164,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9192,7 +9192,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9206,7 +9206,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9234,7 +9234,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9248,7 +9248,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9276,7 +9276,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "t",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9290,7 +9290,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9318,7 +9318,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9332,7 +9332,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9360,7 +9360,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9374,7 +9374,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9402,7 +9402,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9416,7 +9416,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9444,7 +9444,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "t",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9458,7 +9458,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9486,7 +9486,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9500,7 +9500,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9528,7 +9528,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9542,7 +9542,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9570,7 +9570,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9584,7 +9584,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9612,7 +9612,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9626,7 +9626,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9654,7 +9654,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "v",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9668,7 +9668,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9696,7 +9696,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9710,7 +9710,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9738,7 +9738,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9752,7 +9752,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9780,7 +9780,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9794,7 +9794,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9822,7 +9822,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "v",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9836,7 +9836,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9864,7 +9864,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9878,7 +9878,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9906,7 +9906,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9920,7 +9920,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9948,7 +9948,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9962,7 +9962,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -9990,7 +9990,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10004,7 +10004,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10032,7 +10032,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "w",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10046,7 +10046,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10074,7 +10074,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10088,7 +10088,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10116,7 +10116,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10130,7 +10130,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10158,7 +10158,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10172,7 +10172,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10200,7 +10200,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "w",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10214,7 +10214,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10242,7 +10242,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10256,7 +10256,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10284,7 +10284,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10298,7 +10298,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10326,7 +10326,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10340,7 +10340,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10368,7 +10368,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10382,7 +10382,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10410,7 +10410,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "y",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10424,7 +10424,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10452,7 +10452,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10466,7 +10466,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10494,7 +10494,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10508,7 +10508,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10536,7 +10536,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10550,7 +10550,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10578,7 +10578,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "y",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10592,7 +10592,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10620,7 +10620,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10634,7 +10634,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10662,7 +10662,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10676,7 +10676,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10704,7 +10704,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10718,7 +10718,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10746,7 +10746,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10760,7 +10760,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10788,7 +10788,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "z",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10802,7 +10802,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10830,7 +10830,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10844,7 +10844,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10872,7 +10872,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10886,7 +10886,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10914,7 +10914,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10928,7 +10928,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10956,7 +10956,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "z",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10970,7 +10970,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "a"
+      "á"
     ],
     "ndebe": "",
     "unicode": ""
@@ -10998,7 +10998,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "a"
+      "à"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11012,7 +11012,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "e"
+      "é"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11040,7 +11040,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "e"
+      "è"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11054,7 +11054,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "i"
+      "í"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11082,7 +11082,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "i"
+      "ì"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11096,7 +11096,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "o"
+      "ó"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11124,7 +11124,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "o"
+      "ò"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11138,7 +11138,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "u"
+      "ú"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11166,7 +11166,7 @@
     "vowelGroup": "E",
     "phonemes": [
       "ṅ",
-      "u"
+      "ù"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11180,7 +11180,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ẹ"
+      "ẹ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11208,7 +11208,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ẹ"
+      "ẹ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11222,7 +11222,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ị"
+      "ị́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11250,7 +11250,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ị"
+      "ị̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11264,7 +11264,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ọ"
+      "ọ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11292,7 +11292,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ọ"
+      "ọ̀"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11306,7 +11306,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ụ"
+      "ụ́"
     ],
     "ndebe": "",
     "unicode": ""
@@ -11334,7 +11334,7 @@
     "vowelGroup": "A",
     "phonemes": [
       "ṅ",
-      "ụ"
+      "ụ̀"
     ],
     "ndebe": "",
     "unicode": ""

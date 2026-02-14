@@ -49,9 +49,11 @@ def test_tone_variants():
     assert ma_low['id'] == 'syl_ma_003', f"Expected 'syl_ma_003', got {ma_low['id']}"
     print("  ✓ ID format correct (syl_{syllable}_{###})")
     
-    # Check phonemes structure
-    assert ma_high['phonemes'] == ['m', 'a'], f"Expected ['m', 'a'], got {ma_high['phonemes']}"
-    print("  ✓ Phonemes correctly extracted")
+    # Check phonemes structure - vowels should match plain_name exactly
+    assert ma_high['phonemes'] == ['m', 'á'], f"Expected ['m', 'á'], got {ma_high['phonemes']}"
+    assert ma_mid['phonemes'] == ['m', 'a'], f"Expected ['m', 'a'], got {ma_mid['phonemes']}"
+    assert ma_low['phonemes'] == ['m', 'à'], f"Expected ['m', 'à'], got {ma_low['phonemes']}"
+    print("  ✓ Phonemes correctly extracted with tone marks (má, a, mà)")
     
     # Check ndebe and unicode fields exist
     assert 'ndebe' in ma_high, "Missing 'ndebe' field"
@@ -253,7 +255,7 @@ def test_phonemes():
     with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
         roots = json.load(f)
     
-    # Test specific examples with different consonant types
+    # Test specific examples with different consonant types (mid tone)
     test_cases = {
         'ba': ['b', 'a'],      # Single consonant
         'ma': ['m', 'a'],      # Single consonant
@@ -265,14 +267,48 @@ def test_phonemes():
     }
     
     for syllable_group, expected_phonemes in test_cases.items():
-        roots_for_syllable = [r for r in roots if r['syllable_group'] == syllable_group]
+        roots_for_syllable = [r for r in roots if r['syllable_group'] == syllable_group and r['tone'] == 'mid']
         if roots_for_syllable:
-            root = roots_for_syllable[0]  # Check first tone variant
+            root = roots_for_syllable[0]
             assert root['phonemes'] == expected_phonemes, \
                 f"Expected phonemes {expected_phonemes} for '{syllable_group}', got {root['phonemes']}"
     
     print("  ✓ Single consonants correctly extracted (b, m, etc.)")
     print("  ✓ Digraph consonants correctly extracted (gb, kp, gw, sh, ch)")
+    
+    # Test that tone marks are preserved in vowels
+    tone_test_cases = [
+        ('ba', 'high', ['b', 'á']),
+        ('ba', 'mid', ['b', 'a']),
+        ('ba', 'low', ['b', 'à']),
+        ('bẹ', 'high', ['b', 'ẹ́']),
+        ('bẹ', 'low', ['b', 'ẹ̀']),
+        ('kpị', 'high', ['kp', 'ị́']),
+        ('kpị', 'low', ['kp', 'ị̀']),
+    ]
+    
+    for syllable_group, tone, expected_phonemes in tone_test_cases:
+        roots_for_syllable = [r for r in roots if r['syllable_group'] == syllable_group and r['tone'] == tone]
+        if roots_for_syllable:
+            root = roots_for_syllable[0]
+            assert root['phonemes'] == expected_phonemes, \
+                f"Expected phonemes {expected_phonemes} for '{syllable_group}' ({tone}), got {root['phonemes']}"
+    
+    print("  ✓ Vowel tone marks correctly preserved (á, à, ẹ́, ẹ̀, ị́, ị̀)")
+    
+    # Verify all roots have phonemes matching plain_name
+    mismatches = []
+    for root in roots:
+        plain_name = root['plain_name']
+        consonant = root['phonemes'][0]
+        vowel_in_phonemes = root['phonemes'][1]
+        vowel_in_plain = plain_name[len(consonant):]
+        
+        if vowel_in_phonemes != vowel_in_plain:
+            mismatches.append((root['id'], plain_name, root['phonemes']))
+    
+    assert len(mismatches) == 0, f"Found {len(mismatches)} mismatches between plain_name and phonemes vowels"
+    print("  ✓ All phonemes vowels match exactly with plain_name vowels")
     
     # Verify all roots have phonemes
     all_have_phonemes = all('phonemes' in r for r in roots)

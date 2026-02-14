@@ -35,26 +35,28 @@ def load_phonemes():
     return all_consonants, all_vowels
 
 
-def extract_phonemes(syllable_group, consonants, vowels):
+def extract_phonemes_from_plain_name(plain_name, syllable_group, consonants):
     """
-    Extract consonant and vowel from a syllable.
+    Extract consonant and vowel from plain_name (to preserve tone marks).
     
-    Returns: (consonant, vowel) tuple
+    The consonant structure is taken from syllable_group, but the vowel
+    is extracted from plain_name to preserve tone marks.
+    
+    Returns: (consonant, vowel_with_tone) tuple
     """
-    # Try to find the consonant by matching longest first
+    # Try to find the consonant by matching longest first in syllable_group
     for consonant in consonants:
         if syllable_group.startswith(consonant):
-            remaining = syllable_group[len(consonant):]
-            # Check if the remaining part is a valid vowel
-            if remaining in vowels:
-                return consonant, remaining
+            # Now extract the vowel from plain_name (which has tone marks)
+            vowel_with_tone = plain_name[len(consonant):]
+            return consonant, vowel_with_tone
     
     # Fallback: if no match found, assume first char is consonant
     # (shouldn't happen with valid data)
-    if len(syllable_group) > 1:
-        return syllable_group[0], syllable_group[1:]
+    if len(plain_name) > 1:
+        return plain_name[0], plain_name[1:]
     
-    return syllable_group, ""
+    return plain_name, ""
 
 
 def add_new_properties(input_file, output_file):
@@ -74,9 +76,12 @@ def add_new_properties(input_file, output_file):
     updated_roots = []
     for root in roots:
         syllable_group = root['syllable_group']
+        plain_name = root['plain_name']
         
-        # Extract phonemes
-        consonant, vowel = extract_phonemes(syllable_group, consonants, vowels)
+        # Extract phonemes from plain_name to preserve tone marks
+        consonant, vowel_with_tone = extract_phonemes_from_plain_name(
+            plain_name, syllable_group, consonants
+        )
         
         # Create updated root with new properties
         updated_root = {
@@ -86,7 +91,7 @@ def add_new_properties(input_file, output_file):
             'tone': root['tone'],
             'syllable_group': root['syllable_group'],
             'vowelGroup': root['vowelGroup'],
-            'phonemes': [consonant, vowel],
+            'phonemes': [consonant, vowel_with_tone],
             'ndebe': '',
             'unicode': ''
         }
