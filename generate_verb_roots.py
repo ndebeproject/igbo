@@ -224,6 +224,29 @@ def save_array_to_json(data, output_file):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def save_prime_root_to_file(root_data, prime_roots_dir):
+    """Save a single prime root as an individual JSON file."""
+    plain_name = root_data['plain_name']
+    filename = f"{plain_name}-generated.json"
+    filepath = prime_roots_dir / filename
+    
+    # Create a clean version without extra metadata fields for the file
+    # But keep 'generated' flag to distinguish from manual entries
+    clean_data = {
+        'id': root_data['id'],
+        'plain_name': root_data['plain_name'],
+        'syllable_id': root_data['syllable_id'],
+        'vowelGroup': root_data['vowelGroup'],
+        'gloss': root_data['gloss'],
+        'generated': root_data.get('generated', True)
+    }
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(clean_data, f, ensure_ascii=False, indent=2)
+    
+    return filepath
+
+
 def main():
     """Main generation function."""
     # Setup paths
@@ -272,56 +295,59 @@ def main():
     # Save outputs to JSON
     print("Saving generated data to JSON...")
     
-    # Create output directory in language-data
+    # Create output directories
     verbs_dir = language_data_dir / 'verbs'
+    prime_roots_dir = verbs_dir / 'prime-roots'
     
-    # Save base verb roots as JSON array (like syllables.json)
-    save_array_to_json(
-        verb_roots,
-        verbs_dir / 'generated-monosyllabic-roots.json'
-    )
-    print(f"  ✓ Saved generated-monosyllabic-roots.json")
+    # Save base verb roots as individual files in prime-roots directory
+    print(f"Saving {len(verb_roots)} monosyllabic roots to prime-roots/...")
+    saved_count = 0
+    for root in verb_roots:
+        save_prime_root_to_file(root, prime_roots_dir)
+        saved_count += 1
+    print(f"  ✓ Saved {saved_count} individual prime root files")
     
-    # Save dialectal verb roots
+    # Save dialectal verb roots as a collection (they reference prime roots)
     save_array_to_json(
         dialectal_roots,
         verbs_dir / 'generated-dialectal-roots.json'
     )
-    print(f"  ✓ Saved generated-dialectal-roots.json")
+    print(f"  ✓ Saved generated-dialectal-roots.json ({len(dialectal_roots)} entries)")
     
-    # Save base infinitives
+    # Save base infinitives as a collection (they are derived forms, not prime roots)
     save_array_to_json(
         base_infinitives,
         verbs_dir / 'generated-infinitives.json'
     )
-    print(f"  ✓ Saved generated-infinitives.json")
+    print(f"  ✓ Saved generated-infinitives.json ({len(base_infinitives)} entries)")
     
     # Save dialectal infinitives
     save_array_to_json(
         dialectal_infinitives,
         verbs_dir / 'generated-dialectal-infinitives.json'
     )
-    print(f"  ✓ Saved generated-dialectal-infinitives.json")
+    print(f"  ✓ Saved generated-dialectal-infinitives.json ({len(dialectal_infinitives)} entries)")
     
     # Print summary
     print()
     print("=" * 70)
     print("Generation Summary")
     print("=" * 70)
-    print(f"Base verb roots: {len(verb_roots)}")
-    print(f"Dialectal variations: {len(dialectal_roots)}")
-    print(f"Base infinitives: {len(base_infinitives)}")
-    print(f"Dialectal infinitives: {len(dialectal_infinitives)}")
+    print(f"Prime roots (monosyllabic): {len(verb_roots)} individual files in prime-roots/")
+    print(f"Dialectal variations: {len(dialectal_roots)} (collection file)")
+    print(f"Base infinitives: {len(base_infinitives)} (collection file)")
+    print(f"Dialectal infinitives: {len(dialectal_infinitives)} (collection file)")
     print()
-    print(f"All JSON files saved to: {verbs_dir}")
+    print(f"Prime roots saved to: {prime_roots_dir}")
+    print(f"Collection files saved to: {verbs_dir}")
     print()
     
     # Show some examples
     print("Examples:")
     print("-" * 70)
-    print("\nBase Verb Roots (first 10):")
+    print("\nPrime Roots (first 10 files created):")
     for root in verb_roots[:10]:
-        print(f"  {root['plain_name']} (ID: {root['id']}, vowel group: {root['vowelGroup']})")
+        print(f"  {root['plain_name']}-generated.json → ID: {root['id']}, vowel group: {root['vowelGroup']}")
     
     print("\nDialectal Variations (first 5):")
     for root in dialectal_roots[:5]:
@@ -338,8 +364,8 @@ def main():
     print()
     print("✓ Generation complete!")
     print()
-    print("Note: Files are saved in language-data/verbs/ as JSON arrays following")
-    print("the repository's data structure conventions.")
+    print("Note: Prime roots are saved as individual files in prime-roots/ directory.")
+    print("Infinitives and dialectal variations are saved as collection files.")
 
 
 if __name__ == '__main__':
