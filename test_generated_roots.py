@@ -9,6 +9,49 @@ import sys
 from pathlib import Path
 
 
+def test_tone_variants():
+    """Test that tone variants are properly generated."""
+    print("Testing tone variants...")
+    
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
+    prime_roots_dir = verbs_dir / 'prime-roots'
+    
+    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+        roots = json.load(f)
+    
+    # Check structure of entries
+    sample = roots[0]
+    required_fields = ['id', 'plain_name', 'main_vowel', 'tone', 'syllable_group', 'vowelGroup']
+    for field in required_fields:
+        assert field in sample, f"Missing required field: {field}"
+    print(f"  ✓ All required fields present: {required_fields}")
+    
+    # Check 'ma' has all three tones
+    ma_roots = [r for r in roots if r['syllable_group'] == 'ma']
+    assert len(ma_roots) == 3, f"Expected 3 tone variants for 'ma', got {len(ma_roots)}"
+    
+    tones = {r['tone'] for r in ma_roots}
+    assert tones == {'high', 'mid', 'low'}, f"Expected all three tones, got {tones}"
+    
+    # Check tone marks
+    ma_high = [r for r in ma_roots if r['tone'] == 'high'][0]
+    ma_mid = [r for r in ma_roots if r['tone'] == 'mid'][0]
+    ma_low = [r for r in ma_roots if r['tone'] == 'low'][0]
+    
+    assert ma_high['plain_name'] == 'má', f"Expected 'má' for high tone, got {ma_high['plain_name']}"
+    assert ma_mid['plain_name'] == 'ma', f"Expected 'ma' for mid tone, got {ma_mid['plain_name']}"
+    assert ma_low['plain_name'] == 'mà', f"Expected 'mà' for low tone, got {ma_low['plain_name']}"
+    print("  ✓ Tone marks correctly applied (má, ma, mà)")
+    
+    # Check ID format
+    assert ma_high['id'] == 'syl_ma_001', f"Expected 'syl_ma_001', got {ma_high['id']}"
+    assert ma_mid['id'] == 'syl_ma_002', f"Expected 'syl_ma_002', got {ma_mid['id']}"
+    assert ma_low['id'] == 'syl_ma_003', f"Expected 'syl_ma_003', got {ma_low['id']}"
+    print("  ✓ ID format correct (syl_{syllable}_{###})")
+    
+    print()
+
+
 def test_problem_statement_examples():
     """Test examples from the problem statement."""
     print("Testing problem statement examples...")
@@ -128,17 +171,19 @@ def test_counts():
     with open(verbs_dir / 'generated-dialectal-infinitives.json', 'r', encoding='utf-8') as f:
         dialectal_infinitives = json.load(f)
     
-    # Check counts - now includes manual + generated (272 total: 270 generated + 2 manual that don't overlap)
-    assert len(roots) == 272, f"Expected 272 roots (270 generated + 2 manual non-overlapping), got {len(roots)}"
-    print(f"  ✓ {len(roots)} monosyllabic prime roots (includes manual + generated)")
+    # Check counts - now with tone variants: 270 syllables × 3 tones = 810
+    assert len(roots) == 810, f"Expected 810 roots (270 syllables × 3 tones), got {len(roots)}"
+    print(f"  ✓ {len(roots)} monosyllabic prime roots (270 syllables × 3 tones)")
     
-    assert len(infinitives) == 270, f"Expected 270 infinitives, got {len(infinitives)}"
+    # Infinitives should also be tripled
+    assert len(infinitives) == 810, f"Expected 810 infinitives, got {len(infinitives)}"
     print(f"  ✓ {len(infinitives)} base infinitives")
     
-    assert len(dialectal_roots) == 63, f"Expected 63 dialectal roots, got {len(dialectal_roots)}"
+    # Dialectal variations should also be tripled (63 syllable pairs × 3 tones = 189)
+    assert len(dialectal_roots) == 189, f"Expected 189 dialectal roots, got {len(dialectal_roots)}"
     print(f"  ✓ {len(dialectal_roots)} dialectal verb root variations")
     
-    assert len(dialectal_infinitives) == 63, f"Expected 63 dialectal infinitives, got {len(dialectal_infinitives)}"
+    assert len(dialectal_infinitives) == 189, f"Expected 189 dialectal infinitives, got {len(dialectal_infinitives)}"
     print(f"  ✓ {len(dialectal_infinitives)} dialectal infinitive variations")
     
     # Check for no duplicate IDs
@@ -197,6 +242,7 @@ def main():
     print()
     
     try:
+        test_tone_variants()
         test_problem_statement_examples()
         test_vowel_harmony()
         test_counts()

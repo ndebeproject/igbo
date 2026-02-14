@@ -84,24 +84,30 @@ def get_infinitive_prefix(vowel_group):
 
 
 def generate_verb_roots(consonants, vowels, a_group, e_group):
-    """Generate all monosyllabic verb roots (CV combinations) as JSON objects."""
+    """Generate all monosyllabic verb roots (CV combinations) with tone variants."""
+    from expand_tone_variants import find_main_vowel, apply_tone_to_syllable
+    
     verb_roots = []
     
     for consonant in consonants:
         for vowel in vowels:
-            root = consonant + vowel
+            syllable_group = consonant + vowel
             vowel_group = get_vowel_group(vowel, a_group, e_group)
+            main_vowel = find_main_vowel(syllable_group)
             
-            # Create JSON object following prime-roots schema
-            # Note: We use "mid" tone as default since tone isn't specified
-            # ID will be assigned later when merging with existing roots
-            verb_roots.append({
-                'plain_name': root,
-                'syllable_id': f"{root}_mid",  # Default to mid tone
-                'vowelGroup': vowel_group,
-                'consonant': consonant,  # Temp field for generation
-                'vowel': vowel  # Temp field for generation
-            })
+            # Create three tone variants for each syllable
+            for idx, tone in enumerate(['high', 'mid', 'low'], start=1):
+                plain_name_with_tone = apply_tone_to_syllable(syllable_group, tone)
+                
+                verb_roots.append({
+                    'syllable_group': syllable_group,
+                    'plain_name': plain_name_with_tone,
+                    'main_vowel': main_vowel if main_vowel else vowel,
+                    'tone': tone,
+                    'vowelGroup': vowel_group,
+                    'consonant': consonant,  # Temp field for generation
+                    'vowel': vowel  # Temp field for generation
+                })
     
     return verb_roots
 
@@ -232,36 +238,48 @@ def merge_and_assign_ids(existing_roots, new_roots):
     Merge existing and new roots, assigning sequential IDs.
     
     - Existing roots keep their IDs and data
-    - New roots only added if plain_name doesn't exist
-    - All roots get sequential IDs per plain_name
+    - New roots only added if syllable_group + tone doesn't exist
+    - All roots get sequential IDs per syllable_group
     """
     from collections import defaultdict
     
-    roots_by_name = defaultdict(list)
+    roots_by_group = defaultdict(list)
     
     # Add existing roots first (they have priority)
     for root in existing_roots:
-        plain_name = root['plain_name']
-        roots_by_name[plain_name].append(root)
+        syllable_group = root.get('syllable_group', root.get('plain_name', ''))
+        roots_by_group[syllable_group].append(root)
     
-    # Add new generated roots only if plain_name doesn't exist
+    # Add new generated roots only if syllable_group + tone doesn't exist
     for root in new_roots:
-        plain_name = root['plain_name']
-        if plain_name not in roots_by_name:
+        syllable_group = root['syllable_group']
+        tone = root['tone']
+        
+        # Check if this tone variant already exists for this syllable_group
+        existing_tones = [r.get('tone') for r in roots_by_group[syllable_group]]
+        
+        if tone not in existing_tones:
             # Create clean root without temp fields
             clean_root = {
                 'plain_name': root['plain_name'],
-                'syllable_id': root['syllable_id'],
+                'main_vowel': root['main_vowel'],
+                'tone': root['tone'],
+                'syllable_group': root['syllable_group'],
                 'vowelGroup': root['vowelGroup']
             }
-            roots_by_name[plain_name].append(clean_root)
+            roots_by_group[syllable_group].append(clean_root)
     
-    # Assign sequential IDs per plain_name
+    # Assign sequential IDs per syllable_group, ordered by tone
     all_roots = []
-    for plain_name in sorted(roots_by_name.keys()):
-        entries = roots_by_name[plain_name]
+    tone_order = {'high': 1, 'mid': 2, 'low': 3}
+    
+    for syllable_group in sorted(roots_by_group.keys()):
+        entries = roots_by_group[syllable_group]
+        # Sort by tone
+        entries.sort(key=lambda x: tone_order.get(x.get('tone', 'mid'), 2))
+        
         for idx, root in enumerate(entries, start=1):
-            root['id'] = f"{plain_name}_{idx:03d}"
+            root['id'] = f"syl_{syllable_group}_{idx:03d}"
             all_roots.append(root)
     
     return all_roots

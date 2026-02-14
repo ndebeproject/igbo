@@ -1,1634 +1,6482 @@
 [
   {
-    "id": "ba_001",
+    "id": "syl_ba_001",
+    "plain_name": "bá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ba",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ba_002",
     "plain_name": "ba",
-    "syllable_id": "ba_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ba",
     "vowelGroup": "A"
   },
   {
-    "id": "be_001",
+    "id": "syl_ba_003",
+    "plain_name": "bà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ba",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_be_001",
+    "plain_name": "bé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "be",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_be_002",
     "plain_name": "be",
-    "syllable_id": "be_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "be",
     "vowelGroup": "E"
   },
   {
-    "id": "bi_001",
+    "id": "syl_be_003",
+    "plain_name": "bè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "be",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bi_001",
+    "plain_name": "bí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "bi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bi_002",
     "plain_name": "bi",
-    "syllable_id": "bi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "bi",
     "vowelGroup": "E"
   },
   {
-    "id": "bo_001",
+    "id": "syl_bi_003",
+    "plain_name": "bì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "bi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bo_001",
+    "plain_name": "bó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "bo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bo_002",
     "plain_name": "bo",
-    "syllable_id": "bo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "bo",
     "vowelGroup": "E"
   },
   {
-    "id": "bu_001",
+    "id": "syl_bo_003",
+    "plain_name": "bò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "bo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bu_001",
+    "plain_name": "bú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "bu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bu_002",
     "plain_name": "bu",
-    "syllable_id": "bu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "bu",
     "vowelGroup": "E"
   },
   {
-    "id": "bẹ_001",
+    "id": "syl_bu_003",
+    "plain_name": "bù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "bu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_bẹ_001",
+    "plain_name": "bẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "bẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bẹ_002",
     "plain_name": "bẹ",
-    "syllable_id": "bẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "bẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "bị_001",
+    "id": "syl_bẹ_003",
+    "plain_name": "bẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "bẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bị_001",
+    "plain_name": "bị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "bị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bị_002",
     "plain_name": "bị",
-    "syllable_id": "bị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "bị",
     "vowelGroup": "A"
   },
   {
-    "id": "bọ_001",
+    "id": "syl_bị_003",
+    "plain_name": "bị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "bị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bọ_001",
+    "plain_name": "bọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "bọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bọ_002",
     "plain_name": "bọ",
-    "syllable_id": "bọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "bọ",
     "vowelGroup": "A"
   },
   {
-    "id": "bụ_001",
+    "id": "syl_bọ_003",
+    "plain_name": "bọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "bọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bụ_001",
+    "plain_name": "bụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "bụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_bụ_002",
     "plain_name": "bụ",
-    "syllable_id": "bụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "bụ",
     "vowelGroup": "A"
   },
   {
-    "id": "cha_001",
+    "id": "syl_bụ_003",
+    "plain_name": "bụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "bụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_cha_001",
+    "plain_name": "chá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "cha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_cha_002",
     "plain_name": "cha",
-    "syllable_id": "cha_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "cha",
     "vowelGroup": "A"
   },
   {
-    "id": "che_001",
+    "id": "syl_cha_003",
+    "plain_name": "chà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "cha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_che_001",
+    "plain_name": "ché",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "che",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_che_002",
     "plain_name": "che",
-    "syllable_id": "che_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "che",
     "vowelGroup": "E"
   },
   {
-    "id": "chi_001",
+    "id": "syl_che_003",
+    "plain_name": "chè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "che",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_chi_001",
+    "plain_name": "chí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "chi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_chi_002",
     "plain_name": "chi",
-    "syllable_id": "chi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "chi",
     "vowelGroup": "E"
   },
   {
-    "id": "cho_001",
+    "id": "syl_chi_003",
+    "plain_name": "chì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "chi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_cho_001",
+    "plain_name": "chó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "cho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_cho_002",
     "plain_name": "cho",
-    "syllable_id": "cho_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "cho",
     "vowelGroup": "E"
   },
   {
-    "id": "chu_001",
+    "id": "syl_cho_003",
+    "plain_name": "chò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "cho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_chu_001",
+    "plain_name": "chú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "chu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_chu_002",
     "plain_name": "chu",
-    "syllable_id": "chu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "chu",
     "vowelGroup": "E"
   },
   {
-    "id": "chẹ_001",
+    "id": "syl_chu_003",
+    "plain_name": "chù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "chu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_chẹ_001",
+    "plain_name": "chẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "chẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chẹ_002",
     "plain_name": "chẹ",
-    "syllable_id": "chẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "chẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "chị_001",
+    "id": "syl_chẹ_003",
+    "plain_name": "chẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "chẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chị_001",
+    "plain_name": "chị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "chị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chị_002",
     "plain_name": "chị",
-    "syllable_id": "chị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "chị",
     "vowelGroup": "A"
   },
   {
-    "id": "chọ_001",
+    "id": "syl_chị_003",
+    "plain_name": "chị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "chị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chọ_001",
+    "plain_name": "chọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "chọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chọ_002",
     "plain_name": "chọ",
-    "syllable_id": "chọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "chọ",
     "vowelGroup": "A"
   },
   {
-    "id": "chụ_001",
+    "id": "syl_chọ_003",
+    "plain_name": "chọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "chọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chụ_001",
+    "plain_name": "chụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "chụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_chụ_002",
     "plain_name": "chụ",
-    "syllable_id": "chụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "chụ",
     "vowelGroup": "A"
   },
   {
-    "id": "da_001",
+    "id": "syl_chụ_003",
+    "plain_name": "chụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "chụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_da_001",
+    "plain_name": "dá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "da",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_da_002",
     "plain_name": "da",
-    "syllable_id": "da_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "da",
     "vowelGroup": "A"
   },
   {
-    "id": "de_001",
+    "id": "syl_da_003",
+    "plain_name": "dà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "da",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_de_001",
+    "plain_name": "dé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "de",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_de_002",
     "plain_name": "de",
-    "syllable_id": "de_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "de",
     "vowelGroup": "E"
   },
   {
-    "id": "di_001",
+    "id": "syl_de_003",
+    "plain_name": "dè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "de",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_di_001",
+    "plain_name": "dí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "di",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_di_002",
     "plain_name": "di",
-    "syllable_id": "di_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "di",
     "vowelGroup": "E"
   },
   {
-    "id": "do_001",
+    "id": "syl_di_003",
+    "plain_name": "dì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "di",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_do_001",
+    "plain_name": "dó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "do",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_do_002",
     "plain_name": "do",
-    "syllable_id": "do_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "do",
     "vowelGroup": "E"
   },
   {
-    "id": "du_001",
+    "id": "syl_do_003",
+    "plain_name": "dò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "do",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_du_001",
+    "plain_name": "dú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "du",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_du_002",
     "plain_name": "du",
-    "syllable_id": "du_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "du",
     "vowelGroup": "E"
   },
   {
-    "id": "dẹ_001",
+    "id": "syl_du_003",
+    "plain_name": "dù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "du",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_dẹ_001",
+    "plain_name": "dẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "dẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dẹ_002",
     "plain_name": "dẹ",
-    "syllable_id": "dẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "dẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "dị_001",
+    "id": "syl_dẹ_003",
+    "plain_name": "dẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "dẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dị_001",
+    "plain_name": "dị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "dị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dị_002",
     "plain_name": "dị",
-    "syllable_id": "dị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "dị",
     "vowelGroup": "A"
   },
   {
-    "id": "dọ_001",
+    "id": "syl_dị_003",
+    "plain_name": "dị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "dị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dọ_001",
+    "plain_name": "dọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "dọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dọ_002",
     "plain_name": "dọ",
-    "syllable_id": "dọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "dọ",
     "vowelGroup": "A"
   },
   {
-    "id": "dụ_001",
+    "id": "syl_dọ_003",
+    "plain_name": "dọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "dọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dụ_001",
+    "plain_name": "dụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "dụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_dụ_002",
     "plain_name": "dụ",
-    "syllable_id": "dụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "dụ",
     "vowelGroup": "A"
   },
   {
-    "id": "fa_001",
+    "id": "syl_dụ_003",
+    "plain_name": "dụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "dụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fa_001",
+    "plain_name": "fá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "fa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fa_002",
     "plain_name": "fa",
-    "syllable_id": "fa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "fa",
     "vowelGroup": "A"
   },
   {
-    "id": "fe_001",
+    "id": "syl_fa_003",
+    "plain_name": "fà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "fa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fe_001",
+    "plain_name": "fé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "fe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fe_002",
     "plain_name": "fe",
-    "syllable_id": "fe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "fe",
     "vowelGroup": "E"
   },
   {
-    "id": "fi_001",
+    "id": "syl_fe_003",
+    "plain_name": "fè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "fe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fi_001",
+    "plain_name": "fí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "fi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fi_002",
     "plain_name": "fi",
-    "syllable_id": "fi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "fi",
     "vowelGroup": "E"
   },
   {
-    "id": "fo_001",
+    "id": "syl_fi_003",
+    "plain_name": "fì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "fi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fo_001",
+    "plain_name": "fó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "fo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fo_002",
     "plain_name": "fo",
-    "syllable_id": "fo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "fo",
     "vowelGroup": "E"
   },
   {
-    "id": "fu_001",
+    "id": "syl_fo_003",
+    "plain_name": "fò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "fo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fu_001",
+    "plain_name": "fú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "fu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fu_002",
     "plain_name": "fu",
-    "syllable_id": "fu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "fu",
     "vowelGroup": "E"
   },
   {
-    "id": "fẹ_001",
+    "id": "syl_fu_003",
+    "plain_name": "fù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "fu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_fẹ_001",
+    "plain_name": "fẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "fẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fẹ_002",
     "plain_name": "fẹ",
-    "syllable_id": "fẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "fẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "fị_001",
+    "id": "syl_fẹ_003",
+    "plain_name": "fẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "fẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fị_001",
+    "plain_name": "fị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "fị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fị_002",
     "plain_name": "fị",
-    "syllable_id": "fị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "fị",
     "vowelGroup": "A"
   },
   {
-    "id": "fọ_001",
+    "id": "syl_fị_003",
+    "plain_name": "fị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "fị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fọ_001",
+    "plain_name": "fọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "fọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fọ_002",
     "plain_name": "fọ",
-    "syllable_id": "fọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "fọ",
     "vowelGroup": "A"
   },
   {
-    "id": "fụ_001",
+    "id": "syl_fọ_003",
+    "plain_name": "fọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "fọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fụ_001",
+    "plain_name": "fụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "fụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_fụ_002",
     "plain_name": "fụ",
-    "syllable_id": "fụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "fụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ga_001",
+    "id": "syl_fụ_003",
+    "plain_name": "fụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "fụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ga_001",
+    "plain_name": "gá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ga",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ga_002",
     "plain_name": "ga",
-    "syllable_id": "ga_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ga",
     "vowelGroup": "A"
   },
   {
-    "id": "gba_001",
+    "id": "syl_ga_003",
+    "plain_name": "gà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ga",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gba_001",
+    "plain_name": "gbá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "gba",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gba_002",
     "plain_name": "gba",
-    "syllable_id": "gba_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "gba",
     "vowelGroup": "A"
   },
   {
-    "id": "gbe_001",
+    "id": "syl_gba_003",
+    "plain_name": "gbà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "gba",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbe_001",
+    "plain_name": "gbé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "gbe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbe_002",
     "plain_name": "gbe",
-    "syllable_id": "gbe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "gbe",
     "vowelGroup": "E"
   },
   {
-    "id": "gbi_001",
+    "id": "syl_gbe_003",
+    "plain_name": "gbè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "gbe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbi_001",
+    "plain_name": "gbí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "gbi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbi_002",
     "plain_name": "gbi",
-    "syllable_id": "gbi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "gbi",
     "vowelGroup": "E"
   },
   {
-    "id": "gbo_001",
+    "id": "syl_gbi_003",
+    "plain_name": "gbì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "gbi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbo_001",
+    "plain_name": "gbó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "gbo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbo_002",
     "plain_name": "gbo",
-    "syllable_id": "gbo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "gbo",
     "vowelGroup": "E"
   },
   {
-    "id": "gbu_001",
+    "id": "syl_gbo_003",
+    "plain_name": "gbò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "gbo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbu_001",
+    "plain_name": "gbú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "gbu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbu_002",
     "plain_name": "gbu",
-    "syllable_id": "gbu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "gbu",
     "vowelGroup": "E"
   },
   {
-    "id": "gbẹ_001",
+    "id": "syl_gbu_003",
+    "plain_name": "gbù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "gbu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gbẹ_001",
+    "plain_name": "gbẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "gbẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbẹ_002",
     "plain_name": "gbẹ",
-    "syllable_id": "gbẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "gbẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "gbị_001",
+    "id": "syl_gbẹ_003",
+    "plain_name": "gbẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "gbẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbị_001",
+    "plain_name": "gbị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "gbị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbị_002",
     "plain_name": "gbị",
-    "syllable_id": "gbị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "gbị",
     "vowelGroup": "A"
   },
   {
-    "id": "gbọ_001",
+    "id": "syl_gbị_003",
+    "plain_name": "gbị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "gbị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbọ_001",
+    "plain_name": "gbọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "gbọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbọ_002",
     "plain_name": "gbọ",
-    "syllable_id": "gbọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "gbọ",
     "vowelGroup": "A"
   },
   {
-    "id": "gbụ_001",
+    "id": "syl_gbọ_003",
+    "plain_name": "gbọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "gbọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbụ_001",
+    "plain_name": "gbụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "gbụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gbụ_002",
     "plain_name": "gbụ",
-    "syllable_id": "gbụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "gbụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ge_001",
+    "id": "syl_gbụ_003",
+    "plain_name": "gbụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "gbụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ge_001",
+    "plain_name": "gé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ge",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ge_002",
     "plain_name": "ge",
-    "syllable_id": "ge_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ge",
     "vowelGroup": "E"
   },
   {
-    "id": "gha_001",
+    "id": "syl_ge_003",
+    "plain_name": "gè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ge",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gha_001",
+    "plain_name": "ghá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "gha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gha_002",
     "plain_name": "gha",
-    "syllable_id": "gha_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "gha",
     "vowelGroup": "A"
   },
   {
-    "id": "ghe_001",
+    "id": "syl_gha_003",
+    "plain_name": "ghà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "gha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghe_001",
+    "plain_name": "ghé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ghe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghe_002",
     "plain_name": "ghe",
-    "syllable_id": "ghe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ghe",
     "vowelGroup": "E"
   },
   {
-    "id": "ghi_001",
+    "id": "syl_ghe_003",
+    "plain_name": "ghè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ghe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghi_001",
+    "plain_name": "ghí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ghi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghi_002",
     "plain_name": "ghi",
-    "syllable_id": "ghi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ghi",
     "vowelGroup": "E"
   },
   {
-    "id": "gho_001",
+    "id": "syl_ghi_003",
+    "plain_name": "ghì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ghi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gho_001",
+    "plain_name": "ghó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "gho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gho_002",
     "plain_name": "gho",
-    "syllable_id": "gho_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "gho",
     "vowelGroup": "E"
   },
   {
-    "id": "ghu_001",
+    "id": "syl_gho_003",
+    "plain_name": "ghò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "gho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghu_001",
+    "plain_name": "ghú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "ghu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghu_002",
     "plain_name": "ghu",
-    "syllable_id": "ghu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "ghu",
     "vowelGroup": "E"
   },
   {
-    "id": "ghẹ_001",
+    "id": "syl_ghu_003",
+    "plain_name": "ghù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "ghu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ghẹ_001",
+    "plain_name": "ghẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "ghẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghẹ_002",
     "plain_name": "ghẹ",
-    "syllable_id": "ghẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "ghẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "ghị_001",
+    "id": "syl_ghẹ_003",
+    "plain_name": "ghẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "ghẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghị_001",
+    "plain_name": "ghị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "ghị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghị_002",
     "plain_name": "ghị",
-    "syllable_id": "ghị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "ghị",
     "vowelGroup": "A"
   },
   {
-    "id": "ghọ_001",
+    "id": "syl_ghị_003",
+    "plain_name": "ghị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "ghị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghọ_001",
+    "plain_name": "ghọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "ghọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghọ_002",
     "plain_name": "ghọ",
-    "syllable_id": "ghọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "ghọ",
     "vowelGroup": "A"
   },
   {
-    "id": "ghụ_001",
+    "id": "syl_ghọ_003",
+    "plain_name": "ghọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "ghọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghụ_001",
+    "plain_name": "ghụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "ghụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ghụ_002",
     "plain_name": "ghụ",
-    "syllable_id": "ghụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "ghụ",
     "vowelGroup": "A"
   },
   {
-    "id": "gi_001",
+    "id": "syl_ghụ_003",
+    "plain_name": "ghụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "ghụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gi_001",
+    "plain_name": "gí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "gi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gi_002",
     "plain_name": "gi",
-    "syllable_id": "gi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "gi",
     "vowelGroup": "E"
   },
   {
-    "id": "go_001",
+    "id": "syl_gi_003",
+    "plain_name": "gì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "gi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_go_001",
+    "plain_name": "gó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "go",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_go_002",
     "plain_name": "go",
-    "syllable_id": "go_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "go",
     "vowelGroup": "E"
   },
   {
-    "id": "gu_001",
+    "id": "syl_go_003",
+    "plain_name": "gò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "go",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gu_001",
+    "plain_name": "gú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "gu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gu_002",
     "plain_name": "gu",
-    "syllable_id": "gu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "gu",
     "vowelGroup": "E"
   },
   {
-    "id": "gwa_001",
+    "id": "syl_gu_003",
+    "plain_name": "gù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "gu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwa_001",
+    "plain_name": "gwá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "gwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwa_002",
     "plain_name": "gwa",
-    "syllable_id": "gwa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "gwa",
     "vowelGroup": "A"
   },
   {
-    "id": "gwe_001",
+    "id": "syl_gwa_003",
+    "plain_name": "gwà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "gwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwe_001",
+    "plain_name": "gwé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "gwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwe_002",
     "plain_name": "gwe",
-    "syllable_id": "gwe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "gwe",
     "vowelGroup": "E"
   },
   {
-    "id": "gwi_001",
+    "id": "syl_gwe_003",
+    "plain_name": "gwè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "gwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwi_001",
+    "plain_name": "gwí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "gwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwi_002",
     "plain_name": "gwi",
-    "syllable_id": "gwi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "gwi",
     "vowelGroup": "E"
   },
   {
-    "id": "gwo_001",
+    "id": "syl_gwi_003",
+    "plain_name": "gwì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "gwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwo_001",
+    "plain_name": "gwó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "gwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwo_002",
     "plain_name": "gwo",
-    "syllable_id": "gwo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "gwo",
     "vowelGroup": "E"
   },
   {
-    "id": "gwu_001",
+    "id": "syl_gwo_003",
+    "plain_name": "gwò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "gwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwu_001",
+    "plain_name": "gwú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "gwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwu_002",
     "plain_name": "gwu",
-    "syllable_id": "gwu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "gwu",
     "vowelGroup": "E"
   },
   {
-    "id": "gwẹ_001",
+    "id": "syl_gwu_003",
+    "plain_name": "gwù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "gwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_gwẹ_001",
+    "plain_name": "gwẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "gwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwẹ_002",
     "plain_name": "gwẹ",
-    "syllable_id": "gwẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "gwẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "gwị_001",
+    "id": "syl_gwẹ_003",
+    "plain_name": "gwẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "gwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwị_001",
+    "plain_name": "gwị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "gwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwị_002",
     "plain_name": "gwị",
-    "syllable_id": "gwị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "gwị",
     "vowelGroup": "A"
   },
   {
-    "id": "gwọ_001",
+    "id": "syl_gwị_003",
+    "plain_name": "gwị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "gwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwọ_001",
+    "plain_name": "gwọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "gwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwọ_002",
     "plain_name": "gwọ",
-    "syllable_id": "gwọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "gwọ",
     "vowelGroup": "A"
   },
   {
-    "id": "gwụ_001",
+    "id": "syl_gwọ_003",
+    "plain_name": "gwọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "gwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwụ_001",
+    "plain_name": "gwụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "gwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gwụ_002",
     "plain_name": "gwụ",
-    "syllable_id": "gwụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "gwụ",
     "vowelGroup": "A"
   },
   {
-    "id": "gẹ_001",
+    "id": "syl_gwụ_003",
+    "plain_name": "gwụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "gwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gẹ_001",
+    "plain_name": "gẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "gẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gẹ_002",
     "plain_name": "gẹ",
-    "syllable_id": "gẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "gẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "gị_001",
+    "id": "syl_gẹ_003",
+    "plain_name": "gẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "gẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gị_001",
+    "plain_name": "gị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "gị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gị_002",
     "plain_name": "gị",
-    "syllable_id": "gị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "gị",
     "vowelGroup": "A"
   },
   {
-    "id": "gọ_001",
+    "id": "syl_gị_003",
+    "plain_name": "gị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "gị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gọ_001",
+    "plain_name": "gọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "gọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gọ_002",
     "plain_name": "gọ",
-    "syllable_id": "gọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "gọ",
     "vowelGroup": "A"
   },
   {
-    "id": "gụ_001",
+    "id": "syl_gọ_003",
+    "plain_name": "gọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "gọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gụ_001",
+    "plain_name": "gụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "gụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_gụ_002",
     "plain_name": "gụ",
-    "syllable_id": "gụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "gụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ha_001",
+    "id": "syl_gụ_003",
+    "plain_name": "gụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "gụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ha_001",
+    "plain_name": "há",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ha_002",
     "plain_name": "ha",
-    "syllable_id": "ha_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ha",
     "vowelGroup": "A"
   },
   {
-    "id": "he_001",
+    "id": "syl_ha_003",
+    "plain_name": "hà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_he_001",
+    "plain_name": "hé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "he",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_he_002",
     "plain_name": "he",
-    "syllable_id": "he_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "he",
     "vowelGroup": "E"
   },
   {
-    "id": "hi_001",
+    "id": "syl_he_003",
+    "plain_name": "hè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "he",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_hi_001",
+    "plain_name": "hí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "hi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_hi_002",
     "plain_name": "hi",
-    "syllable_id": "hi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "hi",
     "vowelGroup": "E"
   },
   {
-    "id": "ho_001",
+    "id": "syl_hi_003",
+    "plain_name": "hì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "hi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ho_001",
+    "plain_name": "hó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "ho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ho_002",
     "plain_name": "ho",
-    "syllable_id": "ho_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "ho",
     "vowelGroup": "E"
   },
   {
-    "id": "hu_001",
+    "id": "syl_ho_003",
+    "plain_name": "hò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "ho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_hu_001",
+    "plain_name": "hú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "hu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_hu_002",
     "plain_name": "hu",
-    "syllable_id": "hu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "hu",
     "vowelGroup": "E"
   },
   {
-    "id": "hẹ_001",
+    "id": "syl_hu_003",
+    "plain_name": "hù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "hu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_hẹ_001",
+    "plain_name": "hẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "hẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_hẹ_002",
     "plain_name": "hẹ",
-    "syllable_id": "hẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "hẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "hị_001",
+    "id": "syl_hẹ_003",
+    "plain_name": "hẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "hẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_hị_001",
+    "plain_name": "hị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "hị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_hị_002",
     "plain_name": "hị",
-    "syllable_id": "hị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "hị",
     "vowelGroup": "A"
   },
   {
-    "id": "họ_001",
+    "id": "syl_hị_003",
+    "plain_name": "hị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "hị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_họ_001",
+    "plain_name": "họ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "họ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_họ_002",
     "plain_name": "họ",
-    "syllable_id": "họ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "họ",
     "vowelGroup": "A"
   },
   {
-    "id": "hụ_001",
+    "id": "syl_họ_003",
+    "plain_name": "họ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "họ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_hụ_001",
+    "plain_name": "hụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "hụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_hụ_002",
     "plain_name": "hụ",
-    "syllable_id": "hụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "hụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ja_001",
+    "id": "syl_hụ_003",
+    "plain_name": "hụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "hụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ja_001",
+    "plain_name": "já",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ja",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ja_002",
     "plain_name": "ja",
-    "syllable_id": "ja_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ja",
     "vowelGroup": "A"
   },
   {
-    "id": "je_001",
+    "id": "syl_ja_003",
+    "plain_name": "jà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ja",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_je_001",
+    "plain_name": "jé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "je",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_je_002",
     "plain_name": "je",
-    "syllable_id": "je_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "je",
     "vowelGroup": "E"
   },
   {
-    "id": "ji_001",
+    "id": "syl_je_003",
+    "plain_name": "jè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "je",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ji_001",
+    "plain_name": "jí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ji",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ji_002",
     "plain_name": "ji",
-    "syllable_id": "ji_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ji",
     "vowelGroup": "E"
   },
   {
-    "id": "jo_001",
+    "id": "syl_ji_003",
+    "plain_name": "jì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ji",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_jo_001",
+    "plain_name": "jó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "jo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_jo_002",
     "plain_name": "jo",
-    "syllable_id": "jo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "jo",
     "vowelGroup": "E"
   },
   {
-    "id": "ju_001",
+    "id": "syl_jo_003",
+    "plain_name": "jò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "jo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ju_001",
+    "plain_name": "jú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "ju",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ju_002",
     "plain_name": "ju",
-    "syllable_id": "ju_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "ju",
     "vowelGroup": "E"
   },
   {
-    "id": "jẹ_001",
+    "id": "syl_ju_003",
+    "plain_name": "jù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "ju",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_jẹ_001",
+    "plain_name": "jẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "jẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jẹ_002",
     "plain_name": "jẹ",
-    "syllable_id": "jẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "jẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "jị_001",
+    "id": "syl_jẹ_003",
+    "plain_name": "jẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "jẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jị_001",
+    "plain_name": "jị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "jị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jị_002",
     "plain_name": "jị",
-    "syllable_id": "jị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "jị",
     "vowelGroup": "A"
   },
   {
-    "id": "jọ_001",
+    "id": "syl_jị_003",
+    "plain_name": "jị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "jị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jọ_001",
+    "plain_name": "jọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "jọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jọ_002",
     "plain_name": "jọ",
-    "syllable_id": "jọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "jọ",
     "vowelGroup": "A"
   },
   {
-    "id": "jụ_001",
+    "id": "syl_jọ_003",
+    "plain_name": "jọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "jọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jụ_001",
+    "plain_name": "jụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "jụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_jụ_002",
     "plain_name": "jụ",
-    "syllable_id": "jụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "jụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ka_001",
+    "id": "syl_jụ_003",
+    "plain_name": "jụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "jụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ka_001",
+    "plain_name": "ká",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ka",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ka_002",
     "plain_name": "ka",
-    "syllable_id": "ka_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ka",
     "vowelGroup": "A"
   },
   {
-    "id": "ke_001",
+    "id": "syl_ka_003",
+    "plain_name": "kà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ka",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ke_001",
+    "plain_name": "ké",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ke",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ke_002",
     "plain_name": "ke",
-    "syllable_id": "ke_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ke",
     "vowelGroup": "E"
   },
   {
-    "id": "ki_001",
+    "id": "syl_ke_003",
+    "plain_name": "kè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ke",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ki_001",
+    "plain_name": "kí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ki",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ki_002",
     "plain_name": "ki",
-    "syllable_id": "ki_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ki",
     "vowelGroup": "E"
   },
   {
-    "id": "ko_001",
+    "id": "syl_ki_003",
+    "plain_name": "kì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ki",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ko_001",
+    "plain_name": "kó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "ko",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ko_002",
     "plain_name": "ko",
-    "syllable_id": "ko_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "ko",
     "vowelGroup": "E"
   },
   {
-    "id": "kpa_001",
+    "id": "syl_ko_003",
+    "plain_name": "kò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "ko",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpa_001",
+    "plain_name": "kpá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "kpa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpa_002",
     "plain_name": "kpa",
-    "syllable_id": "kpa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "kpa",
     "vowelGroup": "A"
   },
   {
-    "id": "kpe_001",
+    "id": "syl_kpa_003",
+    "plain_name": "kpà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "kpa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpe_001",
+    "plain_name": "kpé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "kpe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpe_002",
     "plain_name": "kpe",
-    "syllable_id": "kpe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "kpe",
     "vowelGroup": "E"
   },
   {
-    "id": "kpi_001",
+    "id": "syl_kpe_003",
+    "plain_name": "kpè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "kpe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpi_001",
+    "plain_name": "kpí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "kpi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpi_002",
     "plain_name": "kpi",
-    "syllable_id": "kpi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "kpi",
     "vowelGroup": "E"
   },
   {
-    "id": "kpo_001",
+    "id": "syl_kpi_003",
+    "plain_name": "kpì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "kpi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpo_001",
+    "plain_name": "kpó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "kpo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpo_002",
     "plain_name": "kpo",
-    "syllable_id": "kpo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "kpo",
     "vowelGroup": "E"
   },
   {
-    "id": "kpu_001",
+    "id": "syl_kpo_003",
+    "plain_name": "kpò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "kpo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpu_001",
+    "plain_name": "kpú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "kpu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpu_002",
     "plain_name": "kpu",
-    "syllable_id": "kpu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "kpu",
     "vowelGroup": "E"
   },
   {
-    "id": "kpẹ_001",
+    "id": "syl_kpu_003",
+    "plain_name": "kpù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "kpu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kpẹ_001",
+    "plain_name": "kpẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "kpẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpẹ_002",
     "plain_name": "kpẹ",
-    "syllable_id": "kpẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "kpẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "kpị_001",
+    "id": "syl_kpẹ_003",
+    "plain_name": "kpẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "kpẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpị_001",
+    "plain_name": "kpị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "kpị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpị_002",
     "plain_name": "kpị",
-    "syllable_id": "kpị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "kpị",
     "vowelGroup": "A"
   },
   {
-    "id": "kpọ_001",
+    "id": "syl_kpị_003",
+    "plain_name": "kpị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "kpị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpọ_001",
+    "plain_name": "kpọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "kpọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpọ_002",
     "plain_name": "kpọ",
-    "syllable_id": "kpọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "kpọ",
     "vowelGroup": "A"
   },
   {
-    "id": "kpụ_001",
+    "id": "syl_kpọ_003",
+    "plain_name": "kpọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "kpọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpụ_001",
+    "plain_name": "kpụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "kpụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kpụ_002",
     "plain_name": "kpụ",
-    "syllable_id": "kpụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "kpụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ku_001",
+    "id": "syl_kpụ_003",
+    "plain_name": "kpụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "kpụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ku_001",
+    "plain_name": "kú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "ku",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ku_002",
     "plain_name": "ku",
-    "syllable_id": "ku_high",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "ku",
     "vowelGroup": "E"
   },
   {
-    "id": "kwa_001",
+    "id": "syl_ku_003",
+    "plain_name": "kù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "ku",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwa_001",
+    "plain_name": "kwá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "kwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwa_002",
     "plain_name": "kwa",
-    "syllable_id": "kwa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "kwa",
     "vowelGroup": "A"
   },
   {
-    "id": "kwe_001",
+    "id": "syl_kwa_003",
+    "plain_name": "kwà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "kwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwe_001",
+    "plain_name": "kwé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "kwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwe_002",
     "plain_name": "kwe",
-    "syllable_id": "kwe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "kwe",
     "vowelGroup": "E"
   },
   {
-    "id": "kwi_001",
+    "id": "syl_kwe_003",
+    "plain_name": "kwè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "kwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwi_001",
+    "plain_name": "kwí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "kwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwi_002",
     "plain_name": "kwi",
-    "syllable_id": "kwi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "kwi",
     "vowelGroup": "E"
   },
   {
-    "id": "kwo_001",
+    "id": "syl_kwi_003",
+    "plain_name": "kwì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "kwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwo_001",
+    "plain_name": "kwó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "kwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwo_002",
     "plain_name": "kwo",
-    "syllable_id": "kwo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "kwo",
     "vowelGroup": "E"
   },
   {
-    "id": "kwu_001",
+    "id": "syl_kwo_003",
+    "plain_name": "kwò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "kwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwu_001",
+    "plain_name": "kwú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "kwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwu_002",
     "plain_name": "kwu",
-    "syllable_id": "kwu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "kwu",
     "vowelGroup": "E"
   },
   {
-    "id": "kwẹ_001",
+    "id": "syl_kwu_003",
+    "plain_name": "kwù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "kwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_kwẹ_001",
+    "plain_name": "kwẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "kwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwẹ_002",
     "plain_name": "kwẹ",
-    "syllable_id": "kwẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "kwẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "kwị_001",
+    "id": "syl_kwẹ_003",
+    "plain_name": "kwẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "kwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwị_001",
+    "plain_name": "kwị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "kwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwị_002",
     "plain_name": "kwị",
-    "syllable_id": "kwị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "kwị",
     "vowelGroup": "A"
   },
   {
-    "id": "kwọ_001",
+    "id": "syl_kwị_003",
+    "plain_name": "kwị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "kwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwọ_001",
+    "plain_name": "kwọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "kwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwọ_002",
     "plain_name": "kwọ",
-    "syllable_id": "kwọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "kwọ",
     "vowelGroup": "A"
   },
   {
-    "id": "kwụ_001",
+    "id": "syl_kwọ_003",
+    "plain_name": "kwọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "kwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwụ_001",
+    "plain_name": "kwụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "kwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kwụ_002",
     "plain_name": "kwụ",
-    "syllable_id": "kwụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "kwụ",
     "vowelGroup": "A"
   },
   {
-    "id": "kẹ_001",
+    "id": "syl_kwụ_003",
+    "plain_name": "kwụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "kwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kẹ_001",
+    "plain_name": "kẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "kẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kẹ_002",
     "plain_name": "kẹ",
-    "syllable_id": "kẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "kẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "kị_001",
+    "id": "syl_kẹ_003",
+    "plain_name": "kẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "kẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kị_001",
+    "plain_name": "kị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "kị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kị_002",
     "plain_name": "kị",
-    "syllable_id": "kị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "kị",
     "vowelGroup": "A"
   },
   {
-    "id": "kọ_001",
+    "id": "syl_kị_003",
+    "plain_name": "kị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "kị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kọ_001",
+    "plain_name": "kọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "kọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kọ_002",
     "plain_name": "kọ",
-    "syllable_id": "kọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "kọ",
     "vowelGroup": "A"
   },
   {
-    "id": "kụ_001",
+    "id": "syl_kọ_003",
+    "plain_name": "kọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "kọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kụ_001",
+    "plain_name": "kụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "kụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_kụ_002",
     "plain_name": "kụ",
-    "syllable_id": "kụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "kụ",
     "vowelGroup": "A"
   },
   {
-    "id": "la_001",
+    "id": "syl_kụ_003",
+    "plain_name": "kụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "kụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_la_001",
+    "plain_name": "lá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "la",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_la_002",
     "plain_name": "la",
-    "syllable_id": "la_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "la",
     "vowelGroup": "A"
   },
   {
-    "id": "le_001",
+    "id": "syl_la_003",
+    "plain_name": "là",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "la",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_le_001",
+    "plain_name": "lé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "le",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_le_002",
     "plain_name": "le",
-    "syllable_id": "le_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "le",
     "vowelGroup": "E"
   },
   {
-    "id": "li_001",
+    "id": "syl_le_003",
+    "plain_name": "lè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "le",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_li_001",
+    "plain_name": "lí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "li",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_li_002",
     "plain_name": "li",
-    "syllable_id": "li_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "li",
     "vowelGroup": "E"
   },
   {
-    "id": "lo_001",
+    "id": "syl_li_003",
+    "plain_name": "lì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "li",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_lo_001",
+    "plain_name": "ló",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "lo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_lo_002",
     "plain_name": "lo",
-    "syllable_id": "lo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "lo",
     "vowelGroup": "E"
   },
   {
-    "id": "lu_001",
+    "id": "syl_lo_003",
+    "plain_name": "lò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "lo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_lu_001",
+    "plain_name": "lú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "lu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_lu_002",
     "plain_name": "lu",
-    "syllable_id": "lu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "lu",
     "vowelGroup": "E"
   },
   {
-    "id": "lẹ_001",
+    "id": "syl_lu_003",
+    "plain_name": "lù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "lu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_lẹ_001",
+    "plain_name": "lẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "lẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lẹ_002",
     "plain_name": "lẹ",
-    "syllable_id": "lẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "lẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "lị_001",
+    "id": "syl_lẹ_003",
+    "plain_name": "lẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "lẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lị_001",
+    "plain_name": "lị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "lị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lị_002",
     "plain_name": "lị",
-    "syllable_id": "lị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "lị",
     "vowelGroup": "A"
   },
   {
-    "id": "lọ_001",
+    "id": "syl_lị_003",
+    "plain_name": "lị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "lị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lọ_001",
+    "plain_name": "lọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "lọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lọ_002",
     "plain_name": "lọ",
-    "syllable_id": "lọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "lọ",
     "vowelGroup": "A"
   },
   {
-    "id": "lụ_001",
+    "id": "syl_lọ_003",
+    "plain_name": "lọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "lọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lụ_001",
+    "plain_name": "lụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "lụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_lụ_002",
     "plain_name": "lụ",
-    "syllable_id": "lụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "lụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ma_001",
+    "id": "syl_lụ_003",
+    "plain_name": "lụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "lụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ma_001",
+    "plain_name": "má",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ma",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ma_002",
     "plain_name": "ma",
-    "syllable_id": "ma_high",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ma",
     "vowelGroup": "A"
   },
   {
-    "id": "ma_002",
-    "plain_name": "ma",
-    "syllable_id": "ma_high",
+    "id": "syl_ma_003",
+    "plain_name": "mà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ma",
     "vowelGroup": "A"
   },
   {
-    "id": "ma_003",
-    "plain_name": "ma",
-    "syllable_id": "ma_high",
-    "vowelGroup": "A"
+    "id": "syl_me_001",
+    "plain_name": "mé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "me",
+    "vowelGroup": "E"
   },
   {
-    "id": "me_001",
+    "id": "syl_me_002",
     "plain_name": "me",
-    "syllable_id": "me_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "me",
     "vowelGroup": "E"
   },
   {
-    "id": "mi_001",
+    "id": "syl_me_003",
+    "plain_name": "mè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "me",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mi_001",
+    "plain_name": "mí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "mi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mi_002",
     "plain_name": "mi",
-    "syllable_id": "mi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "mi",
     "vowelGroup": "E"
   },
   {
-    "id": "mo_001",
+    "id": "syl_mi_003",
+    "plain_name": "mì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "mi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mo_001",
+    "plain_name": "mó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "mo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mo_002",
     "plain_name": "mo",
-    "syllable_id": "mo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "mo",
     "vowelGroup": "E"
   },
   {
-    "id": "mu_001",
+    "id": "syl_mo_003",
+    "plain_name": "mò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "mo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mu_001",
+    "plain_name": "mú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "mu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_mu_002",
     "plain_name": "mu",
-    "syllable_id": "mu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "mu",
     "vowelGroup": "E"
   },
   {
-    "id": "m̩a_001",
+    "id": "syl_mu_003",
+    "plain_name": "mù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "mu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩a_001",
+    "plain_name": "m̩á",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "m̩a",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩a_002",
     "plain_name": "m̩a",
-    "syllable_id": "m̩a_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "m̩a",
     "vowelGroup": "A"
   },
   {
-    "id": "m̩e_001",
+    "id": "syl_m̩a_003",
+    "plain_name": "m̩à",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "m̩a",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩e_001",
+    "plain_name": "m̩é",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "m̩e",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩e_002",
     "plain_name": "m̩e",
-    "syllable_id": "m̩e_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "m̩e",
     "vowelGroup": "E"
   },
   {
-    "id": "m̩i_001",
+    "id": "syl_m̩e_003",
+    "plain_name": "m̩è",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "m̩e",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩i_001",
+    "plain_name": "m̩í",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "m̩i",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩i_002",
     "plain_name": "m̩i",
-    "syllable_id": "m̩i_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "m̩i",
     "vowelGroup": "E"
   },
   {
-    "id": "m̩o_001",
+    "id": "syl_m̩i_003",
+    "plain_name": "m̩ì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "m̩i",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩o_001",
+    "plain_name": "m̩ó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "m̩o",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩o_002",
     "plain_name": "m̩o",
-    "syllable_id": "m̩o_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "m̩o",
     "vowelGroup": "E"
   },
   {
-    "id": "m̩u_001",
+    "id": "syl_m̩o_003",
+    "plain_name": "m̩ò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "m̩o",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩u_001",
+    "plain_name": "m̩ú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "m̩u",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩u_002",
     "plain_name": "m̩u",
-    "syllable_id": "m̩u_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "m̩u",
     "vowelGroup": "E"
   },
   {
-    "id": "m̩ẹ_001",
+    "id": "syl_m̩u_003",
+    "plain_name": "m̩ù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "m̩u",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_m̩ẹ_001",
+    "plain_name": "m̩ẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "m̩ẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ẹ_002",
     "plain_name": "m̩ẹ",
-    "syllable_id": "m̩ẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "m̩ẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "m̩ị_001",
+    "id": "syl_m̩ẹ_003",
+    "plain_name": "m̩ẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "m̩ẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ị_001",
+    "plain_name": "m̩ị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "m̩ị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ị_002",
     "plain_name": "m̩ị",
-    "syllable_id": "m̩ị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "m̩ị",
     "vowelGroup": "A"
   },
   {
-    "id": "m̩ọ_001",
+    "id": "syl_m̩ị_003",
+    "plain_name": "m̩ị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "m̩ị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ọ_001",
+    "plain_name": "m̩ọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "m̩ọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ọ_002",
     "plain_name": "m̩ọ",
-    "syllable_id": "m̩ọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "m̩ọ",
     "vowelGroup": "A"
   },
   {
-    "id": "m̩ụ_001",
+    "id": "syl_m̩ọ_003",
+    "plain_name": "m̩ọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "m̩ọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ụ_001",
+    "plain_name": "m̩ụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "m̩ụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_m̩ụ_002",
     "plain_name": "m̩ụ",
-    "syllable_id": "m̩ụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "m̩ụ",
     "vowelGroup": "A"
   },
   {
-    "id": "mẹ_001",
+    "id": "syl_m̩ụ_003",
+    "plain_name": "m̩ụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "m̩ụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mẹ_001",
+    "plain_name": "mẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "mẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mẹ_002",
     "plain_name": "mẹ",
-    "syllable_id": "mẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "mẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "mị_001",
+    "id": "syl_mẹ_003",
+    "plain_name": "mẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "mẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mị_001",
+    "plain_name": "mị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "mị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mị_002",
     "plain_name": "mị",
-    "syllable_id": "mị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "mị",
     "vowelGroup": "A"
   },
   {
-    "id": "mọ_001",
+    "id": "syl_mị_003",
+    "plain_name": "mị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "mị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mọ_001",
+    "plain_name": "mọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "mọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mọ_002",
     "plain_name": "mọ",
-    "syllable_id": "mọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "mọ",
     "vowelGroup": "A"
   },
   {
-    "id": "mụ_001",
+    "id": "syl_mọ_003",
+    "plain_name": "mọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "mọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mụ_001",
+    "plain_name": "mụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "mụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_mụ_002",
     "plain_name": "mụ",
-    "syllable_id": "mụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "mụ",
     "vowelGroup": "A"
   },
   {
-    "id": "na_001",
+    "id": "syl_mụ_003",
+    "plain_name": "mụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "mụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_na_001",
+    "plain_name": "ná",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "na",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_na_002",
     "plain_name": "na",
-    "syllable_id": "na_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "na",
     "vowelGroup": "A"
   },
   {
-    "id": "ne_001",
+    "id": "syl_na_003",
+    "plain_name": "nà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "na",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ne_001",
+    "plain_name": "né",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ne",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ne_002",
     "plain_name": "ne",
-    "syllable_id": "ne_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ne",
     "vowelGroup": "E"
   },
   {
-    "id": "ni_001",
+    "id": "syl_ne_003",
+    "plain_name": "nè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ne",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ni_001",
+    "plain_name": "ní",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ni",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ni_002",
     "plain_name": "ni",
-    "syllable_id": "ni_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ni",
     "vowelGroup": "E"
   },
   {
-    "id": "no_001",
+    "id": "syl_ni_003",
+    "plain_name": "nì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ni",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_no_001",
+    "plain_name": "nó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "no",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_no_002",
     "plain_name": "no",
-    "syllable_id": "no_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "no",
     "vowelGroup": "E"
   },
   {
-    "id": "nu_001",
+    "id": "syl_no_003",
+    "plain_name": "nò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "no",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nu_001",
+    "plain_name": "nú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "nu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nu_002",
     "plain_name": "nu",
-    "syllable_id": "nu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "nu",
     "vowelGroup": "E"
   },
   {
-    "id": "nwa_001",
+    "id": "syl_nu_003",
+    "plain_name": "nù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "nu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwa_001",
+    "plain_name": "nwá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "nwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwa_002",
     "plain_name": "nwa",
-    "syllable_id": "nwa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "nwa",
     "vowelGroup": "A"
   },
   {
-    "id": "nwe_001",
+    "id": "syl_nwa_003",
+    "plain_name": "nwà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "nwa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwe_001",
+    "plain_name": "nwé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "nwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwe_002",
     "plain_name": "nwe",
-    "syllable_id": "nwe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "nwe",
     "vowelGroup": "E"
   },
   {
-    "id": "nwi_001",
+    "id": "syl_nwe_003",
+    "plain_name": "nwè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "nwe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwi_001",
+    "plain_name": "nwí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "nwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwi_002",
     "plain_name": "nwi",
-    "syllable_id": "nwi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "nwi",
     "vowelGroup": "E"
   },
   {
-    "id": "nwo_001",
+    "id": "syl_nwi_003",
+    "plain_name": "nwì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "nwi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwo_001",
+    "plain_name": "nwó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "nwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwo_002",
     "plain_name": "nwo",
-    "syllable_id": "nwo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "nwo",
     "vowelGroup": "E"
   },
   {
-    "id": "nwu_001",
+    "id": "syl_nwo_003",
+    "plain_name": "nwò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "nwo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwu_001",
+    "plain_name": "nwú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "nwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwu_002",
     "plain_name": "nwu",
-    "syllable_id": "nwu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "nwu",
     "vowelGroup": "E"
   },
   {
-    "id": "nwẹ_001",
+    "id": "syl_nwu_003",
+    "plain_name": "nwù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "nwu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nwẹ_001",
+    "plain_name": "nwẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "nwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwẹ_002",
     "plain_name": "nwẹ",
-    "syllable_id": "nwẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "nwẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "nwị_001",
+    "id": "syl_nwẹ_003",
+    "plain_name": "nwẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "nwẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwị_001",
+    "plain_name": "nwị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "nwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwị_002",
     "plain_name": "nwị",
-    "syllable_id": "nwị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "nwị",
     "vowelGroup": "A"
   },
   {
-    "id": "nwọ_001",
+    "id": "syl_nwị_003",
+    "plain_name": "nwị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "nwị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwọ_001",
+    "plain_name": "nwọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "nwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwọ_002",
     "plain_name": "nwọ",
-    "syllable_id": "nwọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "nwọ",
     "vowelGroup": "A"
   },
   {
-    "id": "nwụ_001",
+    "id": "syl_nwọ_003",
+    "plain_name": "nwọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "nwọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwụ_001",
+    "plain_name": "nwụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "nwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nwụ_002",
     "plain_name": "nwụ",
-    "syllable_id": "nwụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "nwụ",
     "vowelGroup": "A"
   },
   {
-    "id": "nya_001",
+    "id": "syl_nwụ_003",
+    "plain_name": "nwụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "nwụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nya_001",
+    "plain_name": "nyá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "nya",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nya_002",
     "plain_name": "nya",
-    "syllable_id": "nya_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "nya",
     "vowelGroup": "A"
   },
   {
-    "id": "nye_001",
+    "id": "syl_nya_003",
+    "plain_name": "nyà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "nya",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nye_001",
+    "plain_name": "nyé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "nye",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nye_002",
     "plain_name": "nye",
-    "syllable_id": "nye_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "nye",
     "vowelGroup": "E"
   },
   {
-    "id": "nyi_001",
+    "id": "syl_nye_003",
+    "plain_name": "nyè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "nye",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyi_001",
+    "plain_name": "nyí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "nyi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyi_002",
     "plain_name": "nyi",
-    "syllable_id": "nyi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "nyi",
     "vowelGroup": "E"
   },
   {
-    "id": "nyo_001",
+    "id": "syl_nyi_003",
+    "plain_name": "nyì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "nyi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyo_001",
+    "plain_name": "nyó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "nyo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyo_002",
     "plain_name": "nyo",
-    "syllable_id": "nyo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "nyo",
     "vowelGroup": "E"
   },
   {
-    "id": "nyu_001",
+    "id": "syl_nyo_003",
+    "plain_name": "nyò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "nyo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyu_001",
+    "plain_name": "nyú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "nyu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyu_002",
     "plain_name": "nyu",
-    "syllable_id": "nyu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "nyu",
     "vowelGroup": "E"
   },
   {
-    "id": "nyẹ_001",
+    "id": "syl_nyu_003",
+    "plain_name": "nyù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "nyu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_nyẹ_001",
+    "plain_name": "nyẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "nyẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyẹ_002",
     "plain_name": "nyẹ",
-    "syllable_id": "nyẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "nyẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "nyị_001",
+    "id": "syl_nyẹ_003",
+    "plain_name": "nyẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "nyẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyị_001",
+    "plain_name": "nyị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "nyị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyị_002",
     "plain_name": "nyị",
-    "syllable_id": "nyị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "nyị",
     "vowelGroup": "A"
   },
   {
-    "id": "nyọ_001",
+    "id": "syl_nyị_003",
+    "plain_name": "nyị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "nyị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyọ_001",
+    "plain_name": "nyọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "nyọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyọ_002",
     "plain_name": "nyọ",
-    "syllable_id": "nyọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "nyọ",
     "vowelGroup": "A"
   },
   {
-    "id": "nyụ_001",
+    "id": "syl_nyọ_003",
+    "plain_name": "nyọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "nyọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyụ_001",
+    "plain_name": "nyụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "nyụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nyụ_002",
     "plain_name": "nyụ",
-    "syllable_id": "nyụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "nyụ",
     "vowelGroup": "A"
   },
   {
-    "id": "n̩a_001",
+    "id": "syl_nyụ_003",
+    "plain_name": "nyụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "nyụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩a_001",
+    "plain_name": "n̩á",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "n̩a",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩a_002",
     "plain_name": "n̩a",
-    "syllable_id": "n̩a_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "n̩a",
     "vowelGroup": "A"
   },
   {
-    "id": "n̩e_001",
+    "id": "syl_n̩a_003",
+    "plain_name": "n̩à",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "n̩a",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩e_001",
+    "plain_name": "n̩é",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "n̩e",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩e_002",
     "plain_name": "n̩e",
-    "syllable_id": "n̩e_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "n̩e",
     "vowelGroup": "E"
   },
   {
-    "id": "n̩i_001",
+    "id": "syl_n̩e_003",
+    "plain_name": "n̩è",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "n̩e",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩i_001",
+    "plain_name": "n̩í",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "n̩i",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩i_002",
     "plain_name": "n̩i",
-    "syllable_id": "n̩i_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "n̩i",
     "vowelGroup": "E"
   },
   {
-    "id": "n̩o_001",
+    "id": "syl_n̩i_003",
+    "plain_name": "n̩ì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "n̩i",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩o_001",
+    "plain_name": "n̩ó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "n̩o",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩o_002",
     "plain_name": "n̩o",
-    "syllable_id": "n̩o_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "n̩o",
     "vowelGroup": "E"
   },
   {
-    "id": "n̩u_001",
+    "id": "syl_n̩o_003",
+    "plain_name": "n̩ò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "n̩o",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩u_001",
+    "plain_name": "n̩ú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "n̩u",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩u_002",
     "plain_name": "n̩u",
-    "syllable_id": "n̩u_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "n̩u",
     "vowelGroup": "E"
   },
   {
-    "id": "n̩ẹ_001",
+    "id": "syl_n̩u_003",
+    "plain_name": "n̩ù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "n̩u",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_n̩ẹ_001",
+    "plain_name": "n̩ẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "n̩ẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ẹ_002",
     "plain_name": "n̩ẹ",
-    "syllable_id": "n̩ẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "n̩ẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "n̩ị_001",
+    "id": "syl_n̩ẹ_003",
+    "plain_name": "n̩ẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "n̩ẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ị_001",
+    "plain_name": "n̩ị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "n̩ị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ị_002",
     "plain_name": "n̩ị",
-    "syllable_id": "n̩ị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "n̩ị",
     "vowelGroup": "A"
   },
   {
-    "id": "n̩ọ_001",
+    "id": "syl_n̩ị_003",
+    "plain_name": "n̩ị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "n̩ị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ọ_001",
+    "plain_name": "n̩ọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "n̩ọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ọ_002",
     "plain_name": "n̩ọ",
-    "syllable_id": "n̩ọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "n̩ọ",
     "vowelGroup": "A"
   },
   {
-    "id": "n̩ụ_001",
+    "id": "syl_n̩ọ_003",
+    "plain_name": "n̩ọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "n̩ọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ụ_001",
+    "plain_name": "n̩ụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "n̩ụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_n̩ụ_002",
     "plain_name": "n̩ụ",
-    "syllable_id": "n̩ụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "n̩ụ",
     "vowelGroup": "A"
   },
   {
-    "id": "nẹ_001",
+    "id": "syl_n̩ụ_003",
+    "plain_name": "n̩ụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "n̩ụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nẹ_001",
+    "plain_name": "nẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "nẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nẹ_002",
     "plain_name": "nẹ",
-    "syllable_id": "nẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "nẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "nị_001",
+    "id": "syl_nẹ_003",
+    "plain_name": "nẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "nẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nị_001",
+    "plain_name": "nị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "nị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nị_002",
     "plain_name": "nị",
-    "syllable_id": "nị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "nị",
     "vowelGroup": "A"
   },
   {
-    "id": "nọ_001",
+    "id": "syl_nị_003",
+    "plain_name": "nị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "nị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nọ_001",
+    "plain_name": "nọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "nọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nọ_002",
     "plain_name": "nọ",
-    "syllable_id": "nọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "nọ",
     "vowelGroup": "A"
   },
   {
-    "id": "nụ_001",
+    "id": "syl_nọ_003",
+    "plain_name": "nọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "nọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nụ_001",
+    "plain_name": "nụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "nụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_nụ_002",
     "plain_name": "nụ",
-    "syllable_id": "nụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "nụ",
     "vowelGroup": "A"
   },
   {
-    "id": "pa_001",
+    "id": "syl_nụ_003",
+    "plain_name": "nụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "nụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pa_001",
+    "plain_name": "pá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "pa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pa_002",
     "plain_name": "pa",
-    "syllable_id": "pa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "pa",
     "vowelGroup": "A"
   },
   {
-    "id": "pe_001",
+    "id": "syl_pa_003",
+    "plain_name": "pà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "pa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pe_001",
+    "plain_name": "pé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "pe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pe_002",
     "plain_name": "pe",
-    "syllable_id": "pe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "pe",
     "vowelGroup": "E"
   },
   {
-    "id": "pi_001",
+    "id": "syl_pe_003",
+    "plain_name": "pè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "pe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pi_001",
+    "plain_name": "pí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "pi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pi_002",
     "plain_name": "pi",
-    "syllable_id": "pi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "pi",
     "vowelGroup": "E"
   },
   {
-    "id": "po_001",
+    "id": "syl_pi_003",
+    "plain_name": "pì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "pi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_po_001",
+    "plain_name": "pó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "po",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_po_002",
     "plain_name": "po",
-    "syllable_id": "po_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "po",
     "vowelGroup": "E"
   },
   {
-    "id": "pu_001",
+    "id": "syl_po_003",
+    "plain_name": "pò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "po",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pu_001",
+    "plain_name": "pú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "pu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pu_002",
     "plain_name": "pu",
-    "syllable_id": "pu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "pu",
     "vowelGroup": "E"
   },
   {
-    "id": "pẹ_001",
+    "id": "syl_pu_003",
+    "plain_name": "pù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "pu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_pẹ_001",
+    "plain_name": "pẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "pẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pẹ_002",
     "plain_name": "pẹ",
-    "syllable_id": "pẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "pẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "pị_001",
+    "id": "syl_pẹ_003",
+    "plain_name": "pẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "pẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pị_001",
+    "plain_name": "pị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "pị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pị_002",
     "plain_name": "pị",
-    "syllable_id": "pị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "pị",
     "vowelGroup": "A"
   },
   {
-    "id": "pọ_001",
+    "id": "syl_pị_003",
+    "plain_name": "pị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "pị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pọ_001",
+    "plain_name": "pọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "pọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pọ_002",
     "plain_name": "pọ",
-    "syllable_id": "pọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "pọ",
     "vowelGroup": "A"
   },
   {
-    "id": "pụ_001",
+    "id": "syl_pọ_003",
+    "plain_name": "pọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "pọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pụ_001",
+    "plain_name": "pụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "pụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_pụ_002",
     "plain_name": "pụ",
-    "syllable_id": "pụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "pụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ra_001",
+    "id": "syl_pụ_003",
+    "plain_name": "pụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "pụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ra_001",
+    "plain_name": "rá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ra",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ra_002",
     "plain_name": "ra",
-    "syllable_id": "ra_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ra",
     "vowelGroup": "A"
   },
   {
-    "id": "re_001",
+    "id": "syl_ra_003",
+    "plain_name": "rà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ra",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_re_001",
+    "plain_name": "ré",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "re",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_re_002",
     "plain_name": "re",
-    "syllable_id": "re_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "re",
     "vowelGroup": "E"
   },
   {
-    "id": "ri_001",
+    "id": "syl_re_003",
+    "plain_name": "rè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "re",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ri_001",
+    "plain_name": "rí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ri",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ri_002",
     "plain_name": "ri",
-    "syllable_id": "ri_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ri",
     "vowelGroup": "E"
   },
   {
-    "id": "ro_001",
+    "id": "syl_ri_003",
+    "plain_name": "rì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ri",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ro_001",
+    "plain_name": "ró",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "ro",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ro_002",
     "plain_name": "ro",
-    "syllable_id": "ro_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "ro",
     "vowelGroup": "E"
   },
   {
-    "id": "ru_001",
+    "id": "syl_ro_003",
+    "plain_name": "rò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "ro",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ru_001",
+    "plain_name": "rú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "ru",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ru_002",
     "plain_name": "ru",
-    "syllable_id": "ru_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "ru",
     "vowelGroup": "E"
   },
   {
-    "id": "rẹ_001",
+    "id": "syl_ru_003",
+    "plain_name": "rù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "ru",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_rẹ_001",
+    "plain_name": "rẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "rẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rẹ_002",
     "plain_name": "rẹ",
-    "syllable_id": "rẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "rẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "rị_001",
+    "id": "syl_rẹ_003",
+    "plain_name": "rẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "rẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rị_001",
+    "plain_name": "rị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "rị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rị_002",
     "plain_name": "rị",
-    "syllable_id": "rị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "rị",
     "vowelGroup": "A"
   },
   {
-    "id": "rọ_001",
+    "id": "syl_rị_003",
+    "plain_name": "rị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "rị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rọ_001",
+    "plain_name": "rọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "rọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rọ_002",
     "plain_name": "rọ",
-    "syllable_id": "rọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "rọ",
     "vowelGroup": "A"
   },
   {
-    "id": "rụ_001",
+    "id": "syl_rọ_003",
+    "plain_name": "rọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "rọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rụ_001",
+    "plain_name": "rụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "rụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_rụ_002",
     "plain_name": "rụ",
-    "syllable_id": "rụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "rụ",
     "vowelGroup": "A"
   },
   {
-    "id": "sa_001",
+    "id": "syl_rụ_003",
+    "plain_name": "rụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "rụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sa_001",
+    "plain_name": "sá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "sa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sa_002",
     "plain_name": "sa",
-    "syllable_id": "sa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "sa",
     "vowelGroup": "A"
   },
   {
-    "id": "se_001",
+    "id": "syl_sa_003",
+    "plain_name": "sà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "sa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_se_001",
+    "plain_name": "sé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "se",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_se_002",
     "plain_name": "se",
-    "syllable_id": "se_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "se",
     "vowelGroup": "E"
   },
   {
-    "id": "sha_001",
+    "id": "syl_se_003",
+    "plain_name": "sè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "se",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_sha_001",
+    "plain_name": "shá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "sha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sha_002",
     "plain_name": "sha",
-    "syllable_id": "sha_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "sha",
     "vowelGroup": "A"
   },
   {
-    "id": "she_001",
+    "id": "syl_sha_003",
+    "plain_name": "shà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "sha",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_she_001",
+    "plain_name": "shé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "she",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_she_002",
     "plain_name": "she",
-    "syllable_id": "she_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "she",
     "vowelGroup": "E"
   },
   {
-    "id": "shi_001",
+    "id": "syl_she_003",
+    "plain_name": "shè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "she",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_shi_001",
+    "plain_name": "shí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "shi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_shi_002",
     "plain_name": "shi",
-    "syllable_id": "shi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "shi",
     "vowelGroup": "E"
   },
   {
-    "id": "sho_001",
+    "id": "syl_shi_003",
+    "plain_name": "shì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "shi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_sho_001",
+    "plain_name": "shó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "sho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_sho_002",
     "plain_name": "sho",
-    "syllable_id": "sho_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "sho",
     "vowelGroup": "E"
   },
   {
-    "id": "shu_001",
+    "id": "syl_sho_003",
+    "plain_name": "shò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "sho",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_shu_001",
+    "plain_name": "shú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "shu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_shu_002",
     "plain_name": "shu",
-    "syllable_id": "shu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "shu",
     "vowelGroup": "E"
   },
   {
-    "id": "shẹ_001",
+    "id": "syl_shu_003",
+    "plain_name": "shù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "shu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_shẹ_001",
+    "plain_name": "shẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "shẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shẹ_002",
     "plain_name": "shẹ",
-    "syllable_id": "shẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "shẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "shị_001",
+    "id": "syl_shẹ_003",
+    "plain_name": "shẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "shẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shị_001",
+    "plain_name": "shị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "shị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shị_002",
     "plain_name": "shị",
-    "syllable_id": "shị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "shị",
     "vowelGroup": "A"
   },
   {
-    "id": "shọ_001",
+    "id": "syl_shị_003",
+    "plain_name": "shị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "shị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shọ_001",
+    "plain_name": "shọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "shọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shọ_002",
     "plain_name": "shọ",
-    "syllable_id": "shọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "shọ",
     "vowelGroup": "A"
   },
   {
-    "id": "shụ_001",
+    "id": "syl_shọ_003",
+    "plain_name": "shọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "shọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shụ_001",
+    "plain_name": "shụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "shụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_shụ_002",
     "plain_name": "shụ",
-    "syllable_id": "shụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "shụ",
     "vowelGroup": "A"
   },
   {
-    "id": "si_001",
+    "id": "syl_shụ_003",
+    "plain_name": "shụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "shụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_si_001",
+    "plain_name": "sí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "si",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_si_002",
     "plain_name": "si",
-    "syllable_id": "si_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "si",
     "vowelGroup": "E"
   },
   {
-    "id": "so_001",
+    "id": "syl_si_003",
+    "plain_name": "sì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "si",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_so_001",
+    "plain_name": "só",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "so",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_so_002",
     "plain_name": "so",
-    "syllable_id": "so_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "so",
     "vowelGroup": "E"
   },
   {
-    "id": "su_001",
+    "id": "syl_so_003",
+    "plain_name": "sò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "so",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_su_001",
+    "plain_name": "sú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "su",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_su_002",
     "plain_name": "su",
-    "syllable_id": "su_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "su",
     "vowelGroup": "E"
   },
   {
-    "id": "sẹ_001",
+    "id": "syl_su_003",
+    "plain_name": "sù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "su",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_sẹ_001",
+    "plain_name": "sẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "sẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sẹ_002",
     "plain_name": "sẹ",
-    "syllable_id": "sẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "sẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "sị_001",
+    "id": "syl_sẹ_003",
+    "plain_name": "sẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "sẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sị_001",
+    "plain_name": "sị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "sị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sị_002",
     "plain_name": "sị",
-    "syllable_id": "sị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "sị",
     "vowelGroup": "A"
   },
   {
-    "id": "sọ_001",
+    "id": "syl_sị_003",
+    "plain_name": "sị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "sị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sọ_001",
+    "plain_name": "sọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "sọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sọ_002",
     "plain_name": "sọ",
-    "syllable_id": "sọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "sọ",
     "vowelGroup": "A"
   },
   {
-    "id": "sụ_001",
+    "id": "syl_sọ_003",
+    "plain_name": "sọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "sọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sụ_001",
+    "plain_name": "sụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "sụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_sụ_002",
     "plain_name": "sụ",
-    "syllable_id": "sụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "sụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ta_001",
+    "id": "syl_sụ_003",
+    "plain_name": "sụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "sụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ta_001",
+    "plain_name": "tá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ta",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ta_002",
     "plain_name": "ta",
-    "syllable_id": "ta_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ta",
     "vowelGroup": "A"
   },
   {
-    "id": "te_001",
+    "id": "syl_ta_003",
+    "plain_name": "tà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ta",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_te_001",
+    "plain_name": "té",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "te",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_te_002",
     "plain_name": "te",
-    "syllable_id": "te_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "te",
     "vowelGroup": "E"
   },
   {
-    "id": "ti_001",
+    "id": "syl_te_003",
+    "plain_name": "tè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "te",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ti_001",
+    "plain_name": "tí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ti",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ti_002",
     "plain_name": "ti",
-    "syllable_id": "ti_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ti",
     "vowelGroup": "E"
   },
   {
-    "id": "to_001",
+    "id": "syl_ti_003",
+    "plain_name": "tì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ti",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_to_001",
+    "plain_name": "tó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "to",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_to_002",
     "plain_name": "to",
-    "syllable_id": "to_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "to",
     "vowelGroup": "E"
   },
   {
-    "id": "tu_001",
+    "id": "syl_to_003",
+    "plain_name": "tò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "to",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_tu_001",
+    "plain_name": "tú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "tu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_tu_002",
     "plain_name": "tu",
-    "syllable_id": "tu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "tu",
     "vowelGroup": "E"
   },
   {
-    "id": "tẹ_001",
+    "id": "syl_tu_003",
+    "plain_name": "tù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "tu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_tẹ_001",
+    "plain_name": "tẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "tẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tẹ_002",
     "plain_name": "tẹ",
-    "syllable_id": "tẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "tẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "tị_001",
+    "id": "syl_tẹ_003",
+    "plain_name": "tẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "tẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tị_001",
+    "plain_name": "tị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "tị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tị_002",
     "plain_name": "tị",
-    "syllable_id": "tị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "tị",
     "vowelGroup": "A"
   },
   {
-    "id": "tọ_001",
+    "id": "syl_tị_003",
+    "plain_name": "tị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "tị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tọ_001",
+    "plain_name": "tọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "tọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tọ_002",
     "plain_name": "tọ",
-    "syllable_id": "tọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "tọ",
     "vowelGroup": "A"
   },
   {
-    "id": "tụ_001",
+    "id": "syl_tọ_003",
+    "plain_name": "tọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "tọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tụ_001",
+    "plain_name": "tụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "tụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_tụ_002",
     "plain_name": "tụ",
-    "syllable_id": "tụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "tụ",
     "vowelGroup": "A"
   },
   {
-    "id": "va_001",
+    "id": "syl_tụ_003",
+    "plain_name": "tụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "tụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_va_001",
+    "plain_name": "vá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "va",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_va_002",
     "plain_name": "va",
-    "syllable_id": "va_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "va",
     "vowelGroup": "A"
   },
   {
-    "id": "ve_001",
+    "id": "syl_va_003",
+    "plain_name": "và",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "va",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ve_001",
+    "plain_name": "vé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ve",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ve_002",
     "plain_name": "ve",
-    "syllable_id": "ve_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ve",
     "vowelGroup": "E"
   },
   {
-    "id": "vi_001",
+    "id": "syl_ve_003",
+    "plain_name": "vè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ve",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vi_001",
+    "plain_name": "ví",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "vi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vi_002",
     "plain_name": "vi",
-    "syllable_id": "vi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "vi",
     "vowelGroup": "E"
   },
   {
-    "id": "vo_001",
+    "id": "syl_vi_003",
+    "plain_name": "vì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "vi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vo_001",
+    "plain_name": "vó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "vo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vo_002",
     "plain_name": "vo",
-    "syllable_id": "vo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "vo",
     "vowelGroup": "E"
   },
   {
-    "id": "vu_001",
+    "id": "syl_vo_003",
+    "plain_name": "vò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "vo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vu_001",
+    "plain_name": "vú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "vu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vu_002",
     "plain_name": "vu",
-    "syllable_id": "vu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "vu",
     "vowelGroup": "E"
   },
   {
-    "id": "vẹ_001",
+    "id": "syl_vu_003",
+    "plain_name": "vù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "vu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_vẹ_001",
+    "plain_name": "vẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "vẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vẹ_002",
     "plain_name": "vẹ",
-    "syllable_id": "vẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "vẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "vị_001",
+    "id": "syl_vẹ_003",
+    "plain_name": "vẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "vẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vị_001",
+    "plain_name": "vị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "vị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vị_002",
     "plain_name": "vị",
-    "syllable_id": "vị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "vị",
     "vowelGroup": "A"
   },
   {
-    "id": "vọ_001",
+    "id": "syl_vị_003",
+    "plain_name": "vị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "vị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vọ_001",
+    "plain_name": "vọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "vọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vọ_002",
     "plain_name": "vọ",
-    "syllable_id": "vọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "vọ",
     "vowelGroup": "A"
   },
   {
-    "id": "vụ_001",
+    "id": "syl_vọ_003",
+    "plain_name": "vọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "vọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vụ_001",
+    "plain_name": "vụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "vụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_vụ_002",
     "plain_name": "vụ",
-    "syllable_id": "vụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "vụ",
     "vowelGroup": "A"
   },
   {
-    "id": "wa_001",
+    "id": "syl_vụ_003",
+    "plain_name": "vụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "vụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wa_001",
+    "plain_name": "wá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "wa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wa_002",
     "plain_name": "wa",
-    "syllable_id": "wa_high",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "wa",
     "vowelGroup": "A"
   },
   {
-    "id": "we_001",
+    "id": "syl_wa_003",
+    "plain_name": "wà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "wa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_we_001",
+    "plain_name": "wé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "we",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_we_002",
     "plain_name": "we",
-    "syllable_id": "we_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "we",
     "vowelGroup": "E"
   },
   {
-    "id": "wi_001",
+    "id": "syl_we_003",
+    "plain_name": "wè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "we",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wi_001",
+    "plain_name": "wí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "wi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wi_002",
     "plain_name": "wi",
-    "syllable_id": "wi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "wi",
     "vowelGroup": "E"
   },
   {
-    "id": "wo_001",
+    "id": "syl_wi_003",
+    "plain_name": "wì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "wi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wo_001",
+    "plain_name": "wó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "wo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wo_002",
     "plain_name": "wo",
-    "syllable_id": "wo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "wo",
     "vowelGroup": "E"
   },
   {
-    "id": "wu_001",
+    "id": "syl_wo_003",
+    "plain_name": "wò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "wo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wu_001",
+    "plain_name": "wú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "wu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wu_002",
     "plain_name": "wu",
-    "syllable_id": "wu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "wu",
     "vowelGroup": "E"
   },
   {
-    "id": "wẹ_001",
+    "id": "syl_wu_003",
+    "plain_name": "wù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "wu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_wẹ_001",
+    "plain_name": "wẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "wẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wẹ_002",
     "plain_name": "wẹ",
-    "syllable_id": "wẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "wẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "wị_001",
+    "id": "syl_wẹ_003",
+    "plain_name": "wẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "wẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wị_001",
+    "plain_name": "wị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "wị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wị_002",
     "plain_name": "wị",
-    "syllable_id": "wị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "wị",
     "vowelGroup": "A"
   },
   {
-    "id": "wọ_001",
+    "id": "syl_wị_003",
+    "plain_name": "wị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "wị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wọ_001",
+    "plain_name": "wọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "wọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wọ_002",
     "plain_name": "wọ",
-    "syllable_id": "wọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "wọ",
     "vowelGroup": "A"
   },
   {
-    "id": "wụ_001",
+    "id": "syl_wọ_003",
+    "plain_name": "wọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "wọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wụ_001",
+    "plain_name": "wụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "wụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_wụ_002",
     "plain_name": "wụ",
-    "syllable_id": "wụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "wụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ya_001",
+    "id": "syl_wụ_003",
+    "plain_name": "wụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "wụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ya_001",
+    "plain_name": "yá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ya",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ya_002",
     "plain_name": "ya",
-    "syllable_id": "ya_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ya",
     "vowelGroup": "A"
   },
   {
-    "id": "ye_001",
+    "id": "syl_ya_003",
+    "plain_name": "yà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ya",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ye_001",
+    "plain_name": "yé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ye",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ye_002",
     "plain_name": "ye",
-    "syllable_id": "ye_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ye",
     "vowelGroup": "E"
   },
   {
-    "id": "yi_001",
+    "id": "syl_ye_003",
+    "plain_name": "yè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ye",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yi_001",
+    "plain_name": "yí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "yi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yi_002",
     "plain_name": "yi",
-    "syllable_id": "yi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "yi",
     "vowelGroup": "E"
   },
   {
-    "id": "yo_001",
+    "id": "syl_yi_003",
+    "plain_name": "yì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "yi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yo_001",
+    "plain_name": "yó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "yo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yo_002",
     "plain_name": "yo",
-    "syllable_id": "yo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "yo",
     "vowelGroup": "E"
   },
   {
-    "id": "yu_001",
+    "id": "syl_yo_003",
+    "plain_name": "yò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "yo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yu_001",
+    "plain_name": "yú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "yu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yu_002",
     "plain_name": "yu",
-    "syllable_id": "yu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "yu",
     "vowelGroup": "E"
   },
   {
-    "id": "yẹ_001",
+    "id": "syl_yu_003",
+    "plain_name": "yù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "yu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_yẹ_001",
+    "plain_name": "yẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "yẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yẹ_002",
     "plain_name": "yẹ",
-    "syllable_id": "yẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "yẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "yị_001",
+    "id": "syl_yẹ_003",
+    "plain_name": "yẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "yẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yị_001",
+    "plain_name": "yị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "yị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yị_002",
     "plain_name": "yị",
-    "syllable_id": "yị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "yị",
     "vowelGroup": "A"
   },
   {
-    "id": "yọ_001",
+    "id": "syl_yị_003",
+    "plain_name": "yị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "yị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yọ_001",
+    "plain_name": "yọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "yọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yọ_002",
     "plain_name": "yọ",
-    "syllable_id": "yọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "yọ",
     "vowelGroup": "A"
   },
   {
-    "id": "yụ_001",
+    "id": "syl_yọ_003",
+    "plain_name": "yọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "yọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yụ_001",
+    "plain_name": "yụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "yụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_yụ_002",
     "plain_name": "yụ",
-    "syllable_id": "yụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "yụ",
     "vowelGroup": "A"
   },
   {
-    "id": "za_001",
+    "id": "syl_yụ_003",
+    "plain_name": "yụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "yụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_za_001",
+    "plain_name": "zá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "za",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_za_002",
     "plain_name": "za",
-    "syllable_id": "za_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "za",
     "vowelGroup": "A"
   },
   {
-    "id": "ze_001",
+    "id": "syl_za_003",
+    "plain_name": "zà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "za",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ze_001",
+    "plain_name": "zé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ze",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ze_002",
     "plain_name": "ze",
-    "syllable_id": "ze_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ze",
     "vowelGroup": "E"
   },
   {
-    "id": "zi_001",
+    "id": "syl_ze_003",
+    "plain_name": "zè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ze",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zi_001",
+    "plain_name": "zí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "zi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zi_002",
     "plain_name": "zi",
-    "syllable_id": "zi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "zi",
     "vowelGroup": "E"
   },
   {
-    "id": "zo_001",
+    "id": "syl_zi_003",
+    "plain_name": "zì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "zi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zo_001",
+    "plain_name": "zó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "zo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zo_002",
     "plain_name": "zo",
-    "syllable_id": "zo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "zo",
     "vowelGroup": "E"
   },
   {
-    "id": "zu_001",
+    "id": "syl_zo_003",
+    "plain_name": "zò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "zo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zu_001",
+    "plain_name": "zú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "zu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zu_002",
     "plain_name": "zu",
-    "syllable_id": "zu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "zu",
     "vowelGroup": "E"
   },
   {
-    "id": "zẹ_001",
+    "id": "syl_zu_003",
+    "plain_name": "zù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "zu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_zẹ_001",
+    "plain_name": "zẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "zẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zẹ_002",
     "plain_name": "zẹ",
-    "syllable_id": "zẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "zẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "zị_001",
+    "id": "syl_zẹ_003",
+    "plain_name": "zẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "zẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zị_001",
+    "plain_name": "zị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "zị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zị_002",
     "plain_name": "zị",
-    "syllable_id": "zị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "zị",
     "vowelGroup": "A"
   },
   {
-    "id": "zọ_001",
+    "id": "syl_zị_003",
+    "plain_name": "zị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "zị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zọ_001",
+    "plain_name": "zọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "zọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zọ_002",
     "plain_name": "zọ",
-    "syllable_id": "zọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "zọ",
     "vowelGroup": "A"
   },
   {
-    "id": "zụ_001",
+    "id": "syl_zọ_003",
+    "plain_name": "zọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "zọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zụ_001",
+    "plain_name": "zụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "zụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_zụ_002",
     "plain_name": "zụ",
-    "syllable_id": "zụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "zụ",
     "vowelGroup": "A"
   },
   {
-    "id": "ṅa_001",
+    "id": "syl_zụ_003",
+    "plain_name": "zụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "zụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅa_001",
+    "plain_name": "ṅá",
+    "main_vowel": "a",
+    "tone": "high",
+    "syllable_group": "ṅa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅa_002",
     "plain_name": "ṅa",
-    "syllable_id": "ṅa_mid",
+    "main_vowel": "a",
+    "tone": "mid",
+    "syllable_group": "ṅa",
     "vowelGroup": "A"
   },
   {
-    "id": "ṅe_001",
+    "id": "syl_ṅa_003",
+    "plain_name": "ṅà",
+    "main_vowel": "a",
+    "tone": "low",
+    "syllable_group": "ṅa",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅe_001",
+    "plain_name": "ṅé",
+    "main_vowel": "e",
+    "tone": "high",
+    "syllable_group": "ṅe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅe_002",
     "plain_name": "ṅe",
-    "syllable_id": "ṅe_mid",
+    "main_vowel": "e",
+    "tone": "mid",
+    "syllable_group": "ṅe",
     "vowelGroup": "E"
   },
   {
-    "id": "ṅi_001",
+    "id": "syl_ṅe_003",
+    "plain_name": "ṅè",
+    "main_vowel": "e",
+    "tone": "low",
+    "syllable_group": "ṅe",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅi_001",
+    "plain_name": "ṅí",
+    "main_vowel": "i",
+    "tone": "high",
+    "syllable_group": "ṅi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅi_002",
     "plain_name": "ṅi",
-    "syllable_id": "ṅi_mid",
+    "main_vowel": "i",
+    "tone": "mid",
+    "syllable_group": "ṅi",
     "vowelGroup": "E"
   },
   {
-    "id": "ṅo_001",
+    "id": "syl_ṅi_003",
+    "plain_name": "ṅì",
+    "main_vowel": "i",
+    "tone": "low",
+    "syllable_group": "ṅi",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅo_001",
+    "plain_name": "ṅó",
+    "main_vowel": "o",
+    "tone": "high",
+    "syllable_group": "ṅo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅo_002",
     "plain_name": "ṅo",
-    "syllable_id": "ṅo_mid",
+    "main_vowel": "o",
+    "tone": "mid",
+    "syllable_group": "ṅo",
     "vowelGroup": "E"
   },
   {
-    "id": "ṅu_001",
+    "id": "syl_ṅo_003",
+    "plain_name": "ṅò",
+    "main_vowel": "o",
+    "tone": "low",
+    "syllable_group": "ṅo",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅu_001",
+    "plain_name": "ṅú",
+    "main_vowel": "u",
+    "tone": "high",
+    "syllable_group": "ṅu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅu_002",
     "plain_name": "ṅu",
-    "syllable_id": "ṅu_mid",
+    "main_vowel": "u",
+    "tone": "mid",
+    "syllable_group": "ṅu",
     "vowelGroup": "E"
   },
   {
-    "id": "ṅẹ_001",
+    "id": "syl_ṅu_003",
+    "plain_name": "ṅù",
+    "main_vowel": "u",
+    "tone": "low",
+    "syllable_group": "ṅu",
+    "vowelGroup": "E"
+  },
+  {
+    "id": "syl_ṅẹ_001",
+    "plain_name": "ṅẹ́",
+    "main_vowel": "ẹ",
+    "tone": "high",
+    "syllable_group": "ṅẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅẹ_002",
     "plain_name": "ṅẹ",
-    "syllable_id": "ṅẹ_mid",
+    "main_vowel": "ẹ",
+    "tone": "mid",
+    "syllable_group": "ṅẹ",
     "vowelGroup": "A"
   },
   {
-    "id": "ṅị_001",
+    "id": "syl_ṅẹ_003",
+    "plain_name": "ṅẹ̀",
+    "main_vowel": "ẹ",
+    "tone": "low",
+    "syllable_group": "ṅẹ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅị_001",
+    "plain_name": "ṅị́",
+    "main_vowel": "ị",
+    "tone": "high",
+    "syllable_group": "ṅị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅị_002",
     "plain_name": "ṅị",
-    "syllable_id": "ṅị_mid",
+    "main_vowel": "ị",
+    "tone": "mid",
+    "syllable_group": "ṅị",
     "vowelGroup": "A"
   },
   {
-    "id": "ṅọ_001",
+    "id": "syl_ṅị_003",
+    "plain_name": "ṅị̀",
+    "main_vowel": "ị",
+    "tone": "low",
+    "syllable_group": "ṅị",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅọ_001",
+    "plain_name": "ṅọ́",
+    "main_vowel": "ọ",
+    "tone": "high",
+    "syllable_group": "ṅọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅọ_002",
     "plain_name": "ṅọ",
-    "syllable_id": "ṅọ_mid",
+    "main_vowel": "ọ",
+    "tone": "mid",
+    "syllable_group": "ṅọ",
     "vowelGroup": "A"
   },
   {
-    "id": "ṅụ_001",
+    "id": "syl_ṅọ_003",
+    "plain_name": "ṅọ̀",
+    "main_vowel": "ọ",
+    "tone": "low",
+    "syllable_group": "ṅọ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅụ_001",
+    "plain_name": "ṅụ́",
+    "main_vowel": "ụ",
+    "tone": "high",
+    "syllable_group": "ṅụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅụ_002",
     "plain_name": "ṅụ",
-    "syllable_id": "ṅụ_mid",
+    "main_vowel": "ụ",
+    "tone": "mid",
+    "syllable_group": "ṅụ",
+    "vowelGroup": "A"
+  },
+  {
+    "id": "syl_ṅụ_003",
+    "plain_name": "ṅụ̀",
+    "main_vowel": "ụ",
+    "tone": "low",
+    "syllable_group": "ṅụ",
     "vowelGroup": "A"
   }
 ]
