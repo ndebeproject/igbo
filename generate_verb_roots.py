@@ -52,8 +52,7 @@ def load_consonants(language_data_dir):
                 if pattern in ['L/R', 'B/V', 'G/V', 'F/P', 'J/Z', 'S/T', 'Y/H']:
                     for alt in alternates_with:
                         if alt in [x['letter'] for x in consonants_data['consonants']]:
-                            # Store the relationship
-                            key = tuple(sorted([letter, alt]))
+                            # Store the bidirectional relationship
                             if letter not in alternations[alt]:
                                 alternations[letter].append(alt)
                             if alt not in alternations[letter]:
@@ -189,16 +188,24 @@ def save_to_file(data, output_file, header):
         f.write(f"# {header}\n")
         f.write(f"# Total entries: {len(data)}\n\n")
         
-        for item in data:
+        for i, item in enumerate(data):
             if isinstance(item, dict):
                 # Format the output nicely
                 # Check for infinitive first since infinitives also have 'root' field
                 if 'infinitive' in item:
-                    f.write(f"{item['infinitive']}\n")
+                    line = item['infinitive']
                 elif 'root' in item and 'vowel_group' in item:
-                    f.write(f"{item['root']}\n")
+                    line = item['root']
+                else:
+                    line = str(item)
             else:
-                f.write(f"{item}\n")
+                line = str(item)
+            
+            # Write the line, add newline only if not the last item
+            if i < len(data) - 1:
+                f.write(f"{line}\n")
+            else:
+                f.write(line)
 
 
 def main():
