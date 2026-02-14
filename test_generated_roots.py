@@ -21,7 +21,7 @@ def test_tone_variants():
     
     # Check structure of entries
     sample = roots[0]
-    required_fields = ['id', 'plain_name', 'main_vowel', 'tone', 'syllable_group', 'vowelGroup']
+    required_fields = ['id', 'plain_name', 'main_vowel', 'tone', 'syllable_group', 'vowelGroup', 'phonemes', 'ndebe', 'unicode']
     for field in required_fields:
         assert field in sample, f"Missing required field: {field}"
     print(f"  ✓ All required fields present: {required_fields}")
@@ -48,6 +48,15 @@ def test_tone_variants():
     assert ma_mid['id'] == 'syl_ma_002', f"Expected 'syl_ma_002', got {ma_mid['id']}"
     assert ma_low['id'] == 'syl_ma_003', f"Expected 'syl_ma_003', got {ma_low['id']}"
     print("  ✓ ID format correct (syl_{syllable}_{###})")
+    
+    # Check phonemes structure
+    assert ma_high['phonemes'] == ['m', 'a'], f"Expected ['m', 'a'], got {ma_high['phonemes']}"
+    print("  ✓ Phonemes correctly extracted")
+    
+    # Check ndebe and unicode fields exist
+    assert 'ndebe' in ma_high, "Missing 'ndebe' field"
+    assert 'unicode' in ma_high, "Missing 'unicode' field"
+    print("  ✓ Ndebe and unicode fields present")
     
     print()
 
@@ -234,6 +243,51 @@ def test_dialectal_patterns():
     print()
 
 
+def test_phonemes():
+    """Test that phonemes are correctly extracted for all roots."""
+    print("Testing phonemes extraction...")
+    
+    verbs_dir = Path(__file__).parent / 'language-data' / 'verbs'
+    prime_roots_dir = verbs_dir / 'prime-roots'
+    
+    with open(prime_roots_dir / 'prime-verb-roots.json', 'r', encoding='utf-8') as f:
+        roots = json.load(f)
+    
+    # Test specific examples with different consonant types
+    test_cases = {
+        'ba': ['b', 'a'],      # Single consonant
+        'ma': ['m', 'a'],      # Single consonant
+        'gba': ['gb', 'a'],    # Digraph consonant
+        'kpa': ['kp', 'a'],    # Digraph consonant
+        'gwa': ['gw', 'a'],    # Digraph consonant
+        'shọ': ['sh', 'ọ'],    # Digraph consonant with special vowel
+        'chẹ': ['ch', 'ẹ'],    # Digraph consonant with special vowel
+    }
+    
+    for syllable_group, expected_phonemes in test_cases.items():
+        roots_for_syllable = [r for r in roots if r['syllable_group'] == syllable_group]
+        if roots_for_syllable:
+            root = roots_for_syllable[0]  # Check first tone variant
+            assert root['phonemes'] == expected_phonemes, \
+                f"Expected phonemes {expected_phonemes} for '{syllable_group}', got {root['phonemes']}"
+    
+    print("  ✓ Single consonants correctly extracted (b, m, etc.)")
+    print("  ✓ Digraph consonants correctly extracted (gb, kp, gw, sh, ch)")
+    
+    # Verify all roots have phonemes
+    all_have_phonemes = all('phonemes' in r for r in roots)
+    assert all_have_phonemes, "Some roots missing 'phonemes' field"
+    
+    # Verify all phonemes are lists of 2 elements
+    all_valid_structure = all(isinstance(r['phonemes'], list) and len(r['phonemes']) == 2 for r in roots)
+    assert all_valid_structure, "Some phonemes have invalid structure (should be list of 2 elements)"
+    
+    print("  ✓ All roots have phonemes field")
+    print("  ✓ All phonemes have correct structure [consonant, vowel]")
+    
+    print()
+
+
 def main():
     """Run all tests."""
     print("=" * 70)
@@ -247,6 +301,7 @@ def main():
         test_vowel_harmony()
         test_counts()
         test_dialectal_patterns()
+        test_phonemes()
         
         print("=" * 70)
         print("All tests passed! ✓")

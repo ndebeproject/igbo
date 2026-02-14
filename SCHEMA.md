@@ -316,7 +316,10 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "main_vowel": "string (the main vowel character)",
   "tone": "string (high|mid|low)",
   "syllable_group": "string (the base syllable without tone)",
-  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)"
+  "vowelGroup": "string (vowel harmony group: A|E - determined by first vowel)",
+  "phonemes": ["string", "string"] (array of [consonant, vowel]),
+  "ndebe": "string (placeholder for future use)",
+  "unicode": "string (placeholder for future use)"
 }
 ```
 
@@ -328,7 +331,10 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "main_vowel": "a",
   "tone": "high",
   "syllable_group": "ma",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "phonemes": ["m", "a"],
+  "ndebe": "",
+  "unicode": ""
 },
 {
   "id": "syl_ma_002",
@@ -336,7 +342,10 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "main_vowel": "a",
   "tone": "mid",
   "syllable_group": "ma",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "phonemes": ["m", "a"],
+  "ndebe": "",
+  "unicode": ""
 },
 {
   "id": "syl_ma_003",
@@ -344,7 +353,10 @@ Each consonant that participates in alternations has an `alternation_sets` array
   "main_vowel": "a",
   "tone": "low",
   "syllable_group": "ma",
-  "vowelGroup": "A"
+  "vowelGroup": "A",
+  "phonemes": ["m", "a"],
+  "ndebe": "",
+  "unicode": ""
 }
 ```
 
@@ -358,6 +370,11 @@ Each consonant that participates in alternations has an `alternation_sets` array
 - **Mid tone**: no accent (a, e, i, o, u, ẹ, ị, ọ, ụ)
 - **Low tone**: grave accent (à, è, ì, ò, ù, ẹ̀, ị̀, ọ̀, ụ̀)
 - For vowels without standard tone marks, the same form is used for all tones
+
+**Phonemes**:
+- `phonemes` is an array containing the consonant and vowel that make up the syllable
+- Handles single consonants (b, m, etc.) and digraphs (gb, kp, gw, sh, ch, etc.)
+- Example: "ba" → ["b", "a"], "gba" → ["gb", "a"], "kpị" → ["kp", "ị"]
 
 **Notes**:
 - `vowelGroup` indicates the vowel harmony group (A or E) based on the **first vowel** in the root:

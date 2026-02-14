@@ -254,6 +254,8 @@ def merge_and_assign_ids(existing_roots, new_roots):
     for root in new_roots:
         syllable_group = root['syllable_group']
         tone = root['tone']
+        consonant = root['consonant']
+        vowel = root['vowel']
         
         # Check if this tone variant already exists for this syllable_group
         existing_tones = [r.get('tone') for r in roots_by_group[syllable_group]]
@@ -265,7 +267,10 @@ def merge_and_assign_ids(existing_roots, new_roots):
                 'main_vowel': root['main_vowel'],
                 'tone': root['tone'],
                 'syllable_group': root['syllable_group'],
-                'vowelGroup': root['vowelGroup']
+                'vowelGroup': root['vowelGroup'],
+                'phonemes': [consonant, vowel],
+                'ndebe': '',
+                'unicode': ''
             }
             roots_by_group[syllable_group].append(clean_root)
     
